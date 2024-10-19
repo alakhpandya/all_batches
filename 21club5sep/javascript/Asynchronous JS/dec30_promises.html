@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    /*
+    available = {
+        ["veg", "cheese"],
+        ["original", 'custom'],
+        ['bowl', 'plate'],
+        ['noodles', 'sandwich']
+    }
+
+    1. Receive Order                        2
+    2. Chop the vegetables                  4
+    3. add the masala, water, noodles and   1
+       vegetables to the bowl
+    4. Boil                                 3
+    5. take the plate/bowl                  1
+    6. prepare noodles/sandwich             4
+    7. Serve the order                      1
+    */
+
+    // let is_open = true;
+    let is_open = false;
+
+    let order = (time, work) => {
+        return new Promise((resolve, reject) => {
+            if (is_open){
+                setTimeout(() => {
+                    resolve(work());
+                }, time)
+            }
+            else{
+                reject(console.log("Sorry, our shop is closed..."));
+            }
+        })
+    }
+
+    order(0, () => console.log("Recieving Order..."))
+    
+    .then(() => {
+        return order(4000, () => console.log("Vegetables are chopped."))
+    })
+
+    .then(() => {
+        return order(1000, () => console.log("masala, water, noodles and vegetables are added to the bowl"))
+    })
+
+    .then(() => {
+        return order(3000, () => console.log("Maggi is cooked..."))
+    })
+
+    // Error Handling
+    .catch(() => {
+            console.log("Customer left the shop.");
+        }
+    )
+
+    .finally(() => {
+        console.log("Let's calculate profit!");
+    })
+</script>
+</html>

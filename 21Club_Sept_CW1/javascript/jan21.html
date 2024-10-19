@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // const createPerson = (name, age, gender) => ({"name" : name, "age" : age, "gender" : gender})
+    // Using Object Literal
+    /*
+    const createPerson = (name, age, gender) => ({name, age, gender})
+    
+    let Niraj = createPerson("Niraj Chopra", 23, "Male");
+    console.log(Niraj);
+    let Smriti = createPerson("Smriti mandhana", 22, "Female");
+    console.log(Smriti);
+    */
+
+    // functions inside the objects are known as 'methods'
+    /*
+    let bicycle = {
+        wheels : 2,
+        gears : 2,
+        // setGear : function (newGear) {
+        //     this.gears = newGear;
+        // }
+        setGear(newGear){
+            this.gears = newGear; // 'this' refers to the object on which this method is going to apply
+        }
+    }
+
+    function setGear (obj, newGear) {
+            // this.gears = newGear;       // 'this' becomes here root object: window
+            obj.gears = newGear
+    }
+
+    let bike = {
+        wheels : 2,
+        gears : 5
+    }
+
+    // console.log(bicycle);
+    // console.log(bicycle.gears);
+    // bicycle.setGear(10);
+    // console.log(bicycle);
+
+    // bike.setGear(10)
+    setGear(bike, 10)
+    console.log(bike);
+    // console.log(window);
+    */
+
+    // constructor functions & 'new' keyword
+    /*
+    function spaceProbe (targetPlanet) {
+        this.targetPlanet = targetPlanet;
+    }
+
+    let VERITAS = new spaceProbe('Venus');
+    console.log(VERITAS);
+    */
+
+    // Using class:
+    /*
+    class SpaceProbe{
+        constructor (targetPlanet){
+            this.targetPlanet = targetPlanet;
+        }
+    }
+
+    let VERITAS = new SpaceProbe("Venus");
+    console.log(VERITAS);
+    */
+    /*
+    Create a class named vegetables inside a function named makeClass(), create a constant "bottleguard" and set "color" property to "green" using constructor function.
+    */
+
+    function makeClass(){
+        class Vegetables{
+            constructor (color){
+                this.color = color;
+            }
+        }
+        return Vegetables
+    }
+
+    const Veggie = makeClass();
+    const bottleguard = new Veggie('green');
+    console.log(bottleguard);
+</script>
+</html>

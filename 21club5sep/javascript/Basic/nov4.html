@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+    // Destructuring of arrays...
+    /*
+    let myArray = [1,2,3,4,5];
+    // const [a, b] = myArray;
+    const [a, b, , c] = myArray;
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    const [,,p,,q] = myArray;
+    console.log(p)
+    console.log(q)
+    */
+
+    /*
+    let x = 101, y = 505;
+    console.log(x);
+    console.log(y);
+    (() => {
+        [y, x] = [x, y]
+    })()
+    
+    console.log(x);
+    console.log(y);
+    */
+
+    // using rest operator in destructuring arrays
+    /*
+    let yourArray = [1,2,3,4,5,6,7,9,10];
+    var [a, b, ...rest] = yourArray;
+    console.log(a);
+    console.log(b);
+    console.log(rest);
+    */
+    // write a code using function that takes an array as the input and prints the resultant array after removing its first two elements
+    /*
+    const stats = {
+        max : 56.78,
+        standard_deviation : 4.34,
+        median : 34.54,
+        mode : 23.87,
+        min : -0.75,
+        average : 35.85
+    };
+    console.log(stats);
+
+    const centralValue = ({min, max}) => {
+        // let {min, max} = obj;
+        return (min + max)/2;
+    }
+
+    console.log(centralValue(stats));
+    */
+
+    // Template literals
+    /*
+    let a = 10;
+    console.log(`The value of a is ${a}`);
+    var b = `Hello World!`;
+    var c = `Hello Everyone!
+    How are you?
+    I am good!`
+    console.log(c);
+    var d = `I didn't say "I hate my country"`
+    */
+
+    let person = [
+        {
+            "name" : "Bill Gates",
+            "age" : 63
+        },
+        {
+            "name" : "Elon Musk",
+            "age" : 45
+        },
+        {
+            "name" : "Mukesh Ambani",
+            "age" : 60
+        }
+    ]
+
+    let introduction;
+    for(let i = 0; i < person.length; i++){
+        introduction = `Hello! I am ${person[i]["name"]}! I am ${person[i]["age"]} year old!`;
+        console.log(introduction);
+    }
+
+    // Coding Challenge
+
+    const result = {
+        success: ["max-length", "no-amd", "prefer-arrow-functions"],
+        failure: ["no-var", "var-on-top", "linebreak"],
+        skipped: ["id-blacklist", "no-dup-keys"]
+    };
+
+    /* 
+    Write a code using an arrow function named 'makeList()' so that:
+    console.log(makeList(result.failure)) shows:
+    [
+        <li class="text-warning">no-var</li>,
+        <li class="text-warning">var-on-top</li>,
+        <li class="text-warning">linebreak</li>
+    ]
+    */
+</script>
+</html>

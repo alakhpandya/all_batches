@@ -1,0 +1,8 @@
+
+abel (secondary): nav, sticker, cover-tours & travels, carousel
+
+anton (title): blog-post title, popular-post title
+
+lexend (primary): brand, cover-title, sidebar headings, blog post paragraphs, footer-headings, header paragraphs
+
+livvic (btn): button fonts

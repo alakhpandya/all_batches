@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // Coding Challenge Solution
+    /*
+    var collection = {
+        "2548" : {
+            "album" : "Slippery When Wet",
+            "artist" : "Bon Jovi",
+            "tracks" : [
+                "Let It Rock",
+                "You Give Love a Bad Name"
+            ]
+        },
+        "2468" : {
+            "album" : "1999",
+            "artist" : "Prince",
+            "tracks" : [
+                "1999",
+                "Little Red Corvette"
+            ]
+        },
+        "1245" : {
+            "artist" : "Robert Palmer",
+            "tracks" : [ ]
+        },
+        "5439" : {
+            "album" : "ABBA Gold"
+        }
+    }
+
+    function updateRecords(id, prop, value){
+        // write your code here
+        if (collection[id].hasOwnProperty(prop)){
+            if (value.length == 0){
+                delete collection[id][prop];
+            }
+            if (typeof(collection[id][prop]) === typeof([])){
+                console.log("Entered in typeof if")
+                collection[id][prop].push(value);
+            }
+        }
+        else{
+                collection[id][prop] = value;
+        }
+        return collection;
+    }
+
+    // Write a function (updateRecords), where user can pass id (eg. "2548"), property (eg. "artist") and value (eg. "MJ"), that updates the value of the property of the given id in the collection and return the updated collection. If user passes the empty string as value, the function should completely delete that property. If the property is an array then the function should just add the value at the end of that property's array.
+
+    // console.log(updateRecords(5439, "artist", "ABBA"));
+    // console.log(updateRecords(1245, "artist", ""));
+    console.log(updateRecords(2468, "tracks", "No limit"));
+    // console.log(typeof(collection[2468]["tracks"]));
+
+    */
+
+    // Arrow Functions ~ Lambda functions
+
+    // Creating function normally:
+    /*
+    function magic(){
+        return new Date();
+    }
+    */
+
+    // Same function using 'arrow'
+    /*
+    var magic = () => {
+        return new Date();
+    }
+    */
+    /*
+    var magic = () => new Date();
+
+    console.log(magic());
+    */
+    /*
+    let average = (a, b) => (a + b)/2;
+    console.log(average(40, 50));
+    */
+
+    let myArray = [25, 12, 11, 8, 7, 5];
+    /*
+    let squaredArray = myArray.map((n) => {
+        return n * n;
+    });
+    */
+    //    OR
+    let squaredArray = myArray.map((n) => n * n);
+</script>
+</html>

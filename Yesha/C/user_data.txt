@@ -1,0 +1,4 @@
+Name	Age	Gender	Height
+Yesha	16	F	158.50
+Nency	16	F	162.00
+Krishna	17	F	166.50

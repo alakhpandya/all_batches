@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- Internal CSS -->
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+</style>
+<body>
+    <!-- in line CSS -->
+    <span style="font-size: 1.5rem;" id="answer1">It can hide this text.</span> 
+    <!-- in line javascript -->
+    <button onclick="document.getElementById('answer1').style.visibility = 'hidden';">Hide It</button>
+    
+    <!-- Output of js: using innerHTML/innerText -->
+    <p id="answer2"></p>
+    <!-- <button onclick="document.getElementById('answer2').innerText = 'Here is your output!';">Show Output</button> -->
+    <button onclick="document.getElementById('answer2').innerHTML = 'Here is your output!';">Show Output</button>
+    
+
+    <!-- Output of js: using document.write -->
+    <button onclick="document.write('Whoaa...')">Black Magic</button>
+
+    <!-- Output of js: using print() -->
+    <!-- <button onclick="print()">print this page</button> -->
+    <button onclick="window.print();">print this page</button>
+    
+    <!-- Output of js: using alert() -->
+    <button onclick="alert('Here is your output!');">Alert Me!</button>
+
+    
+</body>
+<!-- Internal javascript -->
+<script>
+    // This is internal js
+    /*
+    Example of 
+    multiline comment
+    */
+
+    // Output of js: using console.log()
+    console.log('Here is your output!');
+    a = 5;
+    b = 7;
+    console.log(a + b);
+</script>
+
+<!-- External javascript -->
+<script src="/aug27_js.js"></script>
+</html>

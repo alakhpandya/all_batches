@@ -1,0 +1,88 @@
+/* ------------------------------------ Variables ------------------------------------ */
+:root{
+    --btn:#0f0f0f;
+    --bg-color:#ffffff;
+}
+
+/* ------------------------------------ CSS Reset ------------------------------------ */
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------------------------ CSS ------------------------------------ */
+.container{
+    /* border: 3px solid red; */
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+}
+.container::before{
+    content: '';
+    height: 100vh;
+    width: 100vw;
+    background: url(/library_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:0;
+    z-index: -1;
+    opacity: 0.95;
+}
+.container .quote-btn{
+    background-color:var(--btn);
+    color: white;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight:normal;
+    margin-left:40%;
+    margin-top: 17%;
+    padding: 0.8rem;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    position: absolute;
+} 
+.container .quote-author-container{
+    background-color:var(--bg-color);
+    width: 65%;
+    margin-left:18%;
+    margin-top: 21%;
+    border-radius: 5px;
+    padding-top: 0.5rem;
+    /* border: 2px solid red; */
+    position: absolute;
+}
+.container .quote-author-container .btn{
+    background-color: var(--btn);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    /* border: 2px solid blue; */
+    margin-left: 45%;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0.5rem; 
+}
+.container .quote-author-container .author-name{
+    color: brown;
+    padding-left: 35%;
+    padding-bottom: 1rem;
+    font-family: sans-serif;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+.container .quote-author-container .quote{
+    margin: 2rem;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: medium;
+}
+.container .quote-author-container .btn:hover{
+    background-color:lightgray;
+    color:#0f0f0f;
+}

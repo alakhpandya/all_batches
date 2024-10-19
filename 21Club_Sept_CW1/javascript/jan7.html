@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // Template literals
+    /*
+    let myCollege = "I study in \"GIT\".\nGIT is a great college.\nIt's located in Gandhinagar."
+    myCollege = `I study in "GIT".
+GIT is a great college.
+It's located in Gandhinagar.`
+    
+    console.log(myCollege);
+
+    let yourCollege = `I study in "Indus".
+Indus is a great college.
+It's located in Ahmedabad.`
+    let ourCollege = `I study in "Apollo".
+Apollo is a great college.
+It's located in Dahegam.`
+    console.log(yourCollege)
+    */
+    /*
+    college = prompt("Enter your college name:");
+    loc = prompt("Enter your college location:");
+    aboutCollege = `I study in "${college}".
+${college} is a great college.
+It's located in ${loc}.`
+    console.log(aboutCollege);
+    */
+    /*
+    Ask name & age from the user using prompt.
+    Create an object 'person' with two properties: name & age.
+    Using template literals, print: 'Hi I am <name>. I am <age> years old'
+    */
+
+    // Coding Challenge
+
+    const result = {
+        success: ["max-length", "no-amd", "prefer-arrow-functions"],
+        failure: ["no-var", "var-on-top", "linebreak"],
+        skipped: ["id-blacklist", "no-dup-keys"]
+    };
+
+    function makeList(arr){
+        const resultDisplayArray = [];
+        // resultDisplayArray = arr;
+        for(let i=0; i<arr.length; i++){
+            resultDisplayArray.push(`<li class="text-warning">${arr[i]}</li>`)
+        }
+
+        return resultDisplayArray
+    }
+
+    // console.log(makeList(result.success))
+    console.log(makeList(result.failure))
+    // console.log(makeList(result.skipped))
+    /*
+    Complete the above code so that it produces the following output:
+    [
+        <li class="text-warning">no-var</li>, 
+        <li class="text-warning">var-on-top</li>, 
+        <li class="text-warning">linebreak</li>
+    ]
+    */
+</script>
+</html>
+
+<!-- Next Class: Template literals contd... -->

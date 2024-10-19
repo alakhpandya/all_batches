@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+    
+    /*      Tasks                               Time
+    1. Receive the order                        2
+    2. Chop the vegges                          3
+    3. Add masala, water & noodles in the bowl  1
+    4. Boil                                     4
+    5. Take bowl/plate                          1
+    6. Prepare noodles/sandwich                 3
+    7. Serve                                    2
+    */
+    
+    
+    let is_open = false;
+
+    let order = (time, task) => {
+        return new Promise((resolve, reject) => {
+            if (is_open){
+                setTimeout(() => {
+                    resolve(task());
+                }, time)
+            }
+            else{
+                reject(console.log("Sorry, the shop is clossed."));
+            }
+        })
+    }
+
+    order(2000, () => console.log("Order Received."))
+
+    .then(() => order(3000, () => console.log("Vegetables are chopped.")))
+    .then(() => order(1000, () => console.log("Masala, Water & Noodles are added to the bowl.")))
+    .then(() => order(4000, () => console.log("Noodles are boiled.")))
+    .then(() => order(1000, () => console.log("Plate is taken.")))
+    .then(() => order(3000, () => console.log("Sandwich is ready.")))
+    .then(() => order(2000, () => console.log("Here is your sandwich!")))
+
+    // Error Handling - will execute only when promise gets rejected
+    .catch(() => console.log("Customer left the shop."))
+
+    // finally - will execute no matter what
+    .finally(() => console.log("Let's calculate profit of today!"))
+
+</script>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        border: solid;
+        position: relative;
+    }
+
+    #btn1 {
+        position: static;
+        /* Default */
+    }
+
+    #btn2 {
+        position: relative;
+        /* 
+        1. When we give position other than static, we pick the element out off the layer so, it can move anywhere over the other elements 
+        2. top, left, bottom & right will be available in all the position other than static.
+        3. When position is set to 'relative', the element move with respect to its original position and, it will keep its original position reserved.
+        */
+        /* top: 10px; */
+        /* left: 15px; */
+        /* bottom: 20px; */
+        /* right: ; */
+
+    }
+    #btn2:hover{
+        bottom: 2px;
+    }
+
+    #btn3 {
+        position: absolute;
+        /* 
+        When absolute position given, an element moves with respect to its parent whose position is relative. If none of the parents have their position relative then it moves with respect to body. 
+        */
+
+        top: -10px;
+        left: 20px;
+        /* right: 20px; */
+        /* bottom: 20px; */
+    }
+    .master-container{
+        border: solid red;
+        position: relative;
+    }
+
+    #btn4{
+        position: fixed;
+        /* Element moves with respect to viewport */
+        border: solid blue;
+        width: 150px;
+        height: 50px;
+        top: 0;
+        left: 0;
+    }
+    #btn5{
+        border: solid blue;
+        width: 150px;
+        height: 50px;
+
+        position: sticky;
+        top: 0;
+        right: 0;
+    }
+</style>
+
+<body>
+    <br><br><br>
+    <div class="master-container">
+        <br><br><br>
+        <div class="container">
+            <br><br><br><br>
+            <button id="btn1">Static</button>
+            <button id="btn2">Relative</button>
+            <button id="btn3">Absolute</button> <br> <br>
+            <div id="btn4">Fixed Position</div> <br>
+            <div id="btn5">Sticky</div>
+            <br><br><br><br><br>
+        </div>
+        <br><br><br>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error sit, modi non officiis blanditiis veritatis quas hic dolor sunt delectus unde enim ducimus? Repudiandae eos consectetur delectus suscipit necessitatibus voluptate voluptatem odio, a at omnis aspernatur unde, eligendi voluptates debitis perspiciatis fuga magni! Molestiae ad deserunt recusandae sapiente maxime, beatae iste quod nulla quos ea voluptatum provident explicabo similique, cumque quibusdam dignissimos, fuga modi doloremque animi. Impedit, perspiciatis magnam. Magnam, aliquid, exercitationem ipsa, distinctio quasi odio nostrum dolore sequi magni tempora illum ad ducimus obcaecati qui eum vitae necessitatibus nisi quos laudantium labore ipsum fugit ex doloremque? Similique dignissimos modi dolorum autem laborum officia neque voluptas quia id consectetur in iusto, nemo placeat! Aut facere asperiores enim aliquid reiciendis nisi dolore accusamus tempore veritatis provident ut error delectus mollitia, commodi optio impedit incidunt maxime nihil? Fuga cum quaerat similique culpa quidem esse. Voluptatem corrupti ab nulla et deserunt, magni totam assumenda error! Omnis vitae impedit, earum quas itaque et veritatis mollitia animi. Ab, eos nobis id, nostrum aliquam, eius cupiditate magni asperiores nemo porro animi dignissimos? Et repudiandae sunt dolorum corrupti obcaecati fugiat, accusamus voluptatum! Amet facere sit autem. Corporis reiciendis magnam sit ducimus, nihil quaerat dolores excepturi eveniet, eligendi neque id illum quas. Adipisci deleniti cumque nostrum quibusdam facere minus commodi suscipit itaque aperiam? Necessitatibus dolore vel nam perspiciatis doloribus blanditiis laudantium a cupiditate, optio accusantium voluptas quidem, placeat aperiam neque qui officia exercitationem libero nihil. Illo magnam ipsum quibusdam obcaecati eum mollitia voluptate assumenda at debitis, dicta maiores, reprehenderit iure pariatur commodi qui ea tempora! Eligendi laborum enim illum eos ea repudiandae alias delectus ut aliquam expedita nostrum necessitatibus tenetur autem reiciendis eum, sapiente quam beatae ratione voluptatem! Sit in voluptates quaerat quisquam dolor pariatur cumque officiis quis perspiciatis quae porro deleniti, similique itaque dolore placeat eius deserunt quibusdam numquam voluptatibus explicabo corrupti? Sit hic ad eius reiciendis quod eligendi voluptate officia voluptas accusamus nisi, at, pariatur veritatis tempore error excepturi vel blanditiis laboriosam deserunt qui! Earum facere ipsa eligendi, nostrum ut, temporibus sequi quisquam eveniet reprehenderit obcaecati ad, libero exercitationem fuga provident facilis veniam! At alias totam autem. Deserunt, delectus accusamus impedit numquam omnis sit quos necessitatibus ipsam beatae, asperiores facilis placeat. Sequi facere veritatis quasi exercitationem temporibus minima, molestiae eligendi voluptatem architecto magni illum maxime repellendus ut voluptas aut a impedit? Error aspernatur ratione ullam quasi odio velit dolor, tenetur magni autem neque. Nobis quidem iste eaque illo, laudantium ea soluta sint tempore, debitis qui modi blanditiis molestiae, quisquam eos voluptate? Iusto voluptatem consequuntur, aperiam autem quibusdam iste rem! Dolorem, eaque voluptate neque enim dicta cupiditate, quo nam ea eos mollitia minus error ab deleniti. Provident cupiditate itaque non. Expedita sunt quisquam iure mollitia, ipsa totam ipsum corrupti, id quibusdam labore sequi ratione delectus excepturi veritatis! Quam autem facere dolorum aperiam ipsum non distinctio magnam quia odio, neque voluptatum ratione ad impedit quisquam, quidem commodi ducimus deleniti! Sint accusamus quo nam dolores aliquam. Officia ea obcaecati impedit dicta quidem, sint non perspiciatis recusandae dolores ab autem.</p>
+</body>
+
+</html>

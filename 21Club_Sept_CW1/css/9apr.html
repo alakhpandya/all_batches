@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    li:nth-child(even){
+        background-color: darkslateblue;
+        color: wheat;
+    }
+    li:nth-child(odd){
+        background-color: wheat;
+        color: darkslateblue;
+    }
+    li:nth-child(4){
+        background-color: brown;
+    }
+    li:nth-child(3n-1){
+        background-color: green;
+        color: yellow;
+    }
+    li[value="400"]{
+        background-color: skyblue;
+        color: black;
+    }
+    li[value]{
+        background-color: skyblue;
+        color: black;
+    }
+    img[height="500px"]{
+        opacity: 0.5;
+    }
+    img[width]{
+        opacity: 0.7;
+    }
+</style>
+<body>
+    <div>
+        <ul>
+            <li>Lorem, ipsum.</li>
+            <li>Aliquid, culpa!</li>
+            <li>Suscipit, quo!</li>
+            <li>Reprehenderit, ea!</li>
+            <li>Dolorum, quaerat.</li>
+            <li>Quam, officiis.</li>
+            <li>Id, fugiat?</li>
+            <li>Illo, ipsam.</li>
+            <li>Facilis, labore.</li>
+            <li>Deleniti, maxime!</li>
+            <li>Eius, a.</li>
+            <li>Ratione, labore.</li>
+            <li>Ut, eveniet.</li>
+            <li>Blanditiis, deleniti.</li>
+            <li>Numquam, maxime.</li>
+        </ul>
+    </div>
+    <div>
+        <ol start="100">
+            <li>Culpa, nemo.</li>
+            <li>Mollitia, laboriosam.</li>
+            <li value="200">Lorem, ipsum.</li>
+            <li>Culpa, nemo.</li>
+            <li>Mollitia, laboriosam.</li>
+            <li value="300">Veniam, at?</li>
+            <li>Nisi, harum!</li>
+            <li value="400">Iste, sapiente?</li>
+        </ol>
+    </div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    /*
+    available = {
+        ["veg", "cheese"],
+        ["original", 'custom'],
+        ['bowl', 'plate'],
+        ['noodles', 'sandwich']
+    }
+
+    1. Receive Order                        2
+    2. Chop the vegetables                  4
+    3. add the masala, water, noodles and   1
+       vegetables to the bowl
+    4. Boil                                 3
+    5. take the plate/bowl                  1
+    6. prepare noodles/sandwich             4
+    7. Serve the order                      1
+    */
+
+    // Call Back Hell
+    let order = (time, cooking_function) => {
+        console.log("Recieving Order...");
+        setTimeout(() => {
+            console.log("Veg maggi selected...");
+            cooking_function();
+        }, time)
+    }
+
+    let cooking = () => {
+        console.log("Cooking Started...");
+        setTimeout(() => {
+            console.log("Vegetables are chopped...");
+            setTimeout(() => {
+                console.log("masala, water, noodles and vegetables are added to the bowl");
+                setTimeout(() => {
+                    console.log("Noodles are cooked...");
+                    setTimeout(() => {
+                        console.log("Container 'bowl' is taken...");
+                        setTimeout(() => {
+                            console.log("Noodles are ready...");
+                            setTimeout(() => {
+                                console.log("Order Served!");
+                            }, 1000)
+                        }, 4000)
+                    }, 1000)
+                }, 3000)
+            }, 1000)
+        }, 4000)
+    }
+
+    // main program
+    order(2000, cooking)
+</script>
+</html>

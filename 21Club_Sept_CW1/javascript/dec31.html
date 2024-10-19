@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    /*
+    given an array: 
+    var pets = ['dog', 'chicken', 'cat', 'dog', 'chicken', 'chicken', 'rabbit'];
+
+
+    Output:
+    {
+        'dog' : 2,
+        'chicken' : 3,
+        'cat' : 1,
+        'rabbit' : 1,
+    }
+    */
+    // reduce: function: 2 arguments, number return
+    /*
+    var pets = ['dog', 'chicken', 'cat', 'dog', 'chicken', 'chicken', 'rabbit'];
+    var frequency = {};
+    console.log(frequency);
+    // console.log(typeof(frequency));
+    */
+    /*
+    for (let i=0; i<pets.length; i++){
+        count_of_ith_element = 0;
+        for(let j = 0; j < pets.length; j++){
+            if(pets[i] == pets[j]){
+                count_of_ith_element++;
+            }
+        }
+        frequency[pets[i]] = count_of_ith_element;
+    }
+    */
+    // console.log(frequency);
+    /*
+    const AVG_TEMPERATURES = {
+        today : 37,
+        tomorrow : 39.5,
+    };
+
+    // write an arrow function in place of 'getTempOfTomorrow' so that the code line written below prints '39.5' on the console.
+
+    let getTempOfTomorrow = (obj) => {
+        let {tomorrow} = obj;
+        return tomorrow
+    }
+    let tomorrows_temp = getTempOfTomorrow(AVG_TEMPERATURES);
+    
+    console.log(tomorrows_temp);
+    */
+
+    // Destructuring in nested objects
+
+    const FORECAST = {
+        today : {min : 12, max : 35},
+        tomorrow : {min : 8, max : 28}
+    }
+
+    // let {tomorrow : forecast_of_tomorrow} = FORECAST;
+    // console.log(forecast_of_tomorrow);
+    // let {tomorrow : {min}} = FORECAST;
+    let {tomorrow : {min : minimum_temp_of_tom}} = FORECAST;
+    console.log(minimum_temp_of_tom);
+
+
+    // Destructuring in an array
+    let myArray = [1,2,3];
+    /*
+    let [a, b, c] = myArray;
+    console.log("a = %d", a);
+    console.log("b = %d", b);
+    console.log("c = %d", c);
+    */
+    let yourArray = [1,2,3,4,5,6,7,8];
+    // let [a, b] = yourArray;
+    // console.log("a = %d", a);
+    // console.log("b = %d", b);
+
+    // let [a, ,b, , , ,c] = yourArray;
+    // console.log("a = %d", a);
+    // console.log("b = %d", b);
+    // console.log("c = %d", c);
+
+    /*
+    let [a, b, ...c] = yourArray;   // Rest Operator
+    console.log("a = %d", a);
+    console.log("b = %d", b);
+    console.log(c);
+    */
+    /*
+    let [...copied_array] = yourArray;
+    console.log(copied_array);
+    copied_array.pop()
+    console.log(copied_array);
+    console.log(yourArray);
+    */
+
+    let a = 10, b = 20, c = 30;
+    console.log("a = %d", a);
+    console.log("b = %d", b);
+    console.log("c = %d", c);
+    // [a, b] = [b, a];
+    [a, b, c] = [c, a, b];
+    console.log("a = %d", a);
+    console.log("b = %d", b);
+    console.log("c = %d", c);
+
+</script>
+</html>

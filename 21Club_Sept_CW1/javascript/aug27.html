@@ -1,0 +1,35 @@
+<!-- 
+    DOM: Document Object Model
+    Events: Mouse hover(mouse over), click etc
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>What does javscript can do?</h1>
+    <span style="font-size: 1.5rem;" id="answer1">It can hide this text.</span> 
+    <button onclick="document.getElementById('answer1').style.visibility = 'hidden';">Hide It</button>
+    <p>It can generate text</p>
+    <p id="answer2"></p>
+    <button onclick="document.getElementById('answer2').innerText = 'Here you are!';">Create</button>
+    <p>It can also print today's date!</p>
+    <button onclick="document.getElementById('answer3').innerText = Date();">Print Date</button>
+    <span id="answer3"></span>
+    <p id="answer4">It can style this text!</p>
+    <button onclick="document.getElementById('answer4').style.backgroundColor = 'yellow';">Style It!</button>
+    <p>It can switch on or off this bulb!</p>
+    <div>
+        <img id="bulb" src="/img/bulb_off.png" alt="">
+    </div>
+    <div style="margin-bottom: 5rem;">
+        <button onclick="document.getElementById('bulb').src = '/img/bulb_off.png';">OFF</button>
+        <button onclick="document.getElementById('bulb').src = '/img/bulb_on.png';">ON</button>
+    </div>
+</body>
+</html>

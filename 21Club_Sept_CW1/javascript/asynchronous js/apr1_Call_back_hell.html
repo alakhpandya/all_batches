@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // Synchronous
+    /*
+    console.log('A');
+    console.log('B');
+    console.log('C');
+    console.log('D');
+    console.log('E');
+    */
+    /*
+    console.log('A');
+    setTimeout(() => {
+        console.log('B');
+    }, 5000)
+    console.log('C');
+    console.log('D');
+    console.log('E');
+    */
+    
+    /*      Tasks                               Time
+    1. Receive the order                        2
+    2. Chop the vegges                          3
+    3. Add masala, water & noodles in the bowl  1
+    4. Boil                                     4
+    5. Take bowl/plate                          1
+    6. Prepare noodles/sandwich                 3
+    7. Serve                                    2
+    */
+
+   
+    /*
+    let order = (time, cooking_function) => {
+       console.log('Receiving Order...');
+       setTimeout(() => {
+           console.log('Order Placed.');
+           cooking_function();
+        }, time)
+    }
+    
+    // Call-Back Hell
+    let cooking = () => {
+        console.log('Cooking Started!');
+        setTimeout(() => {
+            console.log('Vegetables are chopped...');
+            setTimeout(() => {
+                console.log('masala, water & noodles are added in the bowl...');
+                setTimeout(() => {
+                    console.log('Boiling Completed.');
+                    setTimeout(() => {
+                        console.log('Plate Taken');
+                        setTimeout(() => {
+                            console.log('Sandwich is prepared!');
+                            setTimeout(() => {
+                                console.log('Here is your sandwiches served!');
+                            }, 2000)
+                        }, 3000)
+                    }, 1000)
+                }, 4000)
+            }, 1000)
+        }, 3000)
+    }
+    order(2000, cooking)
+    */
+
+    
+</script>
+</html>

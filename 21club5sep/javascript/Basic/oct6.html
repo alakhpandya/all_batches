@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    /*
+    let a = prompt("Enter an integer:");
+    let b = prompt("Enter another integer:");
+    a = parseInt(a);
+    b = parseFloat(b);
+    let operator = prompt("Enter operator (+, -, * or /):");
+    let lookup = {
+        '+' : a + b,
+        '-' : a - b,
+        '*' : a * b,
+        '/' : a / b
+    }
+    console.log(lookup[operator]);
+    */
+    /*
+    function propertyChecker(obj, property){
+        // write your code here
+    }
+    let bollywoodHero = {
+        shirt: 'Purple',
+        pants: 'Red',
+        hat: 'Black',
+        shoes: 'White'
+    };
+    let myDog = {
+        name : "Frisky",
+        tail: "Furry",
+        bark: "Bow",
+        legs: 4
+    }
+    propertyChecker(myDog, horn);
+    console.log(bollywoodHero.hasOwnProperty('tie'));
+    console.log(bollywoodHero.hasOwnProperty('hat'));
+    */
+
+    // complex object
+    /*
+    let myCollection = [
+        {
+            artist: 'Bon Jovi',
+            title: "It's my life",
+            "year of release": 1992,
+            formats: [
+                "mp3", "CD", "DVD"
+            ]
+        },
+        {
+            artist: 'MJ',
+            title: "They don't care",
+            "year of release": 1988,
+            formats: [
+                "mp3", "CD", "DVD", "YouTube"
+            ]
+        },
+        {
+            artist: 'Cungs',
+            title: "This girl",
+            "year of release": 2016,
+            formats: [
+                "YouTube"
+            ]
+        }
+    ]
+
+    console.log(myCollection[1]["year of release"]);
+    console.log(myCollection[2].formats[0]);
+    */
+    //warm up - 1: write a code to access 'money' from 'myRoom'
+    
+    let myRoom = {
+        "Cupboard" : {
+            "wardrobe":{
+                "hanger":"blazers",
+                "shelf":"clothes"
+            },
+            "locker":{
+                "outer part":"gadgets",
+                "inner part":"money"
+            }
+        }
+    }
+
+    // warm up-2: Write a code to access "rose" from the given array:
+
+    let myGarden = [
+        {
+            type: "potted plants",
+            plants: [
+                "tulip",
+                "jasmine",
+                "rose"
+            ]
+        },
+        {
+            type: "trees",
+            plants: [
+                "neem",
+                "mango",
+            ]
+        }
+    ]
+    
+    // Coding Challenge
+    var collection = {
+        "2548" : {
+            "album" : "Slippery When Wet",
+            "artist" : "Bon Jovi",
+            "tracks" : [
+                "Let It Rock",
+                "You Give Love a Bad Name"
+            ]
+        },
+        "2468" : {
+            "album" : "1999",
+            "artist" : "Prince",
+            "tracks" : [
+                "1999",
+                "Little Red Corvette"
+            ]
+        },
+        "1245" : {
+            "artist" : "Robert Palmer",
+            "tracks" : [ ]
+        },
+        "5439" : {
+            "album" : "ABBA Gold"
+        }
+    }
+
+    function updateRecords(id, prop, value){
+        // write your code here
+        return collection;
+    }
+
+    // Write a function (updateRecords), where user can pass id (eg. "2548"), property (eg. "artist") and value (eg. "MJ"), that updates the value of the property of the given id in the collection and return the updated collection. If user passes the empty string as value, the function should completely delete that property. If the property is an array then the function should just add the value at the end of that property's array.
+
+    updateRecords(5439, "artist", "ABBA");
+</script>
+</html>

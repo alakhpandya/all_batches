@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fontawesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-left">
+            <li><a href="#">
+                    <img class="nav-logo" src="/logo.png" alt="">
+                </a></li>
+            <li><a href="#" class="nav-links">Home</a></li>
+            <li><a href="#" class="nav-links">Store</a></li>
+            <li><a href="#" class="nav-links">Channels</a></li>
+            <li><a href="#" class="nav-links">
+                    Category 
+                    &nbsp;<i class="fa-solid fa-chevron-down"></i>
+                </a></li>
+            <li><a href="#" class="nav-links">My Stuff</a></li>
+        </ul>
+        <ul class="nav-right"> 
+            <li><a href="#" class="nav-right-links btn">Try for free</a></li>
+            <li><a href="#" class="nav-right-links">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a></li>
+            <li><a href="#" class="nav-right-links">
+                    <i class="fa-solid fa-globe"></i>
+                    EN
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a></li>
+            <li><a href="#" class="nav-right-links">
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a>
+            </li>
+        </ul>
+    </nav> 
+    <div class="nav-mobile">
+        <div class="nav-upper">
+            <a href="#">
+                <img class="nav-logo" src="/logo.png" alt="">
+            </a>
+            <ul class="nav-right">
+                <li><a href="#" class="nav-right-links" onclick="document.querySelector('.nav-mobile').classList.toggle('show-nav-mobile')">
+                    Browse
+                    <i class="fa-solid fa-chevron-down"></i>
+                </a></li>
+                <li><a href="#" class="nav-right-links btn">Try for free</a></li>
+                <li><a href="#" class="nav-right-links">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a></li>
+                <li><a href="#" class="nav-right-links">
+                        <i class="fa-solid fa-globe"></i>
+                        EN
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a></li>
+                <li><a href="#" class="nav-right-links">
+                        <i class="fa-regular fa-user"></i>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <ul class="nav-mobile-left">
+            <li><a href="#" class="nav-links">Home</a></li>
+            <hr class="nav-seperator">
+            <li><a href="#" class="nav-links">Store</a></li>
+            <hr class="nav-seperator">
+            <li><a href="#" class="nav-links">Channels</a></li>
+            <hr class="nav-seperator">
+            <li><a href="#" class="nav-links">
+                    Category 
+                    &nbsp;<i class="fa-solid fa-chevron-down"></i>
+                </a></li>
+                <hr class="nav-seperator">
+            <li><a href="#" class="nav-links">My Stuff</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

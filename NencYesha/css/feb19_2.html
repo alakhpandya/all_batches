@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        /* background-image: url('/images/mountain-landscape-2031539_1280.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; */
+        background-color: black;
+        color: rgb(244, 236, 236);
+    }
+    /* body::before{ */
+/*     
+        body::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('/images/mountain-landscape-2031539_1280.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+        opacity: 0.7;
+    }
+     */
+    
+    .bg-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('/images/mountain-landscape-2031539_1280.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        z-index: -1;
+        opacity: 0.6;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+
+    a{
+        color: yellow;
+        position: relative;
+    }
+    a:hover::before{
+        /* content: "Like my facebook page"; */
+        /* content: attr(height); */
+        content: attr(data-nency);
+        background-color: bisque;
+        color: black;
+        font-size: 1rem;
+
+        padding: 0.25rem 0.75rem;   /* Ignore this for now */
+
+        border: solid;
+        border-radius: 10px;
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        
+        white-space: nowrap;
+    }
+    /* 
+    #tw:hover::after{
+        content: "Follow me on twitter";
+    } 
+    */
+</style>
+<body>
+    <div class="bg-img"></div>
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, sed modi!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam facere eum esse reprehenderit dolorem quia minima at, odio iure aliquam cupiditate consequuntur dicta error beatae voluptatem perferendis enim ullam omnis. Neque, nam architecto. Ipsam temporibus rem illum. Deleniti fuga suscipit distinctio necessitatibus porro perspiciatis, <a id="fb" href="#" height="200px" data-nency="powder-pink">sunt adipisci</a> maiores laborum optio voluptates beatae est natus. Atque temporibus aliquid a laudantium earum explicabo hic saepe illum tempora doloribus ratione, facilis ipsam velit inventore dolorum maiores, autem cumque, totam veniam! Ipsam sunt enim non excepturi at dolore aspernatur sequi. Sunt suscipit necessitatibus ab dolorem tempore eos, soluta culpa sequi ipsam reprehenderit libero cupiditate recusandae, quos ea iure. Nostrum doloremque temporibus, deserunt alias laboriosam fugiat illo? Fuga eius necessitatibus commodi quos temporibus incidunt, explicabo dolorem accusantium officia animi nam sunt excepturi debitis eaque reprehenderit at alias, assumenda cumque nostrum laborum. <a id="tw" data-nency="Follow me on twitter" href="#">Animi vero</a> quia reprehenderit laborum, officiis deserunt alias recusandae dignissimos! Tempore in sequi voluptates reiciendis a alias expedita eius aliquam quasi. Quos neque facere aliquam tempore assumenda provident aspernatur dolorum voluptate accusantium expedita maiores dicta similique facilis eum culpa illum laudantium, odio praesentium, delectus sunt ad cumque eligendi quo! Nisi doloremque repellat, exercitationem corrupti aspernatur dignissimos nesciunt illo ad omnis repellendus consequatur saepe distinctio odio quia totam deserunt magni dolorem, minus optio eius perferendis beatae unde nemo quae. Ab facilis minima totam labore eligendi dolores dolore voluptas, provident dicta aspernatur odio autem nostrum. Id earum sequi aliquid facilis velit architecto fugiat ea, ratione ipsa iste, voluptatibus maiores! Dolorum perspiciatis fugit, maiores molestias reiciendis cupiditate aliquam, suscipit nobis ullam itaque cumque quasi sint magnam, aspernatur cum quas recusandae facere blanditiis commodi omnis explicabo illo voluptatum? Quam accusamus consequuntur blanditiis vero dolor odio distinctio itaque corporis, mollitia asperiores ipsa obcaecati repellendus harum illum modi eum vel ea placeat beatae! Odit reprehenderit doloribus, non temporibus minima incidunt soluta laboriosam aperiam esse doloremque modi minus beatae culpa dolorum aliquid atque, ratione quod ut ea repudiandae corporis! Nisi dolorem deserunt excepturi veritatis modi possimus totam ducimus ipsum pariatur reiciendis sint itaque sed nam rerum, voluptatibus nulla cupiditate quas sit aut autem odit debitis. <a href="#" data-nency="Subscribe to my YouTube Channel">Ipsa voluptatum,</a> quibusdam sit assumenda animi facere atque, eum minima quod fugit doloribus illo alias eligendi nulla id a dolores error cupiditate vel. Corporis obcaecati temporibus architecto expedita eius. Eligendi odit quibusdam, facere mollitia praesentium voluptate neque eum, maiores fugit culpa itaque pariatur sunt qui? Fuga, possimus blanditiis delectus, dolores asperiores nulla illum sunt, laboriosam quo modi in. Saepe rem perferendis, voluptatibus quibusdam totam reprehenderit debitis fuga officiis quam vitae perspiciatis nobis aliquid quisquam, iste consequatur cum amet culpa a assumenda ipsum veniam tempora odit beatae! Commodi dolorum et temporibus, ducimus fugit iste <a data-nency="Connect with me on linked in" href="#">nostrum excepturi,</a> ea pariatur fuga, animi minus neque soluta libero amet dignissimos itaque deserunt? Sequi laudantium animi voluptates.</p>
+</body>
+</html>

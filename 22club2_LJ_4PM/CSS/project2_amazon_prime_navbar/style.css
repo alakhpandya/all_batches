@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.btn{
+    background-color: #0F79AF;
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #00a0d6;
+}
+nav, .nav-mobile{
+    background-color: #333;
+    height: 5rem;
+    padding: 0 2rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-mobile{
+    display: none;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.nav-upper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+}
+
+.nav-left, .nav-right{
+    display: flex;
+    gap: 1.5rem;
+    /* border: solid white; */
+}
+.nav-left{
+    align-items: center;
+}
+.nav-logo{
+    height: 2.5rem;
+}
+.nav-links, .nav-right-links{
+    color: white;
+    font-size: 1.2rem;
+}
+.nav-mobile-left{
+    margin-top: 1rem;
+}
+.nav-mobile-left li{
+    margin: 1.5rem 0;
+}
+.show-nav-mobile{
+    height: 28rem;
+}
+
+/* ---------------------- Media Queries ---------------------- */
+@media (max-width: 975px){
+    nav{
+        display: none;
+    }
+    .nav-mobile{
+        display: block;
+    }
+}

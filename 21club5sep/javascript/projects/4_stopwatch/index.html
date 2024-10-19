@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url("background.jpeg");
+        background-size: auto;
+    }
+    .container{
+        height: 120px;
+        width: 450px;
+        position: absolute;
+        background-color: white;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 0.7rem;
+        text-align: center;
+        padding-top: 1.5rem;
+        font-size: 28px;
+    }
+    .container p{
+        margin-bottom: 0.5rem;
+    }
+    
+    .reset-btn, .play-btn{
+        cursor: pointer;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <p id="timer">00:00:00:000</p>
+        <span class="play-btn"><i class="fa-sharp fa-solid fa-circle-play"></i></span>
+        <span class="reset-btn"><i class="fa-solid fa-rotate-left"></i></span>
+    </div>
+</body>
+<script src="main.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+    integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</html>

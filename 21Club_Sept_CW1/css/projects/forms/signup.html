@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --------------- Fontawesome CSS --------------- -->
+    <link rel="stylesheet" href="/fontawsome/all.min.css">
+
+    <!-- --------------- Custom CSS --------------- -->
+    <link rel="stylesheet" href="/forms/css/style.css">
+    <title>My Website | Signup</title>
+</head>
+
+<body>
+
+    <div class="form-container signup-container">
+        <form action="">
+            <h3 class="title">Signup</h3>
+            <div class="user-info">
+                <div class="contact-info">
+                    <div class="input-box">
+                        <input type="text" name="uName" id="uName" required>
+                        <label for="uName">Full Name</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" name="uEmail" id="uEmail" required>
+                        <label for="uEmail">Email</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="tel" name="uMobile" id="uMobile" required>
+                        <label for="uMobile">Mobile No</label>
+                    </div>
+                </div>
+
+                <div class="account-info">
+                    <div class="input-box">
+                        <input type="text" name="userName" id="userName" required>
+                        <label for="userName">User name</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="uPwd" id="uPwd" required>
+                        <label for="uPwd">Password</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="uCPwd" id="uCPwd" required>
+                        <label for="uCPwd">Confirm Password</label>
+                    </div>
+                </div>
+            </div>
+            <div class="gender-container">
+                <div class="gender-box">
+                    <input type="radio" name="uGender" id="male">
+                    <label for="male">Male</label>
+                </div>
+                <div class="gender-box">
+                    <input type="radio" name="uGender" id="female">
+                    <label for="female">Female</label>
+                </div>
+                <div class="gender-box">
+                    <input type="radio" name="uGender" id="na">
+                    <label for="na">I don't prefer to say</label>
+                </div>
+            </div>
+
+            <div class="checkbox-container">
+                <input type="checkbox" name="tnc" id="tnc">
+                <label for="tnc">I have read and agreed all terms and conditions.</label>
+            </div>
+
+            <div class="submit-box">
+                <input type="submit" value="Register">
+            </div>
+
+            <div class="new-old-user">
+                <span>Already a user?</span>
+                <span><a href="/forms/login.html">Login</a> here!</span>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- --------------- Fontawesome JS --------------- -->
+    <script src="/fontawsome/all.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+</body>
+<script>
+    // a function that creates object
+    /*
+    const createPerson = (name, age, gender) => {
+        return {
+            personName : name,
+            personAge : age,
+            personGender : gender
+        }
+    }
+    */
+    // same program using object literal
+    /*
+    const createPerson = (name, age, gender) => ({name, age, gender})
+    
+    let person1 = createPerson("John", 39, "male");
+    console.log(person1)
+    let harsh = createPerson("Harsh", 17, "male");
+    console.log(harsh)
+    */
+
+    // methods= functions inside an object
+    /*
+    let bicycle = {
+        wheels: 2,
+        gears: 4,
+        // changeGear: function (newGear) {
+        //     this.gears = newGear
+        // }
+
+        // changeGear: (newGear) => this.gear = newGear
+
+        changeGear(newGear){
+            this.gears = newGear
+        }
+    }
+
+    let car = {
+        changeGear: function (newGear) {
+            this.gears = newGear
+        }
+    }
+
+    console.log(bicycle)
+    bicycle.changeGear(6)
+    console.log(bicycle)
+    */
+
+    // consturctor functions and 'new' keyword
+    /*
+    var spaceShuttle = function(targetPlanet){
+        this.planet = targetPlanet
+    }
+    // console.log(spaceShuttle)
+    var discovery = new spaceShuttle("Mars")
+    console.log(discovery);
+
+    const createPerson = function(name, age, gender){
+        this.name = name,
+        this.age = age,
+        this.gender = gender
+    }
+    let krisha = new createPerson("Krisha", 18, "female");
+    console.log(krisha);
+    */
+    /*
+    class Probes{
+        
+    }
+    class SpaceShuttle extends Probes{
+        constructor (targetPlanet){
+            this.planet = targetPlanet;
+        }
+    }
+
+    const discovery = new SpaceShuttle("Jupiter");
+    console.log(discovery)
+    */
+
+    function makeClass(){
+        class Vegetables
+    }
+</script>
+
+</html>

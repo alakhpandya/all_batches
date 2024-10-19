@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background: linear-gradient(180deg, rgba(19,39,79,1) 62%, rgba(82,82,128,1) 100%, rgba(60,60,144,1) 100%);
+    width: 100vw;
+    height: 100vh;
+}
+.container .container-body{
+    text-align: center;
+    color: white;
+}
+.container .container-body .container-title{
+    padding-top: 0.1rem;
+    font-size: larger;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.container .container-body .paragraph{
+    /* border: 2px solid white; */
+    display: flex;
+    margin-top: 1.4rem;
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+}
+.container .container-body .paragraph .title{
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    /* flex-direction: column; */
+    text-align: center;
+    /* margin-left: 7rem;
+    margin-right:10px; */
+    padding: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container .container-body .paragraph .content{
+    border: 2px solid white;
+    border-radius: 7px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-right: 7rem; */
+    padding:1rem;
+    display: none;
+}
+.container .container-body .paragraph .show{
+    display: block;
+}

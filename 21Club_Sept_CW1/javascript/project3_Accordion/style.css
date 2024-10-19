@@ -1,0 +1,64 @@
+body {
+	background-image: url('/pexels-cup-of-couple-6177679.jpg');
+	height: 100vh;
+	background-size: 100vw 100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* height: 95vh; */
+}
+
+.plus-btn
+{
+	margin-top: -35px;
+	float: right;
+	cursor: pointer;
+}
+
+.box {
+	background-color: rgb(255, 255, 255);
+	max-width: 900px;
+	/* width: 2000px; */
+	padding: 100px;
+	box-shadow: 0 0 10px rgb(0, 0, 0);
+	/* height: 750px; */
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+.box h2 {
+	margin-top: 0;
+}
+
+.box ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.box li{
+	margin-bottom: 20px;
+	height: 0;
+	overflow: hidden;
+	transition: 0.2s;
+}
+.box .show-hide{
+	height: 100px;
+}
+
+.box .question {
+	font-weight: lighter;
+	align-items: center;
+	margin-bottom: 0;
+}
+
+.box .answer {
+	font-weight: lighter;
+	align-items: center;
+}

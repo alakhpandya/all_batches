@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background: linear-gradient(180deg, rgba(2,38,82,1) 55%, rgba(74,74,172,1) 100%, rgba(60,60,144,1) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .container{
+            width: 50%;
+            max-width: 500px;
+            border: 4px solid white;
+            border-radius: 25px;
+            padding: 1rem;
+        }
+        .container h1{
+            font-size: 2.5rem;
+            color: white;
+        }
+        ul{
+            list-style: none;
+            margin-top: 2rem;
+        }
+        .movie-names{
+            background-color: white;
+            margin: 0.7rem 0;
+            padding: 0.3rem;
+            font-size: 1.4rem;
+        }
+        #main-title{
+            color: red;
+        }
+        .orange-border{
+            border: 3px solid orangered;
+        }
+    </style>
+    
+    <body>
+        <div class="container">
+            <h1 class="site-title movie-list-title" id="main-heading">Favourite Movie Franchise</h1>
+            <ul>
+                <li class="movie-names orange-border">The Matrix</li>
+                <li class="movie-names orange-border">Starwars</li>
+                <li class="movie-names orange-border">Harry Potter</li>
+                <li class="movie-names orange-border">Lord of the Rings</li>
+                <li class="movie-names orange-border">Marvel</li>
+                <!-- <li>X-men</li> -->
+            </ul>
+            <p id="theEnd">---The End---</p>
+        </div>
+    </body>
+    <!-- <script src="/nov18.js"></script> -->
+    <script src="/nov24.js"></script>
+
+</html>

@@ -1,0 +1,46 @@
+/* CSS Reset */
+*,
+::after,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bodycolor {
+    /* border: 2px solid red; */
+    /* height: 100vh; */
+    padding-bottom: 5rem;
+    width: 100vw;
+    background-image: linear-gradient(rgba(12, 26, 59, 255), rgba(63, 77, 110, 255));
+}
+
+.box {
+    /* height: 280px; */
+    width: 400px;
+    border: 2px solid white;   
+    border-radius: 5px;
+    margin: 0 auto;
+    /* margin:13rem auto 0; */
+    margin-top: 13rem;
+    text-align: center;
+    color: white;
+}
+
+#header, #header2 {
+    font-size: 2rem;
+    padding: 1.5rem 0;
+    align-items: center;
+}
+
+.list {
+    margin: 2px 1.5rem;
+    padding: 6px 0;
+    font-size: 1.2rem;
+    background-color: white;
+    color: black;
+}
+
+.special_list{
+    box-shadow: 5px 5px 10px 5px rgba(255, 255, 255, 0.5);
+}

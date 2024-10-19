@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+        <title>Document</title>
+    </head>
+
+    <body id="bodycolor">
+        <div class="box container movie-box">
+            <h2 id="header">Favourite Movie Franchise</h2>
+            <p class="list">The Matrix</p>
+            <p class="list">Star Wars</p>
+            <p class="list">Harry Potter</p>
+            <p class="list">Lord of the Rings</p>
+            <p class="list">Marvel</p>
+        </div>
+    </body>
+    
+    <script>
+        // 5 main ways to select an element from the DOM:
+
+        /*
+        console.log(document.getElementById('header'));
+        const heading = document.getElementById('header');
+
+        let list_items = document.getElementsByClassName('list');
+        console.log(list_items);
+        console.log(list_items[3]);
+
+        var all_paragraphs = document.getElementsByTagName('p');
+        console.log(all_paragraphs);
+        console.log(all_paragraphs[2]);
+
+        let title = document.getElementsByTagName('h2');
+        console.log(title);
+        console.log(title[0]);
+
+        const h2 = document.querySelector('h2');
+        const site_title = document.querySelector('#header');
+        const list_paragraph = document.querySelector('.list');
+
+        console.log(h2);
+        console.log(site_title);
+        console.log(list_paragraph);
+
+        let paras = document.querySelectorAll('p');
+        let all_paras = document.querySelectorAll('.list');
+
+        console.log(paras);
+        console.log(all_paras);
+        */
+        /*
+        const title = document.getElementById('header');
+        title.style.color = "grey";
+
+        const list_array = document.getElementsByClassName('list');
+        for(let i = 0; i < list_array.length; i++){
+            list_array[i].style.backgroundColor = "yellow";
+        }
+        */
+
+        // let new_movie = document.createElement('p');
+        // let box = document.querySelector('.box');
+        // box.append(new_movie);
+        // new_movie.innerText = 'X-men';
+
+        // console.log(new_movie.classList);
+        // console.log(box.classList);
+
+        // new_movie.classList.add('list');
+        // new_movie.classList.remove('list');
+
+        // new_movie.setAttribute('class', 'list');
+        // console.log(new_movie.classList);
+
+        // new_movie.setAttribute('class', 'special_list');
+        // new_movie.classList.add('special_list')
+        // console.log(new_movie.classList);
+
+        // console.log(box.getAttribute('class'));
+
+        // new_movie.remove();
+        // box.remove();
+
+        /*
+        let new_movie = document.createElement('p');
+        let box = document.querySelector('.box');
+        box.append(new_movie);
+
+        console.log(box.classList);
+        console.log(box.classList.contains('container'));
+        box.classList.add('list');
+        box.classList.remove('list');
+        box.removeAttribute('class');
+        console.log(box.classList);
+        */
+    </script>         
+
+    <script src="2_dom_traversing.js"></script>
+</html>
+<!-- 
+    Next Class: Adding new movie with style using innerHTML method, difference between innerHTML & innerText
+-->

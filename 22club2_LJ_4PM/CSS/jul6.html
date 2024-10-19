@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('fonts.css');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(203, 228, 249);
+        font-family: sans-serif;
+        padding: 1rem;
+        text-align: justify;
+    }
+
+    .cards-container{
+        display: grid;
+        gap: 1rem;
+    }
+
+    .card{
+        border-radius: 15px;
+        padding: 1rem;
+    }
+    .user-info{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+    .profile-pic{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: solid;
+    }
+    .name{
+        font-size: 1.15rem;
+    }
+    .headline{
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .message{
+        font-size: 1.1rem;
+        line-height: 1.3em;
+    }
+
+    
+    #card1, #card2, #card5{
+        color: white;
+    }
+    #card3, #card4{
+        background-color: white;
+    }
+
+    #card1{
+        background-color: blueviolet;
+    }
+    #card2{
+        background-color: darkslategray;
+    }
+    #card5{
+        background-color: #333;
+    }
+
+    /* ------------------------------ Media Queries ------------------------------ */
+    @media (min-width: 750px){
+        .cards-container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+        #card1{
+            grid-column: span 2;
+        }
+        #card3{
+            grid-row: span 2;
+        }
+        #card5{
+            grid-column: span 2;
+        }
+    }
+    @media (min-width: 1024px){
+        .cards-container{
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+</style>
+<body>
+    <div class="cards-container">
+        <div class="card" id="card1">
+            <div class="user-info">
+                <div class="profile-pic"></div>
+                <div class="name-box">
+                    <h3 class="name">Daniel Clifford</h3>
+                    <p class="role">Verified Graduate</p>
+                </div>
+            </div>
+            <p class="headline">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, dolorum? Debitis sed ad temporibus molestias corrupti ex fugiat animi nisi, dolorum veniam.</p>
+            <p class="message">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nesciunt laborum, exercitationem officiis facere consequuntur inventore dolores quis voluptatem, omnis ab hic dicta vitae animi! Nisi alias, explicabo, nihil sapiente id dolorem dicta qui sit, sed facere dolore. Perspiciatis impedit nostrum dignissimos nam saepe totam autem sunt accusantium id aperiam nihil amet quibusdam.</p>
+        </div>
+        <div class="card" id="card2">
+            <div class="user-info">
+                <div class="profile-pic"></div>
+                <div class="name-box">
+                    <h3 class="name">Jonathan Walters</h3>
+                    <p class="role">Verified Graduate</p>
+                </div>
+            </div>
+            <p class="headline">Fuga beatae accusantium quaerat voluptatem consequuntur!</p>
+            <p class="message">Similique molestiae nisi numquam excepturi. Consequatur voluptatum harum rem consequuntur dolorum eaque minus quibusdam eos libero quisquam pariatur, esse sunt eum quod praesentium!</p>
+        </div>
+        <div class="card" id="card3">
+            <div class="user-info">
+                <div class="profile-pic"></div>
+                <div class="name-box">
+                    <h3 class="name">Kira Whittle</h3>
+                    <p class="role">Verified Graduate</p>
+                </div>
+            </div>
+            <p class="headline">Ab nemo aspernatur, velit saepe temporibus vero consequuntur?</p>
+            <p class="message">Et, quam quaerat tenetur, dignissimos nihil atque quas impedit odit, cumque voluptatum quasi. Atque fugiat iste corrupti itaque assumenda dolor doloremque libero, repudiandae expedita necessitatibus. Esse in enim ipsa pariatur perferendis numquam laborum voluptatum perspiciatis aspernatur at est laboriosam molestias excepturi cumque optio aperiam doloremque, doloribus modi labore cupiditate. Laboriosam nostrum, voluptatibus hic optio fuga dolorum repellat quam ab eum, non quis odit? Tempore laborum eligendi iusto nisi animi sunt sed aspernatur illum corporis unde ratione vitae dolorem tempora, pariatur perferendis voluptatem eaque ipsam harum eos amet recusandae tenetur ipsum.</p>
+        </div>
+        <div class="card" id="card4">
+            <div class="user-info">
+                <div class="profile-pic"></div>
+                <div class="name-box">
+                    <h3 class="name">Jeanette Harmon</h3>
+                    <p class="role">Verified Graduate</p>
+                </div>
+            </div>
+            <p class="headline">Expedita repellendus, nisi accusantium iusto ut distinctio placeat.</p>
+            <p class="message">Sapiente nobis ipsum beatae illo assumenda eos culpa incidunt praesentium architecto distinctio aperiam a quo animi, nostrum pariatur!</p>
+        </div>
+        <div class="card" id="card5">
+            <div class="user-info">
+                <div class="profile-pic"></div>
+                <div class="name-box">
+                    <h3 class="name">Patrick Abrams</h3>
+                    <p class="role">Verified Graduate</p>
+                </div>
+            </div>
+            <p class="headline">Repellat eveniet, blanditiis aspernatur quae nesciunt qui obcaecati ab, sunt nisi, architecto natus ducimus dolorum nulla magnam?</p>
+            <p class="message">At minus, ad accusantium ipsum accusamus numquam? Perferendis debitis fugit voluptatibus laboriosam voluptas iure dicta voluptatum, dolorem, cumque odit autem quasi doloribus quis magni consequatur architecto blanditiis officia accusamus saepe suscipit velit. Numquam animi iusto quidem molestias harum odio consectetur et fugiat.</p>
+        </div>
+    </div>
+</body>
+</html>

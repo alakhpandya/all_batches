@@ -1,0 +1,33 @@
+/* -------------------- Zeyada -------------------- */
+@font-face{
+    font-family: "Krish Handwriting Fonts";
+    src: url("/fonts/Zeyada/Zeyada-Regular.ttf");
+}
+
+/* -------------------- Amatic -------------------- */
+@font-face{
+    font-family: "Monalisa";
+    src: url('/fonts/Amatic_SC/AmaticSC-Regular.ttf');
+    /* font-weight: 400;    Default */
+}
+
+/* -------------------- Amatic -------------------- */
+@font-face{
+    font-family: "Monalisa";
+    src: url('/fonts/Amatic_SC/AmaticSC-Bold.ttf');
+    font-weight: 700;
+}
+
+
+/* -------------------- Caveat -------------------- */
+@font-face{
+    font-family: "Nancy's Handwriting";
+    src: url('/fonts/Caveat/Caveat-VariableFont_wght.ttf');
+}
+
+/* -------------------- Cinzel -------------------- */
+@font-face{
+    font-family: "cinzel";
+    src: url('/fonts/Cinzel/Cinzel-VariableFont_wght.ttf');
+}
+

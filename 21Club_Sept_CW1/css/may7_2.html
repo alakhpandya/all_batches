@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(195, 226, 195);
+        /* text-align: center; */
+    }
+    .normal-box{
+        border: 2px solid black;
+        width: 200px;
+        font-size: 1.5rem;
+    }
+    /* Individual margins */
+    #box1{
+        margin-left: 50px;
+        margin-top: 25px;
+        margin-right: 100px;
+        margin-bottom: 75px;
+    }
+    /* margin all sides */
+    #box2{
+        margin: 75px;
+    }
+    /* margin top-bottom and left-right */
+    #box3{
+        margin: 100px 200px;
+    }
+    /* margin clock-wise: top, right, bottom, left */
+    #box4{
+        margin: 10px 20px 30px 40px;
+    }
+    /* margin: top left-right bottom */
+    #box5{
+        margin: 10px 20px 30px;
+    }
+    .btn-container{
+        border: 2px solid red;
+        width: fit-content;
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin: auto;
+    }
+</style>
+<body>
+    <div class="normal-box" id="box1">Lorem, ipsum.</div>
+    <div class="normal-box" id="box2">Quaerat, iure?</div>
+    <div class="normal-box" id="box3">Eaque, nemo.</div>
+    <div class="normal-box" id="box4">Porro, molestiae!</div>
+    <div class="normal-box" id="box5">Quod, quisquam?</div>
+    <div class="btn-container">
+    <button>Click Me</button>
+</div>
+</body>
+</html>
+<!-- Next Class: Padding, overlapping margins, using developer tools for margins and paddings, box-sizing -->

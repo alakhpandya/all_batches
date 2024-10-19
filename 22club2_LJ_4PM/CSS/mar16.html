@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* html{
+        font-size: 20px;
+    } */
+    #para1{
+        /* px is rigid */
+        font-size: 32px;
+    }
+    #para2{
+        /* 
+            rem = root's em (em means font-size)
+            1rem = 16px by default
+        */
+        font-size: 2rem;
+    }
+    img{
+        /* 
+        view port height/width
+        */
+        /* width: 98vw; */
+        /* width: 73vw; */
+        /* height: 100vh; */
+
+        width: 100%;
+    }
+    .outer-box{
+        background-color: brown;
+        width: 1200px;
+        height: 700px;
+    }
+    .inner-box{
+        background-color: coral;
+        /* width: 600px; */
+        /* height: 400px; */
+        width: 85%;     /* 1020px */
+        height: 75%;
+    }
+    .inner-most-box{
+        background-color: lightgreen;
+        /* height: 3rem; */
+        width: 50%;     /* 510px */
+        height: 70%;    /* 367.5px */
+    }
+</style>
+<body>
+    <h1>Title of my website</h1>
+    <!-- <p id="para1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ex id, suscipit illum temporibus architecto voluptate, rem ut in accusantium tempora voluptas. Vero velit veritatis perferendis magni excepturi modi corporis cupiditate reiciendis aliquid repellat doloremque explicabo incidunt ipsa autem odit, placeat quo tenetur similique voluptas.</p>
+    <p id="para2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae ex id, suscipit illum temporibus architecto voluptate, rem ut in accusantium tempora voluptas. Vero velit veritatis perferendis magni excepturi modi corporis cupiditate reiciendis aliquid repellat doloremque explicabo incidunt ipsa autem odit, placeat quo tenetur similique voluptas.</p> -->
+    <div class="outer-box">
+        <div class="inner-box">
+            <br>
+            <div class="inner-most-box"></div>
+            <br>
+        </div>
+    </div>
+    <br>
+    <!-- <img src="/photos/motor-yacht-gd5f2214fb_1920.jpg" alt=""> -->
+    <img src="https://source.unsplash.com/1500x500/?yatch" alt="">
+</body>
+</html>
+<!-- 
+    Next Class: em
+ -->

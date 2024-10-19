@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button{
+        height: 2.5em;
+        width: 7em;
+    }
+    /* 
+    when 'em' is specified in font-size then em means font-size of parent.
+    Everywhere else, em means font-size of itself.
+    */
+    #btn1{
+        font-size: 8px;
+        height: 2.5em;  /* 2.5 * font-size of itself */
+        width: 7em; /* 7 * font-size of itself */
+    }
+    #btn2{
+        font-size: 20px;
+        height: 2.5em;  /* 50px */ 
+        width: 7em;     /* 140px */
+    }
+    #btn3{
+        font-size: 0.6rem;
+    }
+    #btn-4-box{
+        font-size: 20px;
+    }
+    #btn4{
+        font-size: 1.5em;   /* 1.5 * font-size of parent */
+    }
+    #btn6{
+        font-size: 18px;
+        height: 1.3em;      /* 23.40 */
+        width: 2.5em;       /* 45.00 */
+    }
+    #btn5{
+        font-size: 1.3rem;  /* 20.80px        */
+        height: 1.3em;      /* 27.04 */
+        width: 2.5em;       /* 52 */
+    }
+    #btn7{
+        font-size: 1.7rem;
+        height: 1.3em;      /* 35.36 */
+        width: 2.5em;       /* 68 */
+    }
+    #btn-8-box{
+        font-size: 22px;
+    }
+    #btn8{
+        font-size: 1.3em;   /* 1.3 * 22 = 28.60px */
+        height: 1.2rem;     
+        width: 2.5rem;
+    }
+    #btn-9-box{
+        font-size: 1.4rem;  /* 22.40px */
+    }
+    #btn9{
+        font-size: 1.4em;   /* 31.36px */
+        height: 1.2em;      /* 37.63px */
+        width: 3.2em;       /* 100.35px */
+    }
+</style>
+<body>
+    <div><button id="btn1">Button 1</button></div> <br>
+    <div><button id="btn2">Button 2</button></div> <br>
+    <div><button id="btn3">Button 3</button></div> <br>
+    <div id="btn-4-box"><button id="btn4">Button 4</button></div> <br>
+    <div><button id="btn5">Button 5</button></div> <br>
+    <div><button id="btn6">Button 6</button></div> <br>
+    <div><button id="btn7">Button 7</button></div>
+    <div id="btn-8-box"><button id="btn8">Button 8</button></div>
+    <div id="btn-9-box"><button id="btn9">Button 9</button></div>
+    <div id="btn-10-box"><button id="btn10">Button 10</button></div>
+</body>
+</html>

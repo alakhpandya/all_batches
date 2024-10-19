@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Complete CSS Reset */
+    *, ::before, ::after{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .boxes{
+        /* border: solid red; */
+        /* margin: 1rem 0; */
+        width: 300px;
+        /* margin: auto; */
+        margin: 1rem auto;
+
+        /* box-sizing: content-box;     default  */
+        box-sizing: border-box;
+    }
+    #box1{
+        /* margin-left: auto; */
+        padding: 20px;
+        background-color: plum;
+    }
+    #box2{
+        /* margin-right: auto; */
+        background-color: burlywood;
+        /* width: 310px; */
+        border: 15px solid black;
+    }
+    #box3{
+        background-color: blueviolet;
+        padding: 1.8em;
+        /* margin-left: auto;
+        margin-right: auto; */
+
+        /* margin: auto only works horizontally. It only works with block elements and only when we have given them width. */
+        /* margin: auto; */
+        /* margin: 1rem auto; */
+    }
+    h1{
+        /* margin: auto; */
+        /* border: solid; */
+        /* width: 1000px; */
+        /* text-align: center; */
+    }
+</style>
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam.</h1>
+    <p id="para1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, facilis rerum!</p>
+    <p id="para2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, assumenda! Aut placeat sed voluptatibus? Est et quas, perferendis velit ea excepturi?</p>
+    <button>Button 1</button>
+    <button>Button 2</button>
+    <div class="boxes" id="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas repudiandae quae vel quasi. Earum repudiandae, rerum voluptatem ea eius iure optio explicabo delectus fugit.</div>
+    <div class="boxes" id="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas repudiandae quae vel quasi. Earum repudiandae, rerum voluptatem ea eius iure optio explicabo delectus fugit.</div>
+    <div class="boxes" id="box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quas repudiandae quae vel quasi. Earum repudiandae, rerum voluptatem ea eius iure optio explicabo delectus fugit.</div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Ignore the above styling */
+
+body{
+    font-family: sans-serif;
+}
+.container{
+    height: 400px;
+    width: 300px;
+    margin: 2rem auto;   /* Ignore */
+}
+
+.card-upper{
+    background-color: #f0f0f0;
+    height: 65%;
+    position: relative;
+    overflow: hidden;
+}
+.product-img{
+    /* border: solid; */
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.product-rating-box{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.product-ratings{
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #3C486B;
+}
+.star-icon{
+    color: #F9D949;
+    font-size: 0.86rem;
+}
+.heart-icon{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.offer{
+    background-color: #F45050;
+    font-weight: bold;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    padding: 25px 0 0 25px;     /* Ignore this */
+    position: absolute;
+    left: -18px;
+    top: -18px;
+}
+
+.card-lower{
+    background-color: #3C486B;
+    color: #f0f0f0;
+    border: solid;
+    height: 35%;
+    padding: 1rem;          /* Ignore this */
+    position: relative;
+}
+.product-title{
+    font-size: 1.5rem;
+}
+.product-description{
+    font-size: 0.8rem;
+}
+.product-mrp{
+    font-size: 0.9rem;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.mrp{
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    text-decoration: line-through;
+}
+.discounted-mrp{
+
+}

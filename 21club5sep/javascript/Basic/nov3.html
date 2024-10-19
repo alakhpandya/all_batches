@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // destructuring assignment
+    let result = { "Maths":95, "Physics":97, "Computers":98 }
+    // let {Physics} = result;
+    // console.log(Physics);
+
+    // let {Maths, Computers}= result;
+
+    let {Maths: mathematics}= result;
+    // console.log(Maths)
+    // console.log(mathematics)
+
+    /*
+    json: java script object notation
+    {
+        name: "Dining Table",
+        quantity: 5,
+        mrp: 1500,
+        length: 5,
+        width: 3,
+        height: 3.5,
+        color: white,
+        finish: glosy,
+        polish: true,
+        material: wood,
+        tableCloth: false
+    }
+    */
+   /*
+    let product = {
+        name: "Dining Table",
+        quantity: 5,
+        mrp: 1500,
+        length: 5,
+        width: 3,
+        height: 3.5,
+        color: "white",
+        finish: "glosy",
+        polish: true,
+        material: "wood",
+        tableCloth: false
+    }
+
+    let {mrp: sellPrice} = product
+
+    const TEMP_OF_TOM = {
+        "max" : 32,
+        "min" : 14
+    }
+
+    const getMaxTemp = (obj) => {
+        let {max} = obj;
+        return max;
+    }
+
+    console.log(getMaxTemp(TEMP_OF_TOM));
+
+    const FORECAST = {
+        today: {min : 12, max: 30},
+        tomorrow: {min : 14, max: 34}
+    }
+
+    const avg_temp_of_tom = (obj) => {
+        // write your code here
+    }
+
+    console.log(avg_temp_of_tom(FORECAST)); // output: 24
+    */
+
+    // Destructuring of arrays - tobe continued...
+    let myArray = [1,2,3,4,5];
+    const {a, b} = myArray;
+    console.log(a);
+    console.log(b);
+</script>
+</html>

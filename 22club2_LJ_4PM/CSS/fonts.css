@@ -1,0 +1,58 @@
+/* ------------- Stylish ------------- */
+@font-face{
+    font-family: "Nilay's fonts";
+    src: url('/fonts/Stylish/Stylish-Regular.ttf');
+}
+
+/* ------------- Mitr ------------- */
+@font-face{
+    font-family: "Mitr";
+    src: url('/fonts/Mitr/Mitr-ExtraLight.ttf');
+    font-weight: 200;
+}
+@font-face{
+    font-family: "Mitr";
+    src: url('/fonts/Mitr/Mitr-Light.ttf');
+    font-weight: 300;
+}
+@font-face{
+    font-family: "Mitr";
+    src: url('/fonts/Mitr/Mitr-Regular.ttf');
+}
+@font-face{
+    font-family: "Mitr";
+    src: url('/fonts/Mitr/Mitr-Medium.ttf');
+    font-weight: 500;
+}
+@font-face{
+    font-family: "Mitr";
+    src: url('/fonts/Mitr/Mitr-SemiBold.ttf');
+    font-weight: 600;
+}
+@font-face{
+    font-family: "Mitr";
+    src: url('/fonts/Mitr/Mitr-Bold.ttf');
+    font-weight: 700;
+}
+
+/* ------------- Cinzel ------------- */
+@font-face {
+    font-family: Cinzel;
+    /* 
+    src: url('/fonts/Cinzel/static/Cinzel-SemiBold.ttf');
+    font-weight: 600; 
+    */
+    src: url('/fonts/Cinzel/Cinzel-VariableFont_wght.ttf');
+}
+
+/* ------------- Sofia ------------- */
+@font-face {
+    font-family: sofia-sans;
+    src: url('/fonts/Sofia_Sans_Extra_Condensed/SofiaSansExtraCondensed-VariableFont_wght.ttf');
+}
+
+/* ------------- Work ------------- */
+@font-face {
+    font-family: work-sans;
+    src: url('/fonts/Work_Sans/WorkSans-VariableFont_wght.ttf');
+}

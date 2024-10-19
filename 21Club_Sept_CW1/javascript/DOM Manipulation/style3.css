@@ -1,0 +1,44 @@
+/* CSS Reset */
+*,
+::after,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bodycolor {
+    height: 100vh;
+    background-image: linear-gradient(rgba(12, 26, 59, 255), rgba(63, 77, 110, 255));
+    color: white;
+    padding: 3rem 5rem;
+}
+#header{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.box1, .box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 2rem;
+    /* height: 200px; */
+}
+.box1{
+    border: 2px solid white;   
+    border-radius: 15px;
+    cursor: pointer;
+}
+.box2{
+    border: 2px solid white;   
+    border-radius: 15px;
+}
+.invisible{
+    display: none;
+}
