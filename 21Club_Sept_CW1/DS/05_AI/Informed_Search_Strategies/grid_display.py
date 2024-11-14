@@ -3,6 +3,7 @@ from a_star import algo
 import pygame
 from pygame.locals import *
 from sys import exit
+from queue import PriorityQueue
 
 
 # Constants/Global Variables
@@ -149,6 +150,31 @@ def get_click_pos(pos, ROWS, WIDTH):
     col = int(y // gap)
     return row, col
 
+def h(current_node, end):
+    node_x, node_y = current_node.get_position()
+    goal_x, goal_y = end.get_position()
+    return abs(goal_x - node_x) + abs(goal_y - node_y)
+
+def a_star(grid, start, end):
+    open = PriorityQueue()
+
+    g_value = {}
+    f_value = {}
+    for row in grid:
+        for node in row:
+            g_value[node] = float("inf")
+            f_value[node] = float("inf")
+    g_value[start] = 0
+    f_value[start] = h(start, end)
+
+    open.put((f_value[start], start))
+
+    while not open.empty():
+        node = open.get()[1]
+
+        if node == end:
+            # Backtrack the path
+            return True
 
 def main(WIDTH, WINDOW):
     ROWS = 7
