@@ -71,3 +71,72 @@ where studio = "Marvel Studios";
 select *
 from movies
 where title like "% The %" and imdb_rating between 5 and 9;
+
+-- 14.	Print the year in which the movie Godfather was released
+select release_year
+from movies
+where title like "%Godfather%";
+
+-- 15.	Print all the movie studios of Bollywood.
+select distinct studio
+from movies
+where industry = "Bollywood";
+
+-- 16-A.	Give me all the movies released in the years 2015, 2017.
+select *
+from movies
+where release_year = 2015 or release_year = 2017;
+
+-- 16-B.	Give me all the movies released in the years 2015, 2016, 2017 or 2018.
+select *
+from movies
+where release_year between 2015 and 2018;
+
+-- 17.	How many Bollywood movies are there in the movies table?
+select count(title)
+from movies
+where industry = "Bollywood";
+
+-- 18.	Give me the total number of movies released in years 2013, 2017 & 2022
+select count(title)
+from movies
+-- where release_year = 2013 or release_year = 2017 or release_year=2022;
+where release_year in (2013, 2017, 2022);
+
+-- 19.	Give me the movies for which imdb_rating is not available.
+select title
+from movies
+where imdb_rating is null;
+
+-- 20.	Give me only those movies for which imdb_ratings are available
+select title
+from movies
+where imdb_rating is not null;
+
+-- 21. Print all the movies which were not released in the year 2022
+select *
+from movies
+-- where release_year != 2022;
+where release_year <> 2022;
+
+-- 22.	Print the movies sorted by their imdb_ratings in a way that the highest rated movie comes first and lowest rated last.
+select *
+from movies
+order by imdb_rating desc;
+
+-- 23.	Print the movies sorted by their year of release such that the older movies come at the top and latest at the bottom.
+select *
+from movies
+order by release_year;
+
+-- 24. Print the movies such that the oldest movies come first & latest last but in a particular year, they should be arranged so that the movie with highest imdb_rating
+-- is at the top & movie with least imdb_rating is at the bottom.
+select *
+from movies
+order by release_year asc, imdb_rating desc;
+
+-- 25.	Print the top 5 movies according to their imdb_ratings
+select *
+from movies
+order by imdb_rating desc
+limit 5;
