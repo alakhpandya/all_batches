@@ -140,3 +140,51 @@ select *
 from movies
 order by imdb_rating desc
 limit 5;
+
+/*
+26.	We have organized an award ceremony for these movies. Top 3 movies are getting the bumper prizes which have been already announced. 
+Now we want to give condolence prizes to the movies which stood from rank 4th till 10th according to their imdb_rating. 
+You are asked to print titles and ratings of these movies.
+*/
+
+select *
+from movies
+order by imdb_rating desc
+limit 7
+offset 3;
+
+select *
+from movies
+order by imdb_rating desc;
+
+-- 27.	Print the least, highest & average values of imdb_ratings rounded off after one decimal place
+SELECT min(imdb_rating) as worst, max(imdb_rating) best, round(avg(imdb_rating), 1) as average
+from movies;
+
+-- 28.	Print the average imdb_rating of the “Vinod Chopra Films” studio
+SELECT avg(imdb_rating) as "Average Rating"
+from movies
+where studio = "Vinod Chopra Films";
+
+/*
+29.	print the table in the following format:
+id	title							release_year	imdb_rating		studio
+101	K.G.F: Chapter 2 | Bollywood	2022			8.4				Hombale Films
+*/
+
+select movie_id as id, concat(title, " | ", industry) as title, release_year, imdb_rating, studio
+from movies;
+
+-- 30.	Print first character of title of each movie
+select substr(title, 1, 1)
+from movies;
+
+-- 31.	Print the titles of movies in a way that first character of title of every movie is capitalized and every other character in lower case.
+-- select upper(title)
+select concat(upper(substr(title, 1, 1)), lower(substr(title, 2))) as title
+from movies;
+
+-- 32.	Replace all the null values in imdb_ratings column by 0.
+SELECT IFNULL(IMDB_RATING, 0) FROM MOVIES;
+-- OR
+select coalesce(imdb_rating,0) as imdb_rating from movies;
