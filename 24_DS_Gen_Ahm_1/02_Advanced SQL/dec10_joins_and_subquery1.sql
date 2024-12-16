@@ -31,10 +31,12 @@ where employee_id in (
 	select manager_id from employees
 );
 
-select distinct department_name
+-- Print the names of the departments in which no employee is working.
+select distinct department_name, count(e.employee_id)
 from departments d
 left join employees e
-on d.department_id = e.department_id;
--- where e.department_id is null;
+on d.department_id = e.department_id
+where e.department_id is null
+group by department_name;
 
 select distinct manager_id from employees;
