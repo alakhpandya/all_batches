@@ -36,9 +36,46 @@ with t1 as
 		else revenue
 	end revenue_mn
 	from financials
+),
+t2 as
+(
+	select movie_id,
+			if(currency="USD", budget_mn*80, budget_mn) as budget_mn_inr,
+			if(currency="USD", revenue_mn*80, revenue_mn) as revenue_mn_inr
+	from t1
+),
+t3 as
+(
+select movie_id, revenue_mn_inr - budget_mn_inr as profit from t2
 )
+select m.movie_id, m.title, m.imdb_rating, t3.profit
+from movies m
+left join t3 on m.movie_id = t3.movie_id
+order by profit desc;
 
-select movie_id,
-		if(currency="USD", budget_mn*80, budget_mn) as budget_mn_inr,
-		if(currency="USD", revenue_mn*80, revenue_mn) as revenue_mn_inr
-from t1;
+/*
+1. Find the Average Rating of Movies by Studio
+Write a query using a CTE to calculate the average rating of movies grouped by Studio.
+*/
+with cte as
+(
+	select studio, avg(imdb_rating) as avg_rating
+    from movies
+    group by studio
+)
+select * 
+from cte;
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,5 @@
 # import area
-from a_star import algo
+# from a_star import algo
 import pygame
 from pygame.locals import *
 from sys import exit
