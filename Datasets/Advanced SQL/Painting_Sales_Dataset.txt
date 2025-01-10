@@ -57,8 +57,8 @@ insert into artists values (1,'Thomas','Black');
 insert into artists values (2,'Kate','Smith');
 insert into artists values (3,'Natali','Wein');
 insert into artists values (4,'Francesco','Benelli');
-insert into artists values (2,'Kate','Smith');
-insert into artists values (3,'Natali','Wein');
+insert into artists values (5,'Kate','Smith');
+insert into artists values (6,'Natali','Wein');
 
 insert into collectors values (101,'Brandon','Cooper');
 insert into collectors values (102,'Laura','Fisher');

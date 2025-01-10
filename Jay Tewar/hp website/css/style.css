@@ -1,0 +1,71 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* -------------------- Navbar -------------------- */
+.navbar-mobile {
+  background-color: white;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.nav-logo {
+  height: 50px;
+}
+.nav-icon {
+  color: rgb(74, 178, 219);
+  font-size: 1.7rem;
+  margin-left: 10px;
+}
+
+.nav-expand {
+  background-color: white;
+  border: solid 2px rgb(204, 203, 203);
+  width: 70%;
+  margin-left: auto;
+  display: none;
+}
+.show-nav {
+  display: block;
+}
+.nav-menu {
+  padding: 15px;
+  border-bottom: solid 2px rgb(204, 203, 203);
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  color: black;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+}
+.angle-icon {
+  color: rgb(204, 203, 203);
+  font-size: 1.3rem;
+}
+.nav-brand {
+  padding: 0 15px;
+}
+.internal-brand {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.internal-brand-img {
+  height: 25px;
+}
