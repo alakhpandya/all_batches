@@ -62,3 +62,13 @@ from student_score;
 use paintings;
 select * from artists;
 -- print the names of the artists who are duplicated.
+
+with cte as
+(
+	select *,
+	row_number() over(partition by first_name, last_name) as row_num
+	from artists
+)
+select id, first_name, last_name
+from cte
+where row_num > 1;
