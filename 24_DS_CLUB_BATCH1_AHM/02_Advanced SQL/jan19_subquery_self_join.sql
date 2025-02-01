@@ -32,8 +32,9 @@ on e.department_id = t.department_id
 where e.salary > t.dep_avg_salary
 order by t.department_id;
 
-use moviesdb;
+-- Print the movie titles, industry and revenue. Sort the result in descending order of profit (profit = revenue – budget)
 
+use moviesdb;
 select movie_id,
 case
 	when currency = "USD" then budget_mn*80
@@ -57,3 +58,20 @@ from (
 	end as revenue_mn
 	from financials
 ) t;
+
+select m.movie_id, m.title, m.industry, 
+t.revenue_mn_inr - t.budget_mn_inr as profit
+from movies m
+join (
+	select movie_id,
+	if(currency = "USD", budget_mn*80, budget_mn) as budget_mn_inr,
+	if(currency = "USD", revenue_mn*80, revenue_mn) as revenue_mn_inr
+	from (
+		select movie_id, currency,
+		if(unit = "Billions", budget*1000, if(unit = "Thousands", budget/1000, budget)) as budget_mn,
+		if(unit = "Billions", revenue*1000, if(unit = "Thousands", revenue/1000, revenue)) as revenue_mn
+		from financials
+	) as t1
+) as t
+on m.movie_id = t.movie_id
+order by 4 desc;
