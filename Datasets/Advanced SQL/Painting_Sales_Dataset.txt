@@ -1,16 +1,6 @@
 create database paintings;
 use paintings;
 
-select * from paintings;
-select * from artists;
-select * from collectors;
-select * from sales;
-
-drop table paintings;
-drop table artists;
-drop table collectors;
-drop table sales;
-
 create table paintings
 (
     id              int,
