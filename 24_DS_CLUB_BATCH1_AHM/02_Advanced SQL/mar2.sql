@@ -35,8 +35,7 @@ t2 as
 	left join new_artist a
 	on s.artist_id = a.id
 )
-select * from t2;
+-- select * from t2;
 select artist_id, first_name, last_name, count(*) 
 from t2
 group by artist_id, first_name, last_name;
-
