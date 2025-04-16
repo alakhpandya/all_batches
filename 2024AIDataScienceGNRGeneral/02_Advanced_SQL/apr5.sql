@@ -20,6 +20,7 @@ insert into student (id, first_name) values
 (4, "Umesh"),
 (5, "Mehul");
 select * from Student;
+alter table student rename to new_student;
 
 drop table if exists student;
 create table if not exists Student(
@@ -44,7 +45,7 @@ CREATE TABLE Articles (
 	datePublished TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
 );
 
-set time_zone = "+05:30";
+-- set time_zone = "+05:30";
 INSERT INTO 
 	Articles ( articleTitle, dateCreated ) 
 VALUES 
@@ -55,4 +56,21 @@ VALUES
 
 select * from articles;
 
-set time_zone = "+00:00";
+set time_zone = "05:30";
+
+drop database if exists school;
+create database if not exists school;
+use school;
+drop table if exists students;
+create table if not exists students (
+	student_id int primary key auto_increment,
+    first_name varchar(255),
+    last_name varchar(255),
+    -- mobile_no bigint
+    mobile_no char(10) unique,
+    subscription timestamp default current_timestamp,
+    is_active char(20) check(is_active in ("active", "inactive", "temporarily inactive")) default "active"
+);
+insert into students(first_name, last_name, is_active) values("Rushir", "Sheth", "active");
+select * from students;
+set time_zone = "+05:30";
