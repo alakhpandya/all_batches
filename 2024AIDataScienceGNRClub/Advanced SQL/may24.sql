@@ -77,6 +77,12 @@ Treat all types of cars just as “Cars”. DO NOT USE ‘LIKE’ IN THIS EXAMPL
 */
 use demo;
 select * from products;
-select product_line, count(*)
+select product_line, count(*) as inventory
 from products
-group by product_line;
+where product_line in ("motorcycles", "trains", "ships")
+group by product_line
+union
+select "Cars" as product_line, count(*)
+from products
+where product_line in ("classic cars", "vintage cars")
+group by "Cars";

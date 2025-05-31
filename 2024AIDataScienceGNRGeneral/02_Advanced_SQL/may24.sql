@@ -41,5 +41,3 @@ t2 as (
 select t1.month_id, avg_sales_2003, avg_sales_2004, round(avg_sales_2004 - avg_sales_2003, 2) as difference
 from t1
 join t2 on t1.month_id = t2.month_id;
-
--- Union & Union All
