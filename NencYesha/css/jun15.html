@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        border: solid red 4px;
+        height: 95vh;
+        /* background-color: black; */
+        background-image: url('/images/dendrobium-8050499_1280.jpg');
+        background-repeat: no-repeat;
+        /* background-size: 100vw 100vh; */
+        /* background-size: contain; */
+        /* background-size: cover; */
+        /* background-size: auto;     Actual size of the image */
+
+        /* background-size: 280px 180px; */
+        /* background-repeat: repeat-x; */
+        /* background-repeat: repeat-y; */
+        /* background-repeat: repeat; */
+        /* background-repeat: round; */
+        /* background-repeat: no-repeat; */
+
+        /* background-position: top left;      default */
+        /* background-position: top right; */
+        /* background-position: top center; */
+        /* background-position: center; */
+
+        /* background-position-x: 200px;
+        background-position-y: 100px; */
+        /* background-position: 100px 50px; */
+
+        /* background: url('/images/dendrobium-8050499_1280.jpg') no-repeat top right/300px 200px; */
+        /* background: url('/images/dendrobium-8050499_1280.jpg') no-repeat center/cover; */
+    }
+    .boxes{
+        border: solid;
+        width: 200px;
+        /* width: 50vw; */
+        /* width: 5rem; */
+        /* height: 50px; */
+        height: 50px;
+        /* height: 2em; */
+        /* height: 2rem; */
+        /* height: 15.5vh; */
+    }
+    
+    #box1{
+        font-size: 30px;
+    }
+    #link1{
+        background-color: darkgreen;
+        color: white;
+        text-decoration: none;
+        /* No inline element takes height/width except <button> & <img> */
+        width: 100px;
+        height: 100px;
+    }
+    #box3{
+        height: 200px;
+        width: 200px;
+        background-color: skyblue;
+    }
+    #box4{
+        /* height: 100px; */
+        height: 75%;
+        width: 150px;
+        background-color: navy;
+    }
+    #box5{
+        /* height: 50px; */
+        height: 75%;
+        width: 100px;
+        background-color: orange;
+    }
+
+    .test{
+        /* border-width: 10px; default: 2px */
+        /* border-color: red; default: font-color */
+        /* border-style: solid; */
+
+        border: solid green 5px;
+
+        /* border: green dashed; */
+        /* border: green dotted; */
+        color: greenyellow;
+    }
+    #btn1{
+        border: none;
+        background-color: skyblue;
+        /* color: white; */
+        height: 1.8em;
+        width: 6em;
+    }
+    .btn-N{
+        background-color: #FF00FF;
+        border: white solid 2px;
+    }
+    .btn-Y{
+        background-color: #FFFF33;
+        border: orangered 2px solid;
+    }
+    #btn2{
+        border-radius: 5px;
+    }
+    #btn3{
+        border-radius: 8px;
+    }
+    #btn4{
+        border-radius: 20px;
+        border-radius: 200px;
+    }
+    #btn5{
+        border-left: 5px solid yellow;
+        border-top: 4px lightblue solid;
+        border-right: lightgrey 6px solid;
+        border-bottom: orange solid 5px;
+    }
+    #btn6{
+        border-top-left-radius: 10px;
+    }
+    #btn7{
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    #btn8{
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 5px;
+    }
+    #btn9{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    #btn10{
+        border-radius: 50%;
+    }
+    #btn11{
+        height: 50px;
+        width: 100px;
+        border-radius: 50%;
+    }
+</style>
+<body>
+    <!--     
+    <div class="boxes" id="box1">Box 1</div>
+    <div class="boxes" id="box2">Box 2</div> <br>
+    <a id="link1" href="#">Link 1</a> <br> <br>
+    <div class="boxes" id="box3">Box 3
+        <div class="boxes" id="box4">Box 4
+            <div class="boxes" id="box5">Box 5</div>
+        </div>
+    </div>
+    <br>
+     -->
+    <div class="container">
+        <div class="test">B1</div> <br>
+        <div><button class="btn" id="btn1">Button 1</button></div> <br>
+        <div><button class="btn-N" id="btn2">Button 2</button></div> <br>
+        <div><button class="btn-N" id="btn3">Button 3</button></div> <br>
+        <div><button class="btn-N" id="btn4">Button 4</button></div> <br>
+        <div><button class="btn-N" id="btn5">Button 5</button></div> <br>
+        <div><button class="btn-N" id="btn6">Button 6</button></div> <br>
+        <div><button class="btn-Y" id="btn7">Button 7</button></div> <br>
+        <div><button class="btn-Y" id="btn8">Button 8</button></div> <br>
+        <div><button class="btn-Y" id="btn9">B-9</button></div> <br>
+        <div><button class="btn-Y" id="btn10">Button 10</button></div> <br>
+        <div><button class="btn-Y" id="btn11">Button 11</button></div>
+    </div>
+</body>
+</html>
+<!-- 
+    Next Class: Gradient color
+ -->

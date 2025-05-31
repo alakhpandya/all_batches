@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midea Queries</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        /* background-color: coral; */
+        /* height: 300px; */
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+    }
+    .subcontainer{
+        width: fit-content;
+        /* border: 2px solid black; */
+        margin: auto;
+    }
+    .boxes {
+        border: 2px solid black;
+        background-color: skyblue;
+        height: 152px;
+        width: 270px;
+        display: inline-block;
+        margin-top: 74px;
+    }
+
+    .boxes img {
+        width: 100%;
+    }
+
+    #item1, #item2, #item3 {
+        display: none;
+    }
+    
+    @media (max-width: 1650px){
+        .boxes{
+            background-color: rgb(3, 121, 247);
+            width: 152px;
+        }
+        /* #box3, #box4{
+            visibility: hidden;
+            display: none;
+        } */
+    }
+    @media (max-width: 1100px) {
+        #item1{
+            display: block;
+        }
+        .container{
+            height: 600px;
+        }
+        .boxes{
+            background-color: blue;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 550px){
+        #item2, #item3{
+            display: block;
+        }
+        .container{
+            height: 1000px;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="subcontainer">
+<!-- 
+            <div class="boxes" id="box1"><img src="/landing_page_skillshare/images/card1.jpg" alt=""></div>
+            <div id="item2"></div>
+            <div class="boxes" id="box2"><img src="/landing_page_skillshare/images/card1.jpg" alt=""></div>
+            <div id="item1"></div>
+            <div class="boxes" id="box3"><img src="/landing_page_skillshare/images/card1.jpg" alt=""></div>
+            <div id="item3"></div>
+            <div class="boxes" id="box4"><img src="/landing_page_skillshare/images/card1.jpg" alt=""></div>
+            <div class="boxes" id="box5"><img src="/landing_page_skillshare/images/card1.jpg" alt=""></div>
+            <div class="boxes" id="box6"><img src="/landing_page_skillshare/images/card1.jpg" alt=""></div>
+         -->
+            <div class="boxes" id="box1">Box1</div>
+            <div class="boxes" id="box2">Box2</div>
+            <div class="boxes" id="box3">Box3</div>
+            <div class="boxes" id="box4">Box4</div>
+            <div class="boxes" id="box5">Box5</div>
+            <div class="boxes" id="box6">Box6</div>
+        </div>
+    </div>
+</body>
+
+</html>

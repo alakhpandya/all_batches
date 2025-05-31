@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: rgb(252, 219, 225);
+        font-family: sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .navbar {
+        background-color: black;
+        height: 4rem;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+
+    .nav-links {
+        color: rgb(236, 236, 236);
+        font-family: sans-serif;
+        font-size: 1.1rem;
+    }
+
+    .nav-links:hover {
+        color: pink;
+    }
+
+    .chatbot{
+        border: solid;
+        width: 200px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: rgb(190, 189, 189);
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    #send-btn{
+        background-color: black;
+        border: none;
+        width: 60px;
+        height: 25px;
+        border-radius: 5px;
+        color: rgb(236, 236, 236);
+        cursor: pointer;
+    }
+    #send-btn:hover{
+        color: pink;
+    }
+
+    .card{
+        margin: auto;
+        border: solid;
+        width: 250px;
+        height: 350px;
+        border-radius: 20px;
+        position: relative;
+    }
+    .upper-card{
+        height: 70%;
+        overflow: hidden;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .card-img{
+        height: 100%;
+        position: relative;
+        right: 75px;
+    }
+    .card-title{
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.3rem;
+        padding: 0.75rem;      /* Ignore this */
+    }
+
+    
+    .price{
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        font-weight: 600;
+    }
+    .mrp{
+        text-decoration: line-through;
+        font-weight: 400;
+    }
+</style>
+
+<body>
+    <div class="navbar">
+        <br>
+        <a href="#" class="nav-links">Home</a> |
+        <a href="#" class="nav-links">About</a> |
+        <a href="#" class="nav-links">Services</a> |
+        <a href="#" class="nav-links">Career</a> |
+        <a href="#" class="nav-links">Contact</a>
+    </div>
+
+    <br><br>
+    <div class="card">
+        <div class="upper-card">
+            <img src="/images/Rajasthan.webp" class="card-img" alt="">
+            <p class="best-seller">Best Seller</p>
+        </div>
+        <div class="lower-card">
+            <h3 class="card-title">Rajasthan - Lorem ipsum dolor sit amet</h3>
+            <p class="price">
+                <span class="discounted_price">₹ 14,999</span>
+                <span class="mrp">₹ 29,999</span> &nbsp;
+            </p>
+        </div>
+    </div>
+
+    <div class="chatbot">
+        <br>
+        <form action="">
+            <div>
+                <input type="text" name="" id="" placeholder="Type your questioin...">
+            </div>
+            <br>
+            <div class="input-box">
+                <input id="send-btn" type="submit" value="Send">
+            </div>
+        </form>
+        <br>
+    </div>
+</body>
+
+</html>

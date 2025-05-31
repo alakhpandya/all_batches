@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // generating a random fraction in the interval [0, 1)
+
+    // let a = Math.random();
+
+    // generating a random fraction in the interval [10, 11)
+    // let a = Math.random() + 10;
+
+    // generating a random fraction in the interval [10, 30)
+    // let a = Math.random()*20 + 10;
+
+    // generating a random integer in the interval [10, 30)
+    // let a = Math.floor(Math.random()*20 + 10);
+
+    // console.log(a); 
+
+    /*
+    generating a random fraction in the interval [3, 7)
+    Math.random()*4 + 3     //         0 * 4 = 0;      0.99999 * 4 = 3.999999....
+    */
+    /*
+    let a = "35";
+    console.log(typeof(a));
+    console.log(a);
+    let b = Number(a);
+    let c = "56.654"
+    let d = Number(c)
+    console.log(b);
+    console.log(typeof(b));
+    console.log(d);
+    console.log(typeof(d));
+    */
+    
+    'use strict';
+
+    let a = "35.6";
+    let b = parseInt(a);
+    console.log(a);
+    console.log(typeof(a));
+    console.log(b);
+    console.log(typeof(b));
+
+    let c = parseFloat(a);
+    console.log(c);
+    console.log(typeof(c));
+
+    console.log(parseInt("10110111", 2));
+
+    // function square(n){
+    //     ans = n * n;
+        // return ans;
+    // }
+
+    var square = (n) => {
+        let ans = n * n;
+        return ans;
+    }
+    console.log(square(c));
+
+    // let avg = (x, y) => {
+    //     return (x + y)/2;
+    // }
+
+    let avg = (x, y) => (x + y)/2;
+    
+</script>
+</html>

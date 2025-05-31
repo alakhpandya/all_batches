@@ -1,0 +1,337 @@
+/* 
+font-family: 'DM Sans', sans-serif;
+font-family: 'Lora', serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700;900&family=Lora:wght@400;700&display=swap');
+
+/* --------------------------CSS Reset-------------------------- */
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* --------------------------Global Classes-------------------------- */
+:root{
+    --normal-fonts: 'DM Sans', sans-serif;
+    --title-fonts: 'Lora', serif;
+    --primary-col: #002333;
+    --secondary-col: #ffffff;
+    --third-col: #3722D3;
+    --btn-col: #00FF84;
+    --ghost-bg: #dfdfdf;
+    /* --primary-col: #bde6f9;
+    --secondary-col: #039b05;
+    --third-col: #f8b10c;
+    --btn-col: #181e9c;
+    --ghost-bg: #dfdfdf; */
+}
+
+body{
+    font-family: var(--normal-fonts);
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-glow{
+    color: var(--btn-col);
+    border: 1px solid var(--btn-col);
+    border-radius: 5px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0.25rem 1.25rem;
+}
+.btn-glow:hover{
+    background-color: var(--btn-col);
+    color: var(--primary-col);
+}
+
+.btn-normal{
+    font-weight: 700;
+    font-size: 18px;
+    background-color: var(--btn-col);
+    color: var(--primary-col);
+    letter-spacing: 1px;
+    padding: 0.8rem 3rem;
+    border-radius: 3px;
+}
+.btn-normal:hover{
+    opacity: 0.9;
+}
+
+.ghost-btn{
+    color: var(--third-col);
+    font-size: 21px;
+    font-weight: 700;
+    padding: 0.5rem;
+}
+
+.ghost-btn:hover{
+    background-color: var(--ghost-bg);
+    border-radius: 5px;
+}
+/* --------------------------Navbar-------------------------- */
+nav{
+    height: 10vh;
+    background-color: var(--primary-col);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vw;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+nav img{
+    height: 9vh;
+}
+
+/* --------------------------Banner-------------------------- */
+
+.banner{
+    /* background-color: var(--primary-col); */
+    /* border: 5px solid white; */
+    padding: 0 18vw 0 10vw;
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    color: var(--secondary-col);
+    height: 90vh;
+}
+
+.banner::before{
+    content: "";
+    background: url("/landing_page_skillshare/images/background.jpg");
+    height: 90vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.banner::after{
+    content: "";
+    background-color: var(--primary-col);
+    height: 90vh;
+    width: 100vw;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    z-index: -2;
+}
+
+.banner h1{
+    font-family: var(--title-fonts);
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.banner h1 + p{
+    font-size: 18px;
+    margin: 1rem 0 2rem;
+    line-height: 1.5rem;
+}
+
+.banner a + p, footer a + p{
+    font-size: 12px;
+    margin-top: 3rem;
+}
+
+/* --------------------------Popular Classes Section-------------------------- */
+.popular-classes{
+    padding: 0 10vw;
+}
+
+.popular-classes h2{
+    margin: 5rem 0 2.2rem;
+}
+
+.classes-container{
+    display: flex;
+    /* gap: 1rem; */
+    justify-content: space-between;
+}
+
+.card-container{
+    /* border: 2px solid red; */
+    width: 250px;
+}
+
+.card-container img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card-container p{
+    font-weight: 900;
+    font-size: 13.5px;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+
+.popular-classes .ghost-btn-container{
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin: 2.2rem 0;
+    margin-left: auto;
+}
+
+/* --------------------------Trainer Section-------------------------- */
+.trainer{
+    background-color: var(--third-col);
+    color: var(--secondary-col);
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem 10vw;
+}
+
+.trainer h2{
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 0.8rem;
+}
+
+.trainer p{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.trainer li{
+    font-size: 16px;
+    margin: 1rem 0 1rem 1rem;
+}
+
+/* --------------------------Feature Section-------------------------- */
+.feature{
+    text-align: center;
+    padding: 5rem 20vw;
+    color: var(--primary-col);
+}
+
+.feature h3{
+    font-family: var(--title-fonts);
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.feature-box-container{
+    display: flex;
+    gap: 6rem;
+}
+
+.feature-box{
+    /* border: 2px solid blue; */
+    margin-top: 5rem;
+}
+
+.feature-box h4{
+    font-size: 18px;
+    margin: 2rem 0 1rem;
+}
+
+.feature-box p{
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.feature-box .icon{
+    font-size: 8rem;
+    opacity: 0.3;
+}
+
+
+/* --------------------------Footer-------------------------- */
+footer{
+    background-color: var(--primary-col);
+    padding: 5rem 30vw;
+    text-align: center;
+    color: var(--secondary-col);
+}
+
+footer .footer-title{
+    font-family: var(--title-fonts);
+    font-size: 48px;
+    margin-bottom: 3rem;
+}
+
+footer .copyright{
+    margin-top: 8rem;
+}
+
+
+/* --------------------------Media Queries-------------------------- */
+@media (max-width: 1250px){
+    nav, .banner, .popular-classes, .trainer, .feature{
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+
+}
+
+@media (max-width: 950px){
+    .banner{
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+    }
+    .trainer{
+        flex-direction: column;
+        padding: 2rem 10vw;
+    }
+    .feature-box-container{
+        gap: 2rem;
+    }
+    .feature-box .icon{
+        font-size: 5rem;
+    }
+    footer{
+        padding: 5rem;
+    }
+}
+
+@media (max-width: 550px){
+    .banner-video{
+        /* border: 4px solid white; */
+        width: 100%;
+    }
+    .banner-video iframe{
+        width: 90%;
+    }
+    .classes-container, .feature-box-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+    .card-container{
+        width: 80%;
+    }
+    footer{
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 390px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        height: 20vh;
+    }
+    .banner::before, .banner::after{
+        height: 100vh;
+    }
+    footer{
+        padding: 2rem 0;
+    }
+}

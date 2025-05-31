@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;600&display=swap');
+
+    body{
+        font-family: 'Inconsolata', monospace;
+        background-color: antiquewhite;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 1.4rem;
+        line-height: 1.5em;
+    }
+    a{
+        text-decoration: none;
+        color: blue;
+        position: relative;
+    }
+    a:hover::after{
+        content: attr(data-message);
+        background-color: black;
+        color: antiquewhite;
+        padding: 0.25rem 0.75rem;
+        font-size: 1rem;
+        border-radius: 5px;
+        position: absolute;
+        white-space: nowrap;
+        bottom: 100%;
+        left: 20%;
+    }
+</style>
+<body>
+    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <a data-message="Subscribe to our channel" href="#">Soluta,</a> ipsa aliquam tenetur molestias officiis error odit numquam fugit commodi laudantium, alias, esse exercitationem id. Eaque, consectetur. Quo voluptatibus mollitia fuga libero obcaecati alias provident, reiciendis aliquid quaerat excepturi hic iure atque error nesciunt cupiditate asperiores, quidem necessitatibus incidunt optio et neque, eaque est quod culpa. Odit, totam laboriosam! Maiores accusamus sit temporibus placeat quae ullam totam nisi? Molestiae quos debitis, corrupti voluptatem dolore modi aliquid voluptate quod quasi, animi culpa corporis facilis ea dolorum natus velit totam rerum explicabo <a data-message="Follow us on twitter" href="#">tempora rem quis?</a> Culpa saepe officiis tenetur fugiat provident, illum delectus doloribus placeat, odit possimus molestiae non modi pariatur neque atque? Iste minus exercitationem voluptas totam veniam eos vel ex eum incidunt id labore aliquid in alias accusamus, suscipit nemo praesentium. Modi sapiente aspernatur consequuntur <a data-message="Like our facebook page" href="#">possimus dignissimos</a> dicta ad quidem? Ullam, ad consequuntur. Quos cupiditate recusandae consequatur tempora dicta fuga nemo molestiae, id iste laudantium dolore earum error voluptates sunt distinctio quia nostrum dolorum aliquid voluptatum vel non. Doloribus aperiam pariatur aliquam rerum suscipit omnis corporis. Fuga veritatis non molestias? Reprehenderit quia, ab minima alias assumenda veritatis, provident sit explicabo tempora quod quos itaque quisquam error doloremque! Voluptatem, assumenda! Distinctio laboriosam placeat magni facere itaque fuga dolore similique culpa quisquam eaque omnis magnam, modi minima quo quibusdam est? Totam odio harum recusandae molestiae illum labore corrupti reprehenderit esse. Sint consectetur eum ab, optio modi quidem soluta dolorem ipsa veniam voluptatum totam facere debitis deleniti, veritatis sequi fugiat. Amet officia <a href="#" data-message="Contribute to our cause">ea accusamus!</a></p>
+</body>
+</html>

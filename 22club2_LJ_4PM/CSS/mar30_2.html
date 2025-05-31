@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .outer{
+        /* color: blueviolet; */
+        /* color: rgb(238, 112, 245); */
+        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        color: rgb(132, 125, 230);
+        /* background-color: #8470E6; */
+        color: orange;
+        position: relative;     /* ignore */
+    }
+    .outer a{
+        color: blueviolet;
+        color: orangered;
+        background-color: black;
+        width: 150px;
+        height: 100px;
+        /* Inline elements don't take height & width except <img> & <button> */
+    }
+    .internal{
+        background-color: rgba(123, 234, 129, 0.8);
+        height: 250px;
+        width: 75%;
+        color: black;
+    }
+    img{
+        height: 300px;
+        position: absolute;     /* ignore */
+        left: 0;      /* ignore */
+        top: 0;          /* ignore */
+        z-index: -1;         /* ignore */
+    }
+    
+</style>
+<body>
+    <div class="outer">
+        Outer Box
+        <a href="#">link 1</a>
+        <img src="/photos/motor-yacht-gd5f2214fb_1920.jpg" alt="">
+        <br><br>
+        <div class="internal">Internal Box</div>
+        <br><br>
+    </div>
+</body>
+</html>

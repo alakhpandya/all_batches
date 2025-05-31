@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // var pets = ['dog', 'chicken', 'cat', 'dog', 'chicken', 'chicken', 'rabbit'];
+    
+    // function long_names (name){
+    // let long_names = (name) => {
+    //     if (name.length > 3){
+    //         return true;
+    //     }
+    //     return false;
+    // }
+
+    // let animals_with_long_names = pets.filter(long_names);  // call back functions
+    // console.log(animals_with_long_names);
+
+    // using arrow functions as call back functions
+    /*
+    let long_names = pets.filter((name) => {
+        if (name.length > 3){
+            return true;
+        }
+        return false;
+    })
+
+    console.log(long_names);
+    */
+    // default arguments:
+    /*
+    const price = (rate, qty, discount=0, coupon_discount=0) => {
+        amount = rate * qty;
+        amount = amount - (amount * discount/100);
+        amount = amount - (amount * coupon_discount/100);
+        return amount;
+    }
+
+    console.log(price(1000, 3, 10));
+    console.log(price(1000, 3));
+    console.log(price(1000, 3, 10, 10));
+    */
+
+    // variable length arguments
+    /*
+    'use strict';
+    const avg = (a, b=20, ...numbers) => {
+        console.log(a);
+        console.log(b);
+        console.log(numbers);
+        // console.log(numbers.length);
+        let sum = 0;
+        let i = 0;
+        while (i < numbers.length){
+            sum += numbers[i];
+            i++;
+        }
+        // return sum/numbers.length;
+        return sum;
+    }
+    // avg(10, 20, 30, 40);
+    // console.log(avg(10, 20, 30, 40));
+    // console.log(avg(10, 30));
+    console.log(avg(10, 30, 50, 90));
+
+    let a = ['mumbai', 'surat', 'bangalore', 'delhi', 'chennai', 'ahmedabad'];
+    // let b = a;
+    let b = [...a];
+    console.log(a);
+    console.log(b);
+    a.pop();
+    console.log(a);
+    console.log(b);
+    */
+
+    // Destructuring Assignment
+    let result = {"Maths":85, "Physics":90, "Computers":93};
+
+    // let Maths = result["Maths"];
+    // let Physics = result["Physics"];
+    // let Computers = result["Computers"];
+
+    // let {Maths, Physics, Computers} = result;
+    // console.log(Maths);
+    // console.log(Physics);
+    // console.log(Computers);
+
+    let {Computers} = result;
+    console.log(Computers);
+
+    /*
+    json: javascript object notation- forecast
+
+    let {temperature} = forecast;
+    */
+</script>
+</html>

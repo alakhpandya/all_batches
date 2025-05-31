@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*     
+    span{
+        background-color: orange;
+    }
+    .green{
+        background-color: green;
+        color: white;
+    } 
+    */
+    /* Pseudo elements: before & after */
+    h1{
+        text-align: center;
+    }
+    h1::before{
+        content: "I";
+        background-color: orange;
+        display: block;
+        height: 2.2rem;
+    }
+    h1::after{
+        content: "India";
+        background-color: green;
+        color: white;
+        display: block;
+        height: 2.2rem;
+    }
+</style>
+<body>
+    <!-- <h1>
+        <span>I </span>
+        Love
+        <span class="green"> India</span>
+    </h1> -->
+
+    <h1>Love</h1>
+</body>
+</html>

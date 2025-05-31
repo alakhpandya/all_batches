@@ -1,0 +1,72 @@
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.tesla-icon-navbar {
+  height: 12.5px;
+}
+
+/*
+.example {
+  border: solid red;
+  padding: 10px;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  justify-content: flex-end;
+  justify-content: flex-start;
+  justify-content: space-between;
+}
+.child {
+  height: 20px;
+  width: 100px;
+  background-color: beige;
+  border: solid;
+}
+*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.nav-menu {
+  display: flex;
+  gap: 3rem;
+}
+.nav-link {
+  color: rgb(23, 26, 32);
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.user-options {
+  display: flex;
+  gap: 0.75rem;
+}
+.nav-icons {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.nav-bg {
+  width: 100%;
+  position: absolute;
+  top: -105px;
+  left: 0;
+  z-index: -1;
+}

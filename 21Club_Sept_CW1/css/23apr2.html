@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+/*     
+    p{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    p::before{
+        content: "I";
+        display: block;
+        background-color: orangered;
+    }
+    p::after{
+        content: "India";
+        display: block;
+        background-color: green;
+    }
+     */
+     body{
+         /* background-color: black; */
+         /* background-color: darkred; */
+         background-color: darkblue;
+     }
+     .banner h1{
+         font-size: 3rem;
+         color: white;
+     }
+     .banner p{
+         font-size: 2rem;
+         color: white;
+     }
+    .banner::before{
+        content: "";
+        background: url("img/bg1.jpg");
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.5;
+    }
+</style>
+<body>
+    <!-- <p>Love</p> -->
+    <div class="banner">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h1>Best Pizzas in Ahmedabad</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, sapiente!</p>
+    </div>
+</body>
+</html>

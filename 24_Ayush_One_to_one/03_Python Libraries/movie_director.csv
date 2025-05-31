@@ -1,0 +1,1466 @@
+,movie_id,budget,popularity,revenue,title,vote_average,vote_count,director_id,year,month,day,director_name,gender
+0,43597,237.0,150,2787.965087,Avatar,7.2,11800,4762,2009,Dec,Thursday,James Cameron,Male
+1,43598,300.0,139,961.0,Pirates of the Caribbean: At World's End,6.9,4500,4763,2007,May,Saturday,Gore Verbinski,Male
+2,43599,245.0,107,880.674609,Spectre,6.3,4466,4764,2015,Oct,Monday,Sam Mendes,Male
+3,43600,250.0,112,1084.939099,The Dark Knight Rises,7.6,9106,4765,2012,Jul,Monday,Christopher Nolan,Male
+4,43602,258.0,115,890.871626,Spider-Man 3,5.9,3576,4767,2007,May,Tuesday,Sam Raimi,Male
+5,43606,250.0,155,873.260194,Batman v Superman: Dawn of Justice,5.7,7004,4771,2016,Mar,Wednesday,Zack Snyder,Male
+6,43607,270.0,57,391.081192,Superman Returns,5.4,1400,4772,2006,Jun,Wednesday,Bryan Singer,Male
+7,43608,200.0,107,586.090727,Quantum of Solace,6.1,2965,4773,2008,Oct,Thursday,Marc Forster,Male
+8,43609,200.0,145,1065.659812,Pirates of the Caribbean: Dead Man's Chest,7.0,5246,4763,2006,Jun,Tuesday,Gore Verbinski,Male
+9,43610,255.0,49,89.28991,The Lone Ranger,5.9,2311,4763,2013,Jul,Wednesday,Gore Verbinski,Male
+10,43611,225.0,99,662.845518,Man of Steel,6.5,6359,4771,2013,Jun,Wednesday,Zack Snyder,Male
+11,43612,225.0,53,419.651413,The Chronicles of Narnia: Prince Caspian,6.3,1630,4774,2008,May,Thursday,Andrew Adamson,Male
+12,43614,380.0,135,1045.713802,Pirates of the Caribbean: On Stranger Tides,6.4,4948,4775,2011,May,Saturday,Rob Marshall,Male
+13,43615,225.0,52,624.026776,Men in Black 3,6.2,4160,4776,2012,May,Wednesday,Barry Sonnenfeld,Male
+14,43616,250.0,120,956.019788,The Hobbit: The Battle of the Five Armies,7.1,4760,4777,2014,Dec,Wednesday,Peter Jackson,Male
+15,43618,200.0,37,310.66954,Robin Hood,6.2,1398,4779,2010,May,Wednesday,Ridley Scott,Male
+16,43619,250.0,94,958.4,The Hobbit: The Desolation of Smaug,7.6,4524,4777,2013,Dec,Wednesday,Peter Jackson,Male
+17,43620,180.0,42,372.234864,The Golden Compass,5.8,1303,4780,2007,Dec,Tuesday,Chris Weitz,
+18,43621,207.0,61,550.0,King Kong,6.6,2337,4777,2005,Dec,Wednesday,Peter Jackson,Male
+19,43622,200.0,100,1845.034188,Titanic,7.5,7562,4762,1997,Nov,Tuesday,James Cameron,Male
+20,43624,209.0,64,303.025485,Battleship,5.5,2114,4782,2012,Apr,Wednesday,Peter Berg,Male
+21,43626,200.0,93,1108.561013,Skyfall,6.9,7604,4764,2012,Oct,Thursday,Sam Mendes,Male
+22,43627,200.0,35,783.766341,Spider-Man 2,6.7,4321,4767,2004,Jun,Friday,Sam Raimi,Male
+23,43629,200.0,78,1025.49111,Alice in Wonderland,6.4,4645,4785,2010,Mar,Wednesday,Tim Burton,Male
+24,43630,210.0,3,459.359555,X-Men: The Last Stand,6.3,3525,4786,2006,May,Wednesday,Brett Ratner,Male
+25,43632,150.0,21,836.297228,Transformers: Revenge of the Fallen,6.0,3138,4788,2009,Jun,Friday,Michael Bay,Male
+26,43633,210.0,116,1091.405097,Transformers: Age of Extinction,5.8,3095,4788,2014,Jun,Wednesday,Michael Bay,Male
+27,43634,200.0,46,491.868548,Oz: The Great and Powerful,5.7,3530,4767,2013,Mar,Thursday,Sam Raimi,Male
+28,43638,200.0,51,219.851172,Green Lantern,5.1,2487,4791,2011,Jun,Thursday,Martin Campbell,Male
+29,43640,200.0,71,371.353001,Terminator Salvation,5.9,2463,4793,2009,May,Wednesday,McG,Male
+30,43641,190.0,102,1506.24936,Furious 7,7.3,4176,4794,2015,Apr,Wednesday,James Wan,Male
+31,43642,200.0,81,531.865,World War Z,6.7,5560,4773,2013,Jun,Thursday,Marc Forster,Male
+32,43643,250.0,118,747.862775,X-Men: Days of Future Past,7.5,6032,4772,2014,May,Thursday,Bryan Singer,Male
+33,43645,195.0,43,197.687603,Jack the Giant Slayer,5.5,2598,4772,2013,Feb,Wednesday,Bryan Singer,Male
+34,43647,150.0,62,335.154643,Prince of Persia: The Sands of Time,6.2,2317,4797,2010,May,Wednesday,Mike Newell,Male
+35,43648,180.0,56,407.602906,Pacific Rim,6.7,4794,4798,2013,Jul,Thursday,Guillermo del Toro,Male
+36,43649,195.0,28,1123.746996,Transformers: Dark of the Moon,6.1,3299,4788,2011,Jun,Tuesday,Michael Bay,Male
+37,43650,185.0,75,786.636033,Indiana Jones and the Kingdom of the Crystal Skull,5.7,2495,4799,2008,May,Wednesday,Steven Spielberg,Male
+38,43653,185.0,65,343.471816,Star Trek Beyond,6.6,2568,4802,2016,Jul,Thursday,Justin Lin,
+39,43655,140.0,22,258.022233,Rush Hour 3,6.1,783,4786,2007,Aug,Wednesday,Brett Ratner,Male
+40,43656,200.0,45,769.653595,2012,5.6,4903,4803,2009,Oct,Saturday,Roland Emmerich,Male
+41,43657,200.0,39,325.233863,A Christmas Carol,6.6,1095,4804,2009,Nov,Wednesday,Robert Zemeckis,Male
+42,43658,176.000003,85,183.987723,Jupiter Ascending,5.2,2768,4805,2015,Feb,Wednesday,Lilly Wachowski,Female
+43,43660,180.0,67,748.806957,"The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",6.7,2629,4774,2005,Dec,Wednesday,Andrew Adamson,Male
+44,43661,178.0,139,543.934787,X-Men: Apocalypse,6.4,4721,4772,2016,May,Wednesday,Bryan Singer,Male
+45,43662,185.0,187,1004.558444,The Dark Knight,8.2,12002,4765,2008,Jul,Wednesday,Christopher Nolan,Male
+46,43665,140.0,120,585.174222,Iron Man,7.4,8776,4808,2008,Apr,Wednesday,Jon Favreau,Male
+47,43666,170.0,32,185.77016,Hugo,7.0,2141,4809,2011,Nov,Tuesday,Martin Scorsese,Male
+48,43667,170.0,40,222.104681,Wild Wild West,5.1,1020,4776,1999,Jun,Tuesday,Barry Sonnenfeld,Male
+49,43668,145.0,60,401.128639,The Mummy: Tomb of the Dragon Emperor,5.2,1387,4810,2008,Jul,Tuesday,Rob Cohen,Male
+50,43669,175.0,90,745.0,Suicide Squad,5.9,7458,4811,2016,Aug,Tuesday,David Ayer,
+51,43670,175.0,27,173.0,Evan Almighty,5.3,1151,4812,2007,Jun,Saturday,Tom Shadyac,Male
+52,43671,178.0,79,370.541256,Edge of Tomorrow,7.6,4858,4813,2014,May,Tuesday,Doug Liman,Male
+53,43672,175.0,44,264.21822,Waterworld,5.9,992,4814,1995,Jul,Friday,Kevin Reynolds,
+54,43675,175.0,94,966.5506,The Jungle Book,6.7,2892,4808,2016,Apr,Thursday,Jon Favreau,Male
+55,43676,200.0,77,623.933331,Iron Man 2,6.6,6849,4808,2010,Apr,Wednesday,Jon Favreau,Male
+56,43687,165.0,47,305.87573,The Polar Express,6.4,1474,4804,2004,Nov,Wednesday,Robert Zemeckis,Male
+57,43688,165.0,48,389.681935,Independence Day: Resurgence,4.9,2491,4803,2016,Jun,Wednesday,Roland Emmerich,Male
+58,43692,165.0,724,675.120017,Interstellar,8.1,10867,4765,2014,Nov,Wednesday,Christopher Nolan,Male
+59,43693,160.0,167,825.532764,Inception,8.1,13752,4765,2010,Jul,Wednesday,Christopher Nolan,Male
+60,43695,250.0,108,1021.103568,The Hobbit: An Unexpected Journey,7.0,8297,4777,2012,Nov,Monday,Peter Jackson,Male
+61,43696,38.0,6,207.283925,The Fast and the Furious,6.6,3428,4810,2001,Jun,Friday,Rob Cohen,Male
+62,43697,150.0,60,333.932083,The Curious Case of Benjamin Button,7.3,3292,4829,2008,Nov,Monday,David Fincher,Male
+63,43699,160.0,127,653.428261,The Hunger Games: Mockingjay - Part 2,6.6,3984,4831,2015,Nov,Wednesday,Francis Lawrence,Male
+64,43700,150.0,35,215.283742,The Sorcerer's Apprentice,5.8,1470,4832,2010,Jul,Tuesday,Jon Turteltaub,Male
+65,43701,160.0,21,181.674817,Poseidon,5.5,583,4833,2006,May,Friday,Wolfgang Petersen,Male
+66,43706,155.0,49,415.686217,The Chronicles of Narnia: The Voyage of the Dawn Treader,6.2,1514,4838,2010,Aug,Friday,Michael Apted,Male
+67,43707,140.0,34,449.220945,Pearl Harbor,6.6,1791,4788,2001,May,Monday,Michael Bay,Male
+68,43708,150.0,25,709.70978,Transformers,6.6,4040,4788,2007,Jun,Wednesday,Michael Bay,Male
+69,43709,155.0,39,167.298192,Alexander,5.6,927,4839,2004,Nov,Sunday,Oliver Stone,Male
+70,43711,150.0,101,895.921036,Harry Potter and the Goblet of Fire,7.5,5608,4797,2005,Nov,Saturday,Mike Newell,Male
+71,43712,150.0,56,624.029371,Hancock,6.2,2961,4782,2008,Jul,Tuesday,Peter Berg,Male
+72,43713,150.0,70,585.34901,I Am Legend,6.9,4853,4831,2007,Dec,Friday,Francis Lawrence,Male
+73,43714,150.0,53,474.968763,Charlie and the Chocolate Factory,6.7,3624,4785,2005,Jul,Wednesday,Tim Burton,Male
+74,43716,150.0,115,374.218673,Batman Begins,7.5,7359,4765,2005,Jun,Friday,Christopher Nolan,Male
+75,43718,150.0,81,413.10617,Night at the Museum: Battle of the Smithsonian,5.9,1971,4842,2009,May,Wednesday,Shawn Levy,Male
+76,43720,150.0,73,424.988211,The Matrix Revolutions,6.4,3096,4805,2003,Nov,Wednesday,Lilly Wachowski,Female
+77,43722,150.0,70,738.599701,The Matrix Reloaded,6.7,3443,4805,2003,May,Thursday,Lilly Wachowski,Female
+78,43724,150.0,434,378.85834,Mad Max: Fury Road,7.2,9427,4845,2015,May,Wednesday,George Miller,Male
+79,43725,150.0,67,356.613439,Angels & Demons,6.5,2129,4846,2009,May,Wednesday,Ron Howard,Male
+80,43726,150.0,86,449.326618,Thor,6.6,6525,4847,2011,Apr,Thursday,Kenneth Branagh,Male
+81,43729,150.0,44,301.0,Wrath of the Titans,5.5,1431,4849,2012,Mar,Tuesday,Jonathan Liebesman,
+82,43730,150.0,50,245.527149,Dark Shadows,5.7,2320,4785,2012,May,Tuesday,Tim Burton,Male
+83,43735,150.0,33,318.502923,The Last Airbender,4.7,1151,4854,2010,Jun,Wednesday,M. Night Shyamalan,Male
+84,43737,150.0,39,205.366737,White House Down,6.4,1891,4803,2013,Jun,Thursday,Roland Emmerich,Male
+85,43740,150.0,48,128.38832,Pan,5.9,954,4857,2015,Sep,Thursday,Joe Wright,Male
+86,43741,145.0,38,272.91243,Mr. Peabody & Sherman,6.7,843,4858,2014,Feb,Friday,Rob Minkoff,Male
+87,43742,175.0,66,497.409852,Troy,6.9,2759,4833,2004,May,Thursday,Wolfgang Petersen,Male
+88,43744,140.0,54,431.971116,Die Another Day,5.8,1092,4859,2002,Nov,Sunday,Lee Tamahori,Male
+89,43746,140.0,58,553.799566,Armageddon,6.4,2482,4788,1998,Jul,Wednesday,Michael Bay,Male
+90,43747,140.0,91,441.818803,Men in Black II,6.0,3114,4776,2002,Jul,Wednesday,Barry Sonnenfeld,Male
+91,43748,70.0,35,195.735876,Beowulf,5.5,841,4804,2007,Nov,Monday,Robert Zemeckis,Male
+92,43753,140.0,52,456.758981,The Last Samurai,7.3,1895,4863,2003,Dec,Friday,Edward Zwick,Male
+93,43754,140.0,101,268.031828,Exodus: Gods and Kings,5.6,1921,4779,2014,Dec,Wednesday,Ridley Scott,Male
+94,43756,139.0,82,821.708551,Spider-Man,6.8,5265,4767,2002,May,Wednesday,Sam Raimi,Male
+95,43758,140.0,56,150.680864,Gods of Egypt,5.3,1277,4865,2016,Feb,Thursday,Alex Proyas,Male
+96,43759,135.0,17,76.932943,Stealth,4.9,331,4810,2005,Jul,Thursday,Rob Cohen,Male
+97,43760,130.0,64,185.258983,Watchmen,7.0,2811,4771,2009,Mar,Thursday,Zack Snyder,Male
+98,43761,140.0,24,285.444603,Lethal Weapon 4,6.3,767,4866,1998,Jul,Friday,Richard Donner,Male
+99,43762,137.0,34,245.36048,Hulk,5.3,1533,4867,2003,Jun,Thursday,Ang Lee,Male
+100,43763,130.0,59,371.876278,G.I. Joe: Retaliation,5.4,3025,4868,2013,Mar,Tuesday,Jon M. Chu,Male
+101,43767,135.0,39,361.8324,The World Is Not Enough,6.0,862,4838,1999,Nov,Monday,Michael Apted,Male
+102,43769,120.0,99,829.0,The Twilight Saga: Breaking Dawn - Part 2,6.1,2553,4872,2012,Nov,Tuesday,Bill Condon,Male
+103,43770,130.0,17,150.406466,Happy Feet Two,5.8,373,4845,2011,Nov,Thursday,George Miller,Male
+104,43771,150.0,62,163.712074,The Incredible Hulk,6.1,3021,4873,2008,Jun,Thursday,Louis Leterrier,Male
+105,43772,140.0,44,183.345589,The BFG,6.0,1000,4799,2016,Jun,Wednesday,Steven Spielberg,Male
+106,43773,135.0,100,532.950503,The Revenant,7.3,6396,4874,2015,Dec,Friday,Alejandro González Iñárritu,Male
+107,43775,135.0,29,245.724603,Rango,6.6,2051,4763,2011,Mar,Wednesday,Gore Verbinski,Male
+108,43777,70.0,45,442.824138,The Bourne Ultimatum,7.3,2888,4876,2007,Aug,Friday,Paul Greengrass,Male
+109,43780,130.0,76,847.423452,The Hunger Games: Catching Fire,7.4,6495,4831,2013,Nov,Friday,Francis Lawrence,Male
+110,43782,132.0,48,591.739379,War of the Worlds,6.2,2322,4799,2005,Jun,Tuesday,Steven Spielberg,Male
+111,43783,130.0,38,273.339556,Bad Boys II,6.3,1564,4788,2003,Jul,Friday,Michael Bay,Male
+112,43785,110.0,48,293.329073,Salt,6.2,2093,4880,2010,Jul,Wednesday,Phillip Noyce,Male
+113,43786,125.0,46,362.637473,Noah,5.6,2350,4881,2014,Mar,Thursday,Darren Aronofsky,Male
+114,43787,130.0,89,371.940071,The Adventures of Tintin,6.7,2061,4799,2011,Oct,Tuesday,Steven Spielberg,Male
+115,43790,130.0,42,243.843127,After Earth,5.0,2532,4854,2013,May,Thursday,M. Night Shyamalan,Male
+116,43792,127.0,115,349.424282,Night at the Museum: Secret of the Tomb,6.1,1851,4842,2014,Dec,Wednesday,Shawn Levy,Male
+117,43794,125.0,109,976.47555,Harry Potter and the Philosopher's Stone,7.5,7006,4885,2001,Nov,Friday,Chris Columbus,Male
+118,43795,130.0,39,61.6485,R.I.P.D.,5.4,1260,4886,2013,Jul,Thursday,Robert Schwentke,Male
+119,43796,140.0,271,655.011224,Pirates of the Caribbean: The Curse of the Black Pearl,7.5,6985,4763,2003,Jul,Wednesday,Gore Verbinski,Male
+120,43797,125.0,206,752.100229,The Hunger Games: Mockingjay - Part 1,6.6,5584,4831,2014,Nov,Tuesday,Francis Lawrence,Male
+121,43798,125.0,45,767.820459,The Da Vinci Code,6.5,2704,4846,2006,May,Wednesday,Ron Howard,Male
+122,43800,110.0,2,407.711549,X2,6.8,3506,4772,2003,Apr,Thursday,Bryan Singer,Male
+123,43801,125.0,7,626.137675,Fast Five,7.1,2438,4802,2011,Apr,Wednesday,Justin Lin,
+124,43802,125.0,81,334.615,Sherlock Holmes: A Game of Shadows,7.0,3886,4888,2011,Nov,Tuesday,Guy Ritchie,Male
+125,43803,125.0,47,232.713139,Clash of the Titans,5.6,2233,4873,2010,Apr,Thursday,Louis Leterrier,Male
+126,43804,65.0,43,261.317921,Total Recall,7.1,1710,4889,1990,Jun,Friday,Paul Verhoeven,Male
+127,43805,160.0,27,61.698899,The 13th Warrior,6.4,510,4890,1999,Aug,Friday,John McTiernan,
+128,43807,125.0,50,238.207122,Batman & Robin,4.2,1418,4892,1997,Jun,Friday,Joel Schumacher,Male
+129,43808,123.0,45,345.141403,How the Grinch Stole Christmas,6.2,1386,4846,2000,Nov,Friday,Ron Howard,Male
+130,43809,125.0,41,544.272402,The Day After Tomorrow,6.2,2392,4803,2004,May,Wednesday,Roland Emmerich,Male
+131,43810,125.0,54,546.388105,Mission: Impossible II,5.9,1928,4893,2000,May,Wednesday,John Woo,Male
+132,43811,120.0,25,325.756637,The Perfect Storm,6.2,597,4833,2000,Mar,Wednesday,Wolfgang Petersen,Male
+133,43812,130.0,60,289.047763,Fantastic 4: Rise of the Silver Surfer,5.4,2589,4894,2007,Jun,Wednesday,Tim Story,Male
+134,43813,120.0,51,609.016565,Life of Pi,7.2,5797,4867,2012,Nov,Tuesday,Ang Lee,Male
+135,43815,120.0,62,415.484914,Jason Bourne,5.9,2341,4876,2016,Jul,Wednesday,Paul Greengrass,Male
+136,43816,120.0,33,259.175788,Charlie's Angels: Full Throttle,5.2,914,4793,2003,Jun,Friday,McG,Male
+137,43817,130.0,68,403.170142,Prometheus,6.3,5080,4779,2012,May,Wednesday,Ridley Scott,Male
+138,43818,120.0,27,169.956806,Stuart Little 2,5.4,613,4858,2002,Jul,Friday,Rob Minkoff,Male
+139,43822,120.0,17,93.945766,Speed Racer,5.7,354,4805,2008,May,Friday,Lilly Wachowski,Female
+140,43824,117.0,44,261.930431,Knight and Day,5.9,1547,4900,2010,Jun,Tuesday,James Mangold,Male
+141,43829,120.0,15,415.440673,The Wolverine,6.3,4053,4900,2013,Jul,Tuesday,James Mangold,Male
+142,43833,115.0,18,77.628265,Windtalkers,5.8,341,4893,2002,Jun,Friday,John Woo,Male
+143,43835,125.0,143,477.2,Teenage Mutant Ninja Turtles,5.8,2636,4849,2014,Aug,Thursday,Jonathan Liebesman,
+144,43837,116.0,16,178.12776,Dante's Peak,5.7,428,4904,1997,Feb,Friday,Roger Donaldson,Male
+145,43840,110.0,48,574.480841,Night at the Museum,6.3,2862,4842,2006,Oct,Friday,Shawn Levy,Male
+146,43843,110.0,23,215.294342,The Patriot,6.8,1099,4803,2000,Jun,Wednesday,Roland Emmerich,Male
+147,43844,110.0,76,362.74428,Ocean's Twelve,6.4,2124,4909,2004,Dec,Thursday,Steven Soderbergh,Male
+148,43845,110.0,44,478.20752,Mr. & Mrs. Smith,6.5,2965,4813,2005,Jun,Tuesday,Doug Liman,Male
+149,43846,110.0,103,295.238201,Insurgent,6.2,3829,4886,2015,Mar,Wednesday,Robert Schwentke,Male
+150,43847,116.0,45,102.0,The Aviator,7.0,1489,4809,2004,Dec,Friday,Martin Scorsese,Male
+151,43851,110.0,36,563.749323,The Smurfs,5.5,1179,4913,2011,Jul,Friday,Raja Gosnell,Male
+152,43853,110.0,86,179.246868,Allegiant,5.9,1998,4886,2016,Mar,Wednesday,Robert Schwentke,Male
+153,43854,110.0,37,299.268508,Real Steel,6.6,2692,4842,2011,Sep,Wednesday,Shawn Levy,Male
+154,43855,105.0,32,347.434178,The Smurfs 2,5.5,695,4913,2013,Jul,Tuesday,Raja Gosnell,Male
+155,43856,160.0,23,164.508066,Speed 2: Cruise Control,4.1,434,4915,1997,Jun,Friday,Jan de Bont,Male
+156,43859,93.0,138,871.368364,The Lord of the Rings: The Fellowship of the Ring,8.0,8705,4777,2001,Dec,Tuesday,Peter Jackson,Male
+157,43860,110.0,22,72.178895,Around the World in 80 Days,5.7,672,4917,2004,Jun,Wednesday,Frank Coraci,Male
+158,43861,107.0,18,87.713825,Ali,6.7,447,4918,2001,Dec,Tuesday,Michael Mann,Male
+159,43863,120.0,95,347.234916,"I, Robot",6.7,3793,4865,2004,Jul,Thursday,Alex Proyas,Male
+160,43864,130.0,44,211.643158,Kingdom of Heaven,6.6,1157,4779,2005,May,Tuesday,Ridley Scott,Male
+161,43865,133.0,30,300.135367,Stuart Little,5.8,959,4858,1999,Dec,Friday,Rob Minkoff,Male
+162,43867,108.0,167,630.16189,The Martian,7.6,7268,4779,2015,Sep,Wednesday,Ridley Scott,Male
+163,43868,126.0,37,162.949164,The Island,6.5,1770,4788,2005,Jul,Wednesday,Michael Bay,Male
+164,43869,90.0,1,10.372291,Town & Country,3.7,16,4921,2001,Apr,Friday,Peter Chelsom,Male
+165,43871,103.0,95,457.640427,Gladiator,7.9,5439,4779,2000,May,Monday,Ridley Scott,Male
+166,43872,102.0,65,358.372926,Minority Report,7.1,2608,4799,2002,Jun,Thursday,Steven Spielberg,Male
+167,43873,100.0,132,876.688482,Harry Potter and the Chamber of Secrets,7.4,5815,4885,2002,Nov,Wednesday,Chris Columbus,Male
+168,43874,150.0,88,599.04596,Casino Royale,7.3,3855,4791,2006,Nov,Tuesday,Martin Campbell,Male
+169,43875,100.0,51,362.21174,Planet of the Apes,5.6,1243,4785,2001,Jul,Wednesday,Tim Burton,Male
+170,43876,100.0,101,520.0,Terminator 2: Judgment Day,7.7,4185,4762,1991,Jul,Monday,James Cameron,Male
+171,43877,80.0,33,214.10462,Public Enemies,6.5,1344,4918,2009,Jul,Wednesday,Michael Mann,Male
+172,43878,100.0,42,266.465037,American Gangster,7.4,1502,4779,2007,Nov,Friday,Ridley Scott,Male
+173,43879,115.0,38,378.882411,True Lies,6.8,1116,4762,1994,Jul,Thursday,James Cameron,Male
+174,43880,100.0,40,150.166126,The Taking of Pelham 1 2 3,6.2,954,4923,2009,Jun,Thursday,Tony Scott,Male
+175,43881,100.0,32,310.650585,Little Fockers,5.4,1060,4924,2010,Dec,Tuesday,Paul Weitz,Male
+176,43882,100.0,24,170.432927,The Other Guys,6.1,1383,4925,2010,Aug,Friday,Adam McKay,Male
+177,43883,100.0,24,242.295562,Eraser,5.6,543,4926,1996,Jun,Friday,Chuck Russell,Male
+178,43884,100.0,82,425.368238,Django Unchained,7.8,10099,4927,2012,Dec,Tuesday,Quentin Tarantino,Male
+179,43887,100.0,53,312.573423,The Expendables 2,6.1,2896,4930,2012,Aug,Wednesday,Simon West,Male
+180,43888,100.0,58,347.451894,National Treasure,6.4,1926,4832,2004,Nov,Friday,Jon Turteltaub,Male
+181,43893,100.0,20,211.989043,End of Days,5.5,482,4935,1999,Nov,Wednesday,Peter Hyams,Male
+182,43894,100.0,52,170.877916,Blood Diamond,7.3,2281,4863,2006,Dec,Thursday,Edward Zwick,Male
+183,43895,100.0,95,392.000694,The Wolf of Wall Street,7.9,6571,4809,2013,Dec,Wednesday,Martin Scorsese,Male
+184,43896,100.0,48,336.529144,Batman Forever,5.2,1498,4892,1995,May,Wednesday,Joel Schumacher,Male
+185,43897,105.0,58,121.214377,Starship Troopers,6.7,1560,4889,1997,Nov,Thursday,Paul Verhoeven,Male
+186,43898,102.0,73,130.482868,Cloud Atlas,6.6,2977,4936,2012,Oct,Friday,Tom Tykwer,Male
+187,43899,80.0,37,140.07339,Legend of the Guardians: The Owls of Ga'Hoole,6.5,703,4771,2010,Jul,Saturday,Zack Snyder,Male
+188,43901,100.0,76,243.4,Hercules,5.6,1680,4786,2014,Jul,Wednesday,Brett Ratner,Male
+189,43907,100.0,50,93.820758,In the Heart of the Sea,6.5,1276,4846,2015,Nov,Friday,Ron Howard,Male
+190,43909,100.0,30,94.882889,Green Zone,6.4,717,4876,2010,Mar,Thursday,Paul Greengrass,Male
+191,43913,100.0,46,193.772504,Gangs of New York,7.1,1910,4809,2002,Dec,Saturday,Martin Scorsese,Male
+192,43914,94.0,12,95.311434,The Flowers of War,7.1,187,4945,2011,Dec,Thursday,Zhang Yimou,Male
+193,43916,90.0,19,102.0,The Stepford Wives,5.4,334,4947,2004,Jun,Thursday,Frank Oz,Male
+194,43917,92.0,44,172.989651,Black Hawk Down,7.2,1811,4779,2001,Dec,Friday,Ridley Scott,Male
+195,43918,0.0,16,104.907746,The Campaign,5.6,578,4948,2012,Aug,Thursday,Jay Roach,Male
+196,43919,90.0,109,263.92018,The Fifth Element,7.3,3885,4949,1997,May,Wednesday,Luc Besson,Male
+197,43923,95.0,101,543.514353,Cinderella,6.7,2374,4847,2015,Mar,Thursday,Kenneth Branagh,Male
+198,43924,65.0,29,93.525586,The Lovely Bones,6.6,1065,4777,2009,Dec,Saturday,Peter Jackson,Male
+199,43926,94.0,123,1118.888979,The Lord of the Rings: The Return of the King,8.1,8064,4777,2003,Dec,Monday,Peter Jackson,Male
+200,43927,79.0,106,926.2874,The Lord of the Rings: The Two Towers,8.0,7487,4777,2002,Dec,Wednesday,Peter Jackson,Male
+201,43929,115.0,41,274.70334,Lara Croft: Tomb Raider,5.7,2192,4930,2001,Jun,Monday,Simon West,Male
+202,43933,90.0,21,162.839667,The Spiderwick Chronicles,6.3,572,4955,2008,Feb,Thursday,Mark Waters,Male
+203,43937,98.0,7,10.017322,Cutthroat Island,5.7,136,4958,1995,Dec,Friday,Renny Harlin,Male
+204,43938,95.0,61,226.497209,Percy Jackson & the Olympians: The Lightning Thief,6.0,2010,4885,2010,Feb,Monday,Chris Columbus,Male
+205,43939,90.0,104,589.390539,Men in Black,6.9,4412,4776,1997,Jul,Wednesday,Barry Sonnenfeld,Male
+206,43941,100.0,37,167.805466,Unstoppable,6.3,1165,4923,2010,Nov,Thursday,Tony Scott,Male
+207,43942,90.0,35,347.325802,Rush Hour 2,6.4,1054,4786,2001,Aug,Friday,Brett Ratner,Male
+208,43943,100.0,15,155.464351,What Lies Beneath,6.3,488,4804,2000,Jul,Friday,Robert Zemeckis,Male
+209,43946,90.0,43,188.133322,The Secret Life of Walter Mitty,7.0,3144,4960,2013,Dec,Wednesday,Ben Stiller,Male
+210,43947,92.0,40,264.105545,Charlie's Angels,5.6,1232,4793,2000,Nov,Thursday,McG,Male
+211,43948,90.0,63,289.847354,The Departed,7.9,4339,4809,2006,Oct,Thursday,Martin Scorsese,Male
+212,43950,92.0,43,188.072649,Tropic Thunder,6.5,1667,4960,2008,Aug,Saturday,Ben Stiller,Male
+213,43951,90.0,47,232.61743,The Girl with the Dragon Tattoo,7.2,2434,4829,2011,Dec,Wednesday,David Fincher,Male
+214,43952,90.0,51,366.101666,Die Hard: With a Vengeance,6.9,2066,4890,1995,May,Friday,John McTiernan,
+215,43953,90.0,57,524.028679,Sherlock Holmes,7.0,5766,4888,2009,Dec,Wednesday,Guy Ritchie,Male
+216,43957,75.0,38,200.276,Valkyrie,6.7,1173,4772,2008,Dec,Thursday,Bryan Singer,Male
+217,43958,90.0,40,201.596308,You Don't Mess with the Zohan,5.5,1048,4964,2008,Jun,Thursday,Dennis Dugan,Male
+218,43959,88.0,140,243.637091,Pixels,5.6,2513,4885,2015,Jul,Thursday,Chris Columbus,Male
+219,43960,100.0,34,235.926552,A.I. Artificial Intelligence,6.8,1974,4799,2001,Jun,Friday,Steven Spielberg,Male
+220,43961,90.0,16,182.290266,The Haunted Mansion,5.2,466,4858,2003,Nov,Tuesday,Rob Minkoff,Male
+221,43962,90.0,55,171.120329,Contact,7.2,1308,4804,1997,Jul,Friday,Robert Zemeckis,Male
+222,43963,95.0,28,190.213455,Hollow Man,5.6,634,4889,2000,Aug,Friday,Paul Verhoeven,Male
+223,43964,80.0,18,162.944923,The Interpreter,6.2,392,4965,2005,Apr,Friday,Sydney Pollack,Male
+224,43966,95.0,56,156.505388,Lara Croft Tomb Raider: The Cradle of Life,5.5,1418,4915,2003,Jul,Monday,Jan de Bont,Male
+225,43967,90.0,51,334.901337,Now You See Me 2,6.7,3235,4868,2016,Jun,Thursday,Jon M. Chu,Male
+226,43968,68.0,20,118.063304,The Saint,5.9,302,4880,1997,Apr,Thursday,Phillip Noyce,Male
+227,43969,92.0,27,143.04956,Spy Game,6.8,579,4923,2001,Nov,Sunday,Tony Scott,Male
+228,43970,90.0,16,60.874615,Mission to Mars,5.7,369,4967,2000,Mar,Friday,Brian De Palma,Male
+229,43972,100.0,24,93.7,Bicentennial Man,6.9,963,4885,1999,Dec,Friday,Chris Columbus,Male
+230,43977,88.0,24,108.539911,Cinderella Man,7.3,616,4846,2005,Jun,Thursday,Ron Howard,Male
+231,43980,92.0,32,494.471524,Twister,6.1,950,4915,1996,May,Friday,Jan de Bont,Male
+232,43981,90.0,57,429.632142,Cast Away,7.5,3218,4804,2000,Dec,Friday,Robert Zemeckis,Male
+233,43982,100.0,37,384.335608,Happy Feet,5.9,1410,4845,2006,Nov,Thursday,George Miller,Male
+234,43983,75.0,53,288.500217,The Bourne Supremacy,7.2,2825,4876,2004,Jul,Friday,Paul Greengrass,Male
+235,43984,85.0,36,315.156409,Air Force One,6.2,840,4833,1997,Jul,Friday,Wolfgang Petersen,Male
+236,43985,85.0,60,450.71715,Ocean's Eleven,7.2,3783,4909,2001,Dec,Friday,Steven Soderbergh,Male
+237,43986,75.0,36,132.274484,The Three Musketeers,5.6,924,4974,2011,Aug,Wednesday,Paul W.S. Anderson,Male
+238,43991,75.0,36,152.930623,Tower Heist,5.8,932,4786,2011,Nov,Wednesday,Brett Ratner,Male
+239,43992,85.0,44,194.1687,The Holiday,6.7,1225,4978,2006,Dec,Friday,Nancy Meyers,Female
+240,43993,90.0,41,250.649836,Enemy of the State,6.7,1240,4923,1998,Nov,Friday,Tony Scott,Male
+241,43994,85.0,16,219.103655,It's Complicated,6.2,360,4978,2009,Dec,Wednesday,Nancy Meyers,Female
+242,43995,85.0,42,311.312624,Ocean's Thirteen,6.5,1999,4909,2007,Jun,Thursday,Steven Soderbergh,Male
+243,43999,85.0,24,80.916492,The Rundown,6.4,514,4782,2003,Sep,Friday,Peter Berg,Male
+244,44000,85.0,32,137.298489,Last Action Hero,6.1,712,4890,1993,Jun,Friday,John McTiernan,
+245,44001,85.0,16,162.242962,Memoirs of a Geisha,7.3,652,4775,2005,Dec,Tuesday,Rob Marshall,Male
+246,44002,85.0,8,158.468292,The Fast and the Furious: Tokyo Drift,6.1,1705,4802,2006,Jun,Saturday,Justin Lin,
+247,44010,84.0,17,123.307945,Nutty Professor II: The Klumps,4.7,332,4989,2000,Jul,Thursday,Peter Segal,Male
+248,44011,84.0,31,275.650703,Scooby-Doo,5.4,820,4913,2002,Jun,Friday,Raja Gosnell,Male
+249,44013,82.5,41,237.681299,Click,6.0,2104,4917,2006,Jun,Thursday,Frank Coraci,Male
+250,44014,8.0,13,21.028755,Creepshow,6.7,226,4991,1982,Nov,Friday,George A. Romero,Male
+251,44016,85.0,21,222.231186,Jumper,5.9,1799,4813,2008,Feb,Sunday,Doug Liman,Male
+252,44017,85.0,58,160.388063,Hellboy II: The Golden Army,6.5,1527,4798,2008,Jul,Friday,Guillermo del Toro,Male
+253,44018,65.0,51,84.785914,Zodiac,7.3,2023,4829,2007,Mar,Friday,David Fincher,Male
+254,44020,80.0,109,484.572835,Bruce Almighty,6.4,3012,4812,2003,May,Friday,Tom Shadyac,Male
+255,44022,80.0,75,457.696359,Mission: Impossible,6.7,2631,4967,1996,May,Wednesday,Brian De Palma,Male
+256,44024,80.0,58,254.455986,The Hangover Part II,6.2,3739,4993,2011,May,Wednesday,Todd Phillips,Male
+257,44025,80.0,59,280.0,Batman Returns,6.6,1673,4785,1992,Jun,Friday,Tim Burton,Male
+258,44028,85.0,14,144.0,Charlotte's Web,5.8,288,4995,2006,Dec,Friday,Gary Winick,Male
+259,44031,82.0,26,190.320568,The Longest Yard,6.2,785,4989,2005,May,Thursday,Peter Segal,Male
+260,44033,80.0,45,246.984278,Grown Ups 2,5.8,1155,4964,2013,Jul,Thursday,Dennis Dugan,Male
+261,44034,80.0,23,230.685453,Get Smart,6.0,1051,4989,2008,Jun,Thursday,Peter Segal,Male
+262,44035,80.0,16,266.728738,Something's Gotta Give,6.3,410,4978,2003,Dec,Friday,Nancy Meyers,Female
+263,44036,80.0,81,294.804195,Shutter Island,7.8,6336,4809,2010,Feb,Thursday,Martin Scorsese,Male
+264,44039,80.0,46,245.676146,Face/Off,6.8,1583,4893,1997,Jun,Friday,John Woo,Male
+265,44040,80.0,23,212.874442,Bedtime Stories,5.9,901,4998,2008,Dec,Wednesday,Adam Shankman,Male
+266,44041,80.0,49,181.001478,Road to Perdition,7.3,1077,4764,2002,Jul,Friday,Sam Mendes,Male
+267,44042,80.0,37,214.918407,Just Go with It,6.3,1543,4964,2011,Feb,Thursday,Dennis Dugan,Male
+268,44043,75.0,45,224.012234,Con Air,6.5,1270,4930,1997,Jun,Sunday,Simon West,Male
+269,44047,80.0,11,177.977226,Flubber,5.3,695,5002,1997,Nov,Wednesday,Les Mayfield,
+270,44048,80.0,19,91.188905,The Haunting,5.2,369,4915,1999,Jul,Friday,Jan de Bont,Male
+271,44050,0.0,25,0.0,The Pink Panther,5.6,550,4842,2006,Jan,Wednesday,Shawn Levy,Male
+272,44052,75.0,22,136.982834,Conspiracy Theory,6.5,431,4866,1997,Aug,Thursday,Richard Donner,Male
+273,44053,68.0,139,211.817906,Fury,7.4,3946,4811,2014,Oct,Wednesday,David Ayer,
+274,44054,70.0,18,164.0,Six Days Seven Nights,5.6,332,5005,1998,Jun,Friday,Ivan Reitman,Male
+275,44057,80.0,27,169.852759,Zookeeper,5.3,498,4917,2011,Jul,Wednesday,Frank Coraci,Male
+276,44058,80.0,17,136.159423,Lost in Space,5.0,388,5008,1998,Apr,Friday,Stephen Hopkins,Male
+277,44059,80.0,21,96.105964,The Manchurian Candidate,6.2,393,5009,2004,Jul,Friday,Jonathan Demme,Male
+278,44066,75.0,31,142.400065,The Legend of Zorro,5.9,893,4791,2005,Oct,Monday,Martin Campbell,Male
+279,44069,88.0,40,105.316267,The Brothers Grimm,5.6,818,5014,2005,Aug,Friday,Terry Gilliam,Male
+280,44070,70.0,44,101.371017,Mars Attacks!,6.1,1509,4785,1996,Dec,Thursday,Tim Burton,Male
+281,44072,0.0,20,43.312294,The Edge,6.7,349,4859,1997,Sep,Saturday,Lee Tamahori,Male
+282,44074,80.0,18,34.566746,Thirteen Days,6.9,189,4904,2000,Dec,Sunday,Roger Donaldson,Male
+283,44075,80.0,16,159.212469,Daylight,5.8,378,4810,1996,Dec,Friday,Rob Cohen,Male
+284,44078,80.0,16,68.514844,Looney Tunes: Back in Action,5.6,297,5017,2003,Nov,Friday,Joe Dante,Male
+285,44079,80.0,9,53.825515,Nine,5.1,165,4775,2009,Dec,Thursday,Rob Marshall,Male
+286,44080,80.0,11,19.480739,Timeline,5.4,318,4866,2003,Nov,Wednesday,Richard Donner,Male
+287,44082,90.0,11,69.13186,Babe: Pig in the City,5.2,305,4845,1998,Nov,Wednesday,George Miller,Male
+288,44085,86.0,27,107.944236,Arthur and the Invisibles,6.0,639,4949,2006,Dec,Wednesday,Luc Besson,Male
+289,44087,80.0,7,5.98964,A Sound of Thunder,4.8,111,4935,2005,May,Sunday,Peter Hyams,Male
+290,44088,130.0,50,117.831631,Pompeii,5.2,1267,4974,2014,Feb,Tuesday,Paul W.S. Anderson,Male
+291,44090,60.0,59,313.542341,A Beautiful Mind,7.7,3009,4846,2001,Dec,Tuesday,Ron Howard,Male
+292,44094,78.0,10,209.196298,Red Dragon,6.7,1115,4786,2002,Sep,Sunday,Brett Ratner,Male
+293,44096,79.0,22,149.673788,Jack and Jill,4.1,604,4964,2011,Nov,Friday,Dennis Dugan,Male
+294,44097,76.0,10,236.350661,2 Fast 2 Furious,6.2,2028,5024,2003,Jun,Thursday,John Singleton,Male
+295,44104,75.0,60,816.969268,Independence Day,6.7,3260,4803,1996,Jun,Tuesday,Roland Emmerich,Male
+296,44105,73.0,2,229.074524,The Lost World: Jurassic Park,6.2,2487,4799,1997,May,Friday,Steven Spielberg,Male
+297,44108,75.0,4,296.339527,X-Men,6.8,4097,4772,2000,Jul,Thursday,Bryan Singer,Male
+298,44110,75.0,51,335.062621,The Rock,6.9,1456,4788,1996,Jun,Thursday,Michael Bay,Male
+299,44112,75.0,61,196.482882,50 First Dates,6.6,2105,4989,2004,Feb,Friday,Peter Segal,Male
+300,44113,50.0,31,90.450008,Hairspray,6.5,709,4998,2007,Jul,Friday,Adam Shankman,Male
+301,44114,80.0,15,78.000586,Exorcist: The Beginning,4.7,183,4958,2004,Aug,Friday,Renny Harlin,Male
+302,44116,75.0,71,117.698894,Now You See Me,7.3,5487,4873,2013,May,Wednesday,Louis Leterrier,Male
+303,44117,80.0,38,271.430189,Grown Ups,6.0,1705,4964,2010,Jun,Thursday,Dennis Dugan,Male
+304,44118,60.0,57,219.417255,The Terminal,7.0,1910,4799,2004,Jun,Thursday,Steven Spielberg,Male
+305,44120,75.0,13,215.663859,Vertical Limit,5.9,283,4791,2000,Dec,Friday,Martin Campbell,Male
+306,44121,75.0,18,119.00041,Charlie Wilson's War,6.5,338,5031,2007,Dec,Wednesday,Mike Nichols,Male
+307,44123,70.0,14,154.93768,Dreamgirls,6.6,284,4872,2006,Dec,Monday,Bill Condon,Male
+308,44124,53.0,18,95.226116,Be Cool,5.4,292,5033,2005,Mar,Friday,F. Gary Gray,Male
+309,44125,70.0,29,130.358911,Munich,6.9,696,4799,2005,Dec,Thursday,Steven Spielberg,Male
+310,44126,70.0,27,85.632458,Tears of the Sun,6.4,573,5034,2003,Mar,Friday,Antoine Fuqua,Male
+311,44127,75.0,23,98.159963,Killers,5.7,772,5035,2010,Jun,Friday,Robert Luketic,Male
+312,44128,75.0,48,108.145109,The Man from U.N.C.L.E.,7.1,2265,4888,2015,Aug,Thursday,Guy Ritchie,Male
+313,44131,75.0,24,67.631903,Bandits,6.2,302,5037,2001,Oct,Friday,Barry Levinson,Male
+314,44133,75.0,13,0.0,Anna and the King,6.4,197,5039,1999,Dec,Thursday,Andy Tennant,Male
+315,44138,75.0,11,14.567883,Soldier,6.1,221,4974,1998,Oct,Friday,Paul W.S. Anderson,Male
+316,44142,75.0,42,248.118121,Unbreakable,6.9,1946,4854,2000,Nov,Monday,M. Night Shyamalan,Male
+317,44144,82.0,39,89.792502,Sucker Punch,5.9,1623,4771,2011,Mar,Thursday,Zack Snyder,Male
+318,44145,73.0,20,103.891409,Snake Eyes,5.8,327,4967,1998,Aug,Friday,Brian De Palma,Male
+319,44146,75.0,18,13.1,Sphere,5.8,476,5037,1998,Feb,Friday,Barry Levinson,Male
+320,44148,70.0,21,111.231041,Fool's Gold,5.4,444,5039,2008,Feb,Thursday,Andy Tennant,Male
+321,44149,75.0,20,61.458982,Funny People,5.7,390,5047,2009,Jul,Friday,Judd Apatow,Male
+322,44150,70.0,26,86.658558,The Kingdom,6.5,513,4782,2007,Aug,Wednesday,Peter Berg,Male
+323,44151,72.5,12,162.966177,Talladega Nights: The Ballad of Ricky Bobby,6.2,491,4925,2006,Aug,Friday,Adam McKay,Male
+324,44154,72.0,32,96.889998,Jarhead,6.6,765,4764,2005,Nov,Friday,Sam Mendes,Male
+325,44157,94.0,8,54.744738,Driven,4.5,179,4958,2001,Apr,Friday,Renny Harlin,Male
+326,44159,60.0,27,256.69752,The Village,6.2,1071,4854,2004,Jul,Friday,M. Night Shyamalan,Male
+327,44161,72.0,28,408.247917,Signs,6.4,1599,4854,2002,Aug,Friday,M. Night Shyamalan,Male
+328,44162,150.0,47,919.838758,Shrek 2,6.7,2988,4774,2004,May,Wednesday,Andrew Adamson,Male
+329,44164,70.0,20,309.457509,Runaway Bride,5.7,455,5053,1999,Jul,Friday,Garry Marshall,Male
+330,44165,70.0,46,277.448382,xXx,5.8,1424,4810,2002,Aug,Friday,Rob Cohen,Male
+331,44167,80.0,16,309.492681,Ransom,6.4,470,4846,1996,Nov,Friday,Ron Howard,Male
+332,44168,70.0,72,319.13105,Inglourious Basterds,7.9,6430,4927,2009,Aug,Tuesday,Quentin Tarantino,Male
+333,44169,70.0,33,300.854823,Hook,6.6,1532,4799,1991,Dec,Wednesday,Steven Spielberg,Male
+334,44170,70.0,57,240.031094,Die Hard 2,6.6,1896,4958,1990,Jul,Monday,Renny Harlin,Male
+335,44172,68.0,27,203.388341,Vanilla Sky,6.5,1078,5056,2001,Dec,Monday,Cameron Crowe,Male
+336,44173,75.0,20,42.285169,Lady in the Water,5.3,409,4854,2006,Jul,Friday,M. Night Shyamalan,Male
+337,44174,70.0,42,171.183863,AVP: Alien vs. Predator,5.5,1217,4974,2004,Aug,Thursday,Paul W.S. Anderson,Male
+338,44177,70.0,59,161.02564,Olympus Has Fallen,6.2,2981,5034,2013,Mar,Wednesday,Antoine Fuqua,Male
+339,44179,70.0,49,202.466756,Battle: Los Angeles,5.5,1448,4849,2011,Mar,Tuesday,Jonathan Liebesman,
+340,44180,70.0,46,122.919055,Big Fish,7.6,1994,4785,2003,Dec,Thursday,Tim Burton,Male
+341,44181,0.0,13,0.0,Wolf,6.0,216,5031,1994,Jun,Friday,Mike Nichols,Male
+342,44182,66.0,29,177.584879,War Horse,7.0,992,4799,2011,Dec,Sunday,Steven Spielberg,Male
+343,44183,70.0,43,154.984035,The Monuments Men,5.8,1523,5059,2014,Jan,Friday,George Clooney,Male
+344,44184,70.0,24,90.000098,The Abyss,7.1,808,4762,1989,Aug,Wednesday,James Cameron,Male
+345,44185,70.0,23,134.748021,Wall Street: Money Never Sleeps,5.8,493,4839,2010,Sep,Thursday,Oliver Stone,Male
+346,44187,70.0,20,116.672912,The Siege,6.0,352,4863,1998,Nov,Friday,Edward Zwick,Male
+347,44190,70.0,14,67.112664,The Dilemma,5.2,304,4846,2011,Jan,Thursday,Ron Howard,Male
+348,44191,70.0,14,65.977295,Bad Company,5.4,228,4892,2002,Jun,Friday,Joel Schumacher,Male
+349,44192,60.0,29,55.987321,Doom,5.0,609,5061,2005,Oct,Thursday,Andrzej Bartkowiak,Male
+350,44195,75.0,23,59.418613,Rock of Ages,6.0,385,4998,2012,Jun,Wednesday,Adam Shankman,Male
+351,44198,0.0,9,0.0,Rollerball,3.4,106,4890,2002,Feb,Friday,John McTiernan,
+352,44201,75.0,10,13.596911,Osmosis Jones,5.9,228,5067,2001,Aug,Tuesday,Bobby Farrelly,Male
+353,44203,70.0,46,17.75294,Blackhat,5.1,826,4918,2015,Jan,Tuesday,Michael Mann,Male
+354,44207,70.0,25,61.279452,The Legend of Hercules,4.4,533,4958,2014,Jan,Friday,Renny Harlin,Male
+355,44210,68.0,22,71.069884,The Score,6.7,423,4947,2001,Jul,Friday,Frank Oz,Male
+356,44216,36.0,27,83.160734,Hall Pass,5.4,611,5067,2011,Feb,Friday,Bobby Farrelly,Male
+357,44217,90.0,26,60.289912,The Insider,7.3,481,4918,1999,Oct,Thursday,Michael Mann,Male
+358,44219,70.0,37,113.280098,Body of Lies,6.5,895,4779,2008,Oct,Friday,Ridley Scott,Male
+359,44220,69.0,11,86.387857,Dinner for Schmucks,5.5,531,4948,2010,Jul,Friday,Jay Roach,Male
+360,44225,70.0,76,481.840909,Saving Private Ryan,7.9,5048,4799,1998,Jul,Friday,Steven Spielberg,Male
+361,44227,70.0,31,374.111707,What Women Want,6.1,992,4978,2000,Dec,Friday,Nancy Meyers,Female
+362,44229,68.0,26,75.715436,Dreamcatcher,5.3,567,5082,2003,Mar,Friday,Lawrence Kasdan,Male
+363,44230,65.0,36,275.29345,Lincoln,6.7,1429,4799,2012,Nov,Friday,Steven Spielberg,Male
+364,44231,63.0,104,463.517383,The Matrix,7.9,8907,4805,1999,Mar,Tuesday,Lilly Wachowski,Female
+365,44232,52.0,68,355.237933,Apollo 13,7.3,1599,4846,1995,Jun,Friday,Ron Howard,Male
+366,44236,65.0,22,128.107642,Step Brothers,6.5,1062,4925,2008,Jul,Friday,Adam McKay,Male
+367,44237,95.0,31,250.288523,The Mask of Zorro,6.3,1183,4791,1998,Jul,Thursday,Martin Campbell,Male
+368,44238,65.0,43,211.780824,Due Date,6.2,1685,4993,2010,Nov,Thursday,Todd Phillips,Male
+369,44240,65.0,15,128.884132,Space Cowboys,6.3,403,5087,2000,Jul,Monday,Clint Eastwood,Male
+370,44241,70.0,26,255.000211,Cliffhanger,6.1,588,4958,1993,May,Friday,Renny Harlin,Male
+371,44242,50.0,22,150.270147,Broken Arrow,5.7,453,4893,1996,Feb,Friday,John Woo,Male
+372,44243,65.0,18,69.7,The Kid,6.0,238,4832,2000,Jul,Friday,Jon Turteltaub,Male
+373,44244,63.0,24,162.945894,World Trade Center,5.9,447,4839,2006,Aug,Wednesday,Oliver Stone,Male
+374,44245,65.0,19,0.0,Mona Lisa Smile,6.5,393,4797,2003,Dec,Friday,Mike Newell,Male
+375,44246,65.0,31,179.379533,The Dictator,5.9,1743,5088,2012,May,Tuesday,Larry Charles,Male
+376,44250,65.0,38,156.974557,This Means War,5.9,1389,4793,2012,Feb,Tuesday,McG,Male
+377,44253,65.0,9,0.0,Primary Colors,6.1,94,5031,1998,Mar,Friday,Mike Nichols,Male
+378,44254,65.0,6,240.159255,Resident Evil: Retribution,5.6,1600,4974,2012,Sep,Wednesday,Paul W.S. Anderson,Male
+379,44255,45.0,42,73.762516,Death Race,6.0,1175,4974,2008,Aug,Friday,Paul W.S. Anderson,Male
+380,44256,65.0,15,89.456761,The Long Kiss Goodnight,6.5,314,4958,1996,Oct,Friday,Renny Harlin,Male
+381,44257,65.0,14,0.0,Proof of Life,6.0,208,5093,2000,Dec,Friday,Taylor Hackford,
+382,44258,65.0,15,64.321501,Zathura: A Space Adventure,6.1,779,4808,2005,Nov,Sunday,Jon Favreau,Male
+383,44259,63.0,146,100.853753,Fight Club,8.3,9413,4829,1999,Oct,Friday,David Fincher,Male
+384,44260,65.0,8,43.545364,We Are Marshall,6.7,186,4793,2006,Dec,Tuesday,McG,Male
+385,44264,50.0,20,42.093706,Oliver Twist,6.7,274,5096,2005,Sep,Friday,Roman Polanski,Male
+386,44266,65.0,85,39.407616,Sin City: A Dame to Kill For,6.3,1286,5097,2014,Aug,Wednesday,Robert Rodriguez,
+387,44267,64.0,4,74.60857,Random Hearts,5.3,63,4965,1999,Oct,Friday,Sydney Pollack,Male
+388,44269,50.0,42,132.180323,Perfume: The Story of a Murderer,7.1,1165,4936,2006,Sep,Wednesday,Tom Tykwer,Male
+389,44270,63.0,40,296.655431,Austin Powers in Goldmember,5.9,979,4948,2002,Jul,Friday,Jay Roach,Male
+390,44272,63.0,40,920.1,Jurassic Park,7.6,4856,4799,1993,Jun,Friday,Steven Spielberg,Male
+391,44273,63.0,13,25.052,Wyatt Earp,6.5,202,5082,1994,Jun,Friday,Lawrence Kasdan,Male
+392,44274,62.0,18,215.887717,Clear and Present Danger,6.4,386,4880,1994,Aug,Wednesday,Phillip Noyce,Male
+393,44278,62.0,11,107.879496,The American President,6.5,195,5101,1995,Nov,Friday,Rob Reiner,Male
+394,44281,44.0,68,155.760117,The Hateful Eight,7.6,4274,4927,2015,Dec,Friday,Quentin Tarantino,Male
+395,44283,63.0,16,183.953723,Hop,5.5,331,5105,2011,Mar,Wednesday,Tim Hill,Male
+396,44284,65.0,65,422.610419,300,7.0,4997,4771,2006,Dec,Saturday,Zack Snyder,Male
+397,44285,80.0,32,516.642939,Meet the Fockers,6.1,1373,4948,2004,Dec,Wednesday,Jay Roach,Male
+398,44290,61.0,143,369.330363,Gone Girl,7.9,5862,4829,2014,Oct,Wednesday,David Fincher,Male
+399,44291,60.0,86,214.034224,The Bourne Identity,7.3,3583,4813,2002,Jun,Friday,Doug Liman,Male
+400,44292,58.0,59,352.194034,GoldenEye,6.6,1174,4791,1995,Nov,Thursday,Martin Campbell,Male
+401,44293,60.0,18,149.705852,The General's Daughter,6.1,205,4930,1999,Jun,Friday,Simon West,Male
+402,44299,60.0,62,176.070171,The Italian Job,6.6,1919,5033,2003,May,Friday,F. Gary Gray,Male
+403,44303,60.0,16,157.920733,Days of Thunder,5.9,353,4923,1990,Jun,Wednesday,Tony Scott,Male
+404,44304,60.0,18,129.18183,Cheaper by the Dozen 2,5.7,526,4998,2005,Dec,Wednesday,Adam Shankman,Male
+405,44307,60.0,19,0.0,The Family Man,6.5,521,4786,2000,Dec,Tuesday,Brett Ratner,Male
+406,44308,58.0,41,71.664962,RED,6.6,2808,4886,2010,Oct,Wednesday,Robert Schwentke,Male
+407,44309,55.0,23,100.230832,Any Given Sunday,6.8,422,4839,1999,Dec,Thursday,Oliver Stone,Male
+408,44310,60.0,12,186.883563,The Horse Whisperer,6.7,292,5111,1998,May,Thursday,Robert Redford,Male
+409,44311,65.0,44,217.764291,Collateral,7.0,1451,4918,2004,Aug,Wednesday,Michael Mann,Male
+410,44312,60.0,37,165.33318,The Scorpion King,5.3,779,4926,2002,Apr,Tuesday,Chuck Russell,Male
+411,44315,60.0,22,73.648228,Deep Blue Sea,5.6,604,4958,1999,Jul,Wednesday,Renny Harlin,Male
+412,44316,60.0,15,0.0,This Is It,6.7,247,5113,2009,Oct,Wednesday,Kenny Ortega,Male
+413,44317,60.0,38,137.551594,Contagion,6.2,1325,4909,2011,Sep,Thursday,Steven Soderbergh,Male
+414,44320,60.0,20,163.403799,The Happening,4.9,950,4854,2008,Jun,Wednesday,M. Night Shyamalan,Male
+415,44321,70.0,45,130.293714,Man on Fire,7.3,1553,4923,2004,Apr,Friday,Tony Scott,Male
+416,44322,50.0,4,61.112916,The Shaggy Dog,4.5,137,5115,2006,Mar,Thursday,Brian Robbins,Male
+417,44323,60.0,28,170.26875,Starsky & Hutch,5.6,644,4993,2004,Mar,Friday,Todd Phillips,Male
+418,44324,60.0,22,129.832389,Jingle All the Way,5.5,575,5116,1996,Nov,Friday,Brian Levant,Male
+419,44325,66.0,47,99.318987,Hellboy,6.5,2225,4798,2004,Apr,Friday,Guillermo del Toro,Male
+420,44329,60.0,29,96.269812,Paycheck,5.9,581,4893,2003,Dec,Thursday,John Woo,Male
+421,44334,60.0,42,50.549107,Jack Ryan: Shadow Recruit,5.9,1173,4847,2014,Jan,Wednesday,Kenneth Branagh,Male
+422,44335,60.0,29,101.134059,Joy,6.4,1581,5123,2015,Dec,Thursday,David O. Russell,Male
+423,44337,70.0,37,162.0,Alien: Resurrection,5.9,1365,5125,1997,Nov,Wednesday,Jean-Pierre Jeunet,Male
+424,44338,61.0,37,95.696996,Shooter,6.9,1462,5034,2007,Mar,Thursday,Antoine Fuqua,Male
+425,44345,60.0,25,62.3579,Year One,4.6,524,5130,2009,Jun,Thursday,Harold Ramis,Male
+426,44346,60.0,23,122.233971,Invictus,7.0,1125,5087,2009,Dec,Thursday,Clint Eastwood,Male
+427,44349,65.0,6,36.850101,My Favorite Martian,5.1,80,5132,1999,Feb,Thursday,Donald Petrie,Male
+428,44353,60.0,22,119.940815,Intolerable Cruelty,5.8,391,5135,2003,Sep,Tuesday,Joel Coen,
+429,44355,80.0,24,74.901339,Edge of Darkness,6.2,487,4791,2010,Jan,Friday,Martin Campbell,Male
+430,44356,60.0,12,33.956608,The Relic,5.8,130,4935,1997,Jan,Friday,Peter Hyams,Male
+431,44357,60.0,21,55.003135,Analyze That,5.7,380,5130,2002,Dec,Friday,Harold Ramis,Male
+432,44360,60.0,17,31.720158,The Soloist,6.6,234,4857,2009,Apr,Friday,Joe Wright,Male
+433,44361,80.0,16,39.459427,The Legend of Bagger Vance,6.3,251,5111,2000,Nov,Thursday,Robert Redford,Male
+434,44362,60.0,21,47.383689,Almost Famous,7.4,797,5056,2000,Sep,Friday,Cameron Crowe,Male
+435,44363,0.0,16,141.702264,Garfield: A Tail of Two Kitties,5.1,464,5105,2006,Jun,Thursday,Tim Hill,Male
+436,44364,60.0,36,71.073932,xXx: State of the Union,4.7,549,4859,2005,Apr,Wednesday,Lee Tamahori,Male
+437,44367,60.0,29,26.673242,Event Horizon,6.5,742,4974,1997,Aug,Friday,Paul W.S. Anderson,Male
+438,44368,60.0,8,52.3224,Dragonfly,6.1,204,4812,2002,Feb,Friday,Tom Shadyac,Male
+439,44369,50.0,15,49.111202,The Black Dahlia,5.7,287,4967,2006,Sep,Friday,Brian De Palma,Male
+440,44371,72.0,15,27.642707,The Last Castle,7.0,285,5140,2001,Oct,Friday,Rod Lurie,Male
+441,44375,60.0,18,50.650079,Meet Dave,5.0,371,5115,2008,Jul,Tuesday,Brian Robbins,Male
+442,44377,80.0,14,0.0,Edtv,5.7,166,4846,1999,Mar,Friday,Ron Howard,Male
+443,44380,60.0,52,30.41856,Mortdecai,5.4,1055,5147,2015,Jan,Wednesday,David Koepp,Male
+444,44381,60.0,15,0.0,In the Name of the King: A Dungeon Siege Tale,4.1,224,5148,2007,Nov,Thursday,Uwe Boll,Male
+445,44382,35.0,6,0.0,Beyond Borders,6.7,110,4791,2003,Oct,Thursday,Martin Campbell,Male
+446,44386,60.0,9,0.0,Holy Man,4.9,111,5152,1998,Oct,Thursday,Stephen Herek,Male
+447,44387,58.8,87,542.307423,American Sniper,7.4,4469,5087,2014,Dec,Thursday,Clint Eastwood,Male
+448,44389,58.0,13,102.854431,Just Like Heaven,6.5,579,4955,2005,Sep,Friday,Mark Waters,Male
+449,44390,83.0,6,59.468275,The Flintstones in Viva Rock Vegas,4.4,134,5116,2000,Apr,Friday,Brian Levant,Male
+450,44392,58.0,7,41.299492,Leatherheads,5.7,130,5059,2008,Mar,Monday,George Clooney,Male
+451,44393,60.0,19,0.0,The Ridiculous 6,4.9,388,4917,2015,Dec,Friday,Frank Coraci,Male
+452,44395,58.0,1,44.0,The Internship,6.1,1658,4842,2013,Jun,Friday,Shawn Levy,Male
+453,44396,60.0,2,300.228084,Resident Evil: Afterlife,5.8,1363,4974,2010,Sep,Thursday,Paul W.S. Anderson,Male
+454,44398,57.0,33,152.94466,The Devil's Advocate,7.2,1374,5093,1997,Oct,Friday,Taylor Hackford,
+455,44400,57.0,31,115.267375,DragonHeart,6.4,535,4810,1996,May,Friday,Rob Cohen,Male
+456,44401,60.0,14,61.347797,After the Sunset,6.0,226,4786,2004,Nov,Friday,Brett Ratner,Male
+457,44403,57.0,9,62.112895,Captain Corelli's Mandolin,5.5,145,5157,2001,Aug,Friday,John Madden,
+458,44404,56.0,35,113.00688,The Pacifier,5.8,842,4998,2005,Mar,Friday,Adam Shankman,Male
+459,44406,55.0,138,677.945399,Forrest Gump,8.2,7927,4804,1994,Jul,Wednesday,Robert Zemeckis,Male
+460,44407,60.0,47,361.366633,Alvin and the Chipmunks,5.5,1177,5105,2007,Dec,Thursday,Tim Hill,Male
+461,44408,55.0,29,330.444045,Meet the Parents,6.6,1698,4948,2000,Oct,Friday,Jay Roach,Male
+462,44410,55.0,48,300.218018,Superman,6.9,1022,4866,1978,Dec,Wednesday,Richard Donner,Male
+463,44411,54.0,20,128.769345,The Nutty Professor,5.4,702,4812,1996,Jun,Wednesday,Tom Shadyac,Male
+464,44412,70.0,34,368.10042,Hitch,6.4,1665,5039,2005,Feb,Thursday,Andy Tennant,Male
+465,44415,55.0,52,95.0,Captain Phillips,7.6,2454,4876,2013,Oct,Thursday,Paul Greengrass,Male
+466,44416,55.0,38,152.26388,Date Night,5.9,1122,4842,2010,Apr,Thursday,Shawn Levy,Male
+467,44418,55.0,79,192.330738,The Equalizer,7.1,2954,5034,2014,Sep,Wednesday,Antoine Fuqua,Male
+468,44419,55.0,19,154.906693,Maid in Manhattan,5.6,485,5162,2002,Dec,Friday,Wayne Wang,
+469,44420,53.0,20,157.387195,Crimson Tide,7.0,498,4923,1995,May,Friday,Tony Scott,Male
+470,44422,55.0,32,223.387299,Flightplan,6.1,772,4886,2005,Sep,Thursday,Robert Schwentke,Male
+471,44423,55.0,15,214.015089,Disclosure,5.9,210,5037,1994,Dec,Friday,Barry Levinson,Male
+472,44425,30.0,79,180.949,Kill Bill: Vol. 1,7.7,4949,4927,2003,Oct,Friday,Quentin Tarantino,Male
+473,44426,55.0,13,0.0,Bowfinger,6.0,254,4947,1999,Aug,Thursday,Frank Oz,Male
+474,44427,30.0,50,152.159461,Kill Bill: Vol. 2,7.6,3948,4927,2004,Apr,Friday,Quentin Tarantino,Male
+475,44429,55.0,29,149.02265,Death Becomes Her,6.3,636,4804,1992,Jul,Thursday,Robert Zemeckis,Male
+476,44432,55.0,32,187.361754,Mr. Popper's Penguins,5.7,751,4955,2011,Jun,Friday,Mark Waters,Male
+477,44433,55.0,17,127.906624,The Forbidden Kingdom,6.3,461,4858,2008,Apr,Friday,Rob Minkoff,Male
+478,44435,50.0,45,159.773545,Alien³,6.2,1633,4829,1992,May,Friday,David Fincher,Male
+479,44438,50.0,12,75.0,The Ghost and the Darkness,6.4,236,5008,1996,Oct,Friday,Stephen Hopkins,Male
+480,44442,80.0,7,0.0,Instinct,6.2,146,4832,1999,Jun,Friday,Jon Turteltaub,Male
+481,44443,55.0,8,33.828318,Stuck on You,5.1,188,5067,2003,Dec,Wednesday,Bobby Farrelly,Male
+482,44446,55.0,27,113.020255,Changeling,7.3,1131,5087,2008,Jan,Wednesday,Clint Eastwood,Male
+483,44448,55.0,4,18.626419,The Fan,5.7,194,4923,1996,Aug,Thursday,Tony Scott,Male
+484,44449,70.0,18,154.648887,The Phantom of the Opera,7.0,438,4892,2004,Dec,Wednesday,Joel Schumacher,Male
+485,44458,47.0,23,0.0,A Very Long Engagement,7.1,346,5125,2004,Oct,Tuesday,Jean-Pierre Jeunet,Male
+486,44461,54.0,67,155.010032,Blade II,6.2,1528,4798,2002,Mar,Friday,Guillermo del Toro,Male
+487,44464,54.0,59,136.766062,The Godfather: Part III,7.1,1546,5179,1990,Dec,Monday,Francis Ford Coppola,Male
+488,44465,57.0,22,52.034889,Elizabethtown,6.1,327,5056,2005,Oct,Thursday,Cameron Crowe,Male
+489,44470,46.0,19,107.196498,Shaft,5.5,308,5024,2000,Jun,Thursday,John Singleton,Male
+490,44475,90.0,23,65.900249,Flags of Our Fathers,6.7,526,5087,2006,Oct,Wednesday,Clint Eastwood,Male
+491,44476,53.0,49,126.690726,Law Abiding Citizen,7.2,1486,5033,2009,Oct,Thursday,F. Gary Gray,Male
+492,44477,67.0,16,25.037897,Grindhouse,6.8,459,5097,2007,Apr,Friday,Robert Rodriguez,
+493,44478,0.0,1,0.0,Beloved,5.9,26,5009,1998,Oct,Friday,Jonathan Demme,Male
+494,44479,0.0,6,5.761917,Lucky You,5.4,81,5182,2007,May,Tuesday,Curtis Hanson,Male
+495,44480,52.0,73,352.114312,Catch Me If You Can,7.7,3795,4799,2002,Dec,Wednesday,Steven Spielberg,Male
+496,44484,52.0,25,216.485654,Valentine's Day,5.7,1013,5053,2010,Feb,Wednesday,Garry Marshall,Male
+497,44489,52.0,40,116.112375,Casino,7.8,1307,4809,1995,Nov,Wednesday,Martin Scorsese,Male
+498,44492,51.0,39,149.270999,"Me, Myself & Irene",6.1,927,5067,2000,Jun,Thursday,Bobby Farrelly,Male
+499,44494,0.0,5,47.23107,Deck the Halls,5.1,109,5191,2006,Nov,Wednesday,John Whitesell,Male
+500,44495,50.0,94,709.827462,The Twilight Saga: New Moon,5.6,2436,4780,2009,Mar,Sunday,Chris Weitz,
+501,44496,60.0,67,484.409218,Shrek,7.3,4056,4774,2001,May,Wednesday,Andrew Adamson,Male
+502,44498,48.0,28,390.493908,Robin Hood: Prince of Thieves,6.6,909,4814,1991,Jun,Friday,Kevin Reynolds,
+503,44499,50.0,27,273.552592,Jerry Maguire,6.7,913,5056,1996,Dec,Friday,Cameron Crowe,Male
+504,44502,50.0,35,202.292902,Patch Adams,7.0,832,4812,1998,Dec,Friday,Tom Shadyac,Male
+505,44503,50.0,38,173.649015,Anchorman 2: The Legend Continues,6.0,923,4925,2013,Dec,Wednesday,Adam McKay,Male
+506,44506,52.0,30,256.271286,Erin Brockovich,7.1,716,4909,2000,Mar,Friday,Steven Soderbergh,Male
+507,44507,50.0,23,177.371441,How to Lose a Guy in 10 Days,6.3,850,5132,2003,Feb,Friday,Donald Petrie,Male
+508,44509,60.0,50,223.664608,Interview with the Vampire,7.2,1516,5193,1994,Nov,Friday,Neil Jordan,
+509,44512,0.0,16,0.0,Stepmom,6.9,277,4885,1998,Dec,Friday,Chris Columbus,Male
+510,44514,50.0,65,212.902372,Into the Woods,5.6,1652,4775,2014,Dec,Thursday,Rob Marshall,Male
+511,44515,45.0,45,184.376254,Inside Man,7.3,1630,5195,2006,Mar,Thursday,Spike Lee,Male
+512,44516,90.0,17,161.626121,Payback,6.7,548,5196,1999,Feb,Friday,Brian Helgeland,Male
+513,44518,50.0,38,120.081841,We Bought a Zoo,6.5,909,5056,2011,Dec,Thursday,Cameron Crowe,Male
+514,44519,50.0,32,155.446362,Knowing,5.9,1486,4865,2009,Mar,Thursday,Alex Proyas,Male
+515,44526,50.0,30,189.85956,Outbreak,6.3,513,4833,1995,Mar,Friday,Wolfgang Petersen,Male
+516,44527,50.0,83,222.8096,Non-Stop,6.8,2268,5202,2014,Jan,Sunday,Jaume Collet-Serra,Male
+517,44528,50.0,23,106.303988,Race to Witch Mountain,5.5,509,5203,2009,Mar,Thursday,Andy Fickman,Male
+518,44533,50.0,11,100.020092,Don't Say a Word,6.0,220,5207,2001,Sep,Friday,Gary Fleder,Male
+519,44538,50.0,42,69.41137,13 Hours: The Secret Soldiers of Benghazi,7.0,938,4788,2016,Jan,Wednesday,Michael Bay,Male
+520,44541,50.0,13,50.06831,Absolute Power,6.4,223,5087,1997,Feb,Friday,Clint Eastwood,Male
+521,44542,50.0,19,48.169156,G.I. Jane,6.0,395,4779,1997,Aug,Friday,Ridley Scott,Male
+522,44543,50.0,62,109.423648,The Game,7.5,1506,4829,1997,Sep,Friday,David Fincher,Male
+523,44547,50.0,28,44.547681,The Negotiator,6.8,582,5033,1998,Jul,Wednesday,F. Gary Gray,Male
+524,44549,50.0,20,119.208989,Beverly Hills Cop III,5.5,434,5217,1994,May,Tuesday,John Landis,Male
+525,44550,50.0,33,41.482207,Gremlins 2: The New Batch,6.2,652,5017,1990,Jun,Friday,Joe Dante,Male
+526,44557,50.0,12,69.425966,The Adventures of Sharkboy and Lavagirl,4.4,269,5097,2005,Jun,Friday,Robert Rodriguez,
+527,44558,40.0,41,144.056873,The Beach,6.3,1233,5222,2000,Feb,Friday,Danny Boyle,Male
+528,44559,50.0,13,49.718611,Raising Helen,5.9,189,5053,2004,May,Thursday,Garry Marshall,Male
+529,44561,50.0,9,0.0,For Love of the Game,6.3,88,4767,1999,Sep,Friday,Sam Raimi,Male
+530,44564,50.0,13,105.197635,Hereafter,5.8,510,5087,2010,Oct,Friday,Clint Eastwood,Male
+531,44566,50.0,23,30.303072,Assassins,6.0,387,4866,1995,Oct,Friday,Richard Donner,Male
+532,44568,50.0,6,58.900031,The Story of Us,5.9,75,5101,1999,Oct,Wednesday,Rob Reiner,Male
+533,44569,44.0,42,63.327201,The Host,6.0,1817,5226,2013,Mar,Friday,Andrew Niccol,Male
+534,44570,50.0,19,42.792561,Basic,6.2,286,4890,2003,Apr,Friday,John McTiernan,
+535,44571,50.0,10,26.199517,Blood Work,6.1,206,5087,2002,Aug,Sunday,Clint Eastwood,Male
+536,44572,50.0,13,60.161391,The International,6.0,368,4936,2009,Feb,Tuesday,Tom Tykwer,Male
+537,44573,50.0,21,42.277365,Escape from L.A.,5.6,373,5227,1996,Aug,Friday,John Carpenter,Male
+538,44575,50.0,25,34.808403,The Life Aquatic with Steve Zissou,7.1,775,5228,2004,Dec,Friday,Wes Anderson,Male
+539,44578,40.0,6,0.0,Man of the House,5.4,120,5152,2005,Feb,Friday,Stephen Herek,Male
+540,44579,50.0,74,71.561644,Run All Night,6.3,1148,5202,2015,Mar,Wednesday,Jaume Collet-Serra,Male
+541,44580,51.5,35,55.112356,Eastern Promises,7.2,848,5229,2007,Sep,Friday,David Cronenberg,Male
+542,44582,60.0,21,66.976317,The Messenger: The Story of Joan of Arc,6.2,367,4949,1999,Oct,Monday,Luc Besson,Male
+543,44583,49.9,21,26.121638,Your Highness,5.2,501,5231,2011,Apr,Friday,David Gordon Green,Male
+544,44588,22.0,12,24.188922,Fair Game,6.5,235,4813,2010,May,Thursday,Doug Liman,Male
+545,44589,50.0,18,22.944502,Domino,6.0,444,4923,2005,Sep,Thursday,Tony Scott,Male
+546,44592,60.0,40,60.052138,Beautiful Creatures,5.6,984,5235,2013,Feb,Wednesday,Richard LaGravenese,Male
+547,44594,50.0,37,55.969,Zoolander 2,4.7,797,4960,2016,Feb,Saturday,Ben Stiller,Male
+548,44596,60.0,2,0.0,What Planet Are You From?,5.4,37,5031,2000,Mar,Friday,Mike Nichols,Male
+549,44598,50.0,8,12.764201,Street Fighter: The Legend of Chun-Li,3.9,112,5061,2009,Feb,Friday,Andrzej Bartkowiak,Male
+550,44600,49.0,2,20.423389,The Adventures of Ford Fairlane,6.2,71,4958,1990,Jul,Wednesday,Renny Harlin,Male
+551,44602,48.0,25,207.515725,Traffic,6.9,562,4909,2000,Dec,Wednesday,Steven Soderbergh,Male
+552,44603,48.0,80,474.171806,Indiana Jones and the Last Crusade,7.6,3152,4799,1989,May,Wednesday,Steven Spielberg,Male
+553,44604,0.0,26,68.92915,Anna Karenina,6.5,639,4857,2012,Sep,Thursday,Joe Wright,Male
+554,44606,73.0,33,151.493655,The Bone Collector,6.5,826,4880,1999,Nov,Thursday,Phillip Noyce,Male
+555,44607,48.0,53,196.397415,Panic Room,6.5,1267,4829,2002,Mar,Friday,David Fincher,Male
+556,44609,75.0,34,108.0,Three Kings,6.6,692,5123,1999,Sep,Monday,David O. Russell,Male
+557,44613,0.0,11,0.0,Kate & Leopold,6.0,418,4900,2001,Dec,Tuesday,James Mangold,Male
+558,44614,48.0,19,90.383208,Bedazzled,5.6,512,5130,2000,Oct,Thursday,Harold Ramis,Male
+559,44615,58.0,8,25.928721,The Cotton Club,6.6,68,5179,1984,Dec,Friday,Francis Ford Coppola,Male
+560,44616,55.0,48,70.01622,3:10 to Yuma,6.9,1188,4900,2007,Sep,Thursday,James Mangold,Male
+561,44618,48.0,16,77.745568,Out of Sight,6.5,333,4909,1998,Jun,Friday,Steven Soderbergh,Male
+562,44619,47.0,19,102.825796,The Cable Guy,5.7,594,4960,1996,Jun,Monday,Ben Stiller,Male
+563,44622,48.0,18,124.305181,The Thomas Crown Affair,6.6,339,4890,1999,Aug,Friday,John McTiernan,
+564,44627,47.0,6,12.379402,Mary Reilly,5.7,74,5249,1996,Feb,Friday,Stephen Frears,
+565,44630,46.0,41,113.71483,Insomnia,6.8,1148,4765,2002,May,Friday,Christopher Nolan,Male
+566,44633,46.0,12,100.860818,Courage Under Fire,6.2,232,4863,1996,Jul,Thursday,Edward Zwick,Male
+567,44634,45.0,26,181.0,Liar Liar,6.4,1424,4812,1997,Mar,Friday,Tom Shadyac,Male
+568,44637,46.0,28,341.631208,The Flintstones,5.0,543,5116,1994,May,Thursday,Brian Levant,Male
+569,44639,48.0,36,220.673217,Scary Movie 3,5.8,912,5253,2003,Oct,Friday,David Zucker,Male
+570,44640,45.0,32,212.0,Miss Congeniality,6.1,961,5132,2000,Dec,Thursday,Donald Petrie,Male
+571,44642,40.0,30,95.149435,The Princess Diaries 2: Royal Engagement,6.0,697,5053,2004,Aug,Friday,Garry Marshall,Male
+572,44644,45.0,17,117.615211,The Client,6.4,278,4892,1994,Jul,Wednesday,Joel Schumacher,Male
+573,44645,45.0,31,175.372502,The Bucket List,7.0,1111,5101,2007,Dec,Tuesday,Rob Reiner,Male
+574,44646,45.0,19,178.051587,Patriot Games,6.3,433,4880,1992,Jun,Thursday,Phillip Noyce,Male
+575,44647,43.0,10,154.749918,Monster-in-Law,5.6,406,5035,2005,May,Friday,Robert Luketic,Male
+576,44649,45.0,52,104.876233,Training Day,7.3,1634,5034,2001,Oct,Friday,Antoine Fuqua,Male
+577,44668,40.0,44,123.49461,Blended,6.6,1006,4917,2014,May,Wednesday,Frank Coraci,Male
+578,44669,45.0,6,38.399961,Last Holiday,6.4,119,5162,2006,Jan,Friday,Wayne Wang,
+579,44670,45.0,12,0.0,The River Wild,6.1,210,5182,1994,Sep,Friday,Curtis Hanson,Male
+580,44671,45.0,11,0.0,The Indian in the Cupboard,5.9,134,4947,1995,Jul,Friday,Frank Oz,Male
+581,44672,45.0,31,82.966152,Savages,6.2,766,4839,2012,Jul,Friday,Oliver Stone,Male
+582,44673,25.0,24,56.422687,Cellular,6.1,537,5262,2004,Sep,Monday,David R. Ellis,Male
+583,44676,40.0,25,30.92569,Dune,6.5,562,5265,1984,Dec,Friday,David Lynch,Male
+584,44678,35.0,20,75.225693,Revolutionary Road,6.7,796,4764,2008,Dec,Friday,Sam Mendes,Male
+585,44679,55.0,32,65.664721,16 Blocks,6.2,661,4866,2006,Mar,Wednesday,Richard Donner,Male
+586,44682,45.0,11,0.0,Multiplicity,5.5,154,5130,1996,Jul,Friday,Harold Ramis,Male
+587,44688,44.0,3,13.681765,Nixon,7.1,71,4839,1995,Dec,Friday,Oliver Stone,Male
+588,44689,45.0,21,60.222298,The Ghost Writer,6.7,670,5096,2010,Feb,Friday,Roman Polanski,Male
+589,44691,45.0,11,9.323833,Miracle at St. Anna,6.3,90,5195,2008,Sep,Monday,Spike Lee,Male
+590,44692,0.00011,9,0.0,Curse of the Golden Flower,6.6,203,4945,2006,Dec,Thursday,Zhang Yimou,Male
+591,44694,40.0,5,8.49389,Big Trouble,6.3,80,4776,2002,Apr,Friday,Barry Sonnenfeld,Male
+592,44695,45.0,5,4.607608,Love in the Time of Cholera,6.4,81,4797,2007,Oct,Thursday,Mike Newell,Male
+593,44701,40.0,33,136.0,The Bounty Hunter,5.5,858,5039,2010,Mar,Tuesday,Andy Tennant,Male
+594,44702,44.0,16,165.615285,Sleepers,7.3,715,5037,1996,Oct,Friday,Barry Levinson,Male
+595,44709,43.0,19,80.049764,Finding Forrester,7.0,302,5283,2000,Dec,Thursday,Gus Van Sant,Male
+596,44711,45.0,25,50.871113,Unleashed,6.6,518,4873,2005,Feb,Wednesday,Louis Leterrier,Male
+597,44713,42.0,23,270.248367,The Firm,6.6,501,4965,1993,Jun,Wednesday,Sydney Pollack,Male
+598,44715,40.0,44,51.070807,The Mechanic,6.3,1045,4930,2011,Jan,Thursday,Simon West,Male
+599,44723,0.0,26,73.100172,Here Comes the Boom,6.0,593,4917,2012,Oct,Thursday,Frank Coraci,Male
+600,44727,42.0,16,0.0,Brüno,5.4,518,5088,2009,Jul,Wednesday,Larry Charles,Male
+601,44728,32.0,28,156.167015,Licence to Kill,5.9,541,5292,1989,Jul,Friday,John Glen,Male
+602,44729,42.0,45,89.162162,Red Riding Hood,5.6,922,5293,2011,Mar,Friday,Catherine Hardwicke,Female
+603,44732,42.0,34,24.127895,Lord of War,7.0,1335,5226,2005,Sep,Friday,Andrew Niccol,Male
+604,44733,31.0,23,177.394432,Hero,7.2,635,4945,2002,Dec,Thursday,Zhang Yimou,Male
+605,44737,33.0,7,14.0,Micmacs,6.8,148,5125,2009,Oct,Wednesday,Jean-Pierre Jeunet,Male
+606,44738,41.0,32,215.0,8 Mile,6.8,1626,5182,2002,Nov,Friday,Curtis Hanson,Male
+607,44740,65.0,36,117.487473,A Knight's Tale,6.6,907,5196,2001,May,Friday,Brian Helgeland,Male
+608,44742,40.0,73,672.806292,The Sixth Sense,7.7,3147,4854,1999,Aug,Friday,M. Night Shyamalan,Male
+609,44746,40.0,49,251.171807,American Hustle,6.8,2807,5123,2013,Dec,Thursday,David O. Russell,Male
+610,44747,40.0,36,317.375031,The Proposal,6.7,1804,5303,2009,Jun,Monday,Anne Fletcher,Female
+611,44749,40.0,43,332.0,Back to the Future Part II,7.4,3829,4804,1989,Nov,Monday,Robert Zemeckis,Male
+612,44750,40.0,115,126.546825,Lucy,6.3,5878,4949,2014,Jul,Monday,Luc Besson,Male
+613,44752,38.0,21,197.011982,Spy Kids 3-D: Game Over,4.7,511,5097,2003,Jul,Friday,Robert Rodriguez,
+614,44753,40.0,25,152.266007,A Time to Kill,7.0,509,4892,1996,Jul,Wednesday,Joel Schumacher,Male
+615,44754,40.0,26,190.212113,Cheaper by the Dozen,6.0,699,4842,2003,Dec,Wednesday,Shawn Levy,Male
+616,44755,40.0,37,149.295601,Lone Survivor,7.4,1526,4782,2013,Dec,Tuesday,Peter Berg,Male
+617,44757,40.0,68,320.170008,The Conjuring 2,7.0,1949,4794,2016,May,Friday,James Wan,Male
+618,44758,40.0,69,224.920315,The Social Network,7.1,3391,4829,2010,Sep,Thursday,David Fincher,Male
+619,44760,45.0,32,178.26262,Scary Movie 4,5.3,750,5253,2006,Apr,Thursday,David Zucker,Male
+620,44761,40.0,24,161.834276,Scream 3,5.7,736,5307,2000,Feb,Thursday,Wes Craven,Male
+621,44762,40.0,45,244.527583,Back to the Future Part III,7.1,2900,4804,1990,May,Friday,Robert Zemeckis,Male
+622,44764,40.0,45,215.862692,Dracula,7.1,1056,5179,1992,Nov,Friday,Francis Ford Coppola,Male
+623,44766,40.0,31,95.020213,42,6.8,787,5196,2013,Apr,Friday,Brian Helgeland,Male
+624,44768,40.0,67,169.83701,Dumb and Dumber To,5.4,1127,5067,2014,Nov,Wednesday,Bobby Farrelly,Male
+625,44770,35.0,53,194.564672,The Intern,7.1,1881,4978,2015,Sep,Thursday,Nancy Meyers,Female
+626,44771,40.0,25,124.827316,Ride Along 2,6.1,555,4894,2016,Jan,Thursday,Tim Story,Male
+627,44772,40.0,37,75.505856,The Last of the Mohicans,7.1,732,4918,1992,Sep,Friday,Michael Mann,Male
+628,44773,40.0,21,124.731534,Ray,7.2,467,5093,2004,Oct,Friday,Taylor Hackford,
+629,44774,40.0,66,158.73382,Sin City,7.2,2691,5097,2005,Apr,Friday,Robert Rodriguez,
+630,44777,40.0,29,141.06986,Shallow Hal,5.7,731,5067,2001,Nov,Thursday,Bobby Farrelly,Male
+631,44778,40.0,26,205.405498,JFK,7.5,502,4839,1991,Dec,Friday,Oliver Stone,Male
+632,44779,40.0,17,138.259062,Big Momma's House 2,5.4,371,5191,2006,Jan,Thursday,John Whitesell,Male
+633,44780,57.0,21,147.845033,The Mexican,5.8,441,4763,2001,Mar,Thursday,Gore Verbinski,Male
+634,44783,40.0,32,186.167139,The Final Destination,5.4,831,5262,2009,Aug,Wednesday,David R. Ellis,Male
+635,44784,40.0,48,165.478348,Bridge of Spies,7.2,2583,4799,2015,Oct,Thursday,Steven Spielberg,Male
+636,44786,40.0,17,90.029656,Get Him to the Greek,5.9,612,5310,2010,Jun,Friday,Nicholas Stoller,Male
+637,44787,50.0,14,170.12846,Shall We Dance?,5.9,297,4921,2004,Oct,Friday,Peter Chelsom,Male
+638,44788,40.0,23,54.682547,Small Soldiers,6.2,511,5017,1998,Jul,Friday,Joe Dante,Male
+639,44790,35.0,26,75.395048,The Count of Monte Cristo,7.3,453,4814,2002,Jan,Wednesday,Kevin Reynolds,
+640,44792,30.0,38,130.786397,Unknown,6.5,1265,5202,2011,Feb,Wednesday,Jaume Collet-Serra,Male
+641,44793,40.0,74,109.676311,The Prestige,8.0,4391,4765,2006,Oct,Thursday,Christopher Nolan,Male
+642,44797,40.0,23,191.185897,The Living Daylights,6.2,440,5292,1987,Jun,Monday,John Glen,Male
+643,44799,0.0,7,0.0,Legal Eagles,5.8,51,5005,1986,Jun,Wednesday,Ivan Reitman,Male
+644,44800,40.0,32,92.913171,Secret Window,6.4,972,5147,2004,Mar,Friday,David Koepp,Male
+645,44805,40.0,14,67.347013,Jersey Boys,6.8,255,5087,2014,Jun,Thursday,Clint Eastwood,Male
+646,44806,40.0,12,45.916769,The Rainmaker,6.7,235,5179,1997,Nov,Tuesday,Francis Ford Coppola,Male
+647,44808,36.0,3,74.0,Amistad,6.8,316,4799,1997,Dec,Wednesday,Steven Spielberg,Male
+648,44809,40.0,7,0.0,Medicine Man,5.8,114,4890,1992,Feb,Friday,John McTiernan,
+649,44811,40.0,14,0.0,Ri¢hie Ri¢h,5.4,415,5132,1994,Dec,Monday,Donald Petrie,Male
+650,44815,40.0,15,41.863726,The Guilt Trip,5.4,284,5303,2012,Dec,Wednesday,Anne Fletcher,Female
+651,44816,40.0,35,97.138686,Scream 4,6.1,902,5307,2011,Apr,Monday,Wes Craven,Male
+652,44817,40.0,25,96.618699,8MM,6.1,474,4892,1999,Feb,Friday,Joel Schumacher,Male
+653,44818,38.0,10,34.416893,The Doors,6.7,275,4839,1991,Mar,Friday,Oliver Stone,Male
+654,44824,30.0,9,50.451307,Fever Pitch,5.9,182,5067,2005,Apr,Wednesday,Bobby Farrelly,Male
+655,44828,40.0,31,55.247881,Extremely Loud & Incredibly Close,6.9,708,5323,2011,Dec,Saturday,Stephen Daldry,Male
+656,44832,40.0,10,31.67062,Rent,6.7,155,4885,2005,Nov,Wednesday,Chris Columbus,Male
+657,44833,40.0,3,0.0,Bless the Child,4.9,71,4926,2000,Aug,Friday,Chuck Russell,Male
+658,44836,40.0,3,27.053815,The Musketeer,5.2,56,4935,2001,Sep,Friday,Peter Hyams,Male
+659,44839,40.0,13,62.771059,The Reaping,5.4,205,5008,2007,Apr,Thursday,Stephen Hopkins,Male
+660,44848,45.0,14,20.350754,Showgirls,4.9,256,4889,1995,Sep,Friday,Paul Verhoeven,Male
+661,44854,40.0,41,46.471023,Fantastic Mr. Fox,7.5,1176,5228,2009,Oct,Friday,Wes Anderson,Male
+662,44855,40.0,8,16.872671,Life or Something Like It,5.7,124,5152,2002,Apr,Friday,Stephen Herek,Male
+663,44856,40.0,7,14.358033,Memoirs of an Invisible Man,5.7,125,5227,1992,Feb,Friday,John Carpenter,Male
+664,44857,10.0,73,173.921954,Amélie,7.8,3310,5125,2001,Apr,Wednesday,Jean-Pierre Jeunet,Male
+665,44863,40.0,16,28.169671,Cirque du Freak: The Vampire's Assistant,5.5,348,4924,2009,Oct,Friday,Paul Weitz,Male
+666,44865,0.0,5,0.0,Soul Men,6.3,47,5338,2008,Nov,Friday,Malcolm D. Lee,Male
+667,44869,40.0,9,0.0,Impostor,6.1,135,5207,2001,Dec,Monday,Gary Fleder,Male
+668,44872,50.0,51,32.017803,Sunshine,7.0,1182,5222,2007,Apr,Thursday,Danny Boyle,Male
+669,44873,40.0,13,22.044277,A Thousand Words,6.0,373,5115,2012,Mar,Wednesday,Brian Robbins,Male
+670,44880,30.0,14,0.0,The Hudsucker Proxy,7.1,275,5135,1994,Mar,Friday,Joel Coen,
+671,44886,15.0,44,94.0,The Crow,7.3,953,4865,1994,May,Wednesday,Alex Proyas,Male
+672,44888,39.0,37,101.229792,The Time Traveler's Wife,6.7,798,4886,2009,Aug,Friday,Robert Schwentke,Male
+673,44890,39.0,27,35.287788,Frankenweenie,6.6,932,4785,2012,Oct,Thursday,Tim Burton,Male
+674,44894,40.0,21,44.90726,Grudge Match,6.0,433,4989,2013,Dec,Wednesday,Peter Segal,Male
+675,44895,80.341,14,127.814609,Red Cliff,7.1,205,4893,2008,Jul,Thursday,John Woo,Male
+676,44896,30.0,18,180.622424,Sweet Home Alabama,6.0,394,5039,2002,Sep,Thursday,Andy Tennant,Male
+677,44897,38.0,22,205.298907,The Ugly Truth,6.4,972,5035,2009,Jul,Friday,Robert Luketic,Male
+678,44899,38.0,24,119.723358,Spy Kids 2: The Island of Lost Dreams,5.3,521,5097,2002,Aug,Wednesday,Robert Rodriguez,
+679,44902,38.0,16,114.15623,Water for Elephants,6.7,850,4831,2011,Mar,Tuesday,Francis Lawrence,Male
+680,44905,38.0,11,51.801187,Enough,6.2,264,4838,2002,May,Friday,Michael Apted,Male
+681,44907,38.0,41,107.597242,Paul Blart: Mall Cop 2,5.0,567,5203,2015,Apr,Thursday,Andy Fickman,Male
+682,44910,38.0,30,58.401898,The Ninth Gate,6.3,756,5096,1999,Aug,Tuesday,Roman Polanski,Male
+683,44911,38.0,3,17.380126,Extreme Measures,5.7,80,4838,1996,Sep,Friday,Michael Apted,Male
+684,44912,57.0,11,16.991902,Rock Star,6.0,190,5152,2001,Sep,Tuesday,Stephen Herek,Male
+685,44914,38.0,10,10.3,White Squall,6.3,86,4779,1996,Feb,Friday,Ridley Scott,Male
+686,44915,15.0,52,19.62976,The Thing,7.8,1588,5227,1982,Jun,Friday,John Carpenter,Male
+687,44918,0.0,5,0.0,Texas Rangers,5.4,19,5362,2001,Nov,Friday,Steve Miner,Male
+688,44920,32.0,25,28.25806,The Master,7.0,701,5363,2012,Sep,Friday,Paul Thomas Anderson,Male
+689,44922,40.0,3,9.793496,The Express,7.1,71,5207,2008,Oct,Friday,Gary Fleder,Male
+690,44926,40.0,27,79.7,What to Expect When You're Expecting,5.8,594,5367,2012,May,Thursday,Kirk Jones,
+691,44927,37.0,31,163.720069,Burn After Reading,6.5,1222,5135,2008,Sep,Friday,Joel Coen,
+692,44929,38.0,33,90.247624,Rush,7.7,2277,4846,2013,Sep,Monday,Ron Howard,Male
+693,44930,37.0,30,48.451803,Magnolia,7.5,825,5363,1999,Dec,Wednesday,Paul Thomas Anderson,Male
+694,44931,30.0,25,55.583804,Cop Out,5.3,511,5369,2010,Feb,Friday,Kevin Smith,Male
+695,44934,37.0,127,392.616625,Twilight,5.8,3561,5293,2008,Nov,Thursday,Catherine Hardwicke,Female
+696,44936,65.0,16,117.7585,Blue Streak,6.1,352,5002,1999,Sep,Friday,Les Mayfield,
+697,44944,36.0,19,44.350926,A Man Apart,5.8,258,5033,2003,Apr,Friday,F. Gary Gray,Male
+698,44945,37.0,29,26.25002,Aloha,5.2,692,5056,2015,May,Wednesday,Cameron Crowe,Male
+699,44946,0.0,8,0.0,Ghosts of Mississippi,6.2,40,5101,1996,Dec,Friday,Rob Reiner,Male
+700,44947,0.0,2,0.0,Snow Falling on Cedars,6.3,32,5375,1999,Dec,Wednesday,Scott Hicks,Male
+701,44949,36.0,70,12.532777,Gattaca,7.5,1808,5226,1997,Sep,Sunday,Andrew Niccol,Male
+702,44953,35.0,82,459.270619,The Hangover,7.2,6173,4993,2009,Jun,Friday,Todd Phillips,Male
+703,44955,33.0,18,310.940086,Austin Powers: The Spy Who Shagged Me,6.2,1011,4948,1999,Jun,Tuesday,Jay Roach,Male
+704,44956,35.0,44,411.348924,Batman,7.0,2096,4785,1989,Jun,Friday,Tim Burton,Male
+705,44958,35.0,36,321.731527,Lethal Weapon 3,6.4,811,4866,1992,May,Friday,Richard Donner,Male
+706,44960,35.0,21,147.93418,Spy Kids,5.5,867,5097,2001,Mar,Sunday,Robert Rodriguez,
+707,44962,38.0,49,252.276927,True Grit,7.2,1668,5135,2010,Dec,Wednesday,Joel Coen,
+708,44966,35.0,27,182.3,Cape Fear,7.0,675,4809,1991,Nov,Friday,Martin Scorsese,Male
+709,44967,35.0,45,69.823199,21,6.5,1375,5035,2008,Mar,Thursday,Robert Luketic,Male
+710,44968,35.0,72,140.795793,Trainwreck,5.9,1181,5047,2015,Jul,Friday,Judd Apatow,Male
+711,44971,35.0,24,126.21694,L.A. Confidential,7.7,1310,5182,1997,Sep,Friday,Curtis Hanson,Male
+712,44973,35.0,11,0.0,In & Out,6.3,177,4947,1997,Sep,Wednesday,Frank Oz,Male
+713,44974,35.0,23,113.374103,Species,5.5,453,4904,1995,Jul,Friday,Roger Donaldson,Male
+714,44975,1.8,38,25.504513,A Nightmare on Elm Street,7.2,1180,5307,1984,Nov,Wednesday,Wes Craven,Male
+715,44982,35.0,50,108.758521,Neighbors 2: Sorority Rising,5.6,1462,5310,2016,May,Wednesday,Nicholas Stoller,Male
+716,44984,34.0,19,48.169908,Malcolm X,7.2,370,5195,1992,Nov,Wednesday,Spike Lee,Male
+717,44985,35.0,38,88.058786,This Is 40,5.6,896,5047,2012,Dec,Thursday,Judd Apatow,Male
+718,44989,0.0,6,0.0,The Benchwarmers,5.2,242,4964,2006,Apr,Friday,Dennis Dugan,Male
+719,44991,35.0,40,41.954997,Donnie Brasco,7.4,1147,4797,1997,Feb,Thursday,Mike Newell,Male
+720,44992,33.0,40,102.984862,Resident Evil,6.4,2065,4974,2002,Mar,Friday,Paul W.S. Anderson,Male
+721,44994,0.0,23,0.0,The Ladykillers,6.0,415,5135,2004,Mar,Thursday,Joel Coen,
+722,44996,40.0,60,173.930596,In Time,6.7,3417,5226,2011,Oct,Thursday,Andrew Niccol,Male
+723,45002,35.0,50,120.072577,The Pianist,8.0,1864,5096,2002,Sep,Tuesday,Roman Polanski,Male
+724,45003,35.0,3,0.0,The Nativity Story,6.4,35,5293,2006,Dec,Friday,Catherine Hardwicke,Female
+725,45004,40.0,17,68.766121,House of Wax,5.5,677,5202,2005,Apr,Saturday,Jaume Collet-Serra,Male
+726,45005,27.0,22,115.505027,Closer,6.7,811,5031,2004,Dec,Wednesday,Mike Nichols,Male
+727,45006,35.0,28,84.60603,J. Edgar,6.0,741,5087,2011,Nov,Wednesday,Clint Eastwood,Male
+728,45009,35.0,27,57.120318,Predator 2,5.9,730,5008,1990,Nov,Tuesday,Stephen Hopkins,Male
+729,45013,35.0,14,36.098382,Jersey Girl,5.8,325,5369,2004,Mar,Thursday,Kevin Smith,Male
+730,45014,45.0,14,30.353232,Alex Cross,5.1,300,4810,2012,Oct,Thursday,Rob Cohen,Male
+731,45015,35.0,5,25.105255,Midnight in the Garden of Good and Evil,6.3,157,5087,1997,Nov,Friday,Clint Eastwood,Male
+732,45022,35.0,19,82.087155,Abduction,5.6,961,5024,2011,Sep,Thursday,John Singleton,Male
+733,45024,35.0,9,0.0,Wonder Boys,6.9,161,5182,2000,Feb,Tuesday,Curtis Hanson,Male
+734,45027,35.0,11,19.294901,Cursed,5.1,167,5307,2005,Feb,Friday,Wes Craven,Male
+735,45028,35.0,17,31.083599,Premium Rush,6.2,832,5147,2012,Aug,Friday,David Koepp,Male
+736,45029,35.0,18,51.680201,Hot Pursuit,5.4,647,5303,2015,May,Friday,Anne Fletcher,Female
+737,45031,35.0,28,46.216641,Parker,5.7,1455,5093,2013,Jan,Wednesday,Taylor Hackford,
+738,45036,35.0,9,63.215872,Lions for Lambs,6.0,216,5111,2007,Oct,Monday,Robert Redford,Male
+739,45039,0.0,11,0.0,The Shipping News,6.4,108,5405,2001,Dec,Tuesday,Lasse Hallström,Male
+740,45040,35.0,6,13.678913,American Outlaws,5.7,55,5002,2001,Aug,Friday,Les Mayfield,
+741,45045,35.0,27,17.508518,Sabotage,5.5,555,4811,2014,Mar,Friday,David Ayer,
+742,45046,35.0,3,11.560806,The Order,4.8,91,5196,2003,Sep,Friday,Brian Helgeland,Male
+743,45049,35.0,37,61.181942,The Walk,6.9,1121,4804,2015,Sep,Wednesday,Robert Zemeckis,Male
+744,45051,35.0,16,42.064105,A Good Year,6.5,357,4779,2006,Sep,Saturday,Ridley Scott,Male
+745,45052,35.0,3,4.651977,Radio Flyer,6.6,53,4866,1992,Feb,Friday,Richard Donner,Male
+746,45053,35.0,9,0.0,Bound by Honor,7.7,115,5093,1993,Feb,Friday,Taylor Hackford,
+747,45055,35.0,9,16.83891,Femme Fatale,6.2,142,4967,2002,Nov,Wednesday,Brian De Palma,Male
+748,45058,38.0,5,0.635096,Ride with the Devil,6.6,49,4867,1999,Nov,Wednesday,Ang Lee,Male
+749,45059,0.0,13,25.147786,Biutiful,7.0,291,4874,2010,Oct,Wednesday,Alejandro González Iñárritu,Male
+750,45064,34.0,9,32.25544,The Age of Innocence,7.0,169,4809,1993,Sep,Friday,Martin Scorsese,Male
+751,45065,35.0,24,15.30489,The Fountain,6.8,827,4881,2006,Sep,Wednesday,Darren Aronofsky,Male
+752,45067,35.0,16,2.106557,Stolen,5.1,344,4930,2012,May,Thursday,Simon West,Male
+753,45075,40.0,40,243.240178,A Few Good Men,7.1,877,5101,1992,Dec,Friday,Rob Reiner,Male
+754,45076,50.0,12,79.958599,Exit Wounds,5.3,110,5061,2001,Mar,Tuesday,Andrzej Bartkowiak,Male
+755,45077,30.0,24,173.959438,Big Momma's House,5.6,506,4913,2000,May,Wednesday,Raja Gosnell,Male
+756,45081,33.0,19,62.022014,Snakes on a Plane,5.1,497,5262,2006,Aug,Sunday,David R. Ellis,Male
+757,45086,33.0,9,0.0,Pushing Tin,5.7,116,4797,1999,Apr,Friday,Mike Newell,Male
+758,45089,32.0,33,113.01929,The Reader,7.2,813,5323,2008,Dec,Wednesday,Stephen Daldry,Male
+759,45091,32.0,16,173.398518,Elf,6.4,987,4808,2003,Oct,Thursday,Jon Favreau,Male
+760,45092,32.0,15,152.036382,Phenomenon,6.2,323,4832,1996,Jul,Friday,Jon Turteltaub,Male
+761,45093,33.0,13,0.0,Snow Dogs,5.3,185,5116,2002,Jan,Friday,Brian Levant,Male
+762,45094,0.0,21,60.328,Scrooged,6.7,390,4866,1988,Nov,Tuesday,Richard Donner,Male
+763,45102,32.0,15,83.615414,"Big Mommas: Like Father, Like Son",5.3,313,5191,2011,Feb,Wednesday,John Whitesell,Male
+764,45105,30.0,23,77.566815,The Number 23,6.3,1018,4892,2007,Feb,Friday,Joel Schumacher,Male
+765,45106,33.0,10,9.494789,The Young and Prodigious T.S. Spivet,6.7,232,5125,2013,Oct,Wednesday,Jean-Pierre Jeunet,Male
+766,45107,35.0,10,31.755742,1941,5.6,143,4799,1979,Dec,Thursday,Steven Spielberg,Male
+767,45109,32.0,34,60.740827,A History of Violence,6.9,832,5229,2005,Sep,Friday,David Cronenberg,Male
+768,45110,32.0,47,85.167639,Transporter 2,6.2,1061,4873,2005,Aug,Tuesday,Louis Leterrier,Male
+769,45111,32.0,16,18.55246,The Quick and the Dead,6.3,427,4767,1995,Feb,Thursday,Sam Raimi,Male
+770,45113,32.0,15,0.0,Bringing Out the Dead,6.6,225,4809,1999,Oct,Friday,Martin Scorsese,Male
+771,45120,32.0,5,5.914908,The Good German,5.9,86,4909,2006,Dec,Friday,Steven Soderbergh,Male
+772,45122,31.5,49,89.460381,Apocalypse Now,8.0,2055,5179,1979,Aug,Wednesday,Francis Ford Coppola,Male
+773,45124,0.0,6,106.269971,Mr. Holland's Opus,6.9,113,5152,1995,Dec,Friday,Stephen Herek,Male
+774,45126,31.0,13,128.499205,Out of Africa,7.0,279,4965,1985,Dec,Friday,Sydney Pollack,Male
+775,45127,31.0,42,161.772375,Flight,6.5,2415,4804,2012,Nov,Friday,Robert Zemeckis,Male
+776,45129,30.0,74,174.600318,The Grand Budapest Hotel,8.0,4519,5228,2014,Feb,Wednesday,Wes Anderson,Male
+777,45130,31.0,7,24.185781,Hearts in Atlantis,6.4,131,5375,2001,Sep,Friday,Scott Hicks,Male
+778,45134,30.25,15,115.101622,Get Shorty,6.4,302,4776,1995,Oct,Friday,Barry Sonnenfeld,Male
+779,45135,45.0,32,306.776732,Chicago,6.9,677,4775,2002,Dec,Thursday,Rob Marshall,Male
+780,45136,34.2,34,234.801895,Big Daddy,6.1,875,4964,1999,Jun,Friday,Dennis Dugan,Male
+781,45139,30.0,49,350.448145,Speed,6.8,1783,4915,1994,Jun,Thursday,Jan de Bont,Male
+782,45143,30.0,46,199.2,The Hunt for Red October,7.2,957,4890,1990,Mar,Friday,John McTiernan,
+783,45146,30.0,37,191.502426,The Addams Family,6.7,848,4776,1991,Nov,Friday,Barry Sonnenfeld,Male
+784,45148,37.0,40,165.335153,The Princess Diaries,6.5,1023,5053,2001,Aug,Friday,Garry Marshall,Male
+785,45150,33.0,79,327.311859,Se7en,8.1,5765,4829,1995,Sep,Friday,David Fincher,Male
+786,45153,25.0,31,156.82202,Mystic River,7.6,1422,5087,2003,Oct,Tuesday,Clint Eastwood,Male
+787,45154,30.0,70,216.763646,Million Dollar Baby,7.7,2439,5087,2004,Dec,Wednesday,Clint Eastwood,Male
+788,45155,80.0,29,176.885658,Analyze This,6.4,503,5130,1999,Mar,Friday,Harold Ramis,Male
+789,45157,30.0,30,160.259319,27 Dresses,6.1,978,5303,2008,Jan,Thursday,Anne Fletcher,Female
+790,45158,35.0,13,155.545279,Hannah Montana: The Movie,6.0,449,4921,2009,Apr,Friday,Peter Chelsom,Male
+791,45161,30.0,26,160.638883,Legends of the Fall,7.2,619,4863,1994,Dec,Friday,Edward Zwick,Male
+792,45162,25.0,33,163.67,Up in the Air,6.7,1205,5450,2009,Sep,Saturday,Jason Reitman,Male
+793,45163,30.0,19,105.834556,About Schmidt,6.7,362,5451,2002,Dec,Friday,Alexander Payne,
+794,45166,0.0,9,0.0,Down to Earth,4.9,95,4780,2001,Feb,Friday,Chris Weitz,
+795,45169,30.0,50,105.173115,Forgetting Sarah Marshall,6.4,1172,5310,2008,Apr,Thursday,Nicholas Stoller,Male
+796,45170,45.0,24,92.374674,Four Brothers,6.7,607,5024,2005,Aug,Thursday,John Singleton,Male
+797,45173,30.0,33,114.663461,Bride Wars,5.9,856,4995,2009,Jan,Friday,Gary Winick,Male
+798,45175,37.0,41,96.455697,13 Going on 30,6.3,1204,4995,2004,Apr,Tuesday,Gary Winick,Male
+799,45176,30.0,43,151.119219,Midnight in Paris,7.4,1990,5457,2011,May,Wednesday,Woody Allen,Male
+800,45182,30.0,28,51.132598,The Naked Gun 33⅓: The Final Insult,6.3,521,4989,1994,Mar,Friday,Peter Segal,Male
+801,45183,30.0,27,152.42796,A View to a Kill,6.0,506,5292,1985,May,Friday,John Glen,Male
+802,45185,30.0,29,156.835339,P.S. I Love You,6.9,977,5235,2007,Nov,Thursday,Richard LaGravenese,Male
+803,45187,30.0,33,129.266061,Atonement,7.4,1049,4857,2007,Aug,Wednesday,Joe Wright,Male
+804,45188,30.0,16,0.0,Letters to Juliet,6.6,796,4995,2010,May,Friday,Gary Winick,Male
+805,45189,30.0,11,45.892212,Black Rain,6.2,243,4779,1989,Sep,Friday,Ridley Scott,Male
+806,45190,30.0,14,54.819301,The Three Stooges,4.9,140,5067,2012,Apr,Friday,Bobby Farrelly,Male
+807,45191,40.0,43,117.195061,Corpse Bride,7.2,1894,4785,2005,Sep,Friday,Tim Burton,Male
+808,45194,30.0,65,91.709827,Southpaw,7.3,2067,5034,2015,Jun,Monday,Antoine Fuqua,Male
+809,45195,30.0,45,90.810892,Drag Me to Hell,6.2,966,4767,2009,Mar,Sunday,Sam Raimi,Male
+810,45198,30.0,25,159.291809,Step Up 3D,6.6,582,4868,2010,Aug,Wednesday,Jon M. Chu,Male
+811,45200,30.0,32,53.653224,Stranger Than Fiction,7.1,721,4773,2006,Sep,Saturday,Marc Forster,Male
+812,45203,30.0,10,84.646831,Meet the Spartans,3.7,359,5465,2008,Jan,Thursday,Jason Friedberg,Male
+813,45206,25.0,12,38.748395,Little Shop of Horrors,6.6,384,4947,1986,Dec,Friday,Frank Oz,Male
+814,45207,30.0,31,63.782078,Hanna,6.5,1263,4857,2011,Apr,Thursday,Joe Wright,Male
+815,45215,30.0,48,63.372757,Side Effects,6.4,1323,4909,2013,Feb,Thursday,Steven Soderbergh,Male
+816,45223,0.0,20,60.896147,My Super Ex-Girlfriend,4.8,442,5005,2006,Jun,Tuesday,Ivan Reitman,Male
+817,45227,30.0,27,53.909751,The Five-Year Engagement,5.7,457,5310,2012,Apr,Friday,Nicholas Stoller,Male
+818,45232,30.0,9,19.204929,The Replacement Killers,6.0,127,5034,1998,Feb,Friday,Antoine Fuqua,Male
+819,45235,30.0,20,102.820008,Love & Other Drugs,6.6,1233,4863,2010,Nov,Monday,Edward Zwick,Male
+820,45241,30.0,10,31.148328,Pride and Glory,6.3,240,5489,2008,Sep,Tuesday,Gavin O'Connor,Male
+821,45243,30.0,4,15.368897,Alex & Emma,5.0,68,5101,2003,Jun,Monday,Rob Reiner,Male
+822,45248,0.0,3,0.0,In Dreams,5.4,44,5193,1999,Jan,Friday,Neil Jordan,
+823,45254,30.0,6,18.618284,An Unfinished Life,6.7,161,5405,2005,Sep,Friday,Lasse Hallström,Male
+824,45255,30.0,37,64.352607,The Imaginarium of Doctor Parnassus,6.3,869,5014,2009,Oct,Thursday,Terry Gilliam,Male
+825,45259,18.0,16,26.828365,Glory,7.4,383,4863,1989,Dec,Friday,Edward Zwick,Male
+826,45263,0.0,2,0.0,The Good Thief,6.0,31,5193,2003,Apr,Thursday,Neil Jordan,
+827,45271,30.0,48,0.0,Wild Card,5.4,656,4930,2015,Jan,Wednesday,Simon West,Male
+828,45272,30.0,13,2.527904,Machine Gun Preacher,6.4,286,4773,2011,Sep,Friday,Marc Forster,Male
+829,45281,28.0,35,186.438883,Walk the Line,7.3,718,4900,2005,Sep,Tuesday,James Mangold,Male
+830,45284,0.0,16,0.0,Frost/Nixon,7.2,328,4846,2008,Oct,Wednesday,Ron Howard,Male
+831,45285,30.0,18,33.013805,Confessions of a Dangerous Mind,6.6,275,5059,2002,Dec,Monday,George Clooney,Male
+832,45289,0.0,4,0.0,Mumford,6.3,26,5082,1999,Sep,Friday,Lawrence Kasdan,Male
+833,45293,28.0,61,201.634991,Straight Outta Compton,7.7,1355,5033,2015,Aug,Thursday,F. Gary Gray,Male
+834,45294,28.0,66,333.0,Indiana Jones and the Temple of Doom,7.1,2781,4799,1984,May,Wednesday,Steven Spielberg,Male
+835,45296,60.0,21,105.178561,Along Came a Spider,6.1,400,4859,2001,Apr,Friday,Lee Tamahori,Male
+836,45297,29.0,19,48.902953,Florence Foster Jenkins,6.6,392,5249,2016,May,Friday,Stephen Frears,
+837,45298,29.0,27,98.185582,Once Upon a Time in Mexico,6.2,594,5097,2003,Sep,Thursday,Robert Rodriguez,
+838,45299,28.0,66,140.767956,Die Hard,7.5,3948,4890,1988,Jul,Friday,John McTiernan,
+839,45301,28.0,57,133.346506,The Big Short,7.3,2607,4925,2015,Dec,Friday,Adam McKay,Male
+840,45302,0.0,11,0.0,Taking Woodstock,6.2,127,4867,2009,Sep,Thursday,Ang Lee,Male
+841,45303,28.0,7,64.445708,Miracle,7.0,159,5489,2004,Feb,Friday,Gavin O'Connor,Male
+842,45304,28.0,44,102.356381,Dawn of the Dead,6.8,1016,4771,2004,Mar,Friday,Zack Snyder,Male
+843,45305,35.0,14,94.728529,The Wedding Planner,5.5,427,4998,2001,Jan,Friday,Adam Shankman,Male
+844,45307,21.0,24,71.44125,The Royal Tenenbaums,7.4,1286,5228,2001,Oct,Friday,Wes Anderson,Male
+845,45308,30.0,45,90.259536,Identity,7.1,1061,4900,2003,Apr,Friday,James Mangold,Male
+846,45309,28.0,28,134.40245,Last Vegas,6.4,799,4832,2013,Oct,Thursday,Jon Turteltaub,Male
+847,45310,28.0,26,195.312802,For Your Eyes Only,6.3,490,5292,1981,Jun,Tuesday,John Glen,Male
+848,45311,28.0,14,77.516304,Serendipity,6.6,521,4921,2001,Oct,Friday,Peter Chelsom,Male
+849,45312,27.0,13,101.646581,Timecop,5.5,282,4935,1994,Sep,Thursday,Peter Hyams,Male
+850,45313,28.0,38,60.780981,Zoolander,6.1,1337,4960,2001,Sep,Friday,Ben Stiller,Male
+851,45314,28.0,37,97.59414,Safe Haven,6.9,823,5405,2013,Feb,Thursday,Lasse Hallström,Male
+852,45315,28.0,18,39.514713,Hocus Pocus,6.4,471,5113,1993,Jul,Friday,Kenny Ortega,Male
+853,45316,28.0,15,92.60105,No Reservations,6.1,327,5375,2007,Jul,Wednesday,Scott Hicks,Male
+854,45320,28.0,22,100.654149,"Alexander and the Terrible, Horrible, No Good, Very Bad Day",6.1,493,5519,2014,Oct,Wednesday,Miguel Arteta,Male
+855,45321,28.0,36,121.147947,Pride & Prejudice,7.7,1358,4857,2005,Sep,Friday,Joe Wright,Male
+856,45322,28.0,94,33.139618,Blade Runner,7.9,3509,4779,1982,Jun,Friday,Ridley Scott,Male
+857,45324,28.0,41,52.597999,3 Days to Kill,6.0,883,4793,2014,Feb,Friday,McG,Male
+858,45328,28.0,22,38.159905,Just My Luck,5.8,491,5132,2006,May,Friday,Donald Petrie,Male
+859,45329,28.0,4,8.888143,"Mystery, Alaska",6.0,69,4948,1999,Oct,Friday,Jay Roach,Male
+860,45330,28.0,14,45.236543,The Spy Next Door,5.5,345,5116,2010,Jan,Friday,Brian Levant,Male
+861,45332,28.0,13,14.010832,Ghosts of Mars,4.8,296,5227,2001,Aug,Friday,John Carpenter,Male
+862,45333,28.0,12,7.002261,Our Brand Is Crisis,5.8,195,5231,2015,Sep,Friday,David Gordon Green,Male
+863,45335,28.0,7,5.684789,Kundun,6.8,91,4809,1997,Dec,Thursday,Martin Scorsese,Male
+864,45340,27.5,25,187.5,Octopussy,6.2,527,5292,1983,Jun,Sunday,John Glen,Male
+865,45341,30.0,22,219.076518,Knocked Up,6.2,1214,5047,2007,Jun,Friday,Judd Apatow,Male
+866,45343,35.0,6,43.650785,Welcome Home Roscoe Jenkins,5.7,57,5338,2008,Feb,Friday,Malcolm D. Lee,Male
+867,45349,27.0,18,60.527873,Kiss the Girls,6.2,345,5207,1997,Oct,Friday,Gary Fleder,Male
+868,45350,27.0,44,115.22989,The Blues Brothers,7.5,1065,5217,1980,Jun,Tuesday,John Landis,Male
+869,45353,27.0,28,129.0,About a Boy,6.6,607,4780,2002,Apr,Friday,Chris Weitz,
+870,45354,27.0,11,56.870414,Lake Placid,5.5,247,5362,1999,Jul,Thursday,Steve Miner,Male
+871,45357,30.0,16,15.395087,Anonymous,6.3,288,4803,2011,Oct,Friday,Roland Emmerich,Male
+872,45358,27.0,47,20.158808,The NeverEnding Story,7.0,1002,4833,1984,Apr,Thursday,Wolfgang Petersen,Male
+873,45359,27.0,39,27.200316,Dark City,7.2,828,4865,1998,Feb,Friday,Alex Proyas,Male
+874,45362,27.0,3,76.0,The Newton Boys,5.9,44,5535,1998,Mar,Thursday,Richard Linklater,Male
+875,45366,27.0,14,85.56431,Spy Kids: All the Time in the World,4.4,222,5097,2011,Aug,Thursday,Robert Rodriguez,
+876,45369,0.0,5,4.488529,Flawless,5.9,56,4892,1999,Nov,Friday,Joel Schumacher,Male
+877,45370,27.0,17,21.148829,Mindhunters,6.3,333,4958,2004,May,Friday,Renny Harlin,Male
+878,45371,25.0,8,6.673422,What Just Happened,5.2,127,5037,2008,Oct,Friday,Barry Levinson,Male
+879,45373,0.0,0,0.0,The Magic Flute,6.9,6,4847,2006,Sep,Thursday,Kenneth Branagh,Male
+880,45375,26.0,24,110.230332,Freaky Friday,6.0,879,4955,2003,Aug,Sunday,Mark Waters,Male
+881,45376,26.0,38,109.449237,The 40 Year Old Virgin,6.2,1983,5047,2005,Aug,Thursday,Judd Apatow,Male
+882,45377,25.0,31,289.317794,Shakespeare in Love,6.8,796,5157,1998,Dec,Friday,John Madden,
+883,45379,15.0,5,201.957688,Kindergarten Cop,5.8,628,5005,1990,Dec,Friday,Ivan Reitman,Male
+884,45380,27.0,41,101.624843,Pineapple Express,6.6,1148,5231,2008,Aug,Wednesday,David Gordon Green,Male
+885,45381,26.0,21,65.705772,Ever After: A Cinderella Story,6.8,399,5039,1998,Jul,Friday,Andy Tennant,Male
+886,45383,26.0,24,61.489265,Flatliners,6.3,404,4892,1990,Aug,Thursday,Joel Schumacher,Male
+887,45385,26.0,8,57.891803,Red Eye,6.2,455,5307,2005,Aug,Thursday,Wes Craven,Male
+888,45386,26.0,37,90.426405,Final Destination 2,5.9,1023,5262,2003,Jan,Friday,David R. Ellis,Male
+889,45387,26.0,39,71.868327,"O Brother, Where Art Thou?",7.3,1112,5135,2000,Aug,Wednesday,Joel Coen,
+890,45389,25.0,31,86.175291,Pain & Gain,6.1,1573,4788,2013,Apr,Thursday,Michael Bay,Male
+891,45390,0.0,15,0.0,In Good Company,5.9,194,4924,2004,Dec,Wednesday,Paul Weitz,Male
+892,45392,26.0,10,0.0,Silverado,7.1,146,5082,1985,Jul,Wednesday,Lawrence Kasdan,Male
+893,45395,56.0,21,142.044638,New Year's Eve,5.7,718,5053,2011,Dec,Thursday,Garry Marshall,Male
+894,45398,30.0,3,14.0,Welcome to Mooseport,4.8,54,5132,2004,Feb,Tuesday,Donald Petrie,Male
+895,45402,0.0,9,0.0,The Curse of the Jade Scorpion,6.5,165,5457,2001,Aug,Sunday,Woody Allen,Male
+896,45403,26.0,5,0.0,Accidental Love,3.9,95,5123,2015,Feb,Tuesday,David O. Russell,Male
+897,45408,25.0,30,441.286195,Mrs. Doubtfire,7.0,1591,4885,1993,Nov,Wednesday,Chris Columbus,Male
+898,45409,25.0,49,412.8,Rain Man,7.6,1709,5037,1988,Dec,Sunday,Barry Levinson,Male
+899,45410,33.0,50,269.958228,Gran Torino,7.8,3086,5087,2008,Dec,Tuesday,Clint Eastwood,Male
+900,45411,25.1,10,29.506464,W.,6.1,143,4839,2008,Oct,Friday,Oliver Stone,Male
+901,45415,22.0,104,321.365567,Schindler's List,8.3,4329,4799,1993,Nov,Monday,Steven Spielberg,Male
+902,45417,28.0,20,8.555008,The Fifth Estate,5.7,364,4872,2013,Oct,Friday,Bill Condon,Male
+903,45418,0.0,22,181.466833,Scooby-Doo 2: Monsters Unleashed,5.4,500,4913,2004,Mar,Wednesday,Raja Gosnell,Male
+904,45421,0.0,7,0.0,The Face of an Angel,4.7,64,5549,2014,Sep,Saturday,Michael Winterbottom,Male
+905,45425,25.0,38,76.270454,The Untouchables,7.6,1384,4967,1987,Jun,Tuesday,Brian De Palma,Male
+906,45426,25.0,53,171.6,No Country for Old Men,7.7,3003,5135,2007,Nov,Thursday,Joel Coen,
+907,45427,25.0,28,153.997819,Ride Along,6.1,853,4894,2014,Jan,Tuesday,Tim Story,Male
+908,45429,25.0,28,152.500343,Chocolat,6.8,951,5405,2000,Dec,Thursday,Lasse Hallström,Male
+909,45431,25.0,14,119.772232,Parental Guidance,5.7,210,5203,2012,Dec,Tuesday,Andy Fickman,Male
+910,45432,25.0,38,147.78044,No Strings Attached,6.1,1331,5005,2011,Jan,Friday,Ivan Reitman,Male
+911,45434,25.0,19,91.03676,Romeo Must Die,6.0,330,5061,2000,Mar,Monday,Andrzej Bartkowiak,Male
+912,45435,2.8,25,60.92298,The Omen,7.2,476,4866,1976,Jun,Sunday,Richard Donner,Male
+913,45437,25.0,26,99.357138,The Lucky One,6.8,946,5375,2012,Apr,Thursday,Scott Hicks,Male
+914,45439,25.0,34,116.766556,Finding Neverland,7.2,1223,4773,2004,Oct,Sunday,Marc Forster,Male
+915,45440,0.0,5,0.0,A Madea Christmas,7.0,35,5554,2013,Dec,Friday,Tyler Perry,Male
+916,45443,26.0,29,90.574188,Anchorman: The Legend of Ron Burgundy,6.7,1493,4925,2004,Jul,Friday,Adam McKay,Male
+917,45444,25.0,63,46.836394,GoodFellas,8.2,3128,4809,1990,Sep,Wednesday,Martin Scorsese,Male
+918,45446,25.0,24,122.489822,Nanny McPhee,6.4,711,5367,2005,Oct,Friday,Kirk Jones,
+919,45447,25.0,70,65.884703,Scarface,8.0,2948,4967,1983,Dec,Thursday,Brian De Palma,Male
+920,45451,0.0,7,0.0,Money Talks,5.9,87,4786,1997,Aug,Friday,Brett Ratner,Male
+921,45452,25.0,37,77.208711,There Will Be Blood,7.9,1537,5363,2007,Dec,Friday,Paul Thomas Anderson,Male
+922,45455,25.0,6,41.604473,Undercover Brother,5.5,112,5338,2002,May,Friday,Malcolm D. Lee,Male
+923,45461,25.0,53,66.980456,The Giver,6.4,1798,4880,2014,Aug,Monday,Phillip Noyce,Male
+924,45465,25.0,12,56.489558,Cradle 2 the Grave,5.8,236,5061,2003,Feb,Friday,Andrzej Bartkowiak,Male
+925,45466,25.0,20,41.59783,The Hours,7.0,451,5323,2002,Dec,Friday,Stephen Daldry,Male
+926,45467,20.0,10,33.889159,She's the Man,6.4,671,5203,2006,Mar,Friday,Andy Fickman,Male
+927,45476,25.0,19,34.942188,The Sitter,5.4,325,5231,2011,Dec,Friday,David Gordon Green,Male
+928,45480,27.0,17,25.023434,Kingpin,6.7,244,5067,1996,Jul,Thursday,Bobby Farrelly,Male
+929,45486,25.0,10,21.567853,He Got Game,6.7,134,5195,1998,May,Friday,Spike Lee,Male
+930,45488,25.0,19,114.977104,Dear John,6.6,1262,5405,2010,Feb,Thursday,Lasse Hallström,Male
+931,45492,25.0,15,17.0,Punch-Drunk Love,6.9,530,5363,2002,Oct,Friday,Paul Thomas Anderson,Male
+932,45502,25.0,7,19.829957,My Soul to Take,5.2,147,5307,2010,Oct,Friday,Wes Craven,Male
+933,45506,25.0,32,42.972994,Legend,6.7,973,5196,2015,Sep,Wednesday,Brian Helgeland,Male
+934,45508,28.0,8,10.126458,Shark Night,4.9,132,5262,2011,Sep,Friday,David R. Ellis,Male
+935,45510,25.0,14,28.831145,Draft Day,6.5,304,5005,2014,Apr,Friday,Ivan Reitman,Male
+936,45512,25.0,9,15.4788,The Conspirator,6.2,137,5111,2010,Sep,Friday,Robert Redford,Male
+937,45513,25.0,8,13.411957,Lords of Dogtown,7.0,210,5293,2005,Jun,Friday,Catherine Hardwicke,Female
+938,45515,25.0,29,11.0,Big Trouble in Little China,7.1,705,5227,1986,May,Friday,John Carpenter,Male
+939,45517,25.0,51,23.057115,Warrior,7.7,1272,5489,2011,Sep,Friday,Gavin O'Connor,Male
+940,45518,28.0,8,16.9,Michael Collins,6.7,97,5193,1996,Oct,Friday,Neil Jordan,
+941,45525,25.0,7,10.324441,Straw Dogs,5.5,144,5140,2011,Sep,Friday,Rod Lurie,Male
+942,45526,25.0,5,11.772461,The Hoax,6.4,60,5405,2006,Oct,Saturday,Lasse Hallström,Male
+943,45532,25.0,8,0.0,The World's Fastest Indian,7.3,166,4904,2005,Oct,Wednesday,Roger Donaldson,Male
+944,45536,25.0,7,2.40542,BloodRayne,3.5,118,5148,2005,Oct,Saturday,Uwe Boll,Male
+945,45537,25.0,20,27.603069,Carnage,7.0,738,5096,2011,Sep,Friday,Roman Polanski,Male
+946,45538,25.0,4,0.0,Where the Truth Lies,5.9,66,5599,2005,Oct,Friday,Atom Egoyan,Male
+947,45539,0.0,5,34.153101,Cirque du Soleil: Worlds Away,6.1,58,4774,2012,Nov,Friday,Andrew Adamson,Male
+948,45541,25.0,3,2.336172,Me and Orson Welles,6.6,49,5535,2009,Nov,Wednesday,Richard Linklater,Male
+949,45546,0.0,5,0.0,Love Ranch,6.0,21,5093,2010,Jun,Wednesday,Taylor Hackford,
+950,45549,25.0,35,71.009334,The Counselor,5.0,712,4779,2013,Oct,Friday,Ridley Scott,Male
+951,45554,14.0,14,34.67072,Dangerous Liaisons,7.0,257,5249,1988,Dec,Friday,Stephen Frears,
+952,45558,24.0,35,172.363301,Scream 2,6.1,840,5307,1997,Dec,Tuesday,Wes Craven,Male
+953,45559,25.0,15,1.397284,Jane Got a Gun,5.4,285,5489,2016,Jan,Friday,Gavin O'Connor,Male
+954,45560,24.0,15,70.181428,Think Like a Man Too,6.4,225,4894,2014,Jun,Friday,Tim Story,Male
+955,45563,24.0,24,87.055349,Old School,6.6,541,4993,2003,Feb,Friday,Todd Phillips,Male
+956,45564,24.0,16,41.895491,The Fisher King,7.2,341,5014,1991,Sep,Monday,Terry Gilliam,Male
+957,45567,24.0,27,42.105111,Zack and Miri Make a Porno,6.1,721,5369,2008,Sep,Thursday,Kevin Smith,Male
+958,45571,40.0,10,0.0,"Girl, Interrupted",7.6,721,4900,1999,Dec,Tuesday,James Mangold,Male
+959,45572,17.0,7,16.980098,Win a Date with Tad Hamilton!,5.5,160,5035,2004,Jan,Friday,Robert Luketic,Male
+960,45573,24.0,6,16.290976,Muppets from Space,5.8,92,5105,1999,Jul,Wednesday,Tim Hill,Male
+961,45574,24.0,2,21.049053,The Wiz,5.9,58,5615,1978,Oct,Tuesday,Sidney Lumet,
+962,45575,24.0,3,12.37241,Ready to Rumble,4.7,49,5115,2000,Apr,Friday,Brian Robbins,Male
+963,45586,23.0,23,185.991646,The Waterboy,5.9,512,4917,1998,Nov,Friday,Frank Coraci,Male
+964,45588,19.0,33,141.407024,Bad Boys,6.5,1699,4788,1995,Apr,Friday,Michael Bay,Male
+965,45589,23.0,27,86.930411,The Naked Gun 2½: The Smell of Fear,6.6,546,5253,1991,Jun,Friday,David Zucker,Male
+966,45591,12.5,20,75.993061,The Ides of March,6.5,910,5059,2011,Sep,Saturday,George Clooney,Male
+967,45597,23.0,8,18.653615,Anywhere But Here,5.9,66,5162,1999,Nov,Friday,Wayne Wang,
+968,45599,23.0,26,33.372606,Haywire,5.6,505,4909,2011,Nov,Sunday,Steven Soderbergh,Male
+969,45603,23.0,6,10.827816,The End of the Affair,6.6,55,5193,1999,Dec,Friday,Neil Jordan,
+970,45608,23.0,5,9.366227,Cheri,5.9,56,5249,2009,Feb,Tuesday,Stephen Frears,
+971,45609,23.0,6,16.123851,Vanity Fair,5.5,73,5628,2004,Sep,Wednesday,Mira Nair,Female
+972,45615,23.0,57,369.884651,There's Something About Mary,6.5,1590,5067,1998,Jul,Wednesday,Bobby Farrelly,Male
+973,45618,22.0,20,147.880543,The Game Plan,6.0,428,5203,2007,Sep,Friday,Andy Fickman,Male
+974,45619,24.0,17,182.016617,The Bridges of Madison County,7.3,385,5087,1995,May,Sunday,Clint Eastwood,Male
+975,45622,22.0,27,88.880821,The Hundred-Foot Journey,7.3,508,5405,2014,Aug,Wednesday,Lasse Hallström,Male
+976,45628,22.0,17,35.424826,The Informant!,6.0,301,4909,2009,Sep,Friday,Steven Soderbergh,Male
+977,45633,22.0,12,19.351569,Saving Silverman,5.4,154,4964,2001,Feb,Friday,Dennis Dugan,Male
+978,45635,0.0,3,0.0,Summer of Sam,6.3,112,5195,1999,Jul,Friday,Spike Lee,Male
+979,45636,22.0,21,33.788161,Jay and Silent Bob Strike Back,6.4,480,5369,2001,Aug,Wednesday,Kevin Smith,Male
+980,45638,22.0,39,63.647656,"Hail, Caesar!",5.7,1309,5135,2016,Feb,Friday,Joel Coen,
+981,45640,22.0,35,43.058898,Homefront,6.4,875,5207,2013,Nov,Wednesday,Gary Fleder,Male
+982,45642,22.0,14,0.0,I Heart Huckabees,6.2,239,5123,2004,Sep,Friday,David O. Russell,Male
+983,45649,21.0,13,26.193068,Black Book,7.2,277,4889,2006,Sep,Friday,Paul Verhoeven,Male
+984,45659,0.0,2,0.0,My Fellow Americans,6.3,46,4989,1996,Dec,Friday,Peter Segal,Male
+985,45662,17.0,15,73.244881,To Rome with Love,5.6,546,5457,2012,Apr,Friday,Woody Allen,Male
+986,45663,18.0,8,70.687344,Firefox,5.5,139,5087,1982,Jun,Sunday,Clint Eastwood,Male
+987,45665,9.0,20,4.6e-05,Death at a Funeral,6.9,497,4947,2007,Feb,Friday,Frank Oz,Male
+988,45667,32.0,5,40.222729,Hardball,6.3,123,5115,2001,Sep,Friday,Brian Robbins,Male
+989,45668,21.0,63,205.738714,Silver Linings Playbook,6.9,4742,5123,2012,Sep,Saturday,David O. Russell,Male
+990,45669,21.0,17,41.170784,Freedom Writers,7.5,356,5235,2007,Jan,Friday,Richard LaGravenese,Male
+991,45670,0.0,1,37.0,For Colored Girls,7.0,22,5554,2010,Nov,Friday,Tyler Perry,Male
+992,45671,21.0,34,43.928932,The Transporter,6.6,1692,4873,2002,Oct,Wednesday,Louis Leterrier,Male
+993,45674,17.0,10,14.899417,Away We Go,6.7,189,4764,2009,Jun,Friday,Sam Mendes,Male
+994,45681,15.0,21,2.856712,eXistenZ,6.7,475,5229,1999,Apr,Wednesday,David Cronenberg,Male
+995,45682,18.0,68,389.925971,Raiders of the Lost Ark,7.7,3854,4799,1981,Jun,Friday,Steven Spielberg,Male
+996,45683,18.0,81,358.991681,Home Alone 2: Lost in New York,6.3,2395,4885,1992,Nov,Thursday,Chris Columbus,Male
+997,45684,20.0,52,303.788635,Close Encounters of the Third Kind,7.2,1098,4799,1977,Nov,Wednesday,Steven Spielberg,Male
+998,45686,20.0,25,299.965036,Beverly Hills Cop II,6.1,613,4923,1987,May,Monday,Tony Scott,Male
+999,45687,20.0,8,132.675402,Bringing Down the House,5.4,183,4998,2003,Mar,Friday,Adam Shankman,Male
+1000,45688,19.0,18,272.742922,The Silence of the Lambs,8.1,4443,5009,1991,Feb,Friday,Jonathan Demme,Male
+1001,45692,20.0,12,149.281606,Beverly Hills Chihuahua,4.9,209,4913,2008,Oct,Friday,Raja Gosnell,Male
+1002,45693,13.0,49,318.000141,The Conjuring,7.4,3092,4794,2013,Jul,Thursday,James Wan,Male
+1003,45694,32.0,13,97.918663,Are We There Yet?,5.2,221,5116,2005,Jan,Thursday,Brian Levant,Male
+1004,45696,35.0,43,131.282949,School of Rock,6.7,1414,5535,2003,Oct,Friday,Richard Linklater,Male
+1005,45697,18.0,16,122.19592,Mortal Kombat,5.4,442,4974,1995,Aug,Friday,Paul W.S. Anderson,Male
+1006,45699,20.0,40,177.243185,The Descendants,6.7,934,5451,2011,Sep,Friday,Alexander Payne,
+1007,45704,20.0,2,60.072596,Why Did I Get Married Too?,6.1,29,5554,2010,Apr,Friday,Tyler Perry,Male
+1008,45705,20.0,47,53.0,Edward Scissorhands,7.5,3601,4785,1990,Dec,Wednesday,Tim Burton,Male
+1009,45707,0.0,7,0.0,Madea's Witness Protection,5.9,52,5554,2012,Jun,Friday,Tyler Perry,Male
+1010,45710,20.0,10,48.548426,Date Movie,3.6,222,5465,2006,Feb,Friday,Jason Friedberg,Male
+1011,45717,20.0,29,41.596251,Orphan,6.7,1261,5202,2009,Jul,Friday,Jaume Collet-Serra,Male
+1012,45719,20.0,6,86.865564,Epic Movie,3.2,326,5465,2007,Jan,Thursday,Jason Friedberg,Male
+1013,45725,20.0,11,41.237648,Man of the Year,5.8,129,5037,2006,Oct,Monday,Barry Levinson,Male
+1014,45729,20.0,17,80.547866,Vampires Suck,4.2,315,5465,2010,Aug,Wednesday,Jason Friedberg,Male
+1015,45730,25.0,25,135.330182,Babel,6.9,1055,4874,2006,Sep,Friday,Alejandro González Iñárritu,Male
+1016,45731,19.8,20,41.29632,This Is Where I Leave You,6.5,505,4842,2014,Sep,Wednesday,Shawn Levy,Male
+1017,45736,20.0,36,78.378744,Scary Movie 5,4.6,793,5338,2013,Apr,Thursday,Malcolm D. Lee,Male
+1018,45738,20.0,30,54.586584,Milk,7.1,612,5283,2008,Nov,Wednesday,Gus Van Sant,Male
+1019,45739,20.0,16,46.069568,Risen,5.7,295,4814,2016,Feb,Friday,Kevin Reynolds,
+1020,45744,20.0,14,45.636368,The Debt,6.3,257,5157,2010,Apr,Sunday,John Madden,
+1021,45745,30.0,23,47.126295,High Fidelity,7.0,628,5249,2000,Mar,Friday,Stephen Frears,
+1022,45748,20.0,30,64.822796,The Bank Job,6.6,697,4904,2008,Feb,Thursday,Roger Donaldson,Male
+1023,45750,20.0,19,32.005248,You Again,6.0,368,5203,2010,Sep,Friday,Andy Fickman,Male
+1024,45751,20.0,18,65.569869,Street Kings,6.3,363,4811,2008,Apr,Thursday,David Ayer,
+1025,45760,20.0,15,37.597471,The Covenant,5.2,288,4958,2006,Sep,Friday,Renny Harlin,Male
+1026,45762,40.0,4,28.972508,Shorts,5.1,44,5097,2009,Aug,Friday,Robert Rodriguez,
+1027,45763,20.0,12,21.284514,To Die For,6.7,175,5283,1995,May,Saturday,Gus Van Sant,Male
+1028,45766,20.0,17,0.0,Vampires,5.8,255,5227,1998,Apr,Wednesday,John Carpenter,Male
+1029,45770,20.0,7,0.0,Georgia Rule,5.6,130,5053,2007,May,Friday,Garry Marshall,Male
+1030,45772,20.0,14,18.432,Ladyhawke,6.8,260,4866,1985,Mar,Wednesday,Richard Donner,Male
+1031,45776,20.0,8,17.807569,School for Scoundrels,5.6,111,4993,2006,Sep,Friday,Todd Phillips,Male
+1032,45778,19.0,64,25.836616,From Dusk Till Dawn,6.9,1603,5097,1996,Jan,Friday,Robert Rodriguez,
+1033,45783,20.0,10,73.276047,The Kite Runner,7.3,394,4773,2007,Oct,Sunday,Marc Forster,Male
+1034,45784,20.0,32,60.427839,21 Grams,7.2,918,4874,2003,Sep,Saturday,Alejandro González Iñárritu,Male
+1035,45788,20.0,10,17.436509,Capitalism: A Love Story,7.0,167,5697,2009,Sep,Sunday,Michael Moore,Male
+1036,45791,25.0,16,14.109284,Disaster Movie,3.0,240,5465,2008,Aug,Friday,Jason Friedberg,Male
+1037,45796,40.0,9,0.0,Envy,4.8,139,5037,2004,Apr,Friday,Barry Levinson,Male
+1038,45798,0.0,7,0.0,Bullets Over Broadway,7.0,130,5457,1994,Oct,Friday,Woody Allen,Male
+1039,45800,30.0,5,27.674124,The Quiet American,6.4,81,4880,2002,Nov,Friday,Phillip Noyce,Male
+1040,45801,20.0,14,12.482775,The Weather Man,6.0,289,4763,2005,Oct,Thursday,Gore Verbinski,Male
+1041,45803,0.0,17,0.0,Ghost Town,6.4,286,5147,2008,Sep,Friday,David Koepp,Male
+1042,45804,20.0,15,17.280326,12 Rounds,5.7,220,4958,2009,Mar,Thursday,Renny Harlin,Male
+1043,45808,0.0,2,0.0,Mrs Henderson Presents,6.4,62,5249,2005,Sep,Friday,Stephen Frears,
+1044,45810,20.0,11,10.686841,Deconstructing Harry,7.3,187,5457,1997,Aug,Tuesday,Woody Allen,Male
+1045,45813,20.0,9,0.0,We're No Angels,5.6,105,5193,1989,Dec,Friday,Neil Jordan,
+1046,45814,20.0,12,0.0,Everyone Says I Love You,6.5,147,5457,1996,Dec,Friday,Woody Allen,Male
+1047,45815,20.0,12,16.974459,Death Sentence,6.5,297,4794,2007,Aug,Friday,James Wan,Male
+1048,45816,21.0,15,0.0,Everybody's Fine,6.5,284,5367,2009,Dec,Friday,Kirk Jones,
+1049,45818,0.0,6,12.382362,The Man,5.4,133,5002,2005,Sep,Thursday,Les Mayfield,
+1050,45819,20.0,9,10.337477,Code Name: The Cleaner,4.7,78,5002,2007,Jan,Friday,Les Mayfield,
+1051,45822,20.0,45,11.110975,Inherent Vice,6.5,833,5363,2014,Dec,Thursday,Paul Thomas Anderson,Male
+1052,45825,20.0,2,7.0,An American Carol,4.1,20,5253,2008,Oct,Friday,David Zucker,Male
+1053,45826,12.0,29,15.008161,Machete Kills,5.3,631,5097,2013,Sep,Thursday,Robert Rodriguez,
+1054,45829,0.0,8,0.0,Topsy-Turvy,6.7,41,5709,1999,Sep,Friday,Mike Leigh,Male
+1055,45831,15.0,27,27.462041,A Dangerous Method,6.2,571,5229,2011,Sep,Friday,David Cronenberg,Male
+1056,45832,8.7,26,7.659918,A Scanner Darkly,6.8,532,5535,2006,May,Thursday,Richard Linklater,Male
+1057,45833,0.0,13,0.0,Chasing Mavericks,7.0,216,5182,2012,Oct,Thursday,Curtis Hanson,Male
+1058,45834,20.0,9,10.442808,Alone in the Dark,3.1,173,5148,2005,Jan,Friday,Uwe Boll,Male
+1059,45858,20.0,3,0.30507,Rapa Nui,6.2,33,4814,1994,Sep,Friday,Kevin Reynolds,
+1060,45879,14.0,45,173.046663,Scream,7.0,1476,5307,1996,Dec,Friday,Wes Craven,Male
+1061,45882,19.0,76,381.109762,Back to the Future,8.0,6079,4804,1985,Jul,Wednesday,Robert Zemeckis,Male
+1062,45884,0.0,2,0.0,I Can Do Bad All By Myself,6.0,40,5554,2009,Sep,Friday,Tyler Perry,Male
+1063,45887,18.0,18,101.564935,Just Married,5.3,404,4842,2003,Jan,Thursday,Shawn Levy,Male
+1064,45888,19.1,10,5.728213,The Devil's Double,6.5,208,4859,2011,Feb,Friday,Lee Tamahori,Male
+1065,45893,25.0,7,8.613462,The Bounty,6.5,108,4904,1984,May,Friday,Roger Donaldson,Male
+1066,45905,15.0,15,46.770602,Land of the Dead,6.0,381,4991,2005,Jun,Friday,George A. Romero,Male
+1067,45907,18.5,44,10.680275,Fear and Loathing in Las Vegas,7.2,1301,5014,1998,May,Friday,Terry Gilliam,Male
+1068,45909,18.0,36,268.1574,Neighbors,6.2,2713,5310,2014,May,Thursday,Nicholas Stoller,Male
+1069,45910,23.0,85,351.583407,The Mask,6.6,2472,4926,1994,Jul,Friday,Chuck Russell,Male
+1070,45912,18.0,29,261.572744,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,6.5,1579,5088,2006,Nov,Wednesday,Larry Charles,Male
+1071,45913,18.0,25,141.774679,Legally Blonde,6.1,882,5035,2001,Jul,Friday,Robert Luketic,Male
+1072,45921,16.5,36,67.683989,Austin Powers: International Man of Mystery,6.5,1013,4948,1997,May,Friday,Jay Roach,Male
+1073,45922,18.0,16,88.923251,My Big Fat Greek Wedding 2,5.5,322,5367,2016,Mar,Wednesday,Kirk Jones,
+1074,45924,18.0,50,98.235548,Predator,7.3,2093,4890,1987,Jun,Thursday,John McTiernan,
+1075,45927,17.0,36,129.042871,Mean Girls,6.9,2320,4955,2004,Apr,Friday,Mark Waters,Male
+1076,45930,18.0,12,41.382841,Peggy Sue Got Married,5.9,136,5179,1986,Oct,Sunday,Francis Ford Coppola,Male
+1077,45931,18.0,89,103.215094,Birdman,7.4,4535,4874,2014,Aug,Wednesday,Alejandro González Iñárritu,Male
+1078,45932,18.0,34,99.206215,Blue Jasmine,7.0,1098,5457,2013,Jul,Thursday,Woody Allen,Male
+1079,45933,15.0,17,76.286096,United 93,6.9,367,4876,2006,Apr,Friday,Paul Greengrass,Male
+1080,45936,1.0,14,21.378361,The Fog,6.4,311,5227,1980,Feb,Friday,John Carpenter,Male
+1081,45941,18.0,35,23.0,Raging Bull,7.7,938,4809,1980,Nov,Friday,Martin Scorsese,Male
+1082,45943,18.0,8,0.0,Young Sherlock Holmes,6.7,167,5037,1985,Dec,Wednesday,Barry Levinson,Male
+1083,45945,18.0,52,35.69292,127 Hours,7.0,2606,5222,2010,Nov,Friday,Danny Boyle,Male
+1084,45946,0.0,11,0.0,Small Time Crooks,6.4,155,5457,2000,May,Friday,Woody Allen,Male
+1085,45951,30.0,53,34.441873,Steve Jobs,6.8,1573,5222,2015,Oct,Friday,Danny Boyle,Male
+1086,45952,18.0,14,0.0,"I Love You, Beth Cooper",5.1,197,4885,2009,Jul,Friday,Chris Columbus,Male
+1087,45953,18.0,13,0.0,Youth in Revolt,5.9,319,5519,2009,Sep,Friday,Miguel Arteta,Male
+1088,45956,18.0,13,12.0,Blow Out,7.3,236,4967,1981,Jul,Friday,Brian De Palma,Male
+1089,45958,18.0,14,8.038061,The Ice Storm,6.9,176,4867,1997,Sep,Saturday,Ang Lee,Male
+1090,45959,18.0,9,25.312387,And So It Goes,5.7,164,5101,2014,Jul,Sunday,Rob Reiner,Male
+1091,45965,18.0,24,5.887457,Ed Wood,7.3,630,4785,1994,Sep,Tuesday,Tim Burton,Male
+1092,45966,18.0,17,20.275812,Labor Day,6.7,299,5450,2013,Dec,Friday,Jason Reitman,Male
+1093,45968,18.0,31,25.739015,RockNRolla,6.9,836,4888,2008,Sep,Thursday,Guy Ritchie,Male
+1094,45970,0.0,9,0.0,Hamlet,7.3,117,4847,1996,Dec,Wednesday,Kenneth Branagh,Male
+1095,45973,0.0,8,0.0,Anything Else,6.2,149,5457,2003,Aug,Wednesday,Woody Allen,Male
+1096,45984,3.5,18,34.0,Day of the Dead,6.9,270,4991,1985,Jul,Friday,George A. Romero,Male
+1097,45985,18.0,10,0.0,I Am Wrath,4.5,179,4926,2016,Apr,Thursday,Chuck Russell,Male
+1098,45990,0.0,3,90.508336,Madea Goes to Jail,6.4,52,5554,2009,Feb,Monday,Tyler Perry,Male
+1099,45992,23.0,28,150.8167,Step Up 2: The Streets,6.5,640,4868,2008,Feb,Thursday,Jon M. Chu,Male
+1100,46000,18.5,67,183.316455,Aliens,7.7,3220,4762,1986,Jul,Friday,James Cameron,Male
+1101,46004,16.0,23,109.502303,Sideways,6.9,478,5451,2004,Oct,Friday,Alexander Payne,
+1102,46006,0.3,30,70.0,Halloween,7.4,1035,5227,1978,Oct,Wednesday,John Carpenter,Male
+1103,46008,17.0,7,71.625195,The Best Man Holiday,6.7,110,5338,2013,Nov,Friday,Malcolm D. Lee,Male
+1104,46021,0.0,10,0.0,A Simple Plan,6.9,187,4767,1998,Dec,Friday,Sam Raimi,Male
+1105,46025,17.0,18,29.536299,Brooklyn's Finest,6.2,293,5034,2009,Jan,Friday,Antoine Fuqua,Male
+1106,46028,17.0,5,20.455276,My Life in Ruins,5.6,101,5132,2009,Feb,Friday,Donald Petrie,Male
+1107,46029,17.0,7,7.314027,American Dreamz,4.9,95,4924,2006,Mar,Saturday,Paul Weitz,Male
+1108,46037,17.0,9,1.569918,Veronica Guerin,6.8,59,4892,2003,Jul,Friday,Joel Schumacher,Male
+1109,46045,15.0,24,43.848069,Wall Street,7.0,546,4839,1987,Dec,Thursday,Oliver Stone,Male
+1110,46046,16.5,20,135.0,Sense and Sensibility,7.2,352,4867,1995,Dec,Wednesday,Ang Lee,Male
+1111,46051,16.0,35,247.275374,Dumb and Dumber,6.5,1859,5067,1994,Dec,Friday,Bobby Farrelly,Male
+1112,46052,16.0,18,92.823546,When Harry Met Sally...,7.3,950,5101,1989,Jul,Friday,Rob Reiner,Male
+1113,46053,16.0,7,53.97725,The Verdict,7.4,131,5615,1982,Dec,Wednesday,Sidney Lumet,
+1114,46054,16.0,14,119.754278,Road Trip,5.9,542,4993,2000,May,Friday,Todd Phillips,Male
+1115,46055,0.0,9,0.0,Varsity Blues,6.0,122,5115,1999,Jan,Friday,Brian Robbins,Male
+1116,46058,16.0,41,68.263166,Moonrise Kingdom,7.6,1662,5228,2012,May,Wednesday,Wes Anderson,Male
+1117,46059,16.0,21,0.0,The Texas Chainsaw Massacre: The Beginning,5.9,402,4849,2006,Oct,Friday,Jonathan Liebesman,
+1118,46062,19.0,90,83.258226,Pan's Labyrinth,7.6,3041,4798,2006,May,Saturday,Guillermo del Toro,Male
+1119,46063,0.0,6,0.0,See Spot Run,4.8,44,5191,2001,Mar,Friday,John Whitesell,Male
+1120,46064,16.0,7,29.381649,Baby Boy,7.4,55,5024,2001,Jun,Wednesday,John Singleton,Male
+1121,46070,15.0,32,96.408652,Vicky Cristina Barcelona,6.7,1020,5457,2008,Aug,Friday,Woody Allen,Male
+1122,46076,16.0,7,0.0,Radio Days,7.0,127,5457,1987,Jan,Friday,Woody Allen,Male
+1123,46080,26.0,44,206.67844,Philadelphia,7.6,988,5009,1993,Dec,Wednesday,Jonathan Demme,Male
+1124,46085,16.0,8,0.0,Hollywood Ending,6.4,113,5457,2002,May,Friday,Woody Allen,Male
+1125,46091,0.0,4,0.0,The White Countess,6.9,21,5826,2005,Oct,Sunday,James Ivory,Male
+1126,46092,20.0,38,24.261569,Trance,6.5,956,5222,2013,Mar,Wednesday,Danny Boyle,Male
+1127,46098,16.0,43,47.801389,Hachi: A Dog's Tale,7.7,1717,5405,2009,Jun,Saturday,Lasse Hallström,Male
+1128,46102,0.0,1,0.0,Ararat,5.7,16,5599,2002,May,Monday,Atom Egoyan,Male
+1129,46108,18.0,2,476.684675,Home Alone,7.1,2414,4885,1990,Nov,Friday,Chris Columbus,Male
+1130,46110,21.0,20,177.2,Tootsie,6.9,421,4965,1982,Dec,Thursday,Sydney Pollack,Male
+1131,46111,15.0,58,356.830601,Top Gun,6.7,1698,4923,1986,May,Friday,Tony Scott,Male
+1132,46112,17.0,45,213.525736,"Crouching Tiger, Hidden Dragon",7.2,927,4867,2000,Oct,Sunday,Ang Lee,Male
+1133,46113,15.0,80,356.296601,American Beauty,7.9,3313,4764,1999,Sep,Wednesday,Sam Mendes,Male
+1134,46115,15.0,17,216.614388,Twins,5.7,559,5005,1988,Dec,Friday,Ivan Reitman,Male
+1135,46117,15.0,17,146.292009,The Color Purple,7.7,338,4799,1985,Dec,Wednesday,Steven Spielberg,Male
+1136,46121,15.0,3,67.182787,Coal Miner's Daughter,7.2,67,4838,1980,Mar,Friday,Michael Apted,Male
+1137,46124,15.0,22,61.399552,National Lampoon's Vacation,7.1,410,5130,1983,Jul,Thursday,Harold Ramis,Male
+1138,46126,15.0,19,123.384128,The Queen,6.8,338,5249,2006,Sep,Friday,Stephen Frears,
+1139,46127,15.0,58,73.326666,Beetlejuice,7.1,1444,4785,1988,Feb,Monday,Tim Burton,Male
+1140,46128,15.0,2,55.184721,Why Did I Get Married?,6.1,33,5554,2007,Oct,Friday,Tyler Perry,Male
+1141,46131,15.0,4,66.966987,When a Stranger Calls,5.4,268,4930,2006,Feb,Friday,Simon West,Male
+1142,46132,15.0,9,52.970014,Big Fat Liar,5.6,197,4842,2002,Feb,Friday,Shawn Levy,Male
+1143,46134,15.0,13,64.256513,Wag the Dog,6.7,270,5037,1997,Dec,Thursday,Barry Levinson,Male
+1144,46138,15.0,21,40.283321,The Faculty,6.2,492,5097,1998,Dec,Friday,Robert Rodriguez,
+1145,46140,15.0,19,44.862187,Cop Land,6.6,382,4900,1997,Aug,Friday,James Mangold,Male
+1146,46142,7.0,49,48.126384,End of Watch,7.2,1170,4811,2012,Sep,Thursday,David Ayer,
+1147,46143,15.0,11,35.00718,The Skulls,5.8,156,4810,2000,Mar,Friday,Rob Cohen,Male
+1148,46145,0.0,7,0.0,Malibu's Most Wanted,4.7,77,5191,2003,Apr,Thursday,John Whitesell,Male
+1149,46153,16.0,44,30.857814,The Princess Bride,7.6,1486,5101,1987,Sep,Friday,Rob Reiner,Male
+1150,46160,14.0,3,32.645546,Because of Winn-Dixie,6.1,61,5162,2005,Feb,Friday,Wayne Wang,
+1151,46166,15.0,30,85.306374,Match Point,7.3,1105,5457,2005,Oct,Wednesday,Woody Allen,Male
+1152,46168,11.5,15,23.237911,The Remains of the Day,7.5,202,5826,1993,Nov,Friday,James Ivory,Male
+1153,46169,15.0,19,43.101594,Boogie Nights,7.5,796,5363,1997,Sep,Thursday,Paul Thomas Anderson,Male
+1154,46180,15.0,45,32.556119,The November Man,6.0,639,4904,2014,Aug,Wednesday,Roger Donaldson,Male
+1155,46197,15.0,6,0.0,New York Stories,6.2,64,5179,1989,Mar,Friday,Francis Ford Coppola,Male
+1156,46202,15.0,41,0.0,Brazil,7.5,861,5014,1985,Feb,Wednesday,Terry Gilliam,Male
+1157,46204,15.0,49,46.189568,The Big Lebowski,7.8,2926,5135,1998,Mar,Friday,Joel Coen,
+1158,46207,16.0,9,18.928871,A Mighty Heart,6.7,95,5549,2007,Jan,Monday,Michael Winterbottom,Male
+1159,46217,15.0,13,8.138788,Promised Land,6.0,243,5283,2012,Sep,Sunday,Gus Van Sant,Male
+1160,46218,15.0,21,35.097815,Whatever Works,6.8,350,5457,2009,Jun,Friday,Woody Allen,Male
+1161,46224,15.0,31,20.117339,Mulholland Drive,7.6,1477,5265,2001,May,Wednesday,David Lynch,Male
+1162,46226,22.0,12,0.0,You Will Meet a Tall Dark Stranger,5.8,251,5457,2010,May,Sunday,Woody Allen,Male
+1163,46229,15.0,11,5.92641,Transsiberian,6.5,195,5894,2008,Jan,Friday,Brad Anderson,Male
+1164,46234,0.0,0,0.0,Felicia's Journey,6.6,23,5599,1999,Nov,Wednesday,Atom Egoyan,Male
+1165,46237,8.0,6,0.529766,Things to Do in Denver When You're Dead,6.7,85,5207,1995,Dec,Friday,Gary Fleder,Male
+1166,46256,14.6,52,70.906973,Groundhog Day,7.4,2301,5130,1993,Feb,Thursday,Harold Ramis,Male
+1167,46261,14.0,37,159.157447,Unforgiven,7.7,1113,5087,1992,Aug,Friday,Clint Eastwood,Male
+1168,46263,15.0,59,377.910544,Slumdog Millionaire,7.6,2827,5222,2008,May,Monday,Danny Boyle,Male
+1169,46265,14.0,45,463.0,Pretty Woman,7.0,1746,5053,1990,Mar,Friday,Garry Marshall,Male
+1170,46268,14.0,25,161.001698,Born on the Fourth of July,6.7,395,4839,1989,Dec,Wednesday,Oliver Stone,Male
+1171,46269,14.0,22,154.864401,Cool Runnings,6.8,491,4832,1993,Sep,Thursday,Jon Turteltaub,Male
+1172,46274,0.0,4,0.0,Good Deeds,6.2,45,5554,2012,Feb,Thursday,Tyler Perry,Male
+1173,46279,14.0,3,27.515786,Poetic Justice,6.9,47,5024,1993,Jul,Friday,John Singleton,Male
+1174,46281,14.0,6,19.8,Vampire in Brooklyn,4.5,111,5307,1995,Oct,Friday,Wes Craven,Male
+1175,46284,14.0,14,0.0,My Boss's Daughter,4.4,180,5253,2003,Aug,Thursday,David Zucker,Male
+1176,46290,0.0,3,0.0,"New York, New York",6.1,67,4809,1977,Jun,Tuesday,Martin Scorsese,Male
+1177,46291,0.0,1,0.0,Crooklyn,6.7,31,5195,1994,May,Friday,Spike Lee,Male
+1178,46295,14.0,4,10.42447,Head Over Heels,5.3,73,4955,2001,Feb,Friday,Mark Waters,Male
+1179,46301,0.0,4,4.291965,Catch a Fire,6.4,25,4880,2006,Oct,Friday,Phillip Noyce,Male
+1180,46303,14.0,0,2.474,Jefferson in Paris,5.2,10,5826,1995,Mar,Friday,James Ivory,Male
+1181,46306,0.0,9,5.4055,Mr. Turner,6.3,204,5709,2014,Oct,Friday,Mike Leigh,Male
+1182,46309,12.0,4,0.0,Reign of Assassins,6.7,57,4893,2010,Sep,Wednesday,John Woo,Male
+1183,46313,14.0,24,1.755212,Flipped,7.4,418,5101,2010,Aug,Friday,Rob Reiner,Male
+1184,46314,14.0,44,178.043761,Brokeback Mountain,7.5,1480,4867,2005,Sep,Friday,Ang Lee,Male
+1185,46324,13.0,18,123.92237,"Good Morning, Vietnam",7.1,642,5037,1987,Dec,Wednesday,Barry Levinson,Male
+1186,46326,13.0,6,98.441954,Justin Bieber: Never Say Never,4.8,154,4868,2011,Feb,Friday,Jon M. Chu,Male
+1187,46327,13.0,91,327.803731,Black Swan,7.3,4430,4881,2010,Dec,Thursday,Darren Aronofsky,Male
+1188,46330,7.0,17,72.5,A Nightmare on Elm Street 4: The Dream Master,5.8,281,4958,1988,Aug,Friday,Renny Harlin,Male
+1189,46339,17.0,60,119.100758,The Shallows,6.2,1567,5202,2016,Jun,Friday,Jaume Collet-Serra,Male
+1190,46354,19.0,24,68.673228,Letters from Iwo Jima,7.2,541,5087,2006,Dec,Tuesday,Clint Eastwood,Male
+1191,46355,13.0,6,11.130889,The Astronaut Farmer,6.2,123,5951,2006,Oct,Sunday,Michael Polish,Male
+1192,46367,0.0,4,0.0,Resurrecting the Champ,5.9,60,5140,2007,Jun,Thursday,Rod Lurie,Male
+1193,46368,13.0,17,18.0,Admission,5.4,304,4924,2013,Mar,Thursday,Paul Weitz,Male
+1194,46370,15.0,26,8.459458,Chloe,5.9,498,5599,2009,Mar,Wednesday,Atom Egoyan,Male
+1195,46372,13.0,12,2.636637,Find Me Guilty,6.5,138,5615,2006,Mar,Thursday,Sidney Lumet,
+1196,46376,0.0,2,0.0,The Claim,5.6,17,5549,2000,Dec,Friday,Michael Winterbottom,Male
+1197,46380,13.0,34,68.572378,The Call,6.6,1257,5894,2013,Mar,Thursday,Brad Anderson,Male
+1198,46387,12.5,35,12.281551,True Romance,7.5,749,4923,1993,Sep,Thursday,Tony Scott,Male
+1199,46390,13.0,11,0.0,The Killer Inside Me,6.0,173,5549,2010,Feb,Friday,Michael Winterbottom,Male
+1200,46391,0.0,5,0.0,Cat People,6.0,94,5970,1982,Apr,Friday,Paul Schrader,
+1201,46400,20.0,26,31.327899,Machete,6.3,1150,5097,2010,Sep,Wednesday,Robert Rodriguez,
+1202,46407,11.0,60,235.483004,American Pie,6.4,2296,4780,1999,Jul,Friday,Chris Weitz,
+1203,46410,12.0,6,96.070507,Think Like a Man,6.9,281,4894,2012,Apr,Monday,Tim Story,Male
+1204,46411,12.0,10,75.781642,Barbershop,6.2,137,4894,2002,Apr,Monday,Tim Story,Male
+1205,46413,15.0,41,107.217396,Ace Ventura: Pet Detective,6.4,1648,4812,1994,Feb,Friday,Tom Shadyac,Male
+1206,46417,12.0,45,114.194847,Step Up,6.7,1060,5303,2006,Aug,Friday,Anne Fletcher,Female
+1207,46419,12.0,40,39.673162,Jackie Brown,7.3,1514,4927,1997,Dec,Wednesday,Quentin Tarantino,Male
+1208,46423,5.0,14,42.365581,Time Bandits,6.6,249,5014,1981,Jul,Monday,Terry Gilliam,Male
+1209,46439,12.0,6,21.133087,Stir of Echoes,6.5,330,5147,1999,Sep,Friday,David Koepp,Male
+1210,46440,12.0,29,100.129872,Philomena,7.4,579,5249,2013,Nov,Friday,Stephen Frears,
+1211,46446,12.0,29,17.654912,Nebraska,7.4,636,5451,2013,Sep,Saturday,Alexander Payne,
+1212,46448,12.0,1,17.292381,Max Keeble's Big Move,5.4,33,5105,2001,Oct,Friday,Tim Hill,Male
+1213,46449,12.0,16,22.939027,Young Adult,5.6,364,5450,2011,Dec,Friday,Jason Reitman,Male
+1214,46452,12.0,0,12.90279,Living Out Loud,5.3,11,5235,1998,Oct,Friday,Richard LaGravenese,Male
+1215,46454,0.0,14,0.0,Rachel Getting Married,6.1,163,5009,2008,Oct,Friday,Jonathan Demme,Male
+1216,46457,14.0,26,85.0,Das Boot,7.9,613,4833,1981,Sep,Wednesday,Wolfgang Petersen,Male
+1217,46460,0.0,21,92.863945,House of Flying Daggers,7.1,439,4945,2004,May,Wednesday,Zhang Yimou,Male
+1218,46467,0.0,7,0.0,Celebrity,6.0,111,5457,1998,Sep,Monday,Woody Allen,Male
+1219,46470,12.0,2,4.939939,Girl 6,5.7,16,5195,1996,Mar,Friday,Spike Lee,Male
+1220,46484,12.0,5,1.644755,Ondine,6.5,84,5193,2009,Sep,Monday,Neil Jordan,
+1221,46487,0.0,2,0.0,Critical Care,6.1,9,5615,1997,Oct,Friday,Sidney Lumet,
+1222,46489,0.0,2,0.0,Darling Companion,5.3,22,5082,2012,Apr,Friday,Lawrence Kasdan,Male
+1223,46493,0.0,1,0.0,"A Woman, a Gun and a Noodle Shop",4.8,13,4945,2009,Dec,Friday,Zhang Yimou,Male
+1224,46498,20.0,5,0.017479,5 Days of War,5.8,62,4958,2011,Apr,Thursday,Renny Harlin,Male
+1225,46502,10.0,53,83.557872,Snatch,7.7,2912,4888,2000,Sep,Friday,Guy Ritchie,Male
+1226,46508,11.0,45,153.083102,Gremlins,6.9,1596,5017,1984,Jun,Thursday,Joe Dante,Male
+1227,46512,0.0,14,0.0,Trash,7.1,242,5323,2014,Oct,Thursday,Stephen Daldry,Male
+1228,46513,0.0,21,0.0,High School Musical 3: Senior Year,6.2,821,5113,2008,Oct,Wednesday,Kenny Ortega,Male
+1229,46514,25.0,31,93.617009,The Fighter,7.2,1486,5123,2010,Dec,Friday,David O. Russell,Male
+1230,46521,13.0,38,97.837138,Phone Booth,6.7,1062,4892,2002,Sep,Monday,Joel Schumacher,Male
+1231,46522,11.0,33,41.227069,A Walk to Remember,7.5,1018,4998,2002,Jan,Friday,Adam Shankman,Male
+1232,46529,12.0,7,37.170057,Raising Cain,5.9,65,4967,1992,Aug,Friday,Brian De Palma,Male
+1233,46540,0.0,6,0.0,Kinsey,6.6,131,4872,2004,Sep,Saturday,Bill Condon,Male
+1234,46541,11.0,33,0.0,Army of Darkness,7.3,838,4767,1992,Oct,Friday,Sam Raimi,Male
+1235,46543,11.0,33,30.0,What's Eating Gilbert Grape,7.5,919,5405,1993,Dec,Friday,Lasse Hallström,Male
+1236,46545,11.0,4,0.0,Vera Drake,6.8,80,5709,2004,Oct,Friday,Mike Leigh,Male
+1237,46547,11.0,1,2.832826,The Perez Family,6.6,9,5628,1995,May,Friday,Mira Nair,Female
+1238,46548,11.0,36,32.935319,Inside Llewyn Davis,7.2,834,5135,2013,Oct,Sunday,Joel Coen,
+1239,46564,10.5,56,792.910554,E.T. the Extra-Terrestrial,7.3,3269,4799,1982,Apr,Saturday,Steven Spielberg,Male
+1240,46572,10.0,43,225.933435,Good Will Hunting,7.9,2811,5283,1997,Dec,Friday,Gus Van Sant,Male
+1241,46574,10.0,33,163.876815,Saw III,6.1,1071,6056,2006,Oct,Friday,Darren Lynn Bousman,Male
+1242,46575,10.0,10,85.3,Stripes,6.5,249,5005,1981,Jun,Thursday,Ivan Reitman,Male
+1243,46579,10.0,29,139.352633,Saw IV,5.9,903,6056,2007,Oct,Thursday,Darren Lynn Bousman,Male
+1244,46581,6.0,5,57.231524,Madea's Family Reunion,6.0,77,5554,2006,Feb,Friday,Tyler Perry,Male
+1245,46582,13.8,17,52.293982,The Color of Money,6.7,291,4809,1986,Oct,Tuesday,Martin Scorsese,Male
+1246,46584,10.0,8,50.752337,The Mighty Ducks,6.4,198,5152,1992,Oct,Thursday,Stephen Herek,Male
+1247,46586,12.0,26,41.205099,Happy Gilmore,6.5,755,4964,1996,Feb,Friday,Dennis Dugan,Male
+1248,46588,10.0,25,40.485039,Bill & Ted's Excellent Adventure,6.7,454,5152,1989,Feb,Friday,Stephen Herek,Male
+1249,46590,10.0,21,136.836156,The Best Exotic Marigold Hotel,6.9,459,5157,2011,Nov,Monday,John Madden,
+1250,46592,12.305523,36,36.230219,Mad Max Beyond Thunderdome,5.9,748,4845,1985,Jun,Saturday,George Miller,Male
+1251,46601,10.0,14,30.65289,Dogma,6.8,823,5369,1999,Nov,Friday,Kevin Smith,Male
+1252,46603,10.0,12,29.450919,Twilight Zone: The Movie,6.2,161,4799,1983,Jun,Friday,Steven Spielberg,Male
+1253,46609,10.0,13,33.697647,The Outsiders,6.9,291,5179,1983,Mar,Friday,Francis Ford Coppola,Male
+1254,46611,10.0,16,20.766616,The Dead Zone,6.9,311,5229,1983,Oct,Friday,David Cronenberg,Male
+1255,46619,0.0,2,0.0,Roll Bounce,6.1,27,5338,2005,Sep,Friday,Malcolm D. Lee,Male
+1256,46620,9.0,18,17.096053,Rushmore,7.5,676,5228,1998,Sep,Thursday,Wes Anderson,Male
+1257,46622,10.0,17,85.978266,The Second Best Exotic Marigold Hotel,6.3,272,5157,2015,Feb,Thursday,John Madden,
+1258,46625,10.0,3,16.153593,Mo' Better Blues,6.3,47,5195,1990,Aug,Friday,Spike Lee,Male
+1259,46644,10.0,28,28.883511,Big Eyes,6.8,1196,4785,2014,Dec,Wednesday,Tim Burton,Male
+1260,46645,30.0,5,9.898412,Very Bad Things,6.2,179,4782,1998,Sep,Friday,Peter Berg,Male
+1261,46647,10.0,9,8.80194,Body Double,6.4,137,4967,1984,Oct,Thursday,Brian De Palma,Male
+1262,46649,0.0,9,0.0,Dirty Pretty Things,6.8,131,5249,2002,Sep,Thursday,Stephen Frears,
+1263,46653,0.0,10,6.861102,Cedar Rapids,5.9,135,5519,2011,Feb,Friday,Miguel Arteta,Male
+1264,46658,10.0,15,0.0,The Straight Story,7.7,306,5265,1999,Oct,Friday,David Lynch,Male
+1265,46671,10.0,8,3.193102,The Limey,6.6,105,4909,1999,May,Saturday,Steven Soderbergh,Male
+1266,46677,0.0,2,0.0,Bamboozled,6.3,24,5195,2000,Oct,Friday,Spike Lee,Male
+1267,46681,10.0,4,1.759252,A Better Life,7.0,54,4780,2011,Jun,Friday,Chris Weitz,
+1268,46682,0.0,6,0.0,Spider,6.4,168,5229,2002,Dec,Friday,David Cronenberg,Male
+1269,46694,10.0,4,0.598645,Swept Away,4.8,50,4888,2002,Oct,Friday,Guy Ritchie,Male
+1270,46727,10.0,2,0.0,Adam Resurrected,6.4,22,5970,2008,Aug,Friday,Paul Schrader,
+1271,46755,11.0,94,104.931801,Alien,7.9,4470,4779,1979,May,Friday,Ridley Scott,Male
+1272,46762,9.0,6,41.590886,Set It Off,6.9,66,5033,1996,Nov,Wednesday,F. Gary Gray,Male
+1273,46763,9.0,3,34.57378,The Best Man,6.8,38,5338,1999,Oct,Friday,Malcolm D. Lee,Male
+1274,46765,9.0,14,24.538513,Sicko,7.3,235,5697,2007,May,Friday,Michael Moore,Male
+1275,46769,9.0,7,0.0,The Contender,6.7,60,5140,2000,Oct,Friday,Rod Lurie,Male
+1276,46771,40.6,34,90.4,Trading Places,7.1,738,5217,1983,Jun,Tuesday,John Landis,Male
+1277,46774,9.0,4,0.0,Henry V,7.4,71,4847,1989,Oct,Thursday,Kenneth Branagh,Male
+1278,46789,9.0,8,0.0,Two Evil Eyes,6.0,35,4991,1990,Jan,Thursday,George A. Romero,Male
+1279,46791,9.0,2,0.0,All or Nothing,7.0,33,5709,2002,May,Friday,Mike Leigh,Male
+1280,46807,8.5,24,32.222567,The Lost Boys,6.8,538,4892,1987,Jul,Friday,Joel Schumacher,Male
+1281,46813,0.0,13,0.0,Election,6.7,270,5451,1999,Apr,Friday,Alexander Payne,
+1282,46814,12.0,3,20.138836,The Namesake,6.8,50,5628,2006,Sep,Saturday,Mira Nair,Female
+1283,46827,0.0,5,0.188126,Repo! The Genetic Opera,6.7,100,6056,2008,Jul,Friday,Darren Lynn Bousman,Male
+1284,46829,8.0,121,213.928762,Pulp Fiction,8.3,8428,4927,1994,Oct,Saturday,Quentin Tarantino,Male
+1285,46834,8.0,21,69.821334,Splash,6.1,321,4846,1984,Mar,Friday,Ron Howard,Male
+1286,46836,8.0,51,52.287414,Stand by Me,7.8,1522,5101,1986,Aug,Friday,Rob Reiner,Male
+1287,46837,5.0,45,82.719885,28 Days Later,7.1,1777,5222,2002,Oct,Thursday,Danny Boyle,Male
+1288,46847,8.0,10,0.0,Much Ado About Nothing,7.2,189,4847,1993,May,Friday,Kenneth Branagh,Male
+1289,46849,14.0,14,18.090181,New Nightmare,6.4,291,5307,1994,Oct,Thursday,Wes Craven,Male
+1290,46855,8.0,9,16.856124,The Good Girl,6.1,181,5519,2002,Jan,Saturday,Miguel Arteta,Male
+1291,46858,0.0,1,0.0,The City of Your Final Destination,5.7,9,5826,2009,Mar,Saturday,James Ivory,Male
+1292,46859,0.0,14,25.288872,Enough Said,6.6,348,6204,2013,Sep,Wednesday,Nicole Holofcener,Female
+1293,46867,0.0,5,25.966555,Howards End,6.9,95,5826,1992,Mar,Friday,James Ivory,Male
+1294,46869,8.0,7,18.124262,Another Year,7.0,97,5709,2010,Nov,Friday,Mike Leigh,Male
+1295,46908,6.5,29,24.793509,Thank You for Smoking,7.1,664,5450,2005,Sep,Monday,Jason Reitman,Male
+1296,46918,0.0,1,0.0,Masked and Anonymous,5.2,13,5088,2003,Aug,Friday,Larry Charles,Male
+1297,46920,7.5,8,0.0,Code 46,6.2,116,5549,2003,Sep,Tuesday,Michael Winterbottom,Male
+1298,46926,0.0,9,0.0,The Hole,5.6,244,5017,2009,Sep,Wednesday,Joe Dante,Male
+1299,46931,7.5,19,231.411584,Juno,7.0,2244,5450,2007,Dec,Wednesday,Jason Reitman,Male
+1300,46938,7.0,35,167.221571,Magic Mike,6.1,1040,4909,2012,Jun,Thursday,Steven Soderbergh,Male
+1301,46939,0.0,11,0.0,Darkness Falls,4.9,161,4849,2003,Jan,Friday,Jonathan Liebesman,
+1302,46944,7.0,17,54.6,"Good Night, and Good Luck.",6.8,273,5059,2005,Sep,Friday,George Clooney,Male
+1303,46946,7.0,25,25.405445,Desperado,6.8,881,5097,1995,Aug,Friday,Robert Rodriguez,
+1304,46953,7.0,5,14.702438,Flirting with Disaster,6.3,66,5123,1996,Mar,Friday,David O. Russell,Male
+1305,46959,7.0,23,31.430334,A Serious Man,6.6,483,5135,2009,Oct,Friday,Joel Coen,
+1306,46961,7.0,9,0.0,Warlock,5.8,95,5362,1989,Jun,Thursday,Steve Miner,Male
+1307,46964,7.0,14,8.373585,The Last Temptation of Christ,7.0,201,4809,1988,Aug,Friday,Martin Scorsese,Male
+1308,46967,0.0,2,0.0,Rabbit-Proof Fence,6.8,84,4880,2002,Feb,Monday,Phillip Noyce,Male
+1309,46975,7.0,7,2.062066,Auto Focus,6.1,56,5970,2002,Oct,Friday,Paul Schrader,
+1310,46980,7.0,2,1.246141,Losin' It,4.5,31,5182,1983,Apr,Friday,Curtis Hanson,Male
+1311,46989,3.5,5,0.0,Gerry,6.2,68,5283,2002,Jan,Saturday,Gus Van Sant,Male
+1312,46998,7.0,5,0.0,Twixt,5.0,85,5179,2011,Sep,Saturday,Francis Ford Coppola,Male
+1313,47001,0.0,14,41.410568,Pale Rider,7.0,251,5087,1985,Jun,Friday,Clint Eastwood,Male
+1314,47003,6.9,26,7.993039,Dazed and Confused,7.4,583,5535,1993,Sep,Friday,Richard Linklater,Male
+1315,47004,0.0,21,7.0,High School Musical 2,6.1,843,5113,2007,Aug,Friday,Kenny Ortega,Male
+1316,47017,6.5,17,57.504069,Boyz n the Hood,7.4,364,5024,1991,Jul,Friday,John Singleton,Male
+1317,47020,6.5,11,31.899,Dressed to Kill,6.8,157,4967,1980,Jun,Wednesday,Brian De Palma,Male
+1318,47022,6.5,11,28.451622,Go,7.0,196,4813,1999,Apr,Friday,Doug Liman,Male
+1319,47023,6.5,11,13.368437,Friends with Money,5.1,128,6204,2006,Sep,Thursday,Nicole Holofcener,Female
+1320,47036,6.4,74,78.3712,The Terminator,7.3,4128,4762,1984,Oct,Friday,James Cameron,Male
+1321,47040,6.0,16,2.122561,Mallrats,6.8,392,5369,1995,Oct,Friday,Kevin Smith,Male
+1322,47042,6.0,49,138.530565,Platoon,7.5,1205,4839,1986,Dec,Thursday,Oliver Stone,Male
+1323,47043,6.0,16,119.114517,Fahrenheit 9/11,6.8,397,5697,2004,Jun,Friday,Michael Moore,Male
+1324,47046,6.0,12,0.0,Ordinary People,7.4,145,5111,1980,Sep,Friday,Robert Redford,Male
+1325,47048,6.0,15,39.846344,Caddyshack,6.6,365,5130,1980,Jul,Friday,Harold Ramis,Male
+1326,47051,6.0,64,23.341568,The Usual Suspects,8.1,3254,4772,1995,Jul,Wednesday,Bryan Singer,Male
+1327,47052,8.0,12,22.168359,A Nightmare on Elm Street 5: The Dream Child,5.5,245,5008,1989,Aug,Friday,Stephen Hopkins,Male
+1328,47054,6.0,40,44.703995,The Wrestler,7.3,1000,4881,2008,Sep,Sunday,Darren Aronofsky,Male
+1329,47057,6.0,24,50.2447,Escape from New York,6.9,703,5227,1981,May,Friday,John Carpenter,Male
+1330,47058,0.0,3,0.0,School Daze,6.2,26,5195,1988,Feb,Friday,Spike Lee,Male
+1331,47062,0.0,6,0.0,Mystic Pizza,5.9,123,5132,1988,Oct,Thursday,Donald Petrie,Male
+1332,47067,5.0,12,9.20647,Bernie,6.5,320,5535,2012,Apr,Friday,Richard Linklater,Male
+1333,47095,0.134005,2,1.332231,Snow Flower and the Secret Fan,5.3,22,5162,2011,Jul,Friday,Wayne Wang,
+1334,47108,5.952,18,2.120439,Videodrome,7.1,454,5229,1983,Feb,Friday,David Cronenberg,Male
+1335,47126,0.0,10,0.0,Shine,7.3,131,5375,1996,Jan,Sunday,Scott Hicks,Male
+1336,47135,6.5,15,37.295445,Do the Right Thing,7.6,292,5195,1989,Jun,Friday,Spike Lee,Male
+1337,47151,5.0,48,0.0,Insidious: Chapter 2,6.5,1211,4794,2013,Sep,Thursday,James Wan,Male
+1338,47152,4.0,42,152.925093,Saw II,6.3,1251,6056,2005,Oct,Friday,Darren Lynn Bousman,Male
+1339,47158,5.0,17,44.793222,A Nightmare on Elm Street 3: Dream Warriors,6.5,354,4926,1987,Feb,Friday,Chuck Russell,Male
+1340,47167,5.0,30,26.010864,The Elephant Man,7.9,719,5265,1980,Oct,Thursday,David Lynch,Male
+1341,47170,9.0,60,39.723096,Memento,8.1,4028,4765,2000,Oct,Wednesday,Christopher Nolan,Male
+1342,47172,5.0,18,26.888376,Clerks II,6.9,398,5369,2006,May,Thursday,Kevin Smith,Male
+1343,47173,5.0,20,110.0,Billy Elliot,7.4,750,5323,2000,May,Thursday,Stephen Daldry,Male
+1344,47181,5.0,22,24.804129,Race,7.1,478,5008,2016,Feb,Friday,Stephen Hopkins,Male
+1345,47199,0.0,5,0.0,Diner,6.9,83,5037,1982,Apr,Friday,Barry Levinson,Male
+1346,47220,5.0,4,5.47606,Made,6.3,55,4808,2001,Jul,Friday,Jon Favreau,Male
+1347,47224,5.0,7,3.263585,The Sweet Hereafter,6.8,103,5599,1997,May,Wednesday,Atom Egoyan,Male
+1348,47228,5.0,8,3.049135,Heavenly Creatures,7.0,294,4777,1994,Sep,Friday,Peter Jackson,Male
+1349,47229,5.0,3,4.842699,90 Minutes in Heaven,5.4,40,5951,2015,Sep,Friday,Michael Polish,Male
+1350,47232,5.0,35,8.203235,The Machinist,7.3,1247,5894,2004,Feb,Monday,Brad Anderson,Male
+1351,47233,5.0,6,0.0,Light Sleeper,5.7,15,5970,1992,Aug,Friday,Paul Schrader,
+1352,47240,7.0,11,0.560069,Bottle Rocket,6.8,281,5228,1996,Feb,Wednesday,Wes Anderson,Male
+1353,47250,5.0,38,98.450062,The Visit,6.0,1360,4854,2015,Sep,Thursday,M. Night Shyamalan,Male
+1354,47251,5.0,3,0.782102,Redacted,6.2,37,4967,2007,Jan,Monday,Brian De Palma,Male
+1355,47256,0.0,7,0.0,Dead Like Me: Life After Death,5.8,65,5152,2009,Feb,Tuesday,Stephen Herek,Male
+1356,47263,15.0,10,0.0,Dying of the Light,4.5,118,5970,2014,Dec,Thursday,Paul Schrader,
+1357,47265,5.0,11,0.0,Capricorn One,6.4,131,4935,1977,Dec,Saturday,Peter Hyams,Male
+1358,47268,5.0,8,0.0,Yoga Hosers,4.7,102,5369,2016,Jul,Friday,Kevin Smith,Male
+1359,47275,0.0,3,0.0,A Cock and Bull Story,6.2,43,5549,2005,Jul,Sunday,Michael Winterbottom,Male
+1360,47293,6.0,29,254.700832,Four Weddings and a Funeral,6.6,632,4797,1994,Mar,Wednesday,Mike Newell,Male
+1361,47296,15.0,30,13.060843,25th Hour,7.2,629,5195,2002,Dec,Monday,Spike Lee,Male
+1362,47297,4.5,15,7.011317,Bound,6.9,198,4805,1996,Sep,Friday,Lilly Wachowski,Female
+1363,47298,4.5,11,7.390108,Requiem for a Dream,7.9,2443,4881,2000,Oct,Friday,Darren Aronofsky,Male
+1364,47301,4.5,3,0.0,Salvador,7.0,71,4839,1986,Apr,Wednesday,Oliver Stone,Male
+1365,47328,4.2,16,0.0,High School Musical,6.1,1000,5113,2006,Jan,Friday,Kenny Ortega,Male
+1366,47331,3.705538,8,62.548947,The Crying Game,6.9,176,5193,1992,Sep,Wednesday,Neil Jordan,
+1367,47333,4.0,10,0.0,Survival of the Dead,4.6,116,4991,2010,May,Thursday,George A. Romero,Male
+1368,47336,4.0,35,38.251425,Annie Hall,7.8,1010,5457,1977,Apr,Tuesday,Woody Allen,Male
+1369,47338,4.0,14,44.909486,Monster's Ball,6.5,250,4773,2001,Nov,Sunday,Marc Forster,Male
+1370,47343,4.0,24,52.425855,The Boy Next Door,4.1,1022,4810,2015,Jan,Friday,Rob Cohen,Male
+1371,47346,4.0,29,13.008928,They Live,7.1,550,5227,1988,Nov,Wednesday,John Carpenter,Male
+1372,47350,4.0,43,44.349,Boyhood,7.5,1971,5535,2014,Jun,Thursday,Richard Linklater,Male
+1373,47351,4.0,17,31.584901,Scoop,6.4,420,5457,2006,Jul,Thursday,Woody Allen,Male
+1374,47366,4.0,4,3.468572,Talk Radio,6.7,46,4839,1988,Dec,Wednesday,Oliver Stone,Male
+1375,47371,4.0,12,1.104682,Red State,5.9,316,5369,2011,Aug,Friday,Kevin Smith,Male
+1376,47380,4.0,22,2.365467,Joe,6.5,338,5231,2014,Apr,Friday,David Gordon Green,Male
+1377,47382,1.3,7,0.354704,Prison,6.7,27,4958,1988,Mar,Friday,Renny Harlin,Male
+1378,47387,0.0,0,0.0,An Everlasting Piece,6.0,1,5037,2000,Dec,Friday,Barry Levinson,Male
+1379,47409,3.8,17,23.689877,Network,7.7,381,5615,1976,Nov,Monday,Sidney Lumet,
+1380,47424,3.5,25,28.215918,Friday,7.0,503,5033,1995,Apr,Wednesday,F. Gary Gray,Male
+1381,47435,10.0,5,6.451628,Gods and Monsters,6.8,81,4872,1998,Jan,Wednesday,Bill Condon,Male
+1382,47438,3.6,35,5.923044,Evil Dead II,7.6,742,4767,1987,Mar,Friday,Sam Raimi,Male
+1383,47453,3.5,4,0.0,In the Name of the King III,3.3,19,5148,2013,Dec,Friday,Uwe Boll,Male
+1384,47480,2.7,17,141.0,Animal House,7.0,418,5217,1978,Jul,Thursday,John Landis,Male
+1385,47484,4.0,63,16.49108,Trainspotting,7.8,2655,5222,1996,Feb,Friday,Danny Boyle,Male
+1386,47485,0.0,1,0.0,The Original Kings of Comedy,6.3,15,5195,2000,Aug,Friday,Spike Lee,Male
+1387,47487,0.0,5,0.0,Waking Ned,7.4,54,5367,1998,Sep,Tuesday,Kirk Jones,
+1388,47488,4.0,11,35.564473,Bowling for Columbine,7.3,453,5697,2002,Oct,Wednesday,Michael Moore,Male
+1389,47489,0.0,6,0.0,Coming Home,6.9,49,4945,2014,May,Friday,Zhang Yimou,Male
+1390,47491,3.0,7,20.966644,A Room with a View,6.9,156,5826,1985,Dec,Friday,James Ivory,Male
+1391,47515,3.0,23,11.176469,Before Midnight,7.4,568,5535,2013,Apr,Friday,Richard Linklater,Male
+1392,47523,3.0,3,4.109095,Kama Sutra - A Tale of Love,5.7,35,5628,1996,Sep,Wednesday,Mira Nair,Female
+1393,47524,3.0,5,0.0,Please Give,6.0,57,6204,2010,Jan,Friday,Nicole Holofcener,Female
+1394,47536,2.8,15,1.826705,Tusk,5.1,366,5369,2014,Sep,Friday,Kevin Smith,Male
+1395,47575,3.0,3,0.0,Amnesiac,4.1,52,5951,2015,Aug,Friday,Michael Polish,Male
+1396,47585,2.0,15,5.364858,Diary of the Dead,5.4,190,4991,2007,Sep,Saturday,George A. Romero,Male
+1397,47597,0.0,11,0.0,Maurice,7.1,61,5826,1987,Sep,Friday,James Ivory,Male
+1398,47612,2.5,10,0.0,My Own Private Idaho,7.1,212,5283,1991,Oct,Thursday,Gus Van Sant,Male
+1399,47614,2.5,23,5.535405,Before Sunrise,7.7,959,5535,1995,Jan,Friday,Richard Linklater,Male
+1400,47622,0.0,9,0.0,Religulous,7.2,197,5088,2008,Oct,Wednesday,Larry Charles,Male
+1401,47634,2.4,4,5.731103,Get on the Bus,7.0,11,5195,1996,Oct,Wednesday,Spike Lee,Male
+1402,47649,4.0,14,36.690067,Friday the 13th Part III,5.7,254,5362,1982,Aug,Friday,Steve Miner,Male
+1403,47674,2.0,37,24.600832,Mad Max 2: The Road Warrior,7.3,957,4845,1981,Dec,Thursday,George Miller,Male
+1404,47685,2.7,14,15.992615,Before Sunset,7.6,718,5535,2004,Feb,Tuesday,Richard Linklater,Male
+1405,47686,2.0,23,20.908467,Amores perros,7.6,521,4874,2000,Jun,Friday,Alejandro González Iñárritu,Male
+1406,47687,2.0,20,4.601043,Thirteen,6.7,339,5293,2003,Aug,Wednesday,Catherine Hardwicke,Female
+1407,47696,2.0,12,5.967038,Harsh Times,6.3,197,4811,2005,Sep,Sunday,David Ayer,
+1408,47698,2.0,1,2.506446,Full Frontal,4.8,26,4909,2002,Aug,Friday,Steven Soderbergh,Male
+1409,47711,2.0,5,0.390659,Subway,6.3,86,4949,1985,Apr,Wednesday,Luc Besson,Male
+1410,47719,13.5,5,0.187674,Stonewall,5.2,32,4803,2015,Sep,Friday,Roland Emmerich,Male
+1411,47723,0.0,5,0.0,The Last Five Years,5.5,143,5235,2014,Nov,Monday,Richard LaGravenese,Male
+1412,47730,0.0,5,0.0,Plush,5.4,40,5293,2013,Sep,Friday,Catherine Hardwicke,Female
+1413,47751,0.0,1,0.0,Slacker Uprising,5.9,10,5697,2007,Sep,Thursday,Michael Moore,Male
+1414,47757,0.0,1,0.0,Northfork,6.7,24,5951,2003,Jan,Wednesday,Michael Polish,Male
+1415,47786,1.53,27,7.267585,Run Lola Run,7.2,664,4936,1998,Aug,Thursday,Tom Tykwer,Male
+1416,47819,0.0,5,0.0,Exotica,6.5,64,5599,1994,Sep,Saturday,Atom Egoyan,Male
+1417,47821,1.5,58,97.00915,Insidious,6.8,1737,4794,2010,Sep,Monday,James Wan,Male
+1418,47829,0.0,4,0.414404,Snow Angels,6.5,48,5231,2008,Mar,Friday,David Gordon Green,Male
+1419,47831,1.5,11,0.373967,Session 9,6.2,251,5894,2001,Aug,Friday,Brad Anderson,Male
+1420,47865,1.35,16,3.897569,"Lock, Stock and Two Smoking Barrels",7.5,1648,4888,1998,Mar,Thursday,Guy Ritchie,Male
+1421,47879,1.25,16,21.722776,Friday the 13th Part 2,6.0,315,5362,1981,May,Friday,Steve Miner,Male
+1422,47886,0.0,4,0.0,Da Sweet Blood of Jesus,4.1,13,5195,2014,Jun,Sunday,Spike Lee,Male
+1423,47887,1.2,10,0.0,"Sex, Lies, and Videotape",6.7,185,4909,1989,Aug,Friday,Steven Soderbergh,Male
+1424,47888,1.2,63,103.911669,Saw,7.2,2184,4794,2004,Oct,Friday,James Wan,Male
+1425,47892,0.0,8,0.0,Monsoon Wedding,6.8,57,5628,2001,Aug,Thursday,Mira Nair,Female
+1426,47897,1.2,66,14.661007,Reservoir Dogs,8.0,3697,4927,1992,Sep,Wednesday,Quentin Tarantino,Male
+1427,47934,1.3,58,28.262574,Taxi Driver,8.0,2535,4809,1976,Feb,Saturday,Martin Scorsese,Male
+1428,47935,1.0,6,17.985893,The Howling,6.4,161,5017,1981,Apr,Friday,Joe Dante,Male
+1429,47949,0.0,2,0.0,Shine a Light,7.2,44,4809,2008,Feb,Thursday,Martin Scorsese,Male
+1430,47955,0.0,1,0.0,Next Stop Wonderland,6.0,20,5894,1998,Aug,Friday,Brad Anderson,Male
+1431,47962,0.0,0,0.0,Walking and Talking,6.6,7,6204,1996,Jul,Wednesday,Nicole Holofcener,Female
+1432,47970,0.0,3,0.0,All the Real Girls,5.9,30,5231,2003,Aug,Friday,David Gordon Green,Male
+1433,48057,0.0,2,0.0,Deterrence,6.1,7,5140,2000,Mar,Friday,Rod Lurie,Male
+1434,48068,0.0,5,0.0,Kevin Hart: Laugh at My Pain,7.7,43,4894,2011,Sep,Friday,Tim Story,Male
+1435,48095,0.6,10,0.0,The Kentucky Fried Movie,6.4,66,5217,1977,Aug,Wednesday,John Landis,Male
+1436,48124,0.0,0,0.0,Twin Falls Idaho,7.0,11,5951,1999,Jul,Friday,Michael Polish,Male
+1437,48135,0.0,0,0.0,Finishing The Game,4.9,8,4802,2007,Jan,Sunday,Justin Lin,
+1438,48145,0.5,0,0.0,Everything Put Together,5.0,2,4773,2001,Nov,Friday,Marc Forster,Male
+1439,48146,0.0,10,0.316472,Good Kill,5.9,208,5226,2015,Apr,Thursday,Andrew Niccol,Male
+1440,48155,0.0,0,0.0,Alleluia! The Devil's Carnival,6.0,2,6056,2016,Mar,Tuesday,Darren Lynn Bousman,Male
+1441,48162,0.0,7,0.773228,Bloody Sunday,7.2,53,4876,2002,Jan,Wednesday,Paul Greengrass,Male
+1442,48185,0.86,3,2.451545,My Beautiful Laundrette,6.6,51,5249,1985,Sep,Saturday,Stephen Frears,
+1443,48192,0.35,35,29.4,The Evil Dead,7.3,894,4767,1981,Oct,Thursday,Sam Raimi,Male
+1444,48204,0.312,1,1.281176,Tumbleweeds,6.2,11,5489,1999,Nov,Sunday,Gavin O'Connor,Male
+1445,48228,0.25,20,12.021272,Chasing Amy,6.7,433,5369,1997,Apr,Friday,Kevin Smith,Male
+1446,48229,0.25,1,4.186931,Lovely & Amazing,6.3,23,6204,2001,Aug,Friday,Nicole Holofcener,Female
+1447,48231,0.0,3,0.0,Better Luck Tomorrow,6.5,27,4802,2002,Jan,Saturday,Justin Lin,
+1448,48233,0.0,0,0.0,Chuck & Buck,5.7,16,5519,2000,Jan,Friday,Miguel Arteta,Male
+1449,48244,0.25,6,0.056825,The Canyons,4.1,75,5970,2013,Jul,Monday,Paul Schrader,
+1450,48267,0.4,33,100.0,Mad Max,6.6,1213,4845,1979,Apr,Thursday,George Miller,Male
+1451,48268,0.2,13,4.505922,Swingers,6.8,253,4813,1996,Oct,Friday,Doug Liman,Male
+1452,48274,0.0,5,2.611555,Three,6.3,31,4936,2010,Dec,Thursday,Tom Tykwer,Male
+1453,48294,0.0,6,0.0,She's Gotta Have It,6.1,25,5195,1986,Aug,Friday,Spike Lee,Male
+1454,48300,0.15,8,2.891288,Tadpole,5.5,19,4995,2002,Nov,Friday,Gary Winick,Male
+1455,48310,0.16,3,6.706368,Roger & Me,7.4,90,5697,1989,Sep,Friday,Michael Moore,Male
+1456,48321,0.01,20,7.0,Eraserhead,7.5,485,5265,1977,Mar,Saturday,David Lynch,Male
+1457,48323,0.0,5,0.0,The Mighty,7.1,51,4921,1998,Oct,Friday,Peter Chelsom,Male
+1458,48335,0.06,27,3.221152,Pi,7.1,586,4881,1998,Jul,Friday,Darren Aronofsky,Male
+1459,48359,0.0,2,0.0,George Washington,6.4,36,5231,2000,Oct,Sunday,David Gordon Green,Male
+1460,48363,0.0,3,0.321952,The Last Waltz,7.9,64,4809,1978,May,Monday,Martin Scorsese,Male
+1461,48370,0.027,19,3.15113,Clerks,7.4,755,5369,1994,Sep,Tuesday,Kevin Smith,Male
+1462,48375,0.0,7,0.0,Rampage,6.0,131,5148,2009,Aug,Friday,Uwe Boll,Male
+1463,48376,0.0,3,0.0,Slacker,6.4,77,5535,1990,Jul,Friday,Richard Linklater,Male
+1464,48395,0.22,14,2.04092,El Mariachi,6.6,238,5097,1992,Sep,Friday,Robert Rodriguez,

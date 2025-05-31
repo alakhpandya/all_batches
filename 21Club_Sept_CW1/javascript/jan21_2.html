@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+    // getter & setter methods in a class
+
+    class Book{
+        constructor (author){
+            this._writer = author;
+        }
+
+        // getter method
+        get author(){
+            return this._writer;
+        }
+
+        // setter method
+        set author(newAuthor){
+            return this._writer = newAuthor;
+        }
+    }
+    const habits7 = new Book("Stephen Covey");
+    console.log(habits7.author);
+    habits7.author = "Alakh Pandya";
+    console.log(habits7.author);
+    console.log(habits7);
+
+
+</script>
+</html>
+
+<!-- 
+    Next Class: DOM Manipulation
+ -->

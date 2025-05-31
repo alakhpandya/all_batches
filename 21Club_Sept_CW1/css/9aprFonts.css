@@ -1,0 +1,11 @@
+/* Lexend Deca */
+@font-face {
+    font-family: lexend;
+    src: url("/google_fonts/Lexend_Deca/LexendDeca-VariableFont_wght.ttf");
+}
+
+/* Ghost */
+@font-face {
+    font-family: ghost;
+    src: url("/google_fonts/Rubik_Wet_Paint/RubikWetPaint-Regular.ttf");
+}

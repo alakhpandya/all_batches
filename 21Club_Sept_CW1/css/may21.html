@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *, ::before, ::after{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    :root{
+        --btn_bg: #4169e1;
+        --nav_bg: rgb(72, 61, 139);
+        --nav_font: cursive;
+        --nav_txt_col: #ffc0cb;
+    }
+    button{
+        border: none;
+        background-color: var(--btn_bg);
+        color: white;
+        padding: 0.5rem 1.5rem;
+        border-radius: 7px;
+        cursor: pointer;
+    }
+    ul{
+        background-color: rgb(72, 61, 139);
+        list-style-type: none;
+        height: 5rem;
+        display: flex;
+        /* horizontally centering flex-items */
+        justify-content: left;      /* default */
+        justify-content: right;
+        justify-content: space-between;
+        justify-content: space-around;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 2rem;
+        /* vertically centering flex-items */
+        align-items: flex-end;
+        align-items: flex-start;
+        align-items: center;
+        
+        /* padding: 0 5rem; */
+    }
+    ul li{
+        color: var(--nav_txt_col);
+        font-size: 1.1rem;
+        font-weight: 600;
+        font-family: var(--nav_font);
+    }
+    /* Flex-items' properties */
+    #item1{
+        order: 2;
+    }
+    #item2{
+        order: 1;
+    }
+    #item3{
+        order: 4;
+    }
+    #item4{
+        order: 0;
+    }
+    #item5{
+        order: 3;
+    }
+    form{
+        text-align: center;
+    }
+    input{
+        text-align: center;
+        text-align: right;
+        text-align: left;
+        margin: 0.5rem 0;
+        border: 2px solid red;
+    }
+    input:focus{
+        outline: 2px solid blue;
+        border: none;
+    }
+    .flex-container{
+        background-color: darkgreen;
+        display: flex;
+        height: 500px;
+        /* flex-direction: row-reverse; */
+        /* flex-direction: column; */
+        /* flex-direction: column-reverse; */
+        /* justify-content: left; */
+        padding: 3rem;
+        gap: 1rem;
+        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
+        flex-wrap: nowrap;
+    }
+    .flex-item{
+        height: 200px;
+        width: 200px;
+        background-color: cyan;
+        border: 2px solid red;
+        /* margin: 1rem; */
+    }
+    #box1{
+        flex-basis: 300px;
+    }
+    #box2{
+        /* visibility: hidden; */
+        align-self: center;
+        /* visibility: collapse; */
+        /* display: none; */
+    }
+    /* #box3{
+        flex-shrink: 2;
+    }
+    #box4{
+        flex-grow: 3;
+    }
+    #box5{
+        flex-grow: 1;
+    } */
+    #box6{
+        visibility: visible;
+    }
+    .extra{
+        height: 200px;
+    }
+</style>
+<body>
+    <!-- <button>Click Me</button> -->
+    <ul>
+        <li id="item1">Home</li>
+        <li id="item2">Services</li>
+        <li id="item3">Our Clients</li>
+        <li id="item4">About Us</li>
+        <li id="item5">Career</li>
+    </ul>
+    <form action="">
+        <div><input type="text" placeholder="First Name"></div>
+        <div><input type="text" placeholder="Last Name"></div>
+        <div><input type="email" placeholder="email"></div>
+        <div><input type="tel" placeholder="mobile"></div>
+    </form>
+    <div class="flex-container">
+        <div class="flex-item" id="box1">Box1</div>
+        <div class="flex-item" id="box2">Box2</div>
+        <div class="flex-item" id="box3">Box3</div>
+        <div class="flex-item" id="box4">Box4</div>
+        <div class="flex-item" id="box5">Box5</div>
+        <div class="flex-item" id="box6">Box6</div>
+    </div>
+    <div class="extra"></div>
+</body>
+</html>

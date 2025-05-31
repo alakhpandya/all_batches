@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    /*
+    const myHome = {
+        '1st floor' : ['living room', 'kitchen', 'wardrobe room', 'dining room'],
+        '2nd floor' : ['Master bed room', 'Guest room', 'Kids room', 'Hall'],
+        outside : ['garden', 'garage', 'balcony', 'servant room']
+    };
+    // myHome = {
+    //     'outside' : "Parking"
+    // }
+    Object.freeze(myHome);
+    myHome.outside = ['Pool', 'Car Park'];
+    console.log(myHome);
+    */
+    /*
+    const myArray = [1,2,3,4];
+    // myArray = ['a', 'b'];
+    Object.freeze(myArray)
+    myArray[0] = 'a';
+    myArray[1] = 'b';
+    console.log(myArray);
+        */
+
+    // Datatypes in js (contd)
+    /*
+    strings
+
+    s1 = 'my first string';
+    s2 = "my second string";
+    var s1, s2;
+    console.log(s1);
+    console.log(s1.length);
+    console.log(s2);
+    console.log(s2.length);
+    */
+
+    // undefined
+    /*
+    let a;
+    console.log(a);
+    */
+
+    // Boolean
+    /*
+    let p = true, q = false;
+    console.log(typeof(p));
+    */
+
+    // null
+    /*
+    let a = null;
+    console.log(a);
+    console.log(typeof(a));
+    */
+
+    /*
+    Operators:
+    1. Arithmetic: +, -, *, /, %, **, ++, --
+    2. Logical Operators: && (And), || (Or), ! (Not)
+    3. typeof & instanceof operator
+    4. Comparision Operator/Relational Operators/Conditional Operators/Conditions:
+        <, >, <=, >=, ==, !=, ===, !==, ? (ternary operator)
+    5. Assignment Operators: =, +=, -=, *=, /=, %=, **=
+    6. 
+    */
+    
+    /*
+    let s1 = 'Steve', s2 = 'Jobs';
+    console.log(s1 + ' ' + s2);
+    let a = 5, b = '10';
+    console.log(a + b);
+    let c = 3;
+    console.log(a ** c);
+    s1 += s2;
+    console.log(s1);
+    console.log(typeof(a));
+    console.log(typeof(b));
+    let d = '5';
+    // console.log(a == d);        // ignoring datatype
+    // console.log(a === d);       // not ignoring datatype
+
+    console.log(a != d)         // ignoring datatype
+    console.log(a !== d)         // not ignoring datatype
+    */
+    // Taking input in js:
+    // let marks = prompt('Enter your maks: ');
+    // console.log(marks);
+    // console.log(marks >= 35 ? 'Pass' : 'Fail');
+
+    /*
+    let num = prompt('Enter an integer:');
+    console.log(num > 0 ? 'Positive' : num == 0 ? 'Zero' : 'Negative');
+    */
+    
+    let s1 = "I don't like to play with very young children";
+    // let s2 = 'He said to me "Do not worry, I will take care of it."';
+    let s2 = "He said to me \"Do not worry, I will take care of it.\"";
+    // let s3 = 'He said to me "Don\'t worry, I will take care of it." and I became stress-free.';
+    let s3 = `He said to me "Don't worry, I will take care of it." 
+                            and I became stress-free.`;
+    // console.log(s3);
+    // Escape sequence characters: \n, \t, \
+
+        console.log(s3);
+    /*
+    // Accessing through index numbers:
+    console.log(s3[5]);
+    // Slicing through index numbers:
+    let s4 = s3.slice(5, 25);
+    console.log(s4);
+
+    // Slicing through -ve index numbers:
+    console.log(s3.slice(5, -7));
+
+    // Slicing through substring:   Doesn't support -ve index numbers
+    // console.log(s3.substring(5, -7));
+    console.log(s3.substring(5, 25));
+
+    // Slicing through substr:
+    console.log(s3.slice(5, 10));
+    console.log(s3.substr(5, 10));
+    */
+
+    // string methods:
+    /*
+    let s3 = 'He said to me "Don\'t worry, I will take care of it." and I became stress-free.';
+    console.log(s3.indexOf('D'));
+    console.log(s3.indexOf('e'));
+    console.log(s3.lastIndexOf('e'));
+    console.log(s3.indexOf('will'));
+
+    console.log(s3.replace('will', 'shall'));
+    console.log(s3.toLowerCase());
+    console.log(s3.toUpperCase());
+
+    let s1 = '            Steve       ', s2 = '             Jobs      ';
+    s4 = s2.trimStart();
+    console.log(s1.concat(s2));
+    console.log(s1.concat(s4));
+    s5 = s1.trimEnd();
+    console.log(s5.concat(s4));
+
+    console.log(s1.trim() + s2.trim());
+
+    console.log('7'.padStart(5, '0'));
+    console.log('75'.padEnd(5, '0'));
+
+    console.log(s3.charAt(12));
+    console.log(s3.charCodeAt(12));
+    */
+</script>
+</html>
+
+<!-- Next Class: if-else, switch case etc -->

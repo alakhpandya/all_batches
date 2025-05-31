@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *, ::before, ::after{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        border: solid;
+
+        display: flex;
+        height: 500px;
+        height: 100vh;
+        width: 100vw;
+
+        /* To align horizontally, we use justify-content */
+        /* justify-content: center; */
+        /* justify-content: flex-end; */
+        /* justify-content: flex-start;    default */
+        /* justify-content: space-between; */
+        /* justify-content: space-evenly; */
+        /* justify-content: space-around; */
+        /* gap: 3rem; */
+
+        /* justify-content: space-between; */
+        /* padding: 0 50px; */
+
+        /* To align vertically, we use align-items (we need to give height to the parent to make align-items work.) */
+        /* align-items: center; */
+        /* align-items: flex-end; */
+        /* align-items: flex-start;    default */
+
+        /* flex-wrap: wrap; */
+        /* flex-wrap: wrap-reverse; */
+        /* flex-wrap: nowrap;  defualt */
+
+        /* flex-direction: row;    default */
+        /* flex-direction: column; */
+        /* When 'flex-direction' is set to 'column' justify-content & align-items will switch their roles. So now, justify-content will align vertically and align-items will align horizontally. */
+        
+        gap: 1rem;
+    }
+    .boxes{
+        border: solid maroon;
+        /* height: 100px;
+        width: 100px; */
+
+        /* flex-basis will act as width when flex-direction is row & will act as height when flex-direction is column */
+        flex-basis: 100px;
+        font-size: 1.5rem;
+        font-family: cursive;
+        color: maroon;
+        background-color: pink;
+        /* margin-right: 1rem; */
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+/* 
+    #box1{
+        flex-shrink: 4;
+        flex-grow: 3;
+    }
+    #box2{
+        order: 0;   default
+        order: 1;
+    }
+    #box3{
+        align-self: center;
+        flex-shrink: 2;
+    }
+    #box4{
+        order: 2;
+        flex-grow: 2;
+    }
+    #box5{
+        flex-shrink: 1; default
+        flex-shrink: 0;
+    }
+    #box6{
+        flex-grow: 0;   default
+        flex-grow: 1;
+    } */
+
+    
+    @media (max-width: 700px){
+        .container{
+            flex-direction: column;
+        }
+    } 
+   
+</style>
+<body>
+    <div class="container">
+        <div class="boxes" id="box1">Box 1</div>
+        <div class="boxes" id="box2">Box 2</div>
+        <div class="boxes" id="box3">Box 3</div>
+        <div class="boxes" id="box4">Box 4</div>
+        <div class="boxes" id="box5">Box 5</div>
+        <div class="boxes" id="box6">Box 6</div>
+<!--         
+        <div class="boxes" id="box1">
+            <img src="https://source.unsplash.com/800x800/?nature" alt="">
+        </div>
+        <div class="boxes" id="box2">
+            <img src="https://source.unsplash.com/800x800/?nature" alt="">
+        </div>
+        <div class="boxes" id="box3">
+            <img src="https://source.unsplash.com/800x800/?nature" alt="">
+        </div>
+        <div class="boxes" id="box4">
+            <img src="https://source.unsplash.com/800x800/?nature" alt="">
+        </div>
+        <div class="boxes" id="box5">
+            <img src="https://source.unsplash.com/800x800/?nature" alt="">
+        </div>
+        <div class="boxes" id="box6">
+            <img src="https://source.unsplash.com/800x800/?nature" alt="">
+        </div> -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // Some built in useful functions
+
+    // map
+    /*
+    var square = (n) => {
+        let ans = n * n;
+        return ans;
+        // return [n, ans];
+    }
+
+    myList = [21, 13, -11, 9, 0, -5, 15];
+    squaredArray = myList.map(square);
+    console.log(squaredArray);
+    */
+
+    // filter
+    /*
+    average = 23.5;
+
+    function aboveAvg(n){
+        return n > average;
+    }
+
+    sensor_data = [105, -21, 25, 0, 4, 6, 38 ];
+    // result_array = sensor_data.map(aboveAvg);
+    // console.log(result_array);
+
+    result_array = sensor_data.filter(aboveAvg);
+    console.log(result_array);
+    */
+
+    // reduce
+    /*
+    numbers = [21, 13, -11, 9, 1, -5, 15];
+
+    function multiply(a, b){
+        return a * b;
+    }
+
+    let result_array = numbers.reduce(multiply);
+    console.log(result_array);
+    */
+    /*
+    given the array of the students:
+    const students = [
+        { name: 'Quincy', grade: 96 },
+        { name: 'Jason', grade: 84 },
+        { name: 'Alexis', grade: 100 },
+        { name: 'Sam', grade: 65 },
+        { name: 'Katie', grade: 90 }
+        ];
+
+    write a code that print names & grades of all the students who have scored more than 70.
+    */
+    /*
+    const students = [
+        { name: 'Quincy', grade: 96 },
+        { name: 'Jason', grade: 84 },
+        { name: 'Alexis', grade: 100 },
+        { name: 'Sam', grade: 65 },
+        { name: 'Katie', grade: 90 }
+    ];
+
+    function toppers(obj){
+        if (obj["grade"] > 70){
+            return obj;
+        }
+    }
+
+    topper_students = students.filter(toppers);
+    console.log(topper_students);
+    */
+
+    // Arrow functions / Anonymous functions
+
+    const students = [
+        { name: 'Quincy', grade: 96 },
+        { name: 'Jason', grade: 84 },
+        { name: 'Alexis', grade: 100 },
+        { name: 'Sam', grade: 65 },
+        { name: 'Katie', grade: 90 }
+    ];
+
+    toppers = students.filter((obj) => {
+        if (obj["grade"] > 70){
+            return obj;
+        }
+    })
+
+    /*
+    HW:
+    given an array: 
+    var pets = ['dog', 'chicken', 'cat', 'dog', 'chicken', 'chicken', 'rabbit'];
+
+
+    Output:
+    {
+        'dog' : 2,
+        'chicken' : 3,
+        'cat' : 1,
+        'rabbit' : 1
+    }
+    */
+</script>
+</html>

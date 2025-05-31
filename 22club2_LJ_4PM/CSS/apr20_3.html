@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Pseudo Elements */
+    body{
+        text-align: center;
+    }
+    h1::before{
+        content: "I";
+        display: block;
+        background-color: orangered;
+    }
+    h1::after{
+        content: "India";
+        display: block;
+        background-color: green;
+    }
+    #title::after{
+        color: white;
+    }
+/* 
+    #i{
+        color: red;
+    }
+    #india{
+        color: green;
+    }
+     */
+
+    .star{
+        color: red;
+    }
+    .req::after{
+        content: "*";
+        color: red;
+    }
+</style>
+<body>
+    <!-- Before & After -->
+    <h1 id="title">Love</h1>
+
+    <!-- Doing same thing without using before/after -->
+    <!-- <h1><span id="i">I</span>Love<span id="india">India</span></h1>  -->
+
+    <form action="">
+        <div>
+            <label class="req" for="">First Name: </label>
+            <input type="text" name="" id="">
+        </div> <br>
+        <div>
+            <label for="">Middle Name: </label>
+            <input type="text" name="" id="">
+        </div> <br>
+        <div>
+            <label class="req" for="">Last Name: </label>
+            <input type="text" name="" id="">
+        </div> <br>
+        <div>
+            <label for="">Home Mobile: </label>
+            <input type="tel" name="" id="">
+        </div> <br>
+        <div>
+            <label for="">Office Mobile: </label>
+            <input type="tel" name="" id="">
+        </div> <br>
+        <div>
+            <label for="">Date of Birth: </label>
+            <input type="date" name="" id="">
+        </div> <br>
+        <div>
+            <label for="">Anniversary Date: </label>
+            <input type="date" name="" id="">
+        </div> <br>
+        <div>
+            <label class="req" for="">E mail: </label>
+            <input type="email" name="" id="">
+        </div> <br>
+        <div>
+            <label class="req" for="">Password: </label>
+            <input type="password" name="" id="">
+        </div> <br>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

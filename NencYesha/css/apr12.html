@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #test{
+        /* text-decoration: underline; */
+        /* text-decoration: overline; */
+        /* text-decoration: line-through; */
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+        color: blue;
+    }
+    div a{
+        color: red;
+    }
+    /* div a ol{ */
+    div ol a{
+        color: green;
+    }
+    /* 
+    .upper-div .upper-list .upper-links{ 
+    .upper-div ul a{ 
+    div #list1 .upper-links{ 
+
+    } 
+    */
+    /*
+    div > a{
+        color: aqua;
+    }
+    */
+
+    div a li{
+    /* div li a{ */
+        color: blueviolet;
+    }
+
+    div + a{
+        color: palevioletred;
+    }
+
+    ol, ul, h1{
+        background-color: pink;
+    }
+
+    li:nth-child(7){
+        background-color: aqua !important;
+    }
+    li:nth-child(even){
+        background-color: gray;
+    }
+    li:nth-child(odd){
+        background-color: black;
+    }
+    .upper-links{
+        color: yellow;
+    }
+
+    a[target="_blank"]{
+        color: white;
+    }
+    a[target]{
+        color: orangered;
+    }
+    li[value="101"]{
+        color: white;
+    }
+    li[value]{
+        color: greenyellow;
+    }
+</style>
+<body>
+    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto?</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ducimus asperiores consequuntur eius deleniti quam in! Culpa ipsam, corporis doloremque ut, facilis placeat dignissimos quasi adipisci harum aspernatur totam debitis. Exercitationem quam obcaecati in odio.</p>
+    <!-- <p id="test">test</p> -->
+    <a href="#">Button 1</a> |
+    <a href="#">Button 2</a>
+    <div class="upper-div">
+        <ul class="upper-list" id="list1">
+            <li><a target="_blank" class="upper-links" href="#">Lorem, ipsum.</a></li>
+            <li><a target="_self" class="upper-links" href="#">Est, exercitationem?</a></li>
+            <li><a target="_self" class="upper-links" href="#">Totam, iure!</a></li>
+            <li><a target="_blank" class="upper-links" href="#">Rerum, earum.</a></li>
+            <li><a target="" class="upper-links" href="#">Doloremque, dolorem.</a></li>
+            <li><a target="" class="upper-links" href="#">Quis, sunt?</a></li>
+            <li><a class="upper-links" href="#">Magnam, aliquam?</a></li>
+            <li><a class="upper-links" href="#">Veniam, fugiat.</a></li>
+            <li><a class="upper-links" href="#">Architecto, a?</a></li>
+            <li><a class="upper-links" href="#">Labore, officiis?</a></li>
+            <li><a class="upper-links" href="#">Doloribus, quidem.</a></li>
+            <li><a class="upper-links" href="#">Aperiam, eveniet?</a></li>
+            <li><a class="upper-links" href="#">Perferendis, numquam?</a></li>
+            <li><a class="upper-links" href="#">Voluptatum, exercitationem!</a></li>
+            <li><a class="upper-links" href="#">Quisquam, recusandae!</a></li>
+        </ul>
+        <a href="#">Button 3</a> |
+        <a href="#">Button 4</a>
+    </div>
+    <a href="#">Button 5</a> |
+    <a href="#">Button 6</a>
+    <div>
+        <ol>
+            <a href="#">
+                <li value="101">Lorem, ipsum dolor.</li>
+            </a>
+            <a href="#">
+                <li>Alias, quibusdam debitis!</li>
+            </a>
+            <a href="#"><li value="">Quas, at voluptas!</li></a>
+            <a href="#"><li>Harum, natus voluptatem.</li></a>
+            <a href="#"><li value="301">Necessitatibus, aliquam aspernatur.</li></a>
+        </ol>
+        <a href="#">Button 7</a> |
+        <a href="#">Button 8</a>
+    </div>
+    <a href="#">Button 9</a> |
+    <a href="#">Button 10</a>
+</body>
+</html>

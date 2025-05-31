@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(195, 226, 195);
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    p {
+        font-size: 1.5rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    a {
+        text-decoration: none;
+        position: relative;
+    }
+
+    a:hover::after {
+        content: attr(data-tool-tip);
+        position: absolute;
+        bottom: 100%;
+        left: 10px;
+        border: 2px solid black;
+        border-radius: 0.3em;
+        background-color: lightgoldenrodyellow;
+        color: black;
+        font-size: 1.1rem;
+        padding: 0.5rem 1rem;
+        width: 100%;
+    }
+
+    .form-container{
+        border: 2px solid black;
+        width: fit-content;
+        margin: auto;
+        text-align: center;
+        border-radius: 1em;
+        background-color: lightgoldenrodyellow;
+    }
+    .form-container .input-field{
+        width: 80%;
+        font-size: 1.1rem;
+        padding-left: 20px;
+    }
+    .form-container label{
+        font-size: 1.1rem;
+    }
+    input[type="submit"]{
+        background-color: royalblue;
+        color: white;
+        border: 2px solid black;
+        border-radius: 0.3em;
+        width: fit-content !important;
+        padding: 0.2rem 0.4rem !important;
+    }
+    .req{
+        position: relative;
+        /* border: 2px solid red; */
+    }
+    .req::before{
+        content: "*";
+        color: red;
+        position: absolute;
+        left: 10%;
+        top: 25%;
+    }
+</style>
+
+<body>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, recusandae?</h1>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur <a data-tool-tip="Subscribe to our youtube channel" href="#">adipisicing
+            elit</a>. Repellat officiis, nobis ratione veniam minima excepturi esse enim necessitatibus <a
+            data-tool-tip="Follow us on twitter" href="#">rerum id</a> alias natus, neque consequatur voluptatibus
+        eligendi nam fugiat iusto eum inventore est veritatis quo consequuntur. Impedit optio, quaerat a accusamus ut in
+        ullam fuga quis magni maxime expedita officia <a data-tool-tip="Join our mailing list" href="#">cum
+            explicabo!</a></p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <a data-tool-tip="Tell me about the latest offers"
+            href="#">Saepe, quia</a>. Nihil quam obcaecati dolores, veniam placeat rem at explicabo recusandae impedit,
+        delectus iusto esse ducimus nostrum sint beatae officia eos pariatur eveniet veritatis dignissimos! Odio vel
+        sapiente consectetur molestiae nemo accusamus, magni, laboriosam, inventore laudantium quos fugiat alias dicta
+        qui.</p>
+    <div class="form-container">
+        <form action="">
+            <br>
+            <div>
+                <input class="input-field" type="text" name="" id="" placeholder="Full Name">
+            </div>
+            <br>
+            <div class="req">
+                <input class="input-field" type="email" name="" id="" placeholder="email address">
+            </div>
+            <br>
+            <div class="req">
+                <input class="input-field" type="tel" name="" id="" placeholder="Mobile Number">
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="" id="terms">
+                <label for="terms">I agree to terms of use and privacy policy.</label>
+            </div>
+            <br>
+            <div>
+                <input class="input-field" type="submit" value="Submit">
+            </div>
+            <br>
+        </form>
+    </div>
+</body>
+
+</html>

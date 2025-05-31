@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+.box
+{
+    background-image: url("/road-1072823_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.txtbox{
+    border: 2px solid white;
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+.show-modal{
+    top: 50%;
+    animation-name: move_modal;
+    animation-duration: 1s;
+}
+#close
+{
+    color: white;
+    font-weight:900;
+    font-size: 1.3rem;
+    /* border-radius: 5px; */
+    background-color: grey;
+    width: fit-content;
+    padding: 0 5px;
+    margin-left: auto;
+    cursor: pointer;
+}
+#text
+{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 0.7rem;
+    font-size: 1.3rem;
+}
+
+
+
+.lowertextbox
+{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: fit-content; 
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+    cursor: pointer;
+    padding: 0.7rem 2.1rem;
+}
+
+.lowertextbox:hover
+{
+    background-color: whitesmoke;
+}
+#lowtxtbox
+{
+    color: white;
+    font-size: x-large;
+}
+
+.lowertextbox:hover > #lowtxtbox{
+    color: black;
+}
+
+
+@keyframes move_modal {
+    from{
+        top: 0;
+        left: 50%;
+    }
+    to{
+        top: 50%;
+        left: 50%;
+    }
+}

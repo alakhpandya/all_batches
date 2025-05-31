@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // if-else & switch case
+    /*
+    let a = -10;
+    if (a > 0){
+        console.log("Positive");
+    }
+    else if (a < 0){
+        console.log("Negative");
+    }
+    else{
+        console.log("Zero");
+    }
+    */
+    /*
+    Strokes     Score           Example
+    1           Hole in One     1
+    par-2 <=    Eagle           5<=
+    par-1       Birdie          6
+    par         Par             7
+    par+1       Bogey           8
+    par+2       Double Bogey    9
+    >= par+3    Go Home         >= 10
+
+    Ask par & strokes from user and print the appropriate score using function.
+    */
+
+    function awesome () {
+        alert("Awesome!");
+    }
+
+    // awesome();
+
+    function average (a, b) {
+        // console.log((a + b)/2);
+        return (a + b)/2;
+    }
+    let c = average(10, 15);
+    console.log(c);
+
+    function score(par, strokes){
+        if (strokes == 1) {
+            console.log("Hole in one");
+        } else if (strokes <= par - 2) {
+            console.log("Eagle");
+        } else if (strokes == par - 1) {
+            console.log("Birdie");
+        } else if (strokes == par) {
+            console.log("Par");
+        } else if (strokes == par + 1) {
+            console.log("Bogey");
+        } else if (strokes == par + 2) {
+            console.log("Double Bogey");
+        } else {
+            console.log("Go Home");
+        }
+    }
+
+    score(9, 11);
+</script>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .boxes{
+        border: solid;
+        height: 40px;
+        width: 70px;
+        text-align: center;
+    }
+    #box1{
+        width: fit-content;
+        margin-bottom: 18.35px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 10px;
+    }
+    #box2{
+        /* margins overlap only between block elements!! */
+        margin-bottom: 20px;
+    }
+    #box3{
+        /* margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px; */
+        /* Equal margin all the sides */
+        margin: 20px;
+        margin-top: 20px;
+    }
+    #box5{
+        /* margin: top-bottom left-right; */
+        margin: 20px 40px;
+    }
+    #box6{
+        margin-top: 40px;
+    }
+    #box7{
+        /* margin: top right bottom left; */
+        margin: 10px 20px 30px 40px;
+    }
+    #box9{
+        /* margin: top left-right bottom; */
+        margin: 10px 20px 30px;
+    }
+
+    #box11{
+        width: 100%;
+    }
+    #btn1{
+        margin-right: 40px;
+        margin-top: 10px;
+    }
+    #btn2{
+        /* margins do not overlap if any non-block element is involved */
+        margin-left: 40px;
+    }
+
+    #box12{
+        margin-bottom: 20px;
+    }
+    #btn5{
+        margin-top: 20px;
+    }
+</style>
+<body>
+    <div class="boxes" id="box1">Did You Know That This Is Box 1?</div>
+    
+    <div class="boxes" id="box2">Box 2</div>
+    <div class="boxes" id="box3">Box 3</div>
+    <div class="boxes" id="box4">Box 4</div>
+    <div class="boxes" id="box5">Box 5</div>
+    <div class="boxes" id="box6">Box 6</div>
+    <div class="boxes" id="box7">Box 7</div>
+    <div class="boxes" id="box8">Box 8</div>
+    <div class="boxes" id="box9">Box 9</div>
+    <div class="boxes" id="box10">Box 10</div>
+
+    <div class="boxes" id="box11">
+        <button id="btn1">Button 1</button>
+        <button id="btn2">Button 2</button>
+        <button id="btn3">Button 3</button>
+        <button id="btn4">Button 4</button>
+    </div>
+    <div class="boxes" id="box12">Box 12</div>
+    <button id="btn5">Button 5</button>
+</body>
+</html>

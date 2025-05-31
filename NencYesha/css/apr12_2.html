@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+
+        <title>Document</title>
+    </head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Inconsolata:wght@400;500;600;700&display=swap');
+
+        @import url('/may17_fonts.css');
+        /* 
+        font-family: 'Castoro Titling', cursive;
+        font-family: 'Inconsolata', monospace;
+        font-family: 'Lobster Two', cursive;
+        font-family: 'Playfair Display', serif;
+        */
+        a{
+            text-decoration: none;
+            font-size: 40px;
+        }
+        /* Pseudo Classes */
+        a:hover{
+            color: orange;
+            /* font-size: 50px; */
+            background-color: greenyellow;
+        }
+
+        #google:hover{
+            color: red;
+        }
+
+        a:active{
+            /* selecting from built-in fonts / web-safe fonts */
+            font-family: sans-serif;
+            color: green;
+        }
+
+        a:visited{
+            color: gray;
+        }
+
+        h1{
+            font-family: 'Lobster Two', cursive;
+            /* text-transform: uppercase; */
+            /* text-transform: lowercase; */
+            /* text-transform: capitalize; */
+            font-variant: small-caps;
+        }
+        #google{
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+        }
+        #youtube{
+            font-family: 'Castoro Titling', cursive;
+            font-weight: 600;
+            font-style: italic;
+        }
+        #instagram{
+            font-family: 'Inconsolata', monospace;
+            font-weight: 700;
+        }
+
+        h2{
+            font-family: "Monalisa", 'Times New Roman', serif;
+            font-size: 50px;
+            font-weight: 400;
+            font-weight: 700;
+            font-style: italic;
+            font-variant: small-caps;
+        }
+        #para-1{
+            font-family: "Krish Handwriting Fonts", 'Lucida Sans';
+            font-size: 30px;
+            letter-spacing: 2px;
+            /* font-variant: small-caps; */
+            text-transform: uppercase;
+        }
+        #para-2{
+            font-family: "Nancy's Handwriting", 'Courier New', Courier, monospace;
+            font-size: 30px;
+            /* font-weight: 400;
+            font-weight: 500;
+            font-weight: 600;
+            font-weight: 700; */
+            text-transform: lowercase;
+        }
+        #para-3{
+            /* font-family: "cinzel"; */
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            line-height: 35px;
+            text-transform: capitalize;
+        }
+
+        /* Units */
+        /* 
+            rem: root's em(font-size)
+
+            1rem = 16px by default.
+
+        */
+
+        #facebook{
+            font-size: 48px;
+        }
+        #twitter{
+            font-size: 3rem;
+        }
+    </style>
+    <body>
+        <h1>My Favorite Social Sites:</h1>
+        <div><a id="google" href="https://google.com">Google</a></div> <br>
+        <div><a id="youtube" href="https://youtube.com">YouTube</a></div> <br>
+        <div><a id="instagram" href="https://instagram.com">Instagram</a></div> <br>
+        <div><a id="facebook" href="https://facebook.com">Facebook</a></div> <br>
+        <div><a id="twitter" href="https://twitter.com">Twitter</a></div> <br>
+        <div><a id="linkedin" href="https://linkedin.com">LinkedIn</a></div>
+
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+        <p id="para-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <strong>Exercitationem deleniti fuga dolorem,</strong> cupiditate illum cum quae Veritatis Asperiores numquam repudiandae aut tempore ea iste minima maiores, libero ab molestias nisi fugit ipsum. Ratione pariatur aliquid deserunt, a explicabo maiores excepturi. Id assumenda nisi optio quod!</p>
+        <p id="para-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nulla impedit laudantium reiciendis dolorum accusamus nemo error nesciunt nihil expedita in ab possimus, a natus, cupiditate consectetur soluta quisquam beatae fuga nobis cum recusandae? Enim.</p>
+        <p id="para-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, consectetur? Culpa voluptates perspiciatis reiciendis sit aliquid, velit aliquam accusamus repudiandae molestias quia nostrum fugit consequatur explicabo officia, dolore ipsum excepturi unde dolorum temporibus eaque odit sapiente quasi! Eius vel eligendi ut velit ipsam maiores? Ea saepe ipsam atque modi iusto!</p>
+    </body>
+</html>
+<!-- Next Class: recap rem one more time using another file, other responsive units -->
