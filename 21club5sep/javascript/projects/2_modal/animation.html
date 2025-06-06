@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #box1{
+        background-color: green;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        /* animation-name: linear; */
+        /* animation-duration: 1s; */
+        
+        animation-name: square-loop;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+
+    @keyframes linear{
+        from{
+            top: 10px;
+        }
+        to{
+            top: 400px;
+        }
+    }
+    @keyframes square-loop{
+        0%{
+            top: 10px;
+            left: 10px;
+        }
+        25%{
+            top: 400px;
+            left: 10px;
+            /* background-color: yellow; */
+        }
+        50%{
+            top: 400px;
+            left: 400px;
+            border-radius: 50%;
+        }
+        75%{
+            top: 10px;
+            left: 400px;
+            /* background-color: red; */
+        }
+        100%{
+            top: 10px;
+            left: 10px;
+            /* background-color: maroon; */
+        }
+    }
+</style>
+<body>
+    <div id="box1"></div>
+</body>
+</html>

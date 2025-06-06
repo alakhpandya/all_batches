@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        color: white;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .parent {
+        padding-left: 40%;
+        padding-top: 3rem;
+    }
+
+    .main {
+        width: 500px;
+        height: 350px;
+        border: 2px solid white;
+        position: relative;
+        border-radius: 0.5rem;
+    }
+
+    .main h4 {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .sub {
+        padding: 2rem;
+        border: 2px solid white;
+        border-radius: 0.5rem;
+        width: 250px;
+        height: 200px;
+        position: absolute;
+        left: 7.5rem;
+        align-items: center;
+    }
+
+    .sub h6 {
+        padding-bottom: 3rem;
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .sub button {
+        padding-left: 4.5rem;
+        background-color: transparent;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="parent">
+        <div class="main">
+            <h4>2</h4>
+            <div class="sub">
+                <h6>1</h6>
+                <br>
+                <button>
+                    Click
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const main = document.querySelector('.main');
+    const sub = document.querySelector('.sub');
+    const button = document.querySelector('button');
+
+    // window.addEventListener('click', () => {
+    //     console.log('Window');
+    // }, true)
+
+    // document.addEventListener('click', () => {
+    //     console.log('Document');
+    // }, true)
+
+    // main.addEventListener('click', () => {
+    //     console.log('Main');
+    // }, true)
+
+    // sub.addEventListener('click', () => {
+    //     console.log('Sub');
+    // }, true)
+
+    // button.addEventListener('click', () => {
+    //     console.log('Button');
+    // }, true)
+
+    window.addEventListener('click', () => {
+        console.log('Window');
+    }, false)
+
+    document.addEventListener('click', () => {
+        console.log('Document');
+    }, false)
+
+    main.addEventListener('click', (e) => {
+        e.stopPropagation();
+        console.log('Main');
+    }, false)
+
+    sub.addEventListener('click', () => {
+        console.log('Sub');
+    }, false)
+
+    button.addEventListener('click', (e) => {
+        console.log('Button');
+        e.target.innerText = 'Clicked!'
+    }, false)
+
+/*
+next class: prevendefault
+*/
+</script>
+
+
+</html>

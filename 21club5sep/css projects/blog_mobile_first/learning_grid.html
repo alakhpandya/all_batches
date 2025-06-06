@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        border: 2px solid red;
+        background-color: lightgray;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div {
+        padding: 2rem;
+        border-radius: 15px;
+        border: none;
+    }
+    .container{
+        display: grid;
+        gap: 1rem;
+        width: 90vw;
+    }
+
+
+    #box1,
+    #box2,
+    #box5 {
+        color: white;
+    }
+
+    #box1 {
+        background-color: blueviolet;
+    }
+
+    #box2 {
+        background-color: darkslategray;
+    }
+
+    #box5 {
+        background-color: #222;
+    }
+
+    #box3,
+    #box4 {
+        background-color: white;
+    }
+    h2{
+        font-family: sans-serif;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1.1rem;
+    }
+
+    @media (min-width: 1024px){
+        .container{
+            /* grid-template-columns: 300px 300px 600px 300px; */
+            /* grid-template-columns: 25% 25% 25% 25%; */
+            /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+            /* grid-template-columns: repeat(5, 1fr); */
+            grid-template-columns: repeat(4, 1fr);
+        }
+        #box1, #box5{
+            grid-column: span 2;
+        }
+        #box3{
+            grid-row: span 2;
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div id="box1">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse illo consequatur ad aliquid fugit.
+                Pariatur adipisci quo laudantium repudiandae nesciunt!</h2>
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate commodi eos voluptatum sed, at
+                voluptates eius hic doloremque. Veniam autem magni, sed cum excepturi hic eius accusantium corporis
+                voluptas error quis odio laboriosam, eaque modi! Eaque ab odit aperiam necessitatibus!"</p>
+        </div>
+        <div id="box2">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ea?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non corrupti magni porro impedit officiis
+                blanditiis totam unde nostrum dignissimos repudiandae?</p>
+        </div>
+        <div id="box3">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, culpa?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur modi excepturi deserunt incidunt
+                ab. Nam veritatis qui obcaecati, consequatur saepe provident distinctio consequuntur! Cumque dolorum voluptatibus corporis sapiente molestiae impedit, beatae culpa eveniet deleniti expedita
+                quos sed? Molestiae dolore veniam exercitationem quis itaque doloribus quisquam? Illum, expedita sunt
+                placeat hic fuga aut!</p>
+        </div>
+        <div id="box4">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, impedit?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex numquam error eaque iste suscipit itaque!
+            </p>
+        </div>
+        <div id="box5">
+            <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt quisquam ipsam dolorem nobis distinctio
+                beatae, nulla officia reprehenderit dicta magni?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, est laborum! Nostrum odio, ipsam
+                totam accusamus saepe incidunt maxime ab quae tempora, error eius corporis, qui obcaecati fugit laborum
+                iure!</p>
+        </div>
+    </div>
+</body>
+
+</html>

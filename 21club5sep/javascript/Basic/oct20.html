@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    /*
+    const joinArray = (arr1, arr2) => arr1.concat(arr2);
+
+    let arr1 = [1, 2, 3], arr2 = [11, 12];
+    // let arr3 = arr1.concat(arr2);
+    let arr3 = joinArray(arr1, arr2);
+    console.log(arr3);
+    */
+   // Nested ternary operators
+   /*
+    let a = 0;
+
+    console.log(a > 0 ? "Positive" : a < 0 ? "Negative" : "Neutral");
+    */
+    // more about constants
+    /*
+    const myArray = [1,2,3,4,5];
+
+    // myArray = [1,2,3,4,6];
+    myArray[4] = 6;
+    console.log(myArray);
+
+
+    const myBirthDay = {
+        "morning" : "Outing with friends",
+        "afternoon" : "Cafe",
+        "evening" : "Wasted"
+    }
+
+    const freezeObject = (obj) => Object.freeze(obj)
+
+    // Object.freeze(myBirthDay);
+    freezeObject(myBirthDay);
+    myBirthDay["evening"] = "Movie";
+    console.log(myBirthDay);
+    */
+    /*
+    var number = 15;
+
+    const incrementor = (number, value=1) => number + value;
+
+    // number = incrementor(number);
+    // number = incrementor(number, 5);
+    console.log(number);
+    */
+
+    // rest operator (~ *args in Python)
+    const sum = (...numbers) => {
+        // console.log(numbers);
+        let s = 0;
+        for(let i = 0; i < numbers.length; i++){
+            s += numbers[i];
+        }
+        return s;
+    }
+
+    console.log(sum(1,2,3,4,5,6));
+
+    let myArray = [1,2,3,4,5]
+    let yourArray = myArray;        // just giving one more name to the same data
+    let ourArray = [...myArray];    // copying myArray into ourArray
+    console.log(ourArray);
+</script>
+</html>

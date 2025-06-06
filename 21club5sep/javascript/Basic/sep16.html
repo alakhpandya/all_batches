@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="site-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ex?</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quas soluta quidem laborum at atque ullam veniam reiciendis labore, debitis dolore nihil vero sunt iste nemo cupiditate corrupti nobis exercitationem totam voluptatem? Illum voluptates aspernatur reiciendis eligendi iure! Quam natus omnis eveniet nihil quis, hic ducimus voluptas praesentium provident nostrum!</p>
+    <hr>
+    <p id="output"></p>
+    <button onclick="document.write('Welcome to the dark world!')">Black Magic</button>
+    <button onclick="window.print()">Print</button>
+</body>
+
+<!-- External Javascript -->
+<script src="/sep16.js"></script>
+
+<!-- Internal JS -->
+<script>
+    // a = 5;
+    /*
+    Multi line
+    comment
+    */
+
+    // a = 5; 
+    // b = 10;
+
+    // Outputs in js
+    /*
+    1. using .innerText
+        document.getElementById('output').innerText = a + b;
+    2. using document.write()
+    3. using alert
+        window.alert('a + b = 15');
+    4. using print
+        window.print();
+    5. using console.log()
+    */
+
+    // console.log(a+b);
+    // console.Log(a -                
+    
+    // b);
+    // A = 20;     // not same as lowercase variable 'a'
+    /*
+    Naming convention:
+    1. alphabets/numbers/underscore/dollar
+    2. cannot start with numbers
+    */
+    
+    // var1 = 2;
+    // var_1 = 3;
+    // var$1 = 4;
+    // 1_var = 5;      Error
+    
+
+    // Declaring variables
+    // 1. using 'var'
+    /*
+    var a, b;
+    a = 10;
+    b = 20;
+    // we may first define the variables & may declare them later using 'var'
+
+    var a = 12, b = 22;
+    var c;
+    c = 32;
+    // variables declared through var can be redeclared
+    */
+
+    // 2. using 'let' (es6: EcmaScript 6)
+    // var a = 12, b = 22;
+    let a, b;
+    a = 10;
+    b = 20;
+    // console.log(a + b);
+    a = 30;
+    // console.log(a + b);
+    // var a = 40;
+    var c = 15;
+    {
+        let a = 100;
+        var c = 200;
+        c = c + 1;
+        console.log(c);
+        a = a + 1;
+        // console.log(a);
+    }
+    // console.log(a);
+    console.log(c);
+    /*
+            var                                         let
+        1. can be redeclared                        Can't be redeclared
+        2. Global Scope                             Block level scope (local scope)
+    */
+</script>
+</html>

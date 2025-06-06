@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // Loops: for loop, while loop, do while loop
+    /*
+    let myArray = [15,12,35,74];
+    // var i;
+    for(let i = 0; i < myArray.length; i++){
+        console.log(myArray[i]);
+    }
+    */
+    // while loop:
+    /*
+    let myArray = [15,12,35,74];
+    var i = 0;
+    while (i < myArray.length){
+        console.log(myArray[i]);
+        i++;
+    }
+    */
+    /*
+    let myArray = [15, 12, 35, 74];
+    var i = 0;
+    do{
+        console.log(myArray[i]);
+        i++;
+    }while (i < 0);
+    */
+
+    /*
+    1. Write a program in which you create an empty array and then put integers from 1 to 100 in that array. Log the final array on the console.
+
+    2. Create a user-defined array of the length given by user using while loop.
+
+    3. Write a program to calculate sum of the above array using for loop.
+    */
+    /*
+    let a = "5", b = "13.4";
+    let sum = Number(a) + Number(b);
+    console.log(sum);
+    let addition = parseInt(a) + parseFloat(b);
+    console.log(addition);
+    */
+    /*
+    function multiply(arr){
+        // Write your code here
+        return result;
+    }
+
+    let myArray = [
+        [10, -3, 1],
+        [3, 4],
+        [5, 7, 9, 7],
+        [-6]
+    ]
+
+    console.log(multiply(myArray));
+    */
+
+    // Profile Lookup coding challenge
+
+    // Write code inside the lookUpProfile function so that when user passes name of a person and the property they want to know, our function returns that property's value for that particular person.
+    // For example, lookUpProfile("Dhiraj", "likes") should return ["Coding", "Teaching", "Pooja"]
+    // If the name is not present in the contacts array, our function should return "No such contact", and if a property is not found corresponding to that person then our function should return "No such property"
+    var contacts = [
+        {
+            "firstName":"Hetal",
+            "lastName":"Tewar",
+            "number":"0543236543",
+            "likes": ["Panipuri", "Sleeping", "Shopping"]
+        },
+        {
+            "firstName":"Harry",
+            "lastName":"Potter",
+            "number":"0994372684",
+            "likes": ["Hogwarts", "Magic", "Hagrid"]
+        },
+        {
+            "firstName":"Sherlock",
+            "lastName":"Holmes",
+            "number":"05487345643",
+            "likes": ["Intriguing Cases", "Violin"]
+        },
+        {
+            "firstName":"Dhiraj",
+            "lastName":"Poojara",
+            "number":"09879472527",
+            "likes": ["Coding", "Teaching", "Pooja"]
+        },
+    ];
+
+    function lookUpProfile(name, prop){
+        // Write your code here
+    }
+
+    var data1 = lookUpProfile("Alakh", "number");
+    var data2 = lookUpProfile("Dhiraj", "profession");
+    var data3 = lookUpProfile("Hetal", "likes");
+    var data3 = lookUpProfile("Sherlock", "lastName");
+</script>
+</html>

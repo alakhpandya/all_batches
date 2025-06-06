@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dec2_2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul class="main-container">
+        <li class="games-container"><a href="" class="all-a">Football</a></li>
+        <li class="games-container"><a href="" class="all-a">BasketBall</a></li>
+        <li class="games-container"><a href="" class="all-a">Boxing</a></li>
+        <li class="games-container"><a href="" class="all-a">Tennis</a></li>
+        <li class="games-container"><a href="" class="all-a">Golf</a></li>
+        <li class="games-container"><a href="" class="all-a">Rugby</a></li>
+    </ul>
+</body>
+<script>
+    /*
+    const games = document.getElementsByClassName('games-container')
+    const football = games[0];
+    const basketball = games[1];
+    const boxing = games[2];
+    const tennis = games[3];
+    const golf = games[4];
+    const rugby = games[5];
+
+    const bg_gray = (element) => {
+        element.addEventListener('click', () => {
+            element.style.backgroundColor = 'gray';
+        })
+    }
+
+    bg_gray(football);
+    bg_gray(basketball);
+    bg_gray(boxing);
+    bg_gray(tennis);
+    bg_gray(golf);
+    bg_gray(rugby);
+    */
+
+    const container = document.querySelector('.main-container');
+
+    container.addEventListener('click', (e) => {
+        e.target.style.backgroundColor = 'gray';
+    })
+</script>
+</html>

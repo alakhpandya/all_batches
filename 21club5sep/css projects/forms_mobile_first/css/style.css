@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ---------------- CSS Reset ---------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---------------- Global variables ---------------- */
+:root{
+    --primary-font: 'Poppins', sans-serif;
+    --main-color: #4169e1;
+    --second-color: #ddd;
+    --light-font: #808080 ;
+}
+
+/* ---------------- Global tags & classes ---------------- */
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--main-color);
+    /* border: 2px solid red; */
+    font-family: var(--primary-font);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.form-container{
+    background-color: var(--second-color);
+    width: 90%;
+    max-width: 500px;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+
+.login-body{
+    height: 100vh;
+}
+
+.form-container .user-form{
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+}
+
+.user-form .form-title{
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    transform: translateY(-60%);
+    background-color: var(--second-color);
+}
+
+.user-form .input-box{
+    /* border: 2px solid red; */
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.input-box input{
+    width: 100%;
+    height: 3rem;
+    padding-left: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: var(--second-color);
+}
+
+.input-box input:focus{
+    /* outline-width: 2px; */
+    outline-color: var(--main-color);
+    border-radius: 8px;
+}
+
+input:focus + label, input:valid + label{
+    top: -0.5px;
+    left: 10px;
+    color: var(--main-color);
+    background-color: var(--second-color);
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    color: var(--light-font);
+    transition: all 0.25s;
+
+}
+
+.input-box .show-pwd-btn{
+    position: absolute;
+    color: var(--light-font);
+    cursor: pointer;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.user-form .remember-forget-box{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+.remember-forget-box input + label{
+    color: black;
+}
+
+
+
+.user-form input[type="submit"]{
+    height: 3rem;
+    width: 100%;
+    margin: 2rem 0 1rem;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.user-form .new-old-user{
+    text-align: right;
+}
+
+.gender-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.gender-box label, .tnc-box label{
+    color: black !important;
+}
+
+.tnc-box{
+    margin-top: 1rem;
+}
+
+
+
+@media (min-width: 768px){
+    .gender-box{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    body{
+        height: 100vh;
+    }
+}
+
+@media (min-width: 1024px){
+    .user-info{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .signup-form-container{
+        max-width: 700px;
+    }
+    .personal-info, .account-info{
+        width: 100%;
+    }
+}

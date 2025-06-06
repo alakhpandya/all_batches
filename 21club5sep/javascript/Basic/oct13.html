@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    'use strict';
+    /*
+    let a = Math.random();
+    console.log(a);
+    let upper = 11, lower = 7;
+    let difference = upper - lower;
+    let number = lower + Math.floor(Math.random()*difference)
+    console.log(number)
+    */
+
+    // some useful functions
+    /*
+    a = '1101';
+    b = '1110110.10101';
+    // let c = Number(a), d = Number(b);
+    console.log(parseInt(a, 2));
+    console.log(parseFloat(b));     // we can't provide radix in parseFloat
+    */
+
+    // map, filter and reduce
+    function makeSquare(n){
+        return n * n;
+    }
+
+    let myArray = [25, 12, 11, 8, 7, 5];
+    let squaredArray = myArray.map(makeSquare);
+    console.log(myArray);
+    console.log(squaredArray);
+
+    function checkPositive(n){
+        return n > 0;
+    }
+    let yourArray = [25, 12, -13, 11, -8, -28, 7, 5, -10];
+    let positiveArray = yourArray.filter(checkPositive);
+    console.log(positiveArray);
+
+    function multiply(a, b){
+        return a * b;
+    }
+    let answer = yourArray.reduce(multiply);
+    console.log(answer);
+</script>
+</html>
+
+<!-- Next Class: Arrow Functions -->

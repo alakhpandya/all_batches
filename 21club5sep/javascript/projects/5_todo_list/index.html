@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 25%;
+        transform: translate(0, -50%);
+        background-image: url(./bg_img.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .task-container {
+        border-radius: 10px;
+        /* border: 2px solid red; */
+        background-color: aliceblue;
+        padding: 0.2rem;
+    }
+
+    .sub-container {
+        display: flex;
+        flex-direction: row;
+        gap: 0.2rem;
+        height: 28px;
+        width: 300px;
+        margin-bottom: 1rem;
+    }
+
+    .no-class {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+        height: 27px;
+        /* margin-top: 1rem; */
+        padding: 0.2rem;
+    }
+    .no-class p{
+        border: 2px solid red;
+    }
+
+    .sub-container button {
+        padding: 0.15rem 1.3rem;
+        border: 1.5px solid black;
+        border-radius: 0.3rem;
+        cursor: pointer;
+    }
+
+    .sub-container input {
+        padding: 0.15rem 4.2rem 0.15rem 0.2rem;
+        border: 1.5px solid black;
+        border-radius: 0.3rem;
+    }
+    
+    .check,
+    .trash {
+        border: 2px solid red;
+        cursor: pointer;
+    }
+</style>
+ 
+<body>
+    <div class="main-container">
+        <div class="sub-container">
+            <input type="text">
+            <button id="add_btn">+</button>
+        </div>
+        <div class="task-container"> 
+            <!-- <div class="no-class">
+                <p>Pay Light Bill</p>
+                <div class="task-control">
+                    <span class="check"><i class="fa-solid fa-check"></i></span>
+                    <span class="trash"><i class="fa-solid fa-trash"></i></span>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</body>
+
+<script src="main.js"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"
+integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+</html>

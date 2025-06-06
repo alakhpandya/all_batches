@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        color: white;
+    }
+    body{
+        background-color: black;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 4rem;
+        left: 30%;
+        width: 500px;
+        border-radius: 0.5rem;
+    }
+    .main h3{
+        padding: 2rem 4rem;
+        font-size: 18px;
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        border: 2px solid white;
+        padding: 5rem;
+        height: 300px;
+        width: 600px;
+        border-radius: 0.8rem;
+        justify-content: space-around;
+        gap: 1.2rem;
+    }
+    .sub-container{
+        border: 2px solid white;
+        border-radius: 0.5rem;
+        height: 150px;
+        padding: 1rem;
+    }
+    .sub-container p{
+        padding-bottom: 3.2rem;
+        text-align: center;
+    }
+    .button{
+        padding: 0.4rem 1rem;
+        border: 2px solid white;
+        border-radius: 0.4rem;
+        color: white;
+        cursor: pointer;
+        background-color: transparent;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <h3>
+            Event Listeners
+        </h3>
+        <div class="container">
+            <div class="sub-container">
+                <p>Example 1</p>
+                <button class="button" onclick='alert("I love Javascript!")'>Enter</button>
+            </div>
+            <div class="sub-container">
+                <p>Example 2</p>
+                <button id="btn2" class="button">Enter</button>
+            </div>
+            <div id="container3" class="sub-container">
+                <p>Example 3</p>
+                <button id="btn3" class="button">Enter</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="nov25.js"></script>
+</html>

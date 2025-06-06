@@ -1,0 +1,13 @@
+{
+    "name": "Dining Table",
+    "quantity": 5,
+    "mrp": 1500,
+    "length": 5,
+    "width": 3,
+    "height": 3.5,
+    "color": "white",
+    "finish": "glosy",
+    "polish": true,
+    "material": "wood",
+    "tableCloth": false
+}

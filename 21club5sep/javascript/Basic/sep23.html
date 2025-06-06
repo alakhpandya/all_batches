@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // Operators in JS
+    /*
+    1. Arithmetic Operators: +, -, *, /, %, **, ++, --
+    2. Logical Operators: &&, ||, !
+    3. instanceof() & typeof()
+    4. Comparision/Relational/Conditional Operators/Conditions: <, <=, >, >=, ==, ===, !=, !==, ? (ternary operator)
+    5. Assignment Operators: =, +=, -=, *=, /=, %=, **=
+    6. 
+    */
+   
+    /*
+    var a = 5, b = '5';
+    console.log(a == b);    // ignoring datatype
+    console.log(a === b);   // keeping datatype in consideration
+    console.log(a != b);
+    console.log(a !== b);
+    */
+
+    // ternary operator
+    // let marks = prompt("Enter marks:");
+    // alert(marks < 35 ? 'Fail' : 'Pass');
+    
+    // nested ternary operator
+    // let number = prompt("Enter a number:");
+    // number > 0 ? 'Positive' : (number == 0 ? 'Zero' : 'Negative');   is same as:
+    // console.log(number > 0 ? 'Positive' : number == 0 ? 'Zero' : 'Negative');
+
+    // Strings in javascript:
+    var s1 = 'Happy Navratri!';
+    var s2 = "Happy Navratri!";
+    var s3 = 'I don\'t like any language after studying javascript';
+    console.log(s1[7]);
+    // console.log(s1[-5]);     can't be accessible directly like this
+
+    // String slicing:
+    // through .slice()
+    // console.log(s3.slice(3, 20));
+    // console.log(s3.slice(-20, -2));
+    // console.log(s3.slice(-12));
+    // console.log(s3.slice(12));
+
+    // through .substring()
+    // console.log(s3.substring(3, 20));
+    // console.log(s3.substring(-20, -2));     does not support -ve indices
+
+    // through .substr()
+    // console.log(s3.substr(13, 12));
+    // console.log(s3.substr(-15, 5));
+
+    // console.log(s3.indexOf('after'));
+    // console.log(s3.indexOf('a'));
+    // console.log(s3.lastIndexOf('a'));
+
+    // console.log(s3.charAt(13));
+    // console.log(s3.charAt(-14));        doesn't support -ve indices
+    console.log(s3.charCodeAt(5));
+
+
+</script>
+</html>
+
+<!-- Next class: remaining string methods like .replace() etc -->
