@@ -111,7 +111,7 @@ In movies table of moviesdb dataset, Create a column named "Language" which has 
 “Bengali” if language_id is 7 
 otherwise “Other”
 */
-s
+
 
 
 /*
