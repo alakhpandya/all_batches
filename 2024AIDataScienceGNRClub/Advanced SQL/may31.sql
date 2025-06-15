@@ -34,9 +34,14 @@ select * from artists;
 select first_name,last_name 
 from artists group by first_name,last_name 
 having count(*)>1;
-/*
-Give department-wise roll number to each student. For example, students in Biochemistry department will have roll numbers 1, 2 & 3 (as there are only 3 students in this
-department) then students of Computer Science department will have roll numbers 1, 2, 3 & 4 and so on.
-*/
-select * from student_score
-order by dep_name;
+
+use moviesdb;
+select * from movies;
+-- Print average imdb_rating for each studio in the movies table beside each movie.
+
+use hr2;
+select * from employees;
+select count(distinct department_id) from employees;
+
+-- Print top-3 earners from each department
+-- This was not that easy to solve!
