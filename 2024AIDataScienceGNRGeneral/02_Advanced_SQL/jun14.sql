@@ -74,3 +74,8 @@ max(release_year) over(partition by studio) as latest_movie_year
 from movies;
 
 -- sum() window function
+use hr;
+select *,
+-- sum(salary) over() total_salary
+sum(salary) over(partition by department_id) dep_total_salary
+from employees;
