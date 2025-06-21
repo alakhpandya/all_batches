@@ -51,5 +51,19 @@ from movies;
 
 /*
 Print all the columns of employee table of hr database and also add a column that has "above average", "average" or "below average" for the employees
-whose salaries are higher, same or less than average salary of their departments respectively.
+whose salaries are higher, same or less than average salary of their respective departments.
 */
+use  hr;
+
+with t1 as (
+	select *,
+	avg(salary) over(partition by department_id) as dep_avg_sal
+	from employees
+)
+select *,
+case 
+	when salary > dep_avg_sal then "above average"
+    when salary = dep_avg_sal then "average"
+    else "below average"
+end as "type"
+from t1;

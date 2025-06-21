@@ -11,6 +11,7 @@ timestamp - also contains the info about the time zone and is also faster in com
 */
 
 -- create database temp1;
+
 create database if not exists school;
 use school;
 -- create table students
@@ -58,3 +59,33 @@ Create a table named ’products’ with columns product_id, product_name, produ
 where product_name must not repeat and availability may have only one of two values "Available"/"Not Available". 
 Now add 5 products in it
 */
+
+-- Joins
+-- Print language of each movie in the movies table using join
+use moviesdb;
+
+select *
+from movies m
+-- natural join languages;
+join languages l
+-- using(language_id);
+on m.language_id = l.language_id;
+
+-- Don’t show the language_id column twice in the previous output
+select movie_id, title, m.industry, release_year, imdb_rating, studio, m.language_id, l.name
+from movies m
+join languages l
+on m.language_id = l.language_id;
+
+-- Print actor_id vs. movies names that actor has played a role in. Sort your result in the ascending order of actor_id.
+select ma.actor_id, m.title
+from movies m
+join movie_actor ma
+on m.movie_id = ma.movie_id
+order by ma.actor_id;
+
+-- Print number of movies played by each actor_id sorted in ascending order of actor_id.
+select actor_id, count(movie_id)
+from movie_actor 
+group by actor_id
+order by actor_id;
