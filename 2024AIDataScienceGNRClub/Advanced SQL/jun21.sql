@@ -29,7 +29,7 @@ from student_score;
 -- Print top 3 earners from each department. Use hr2 database.
 
 /*
-•Find the number of emails received by each user under each built in email label. 
+Find the number of emails received by each user under each built in email label. 
 The email labels are: ‘Promotion’, ‘Social’ and ‘Shopping’. Output the user along with the number of promotion, social & shopping emails they got. 
 Use google_gmail database.
 */
