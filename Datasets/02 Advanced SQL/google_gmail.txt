@@ -31,4 +31,4 @@ VALUES
 (4,'Promotion'),
 (5,'Promotion'),
 (6,'Social'),
-(8,'Spam');
+(7,'Spam');
