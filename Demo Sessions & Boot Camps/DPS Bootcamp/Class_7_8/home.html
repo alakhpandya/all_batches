@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: black;
+        /* background-color: rgb(186, 14, 14); */
+        /* background-color: blue; */
+    }
+    #navbar{
+        background-color: rgb(186, 14, 14);
+        height: 40px;
+        display: flex;
+        /* justify-content: center; */
+        /* justify-content: right; */
+        /* justify-content: space-between; */
+        /* justify-content: space-around; */
+        justify-content: space-evenly;
+        /* gap: 10px; */
+        align-items: center;
+    }
+    .nav-link{
+        color: white;
+        text-decoration: none;
+    }
+    #banner-bg{
+        width: 100%;
+        opacity: 50%;
+    }
+    #banner-text{
+        color: white;
+        font-family: cursive;
+        font-size: 48px;
+        font-weight: 900;
+    }
+    #banner-section{
+        position: relative;
+    }
+    #banner-text{
+        position: absolute;
+        top: 10%;
+        width: 50%;
+        left: 50%;
+        translate: -50%;
+        text-align: center;
+    }
+</style>
+<body>
+    <div id="navbar">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Career</a>
+        <a class="nav-link" href="#">Contact</a>
+    </div>
+    <div id="banner-section">
+        <img src="/images/pizza-2589569_1920.jpg" id="banner-bg" alt="">
+        <p id="banner-text">The Best Pizzas In The Town!!!</p>
+    </div>
+</body>
+</html>
