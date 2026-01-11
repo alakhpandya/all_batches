@@ -27,6 +27,7 @@ where store3 is not null
 order by 1;
 
 use as8;
+-- Q1. Cities With Completed Trades
 with t1 as (
 	select city, count(*) as counts
 	from trades t
@@ -43,6 +44,9 @@ from t1
 select *
 from t2
 where ranking <=3;
+-- Q-2. Running Total for Different Genders
+
+
 
 -- Q:3
 with t1 as (
