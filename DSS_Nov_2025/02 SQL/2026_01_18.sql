@@ -24,14 +24,15 @@ select title, industry, count(*)
 from movies
 group by industry;
 
+select industry, max(title), count(*)
+from movies
+group by industry;
+
+-- What does it mean by max(title) & min(title)
 select title
 from movies
 where industry = "Hollywood"
 order by title;
-
-select industry, max(title), count(*)
-from movies
-group by industry;
 
 select industry, title
 from movies
