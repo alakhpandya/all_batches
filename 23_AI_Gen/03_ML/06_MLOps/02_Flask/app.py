@@ -28,33 +28,54 @@ def home():
 @app.route("/predict", methods=["POST"])
 def prediction():
     data = request.get_json()
-    # converting make & model to numerical values using target encoder
-    te_data_df = pd.DataFrame([{
-        "make" : data["make"].lower(),
-        "model" : data["model"].lower()
-    }])
-    te_result = target_encoder.transform(te_data_df[["make", "model"]])
 
-    # converting one-hot columns into numeric columns:
-    ohe_data_df = pd.DataFrame([{
-        "seller_type" : data["seller_type"],
-        "fuel_type" : data["fuel_type"]
+    # -------- Target Encoding --------
+    te_df = pd.DataFrame([{
+        "make": data["make"].lower(),
+        "model": data["model"].lower()
     }])
-    ohe_data = ohe.transform(ohe_data_df[onehot_cols])
-    ohe_df = pd.DataFrame(data=ohe_data, columns=ohe.get_feature_names_out())
+    te_result = target_encoder.transform(te_df)
 
-    # Encoding label encoding columns:
-    label_data_df = pd.DataFrame([{
-        "transmission_type" : data["transmission_type"]
+    # -------- One Hot Encoding --------
+    ohe_df = pd.DataFrame([{
+        "seller_type": data["seller_type"],
+        "fuel_type": data["fuel_type"]
     }])
-    label_data = label_encoder.transform(label_data_df.iloc[label_col])
-    label_df = pd.DataFrame(data=label_data, columns=label_col)
+    ohe_data = ohe.transform(ohe_df)
+    ohe_df = pd.DataFrame(ohe_data, columns=ohe.get_feature_names_out())
 
-    return {
-        "target_encoded_features" : te_result.to_dict(orient="records"),
-        "ohe_encoded_features" : ohe_df.to_dict(orient="records"),
-        "label_encoded_features" : label_df.to_dict(orient="records")
-    }
+    # -------- Label Encoding --------
+    label_df = pd.DataFrame([{
+        "transmission_type": data["transmission_type"]
+    }])
+    label_data = label_encoder.transform(label_df[label_col])
+    label_df = pd.DataFrame(label_data, columns=[label_col])
+
+    # -------- Numerical Features --------
+    num_df = pd.DataFrame([{
+        "km_driven": data["km_driven"],
+        "mileage": data["mileage"],
+        "engine": data["engine"],
+        "max_power": data["max_power"],
+        "seats": data["seats"]
+    }])
+
+    # -------- Combine all features --------
+    final_df = pd.concat([num_df, te_result, ohe_df, label_df], axis=1)
+
+    # -------- Arrange column order --------
+    final_df = final_df[feature_order]
+
+    # -------- Scale --------
+    X_scaled = scaler_X.transform(final_df)
+
+    # -------- Predict --------
+    y_scaled = model.predict(X_scaled)
+
+    # -------- Inverse scale --------
+    prediction = scaler_y.inverse_transform(y_scaled.reshape(-1,1))[0][0]
+
+    return {"Predicted Price": round(float(prediction),2)}
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=8000, debug=True)

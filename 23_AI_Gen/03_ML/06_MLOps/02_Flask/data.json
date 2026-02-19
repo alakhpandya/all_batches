@@ -1,0 +1,12 @@
+{
+  "make": "Maruti",
+  "model": "Baleno Delta",
+  "seller_type": "Individual",
+  "fuel_type": "Petrol",
+  "transmission_type": "Manual",
+  "km_driven": 120000,
+  "mileage": 20,
+  "engine": 1200,
+  "max_power": 85,
+  "seats": 5
+}
