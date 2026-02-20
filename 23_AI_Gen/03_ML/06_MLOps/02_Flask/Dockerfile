@@ -13,4 +13,4 @@ EXPOSE 8000
 CMD [ "python", "app.py"]
 
 # Terminal command to run this file: docker build -t cars24 .
-# Terminal command to run image file after above command: docker run -p 8000:5000 -d cars24
+# Terminal command to run image file after above command: docker run -p 8000:8000 -d cars24
