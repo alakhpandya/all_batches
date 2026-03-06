@@ -1,3 +1,5 @@
+create database if not exists classwork;
+use classwork;
 Create table If Not Exists facebook_friends (user1 int, user2 int);
 Truncate table facebook_friends;
 insert into facebook_friends values
