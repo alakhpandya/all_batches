@@ -127,4 +127,26 @@ The popularity percentage is defined as the total number of friends the user has
 then converted into a percentage by multiplying by 100. Output each user along with their popularity percentage. Order records in ascending order by user id.
 */
 use classwork;
-select * from facebook_friends;
+with t as (
+	select user1, user2 from facebook_friends
+	union
+	select user2, user1 from facebook_friends
+)
+select user1 as user, round(count(user2)*100/(select count(distinct user1) from t), 2) as popularity_percentage
+from t
+group by user1
+order by user1;
+
+with t1 as (
+	select user1, user2 from facebook_friends
+	union
+	select user2, user1 from facebook_friends
+),
+t2 as (
+	select user1, user2 from facebook_friends
+	union
+	select user2, user1 from facebook_friends
+)
+select * from t1
+union all
+select * from t2;
