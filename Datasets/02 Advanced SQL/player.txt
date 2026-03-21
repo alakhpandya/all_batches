@@ -1,3 +1,4 @@
+USE classwork;
 CREATE TABLE IF NOT EXISTS `player` (
 `id` INT NOT NULL AUTO_INCREMENT,
 `full_name` VARCHAR(45) NOT NULL,

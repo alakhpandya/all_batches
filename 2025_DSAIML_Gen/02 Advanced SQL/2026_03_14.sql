@@ -173,3 +173,82 @@ Orders which have higher sells price than the average sales price for their city
 (Use ‘demo’ database)
 */
 use demo;
+select order_number, sales, so.customer, deal_size, c.city, t.city_avg
+from sales_order so
+join customers c on so.customer=c.customer_id
+join (
+	select city, round(avg(sales), 2) as city_avg
+	from sales_order so
+	join customers c on so.customer=c.customer_id
+	group by city
+) as t on c.city = t.city
+where deal_size <> "Small" and sales > city_avg;
+
+with t as (
+	select city, round(avg(sales), 2) as city_avg
+	from sales_order so
+	join customers c on so.customer=c.customer_id
+	group by city 
+)
+select order_number, sales, so.customer, deal_size, c.city, t.city_avg
+from sales_order so
+join customers c on so.customer=c.customer_id
+join t on c.city = t.city
+where deal_size <> "Small" and sales > city_avg;
+
+with t1 as (
+	select order_number, sales, so.customer, deal_size, c.city
+    from sales_order so
+    join customers c on so.customer=c.customer_id
+),
+t2 as (
+	select city, round(avg(sales), 2) as city_avg
+	from sales_order so
+	join customers c on so.customer=c.customer_id
+	group by city 
+)
+select * 
+from t1
+join t2 on t1.city=t2.city
+where deal_size <> "Small" and sales > city_avg;
+
+-- Find the difference in average sales for each month of 2003 and 2004 (Use ‘demo’ database)
+with t1 as (
+	select month_id, avg(sales) as avg_sales_2003
+	from sales_order
+	where year_id=2003
+	group by month_id
+),
+t2 as (
+	select month_id, avg(sales) as avg_sales_2004
+	from sales_order
+	where year_id=2004
+	group by month_id
+)
+select t1.month_id, round(avg_sales_2003, 2) as avg_sales_2003, round(avg_sales_2004, 2) as avg_sales_2004, round(avg_sales_2004 - avg_sales_2003, 2) as difference
+-- select t1.month_id, round(avg_sales_2004 - avg_sales_2003, 2) as difference
+from t1
+join t2 on t1.month_id = t2.month_id
+order by month_id;
+
+/*
+Find the popularity percentage for each user on Meta/Facebook. 
+The popularity percentage is defined as the total number of friends the user has, divided by the total number of users on the platform, 
+then converted into a percentage by multiplying by 100. 
+Output each user along with their popularity percentage. Order records in ascending order by user id.
+*/
+use classwork;
+select user1 as senders, user2 as acceptors 
+from facebook_friends;
+
+with t1 as (
+	select user1, user2
+	from facebook_friends
+	union
+	select user2, user1
+	from facebook_friends
+)
+select user1, round(count(user2)*100/(select count(distinct(user1)) from t1), 2) as popularity_pct
+from t1
+group by user1
+order by user1;

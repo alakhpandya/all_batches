@@ -44,3 +44,32 @@ from weather;
 
 -- Default frame in most window functions: rows between unbounded preceding and unbounded following
 -- select * from students;
+
+-- Print 5 most profitable movies of each industry
+use moviesdb;
+with t as (
+	select (revenue - budget) as profit ,movie_id, unit, currency
+	from financials
+),
+
+t1 as (
+	select m.movie_id, title, industry, currency,
+	case 
+		when unit = "billions" then profit*1000 
+		when unit = "thousands" then profit/1000
+		else profit
+	end as profit
+	from t
+	join movies m
+	on t.movie_id = m.movie_id
+),
+t2 as (
+	select *,
+	row_number() over(partition by industry order by profit desc) as row_num,
+	rank() over(partition by industry order by profit desc) as ranking,
+	dense_rank() over(partition by industry order by profit desc) as dense_ranking
+	from t1
+)
+select industry, title, profit, currency
+from t2
+where ranking <= 5;
