@@ -1,0 +1,17 @@
+Rules & Regulations of Our Company:
+- Timings Are Flexible:
+    - You may come at any time & go back any time.
+    - You must complete 8 hours of work
+    - Employee may also work from home
+    - Three days work from office is must
+- You may take leaves on prior intimation
+    - 5 days a week work
+    - One Casual leave per month
+- 10% Salary will be incremented every month
+- 1 Month notice period is must before leaving
+- 2N/3D outing from company's expense on completion of a successful project
+
+Code blocks:- functions, loops, scope, if-else
+{
+
+}
