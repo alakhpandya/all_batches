@@ -72,4 +72,4 @@ t2 as (
 )
 select industry, title, profit, currency
 from t2
-where ranking <= 5;
+where ranking <= 5; 
