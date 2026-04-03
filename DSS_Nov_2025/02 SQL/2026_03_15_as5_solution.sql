@@ -33,7 +33,54 @@ where timestamp not between start_time and end_time;
 
 -- Q-5:
 select * from cinema;
+/*
+(seat after current seat is free or sear before the current seat is free)
+and
+seat itself is free
+*/
+select seat_id-1 from cinema where free=1;		-- seats whose next seat is free
+select seat_id+1 from cinema where free=1;		-- seats whose previous seat is free
+
+select *
+from cinema
+where seat_id in (
+	select seat_id from cinema where free=1
+) and (
+	seat_id in (
+		select seat_id-1 from cinema where free=1
+    ) or
+    seat_id in (
+		select seat_id+1 from cinema where free=1
+    )
+);
 
 -- Q-6:
-select * from employeess
-where manager_id is null;
+select * 
+from employeess
+where manager_id not in (
+	select employee_id from employees
+) and salary < 15000;
+
+
+-- Q-7:
+use hr;
+select employee_id, first_name, last_name, department_name, country_id
+from employees e
+join departments d on e.department_id = d.department_id
+join locations l on d.location_id = l.location_id
+where country_id = "US";
+
+-- Q-8:
+use as5;
+with t as (
+	select p1.x as x1, p1.y as y1, p2.x as x2, p2.y as y2 
+	from points p1
+	cross join points p2
+)
+select  
+-- round(sqrt((x2-x1)*(x2-x1) + (y2-y1)*(y2-y1)), 2) as shortest,
+round(sqrt(pow((x2-x1), 2) + pow((y2-y1), 2)), 2) as shortest
+from t
+where round(sqrt(pow((x2-x1), 2) + pow((y2-y1), 2)), 2) <> 0
+order by 1
+limit 1;
