@@ -49,3 +49,32 @@ where free = 1 and
 			select seat_id-1 from cinema where free=1
 	)
 );
+
+-- Q-6:
+select *
+from employeess
+where salary < 15000 and manager_id not in (
+	select employee_id from employeess
+);
+
+-- Q-7:
+use hr;
+select e1.employee_id, e1.first_name, e1.last_name, e1.salary, e1.manager_id, concat(e2.first_name, e2.last_name) as manager_name, d.department_name as manager_dept,
+l.country_id
+from employees e1
+join employees e2 on e1.manager_id = e2.employee_id
+join departments d on e2.department_id = d.department_id
+join locations l on d.location_id = l.location_id
+where l.country_id = "US";
+
+-- Q-8:
+with t as (
+	select p1.x as x1, p1.y as y1, p2.x as x2, p2.y as y2
+	from points p1
+	cross join points p2
+)
+select *, round(sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2)), 2) as shortest
+from t
+where round(sqrt(pow(x1 - x2, 2) + pow(y1 - y2, 2)), 2) > 0
+order by 5
+limit 1;

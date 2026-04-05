@@ -37,7 +37,7 @@ s1 = """Weekend is starting from today.
             My wife says "We should plan to go to a resort.\""""
 # print(s1)
 
-
+ 
 # Docstring:
 '''
 import random

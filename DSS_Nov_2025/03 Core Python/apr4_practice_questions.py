@@ -160,10 +160,21 @@ l1 = [
 print(l1[2][1:6:2])
 """
 # Write a program to create a user-defined 4x3 list
+"""
 yourList = []
 for i in range(4):
     temp = []
     for j in range(3):
         temp.append(input(f"a[{i}][{j}] = "))
     yourList.append(temp)
+print(yourList)
+"""
+"""
+yourList = []
+for i in range(4):
+    yourList.append([input(f"a[{i}][{j}] = ") for j in range(3)])
+print(yourList)
+"""
+
+yourList = [[input(f"a[{i}][{j}] = ") for j in range(3)] for i in range(4)]
 print(yourList)
