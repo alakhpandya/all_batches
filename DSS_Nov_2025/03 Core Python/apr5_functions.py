@@ -134,7 +134,7 @@ for i in range(x, y+1):
     if is_perfect(i):
         print(i)
 """
-
+"""
 def prime_check(x):
     for i in range(2, int(x**0.5)+1):
         if x % i == 0:        
@@ -146,3 +146,4 @@ b = int(input("b = "))
 for i in range(a, b+1):
     if prime_check(i):
         print(i)
+"""
