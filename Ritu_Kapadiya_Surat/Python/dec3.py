@@ -137,7 +137,7 @@ User can:-
 ◆WITHDRAW will enable user to withdraw amount of money of his choice. The only condition is that his balance at any point can not go less than ₹10,000/-. If this can happen after his withdrawal, your program must not allow that transaction. His balance should be updated after the task completes.
 ◆CHECK BALANCE will show the latest updated balance to user.
 ◆LOGOUT will exit the user from the program
-You should use these functions in your program: login(), deposit(), withdraw(), checkBalance()
+You should use these functions in your program: create_account(), login(), deposit(), withdraw(), checkBalance()
 """
 
 # Next Class
