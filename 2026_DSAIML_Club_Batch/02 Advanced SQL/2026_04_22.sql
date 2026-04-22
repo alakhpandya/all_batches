@@ -27,3 +27,23 @@ select *
 from employees
 where employee_id in (select distinct manager_id from employees);
 
+-- Write a query to print all the employees who are earning more than their managers (use hr2)
+use hr2;
+select e1.employee_id, e1.first_name, e1.last_name, e1.salary as employee_salary, e1.manager_id, e2.first_name as manager_name, e2.salary as manager_salary
+from employees e1
+join employees e2 on e1.manager_id = e2.employee_id
+where e1.salary > e2.salary;
+
+-- Using Subquery???
+
+-- Print the employees who are earning above average salary (use hr)
+use hr;
+select *
+from employees 
+where salary > (select avg(salary) from employees);
+
+-- Print the employees who are earning more salary than the average salary of their department
+select avg(salary) from employees group by department_id;
+select *
+from employees 
+where salary > (select avg(salary) from employees group by department_id);		-- Error
