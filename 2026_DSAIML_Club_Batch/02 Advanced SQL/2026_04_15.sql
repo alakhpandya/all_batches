@@ -61,4 +61,3 @@ Add 5 products in it
 -- Syntax:
 use hr2;
 select * from employees;
--- Difference between
