@@ -43,7 +43,19 @@ from employees
 where salary > (select avg(salary) from employees);
 
 -- Print the employees who are earning more salary than the average salary of their department
-select avg(salary) from employees group by department_id;
+use hr2;
+select department_id, avg(salary) from employees group by department_id;
+
+/*
 select *
 from employees 
 where salary > (select avg(salary) from employees group by department_id);		-- Error
+*/
+select * 
+from employees e
+left join (
+	select department_id, avg(salary) as avg_salary
+    from employees 
+    group by department_id
+) as t on e.department_id = t.department_id
+where e.salary > t.avg_salary;
