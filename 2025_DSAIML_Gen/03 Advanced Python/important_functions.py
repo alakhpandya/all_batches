@@ -37,10 +37,10 @@ def is_armstrong(x):
         return True
     return False
 
-"""
-a = int(input("Test data: "))
-print(f"fact = {fact(a)}")
-print(f"prime = {prime_check(a)}")
-print(f"armstrong = {is_armstrong(a)}")
-print(f"perfect = {is_perfect(a)}")
-"""
+# print(__name__)
+if __name__ == "__main__":
+    a = int(input("Test data: "))
+    print(f"fact = {fact(a)}")
+    print(f"prime = {prime_check(a)}")
+    print(f"armstrong = {is_armstrong(a)}")
+    print(f"perfect = {is_perfect(a)}")
