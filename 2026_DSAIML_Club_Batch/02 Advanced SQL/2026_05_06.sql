@@ -99,3 +99,21 @@ relative_industry_performance - should have "avg", "above avg" or "below avg" wh
 relative_studio_performance - should have "avg", "above avg" or "below avg" while comparing that movies rating with studio_avg_rating
 in the output of above query.
 */
+with t as (
+	select *,
+	round(avg(imdb_rating) over(partition by industry), 1) as industry_avg_rating,
+	round(avg(imdb_rating) over(partition by studio), 1) as studio_avg_rating
+	from movies
+)
+select *,
+case
+	when imdb_rating > industry_avg_rating then "above avg"
+    when imdb_rating < industry_avg_rating then "below avg"
+    else "avg"
+end as relative_industry_performance,
+case
+	when imdb_rating > studio_avg_rating then "above avg"
+    when imdb_rating < studio_avg_rating then "below avg"
+    else "avg"
+end as relative_studio_performance
+from t;
