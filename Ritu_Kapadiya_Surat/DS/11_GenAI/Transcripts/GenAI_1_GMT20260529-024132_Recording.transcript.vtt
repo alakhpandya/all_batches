@@ -1,0 +1,2546 @@
+WEBVTT
+
+1
+00:00:01.980 --> 00:00:10.580
+Alakh Pandya: In the beginning sessions of AI, if you remember, we understood Okay, AI, data science.
+
+2
+00:00:11.920 --> 00:00:14.309
+Alakh Pandya: Machine learning, how they are different, right?
+
+3
+00:00:14.820 --> 00:00:16.309
+Alakh Pandya: Using circles.
+
+4
+00:00:16.750 --> 00:00:25.770
+Alakh Pandya: Okay, the most outer circle is data science, which includes AI, which includes data analytics, and all this stuff. Then there is…
+
+5
+00:00:26.160 --> 00:00:28.699
+Alakh Pandya: inner circle to that, which is AI.
+
+6
+00:00:28.980 --> 00:00:36.259
+Alakh Pandya: Which also has robotics and all the things involved. Then, inert circle to that was a machine learning circle, right? Remember that?
+
+7
+00:00:36.510 --> 00:00:39.620
+Alakh Pandya: So, age versus 2, I'll share you this.
+
+8
+00:00:40.290 --> 00:00:45.700
+Alakh Pandya: So, you will understand what are LLMs, or what are… what is called generative AI.
+
+9
+00:00:45.960 --> 00:00:59.680
+Alakh Pandya: Okay, so you can see, okay, outermost circle is data science, which I have not drawn here, but any other artificial intelligence, any other machine learning, any other deep learning, and then where there is a very specialized branch of deep learning, which is called LLM.
+
+10
+00:01:00.460 --> 00:01:01.010
+Ritu Kapadiya: Okay.
+
+11
+00:01:01.010 --> 00:01:09.419
+Alakh Pandya: So, LLMs are even inside the deep learning. Now, you might think, okay, why are we learning LLM first, and why are we not learning deep learning first?
+
+12
+00:01:09.830 --> 00:01:18.339
+Alakh Pandya: The reason is that, in this case, if we start… if we do, you know, a bottom-up approach.
+
+13
+00:01:18.830 --> 00:01:36.079
+Alakh Pandya: Though, you will find it more interesting. So, we'll first understand the use of deep learning, and then if we start building it, though we will have application of it, in front of our eyes. It is just like, when you have
+
+14
+00:01:36.400 --> 00:01:48.000
+Alakh Pandya: when you want to create a building, so you first make a blueprint, you first make a model, you first make a 3D model of it. So you have in front of your eyes that what you are going to build, right?
+
+15
+00:01:48.100 --> 00:01:57.140
+Alakh Pandya: So, it will help us that way. So, we are learning LLMs, or generative AI first, and then we will be learning deep learning later, okay?
+
+16
+00:01:57.140 --> 00:01:57.960
+Ritu Kapadiya: Okay.
+
+17
+00:01:57.960 --> 00:02:06.120
+Alakh Pandya: deep learning structure deep learning kiwirty LLM banner. That is called deep learning. And in the deep learning, we will be studying neural networks as well.
+
+18
+00:02:06.310 --> 00:02:15.120
+Alakh Pandya: And, now this LLMs, right? So, LLMs, you know, because you have probably given that Oracle's test.
+
+19
+00:02:16.170 --> 00:02:17.040
+Ritu Kapadiya: LLM?
+
+20
+00:02:17.090 --> 00:02:19.490
+Alakh Pandya: So, LLMs are large language models.
+
+21
+00:02:19.980 --> 00:02:21.760
+Alakh Pandya: Okay.
+
+22
+00:02:22.660 --> 00:02:37.639
+Alakh Pandya: There is… and let's talk about what is generative AI, or Gen AI, because it is a very trending word, trending term in the market nowadays. So, what is Gen AI? Gen AI is actually generative AI.
+
+23
+00:02:38.030 --> 00:02:40.890
+Alakh Pandya: So it can generate new things, basically.
+
+24
+00:02:41.300 --> 00:02:44.489
+Alakh Pandya: It cannot just analyze, but it can generate new things.
+
+25
+00:02:44.530 --> 00:02:45.779
+Ritu Kapadiya: Yeah, thanks, okay.
+
+26
+00:02:45.780 --> 00:02:48.569
+Alakh Pandya: good example of Gen AI is ChatGPT.
+
+27
+00:02:48.930 --> 00:02:54.939
+Alakh Pandya: Most famous, probably, example, right? So, what is GPT? GPT no Matlap Sudhai.
+
+28
+00:02:56.120 --> 00:02:58.029
+Ritu Kapadiya: Should you makeover.
+
+29
+00:02:58.560 --> 00:03:07.299
+Alakh Pandya: ChatGPT chat, another chatting guru, but what is GPT? So, GPT stands for Generative Pre-Trained Transformer.
+
+30
+00:03:07.900 --> 00:03:08.610
+Ritu Kapadiya: Okay.
+
+31
+00:03:08.950 --> 00:03:16.369
+Alakh Pandya: Generative, means it is generative sort of thing. Pre-trained means it has been already trained on a large set of language.
+
+32
+00:03:17.870 --> 00:03:23.410
+Alakh Pandya: Yeah, on English, and also on many regional languages nowadays. So it is pre-trained.
+
+33
+00:03:23.540 --> 00:03:29.340
+Alakh Pandya: And what is transformer? Transformer is the mechanism, which I'll explain to you in a few minutes now.
+
+34
+00:03:29.530 --> 00:03:33.709
+Alakh Pandya: Okay, okay, what is a… what does a transformer mechanism do?
+
+35
+00:03:33.950 --> 00:03:34.930
+Ritu Kapadiya: Right? Okay.
+
+36
+00:03:36.710 --> 00:03:42.379
+Alakh Pandya: imagine, okay, there is a fitness company. Okay, suppose there is a fitness company.
+
+37
+00:03:42.550 --> 00:03:49.600
+Alakh Pandya: And this fitness company is, launching… is asking something about,
+
+38
+00:03:50.060 --> 00:03:55.289
+Alakh Pandya: is asking something on the chat GPT, right? Or let's say…
+
+39
+00:03:55.990 --> 00:04:01.440
+Alakh Pandya: I am asking something on the ChatGPT related to MyFitness, so ChatGPT is going to give me answers.
+
+40
+00:04:01.900 --> 00:04:02.830
+Alakh Pandya: Fine.
+
+41
+00:04:03.050 --> 00:04:13.659
+Alakh Pandya: But… What we are looking for in generative AI is to build specific agents.
+
+42
+00:04:14.080 --> 00:04:17.890
+Alakh Pandya: For our own company, or for some other companies?
+
+43
+00:04:18.180 --> 00:04:19.070
+Alakh Pandya: like…
+
+44
+00:04:19.070 --> 00:04:19.620
+Ritu Kapadiya: Okay.
+
+45
+00:04:19.620 --> 00:04:38.669
+Alakh Pandya: Now if I give you the example of a fitness company, let's say, there is a gym, suppose, or there is a fitness trainer who is very much popular, okay? And they have a specific methodology, how they handle their clients, and how do they guide their clients, and they have all these things documented somehow.
+
+46
+00:04:38.670 --> 00:04:46.450
+Alakh Pandya: Okay? So, maybe through emails, or through WhatsApp messages, and they have all these WhatsApp chats or emails preserved.
+
+47
+00:04:46.570 --> 00:04:51.570
+Alakh Pandya: Now, what we can do is, because ChatGPT is a
+
+48
+00:04:51.840 --> 00:05:02.460
+Alakh Pandya: pre-trained, language model. It's a… there is an LLM behind ChatGPT, so ChatGPT has LLM, which is basically trained on English.
+
+49
+00:05:03.190 --> 00:05:09.740
+Alakh Pandya: So, LLM, which is trained on general English, can understand English very well.
+
+50
+00:05:10.340 --> 00:05:10.850
+Ritu Kapadiya: Yep.
+
+51
+00:05:11.590 --> 00:05:19.630
+Alakh Pandya: But it doesn't… it is not trained on, that specific fitness trainer's data.
+
+52
+00:05:20.220 --> 00:05:21.100
+Alakh Pandya: Okay.
+
+53
+00:05:21.470 --> 00:05:34.150
+Alakh Pandya: So, what we can do is, let's say, if I want to… if I am a fitness trainer, and if I want to make an AI which is able to exactly guide my clan… which is able to guide my clients exactly, I am guiding.
+
+54
+00:05:34.870 --> 00:05:38.550
+Alakh Pandya: Then, first I'll have to create an AI which can understand English.
+
+55
+00:05:39.030 --> 00:05:40.799
+Alakh Pandya: Or Gujati, or Hindi.
+
+56
+00:05:40.960 --> 00:05:44.120
+Alakh Pandya: Why? Because I am training in Gujarati Hindi or English.
+
+57
+00:05:44.390 --> 00:05:50.799
+Alakh Pandya: So, first I'll need to make an AI, which can understand these languages very, very cleanly.
+
+58
+00:05:51.020 --> 00:06:05.689
+Alakh Pandya: And then I have to train it on my data. Now, which is a big problem. Why? Because to train a large language model, or to train an AI on an entire language set, will need a lot of GPUs, a lot of computational power, it will be a…
+
+59
+00:06:05.820 --> 00:06:08.630
+Alakh Pandya: Very highly expensive. Highly, highly expensive.
+
+60
+00:06:08.800 --> 00:06:09.710
+Alakh Pandya: Because…
+
+61
+00:06:10.090 --> 00:06:29.770
+Alakh Pandya: You imagine that this, ChatGPT and Gemini and all these people, when they trained their models, they literally hired people from different countries, from across the countries, and those peoples, only task was to provide… was to chat with these AI models.
+
+62
+00:06:31.010 --> 00:06:31.650
+Ritu Kapadiya: Oh.
+
+63
+00:06:32.040 --> 00:06:35.560
+Alakh Pandya: Right? So, why did they do this? Because…
+
+64
+00:06:35.970 --> 00:06:42.400
+Alakh Pandya: they wanted to give their AI model the exposure of different aspects of a language.
+
+65
+00:06:43.630 --> 00:06:44.350
+Ritu Kapadiya: Okay.
+
+66
+00:06:44.350 --> 00:06:52.340
+Alakh Pandya: Now, let's say, okay, if I want to train an AI on Gujarati, then what I will do is I'll hire
+
+67
+00:06:52.470 --> 00:06:56.919
+Alakh Pandya: 100 Gujarati-speaking and writing people.
+
+68
+00:06:57.130 --> 00:06:57.670
+Alakh Pandya: Okay?
+
+69
+00:06:57.670 --> 00:06:58.020
+Ritu Kapadiya: Okay.
+
+70
+00:06:58.020 --> 00:06:59.429
+Alakh Pandya: who are good at Gujarati.
+
+71
+00:06:59.790 --> 00:07:00.330
+Alakh Pandya: Okay?
+
+72
+00:07:00.330 --> 00:07:00.710
+Ritu Kapadiya: Okay.
+
+73
+00:07:00.710 --> 00:07:19.160
+Alakh Pandya: And, I'll just, I'll just pay them, like, they were paying, 2 lakh rupees a month, 1.5 lakh rupees a month. This high much, this much high they were paying, okay? And the only job of that person was, 8 hours a day, you just need to chat with that AI in your language.
+
+74
+00:07:20.410 --> 00:07:24.020
+Ritu Kapadiya: Oh, so, yeah, it will drain.
+
+75
+00:07:24.150 --> 00:07:37.520
+Alakh Pandya: Yeah, so the AI will have the exposure of all the aspects of Gujarati language, because you have got 100 students, or 100 Gujarati-speaking people, which will be talking on all the different topics, right?
+
+76
+00:07:37.520 --> 00:07:38.530
+Ritu Kapadiya: Huh.
+
+77
+00:07:38.530 --> 00:07:45.709
+Alakh Pandya: have all the aspects of Gujarati. You will have the knowledge of the grammar of Gujarati, and that is how… and these all data has to be trained.
+
+78
+00:07:45.980 --> 00:07:48.379
+Alakh Pandya: Because this is going to be the training data.
+
+79
+00:07:48.540 --> 00:07:52.980
+Alakh Pandya: This is going to be the training data for your model. And you will…
+
+80
+00:07:53.150 --> 00:07:55.420
+Alakh Pandya: Fit your model on this training data.
+
+81
+00:07:56.170 --> 00:07:56.850
+Ritu Kapadiya: Okay.
+
+82
+00:07:56.850 --> 00:07:59.339
+Alakh Pandya: So you can imagine, K,
+
+83
+00:08:00.190 --> 00:08:08.350
+Alakh Pandya: ati bati language is no data awe. But atu data jarai awe, and in train karva mate.
+
+84
+00:08:08.520 --> 00:08:10.539
+Alakh Pandya: Kit logo computational power JU.
+
+85
+00:08:10.940 --> 00:08:15.780
+Alakh Pandya: Get about the resources Juja, right? So, it's a resources-heavy task.
+
+86
+00:08:16.040 --> 00:08:16.560
+Alakh Pandya: So…
+
+87
+00:08:16.560 --> 00:08:16.910
+Ritu Kapadiya: Yep.
+
+88
+00:08:16.910 --> 00:08:29.129
+Alakh Pandya: And if I want to make this AI, to the biggest problem is not to train the model on my data. The biggest problem, because my data is a very tiny, right? It's a very tiny data.
+
+89
+00:08:29.370 --> 00:08:31.880
+Alakh Pandya: But the biggest problem is to
+
+90
+00:08:32.090 --> 00:08:34.850
+Alakh Pandya: create an AI which can understand English first.
+
+91
+00:08:35.559 --> 00:08:36.369
+Ritu Kapadiya: Yeah.
+
+92
+00:08:36.370 --> 00:08:46.689
+Alakh Pandya: So these GPDs, they are pre-trained on large language. A large language means a language particularly, okay? But a very large set of that language.
+
+93
+00:08:47.050 --> 00:08:55.910
+Alakh Pandya: Okay? Now, these are available, like, ChatGPT can understand English very well. Now, what I can do is I can take help of ChatGPT's API.
+
+94
+00:08:56.870 --> 00:08:57.210
+Ritu Kapadiya: Okay.
+
+95
+00:08:57.210 --> 00:09:05.780
+Alakh Pandya: I can ask… I can create a model, which we will be doing later. I can create a model that is learning my data.
+
+96
+00:09:06.460 --> 00:09:07.370
+Ritu Kapadiya: Okay.
+
+97
+00:09:07.370 --> 00:09:23.799
+Alakh Pandya: Okay, now it… I don't have to create a model that can learn English, because that is already available with ChatGPT. ChatGPT understands English. But now I will train it on my data, so that it will work, as per, you know, as per my data.
+
+98
+00:09:24.080 --> 00:09:28.589
+Alakh Pandya: It will guide as per my data. It will guide my clients as if I am guiding.
+
+99
+00:09:30.810 --> 00:09:31.870
+Ritu Kapadiya: So, that is…
+
+100
+00:09:31.870 --> 00:09:34.899
+Alakh Pandya: where, you know, generative AI is useful.
+
+101
+00:09:35.050 --> 00:09:49.209
+Alakh Pandya: Now, you can have, and this is going on also in the US a lot, like, let's say there is a CA firm. Now, CA firm has its lot of data with it, okay? And, they have a specific way to process
+
+102
+00:09:49.400 --> 00:09:51.520
+Alakh Pandya: their, clients
+
+103
+00:09:52.090 --> 00:09:58.889
+Alakh Pandya: income tax returns, or whatever, okay? So they have a specific way to guide their client, which is there in their data.
+
+104
+00:09:59.000 --> 00:10:11.169
+Alakh Pandya: Okay? And what do they do? They train this generative AI, they pick any gen AI, like ChatGPT, Gemini, or whatever, and they train that… train that model on their specific data.
+
+105
+00:10:11.900 --> 00:10:18.749
+Alakh Pandya: So now it can do the tasks, quickly, and it can assist the humans very easily.
+
+106
+00:10:18.960 --> 00:10:20.340
+Alakh Pandya: Another example
+
+107
+00:10:20.690 --> 00:10:30.369
+Alakh Pandya: let's say in the jurisdiction. Jurisdiction means, okay, court and all this stuff, right? So, when a charge sheet is filed, a charge sheet is
+
+108
+00:10:30.690 --> 00:10:33.479
+Alakh Pandya: crying career hay.
+
+109
+00:10:33.750 --> 00:10:37.219
+Alakh Pandya: Toh, NU par j F-I-R-Juhan.
+
+110
+00:10:37.560 --> 00:10:51.520
+Alakh Pandya: Okay, then FIR is the first investigation report. So, these chariots The judges have to read.
+
+111
+00:10:51.680 --> 00:10:55.789
+Alakh Pandya: Okay? And the… and then, after reading the chart sheet, they can…
+
+112
+00:10:56.000 --> 00:11:11.589
+Alakh Pandya: etc. Okay? So, they have to read the charge sheet very carefully. And these charges, you will surprise, are usually of…
+
+113
+00:11:11.840 --> 00:11:13.260
+Alakh Pandya: Hundreds of pages.
+
+114
+00:11:14.410 --> 00:11:15.560
+Ritu Kapadiya: Oh, awesome.
+
+115
+00:11:15.560 --> 00:11:18.380
+Alakh Pandya: Like, some of the chart sheets are 1500 pages.
+
+116
+00:11:18.620 --> 00:11:24.509
+Alakh Pandya: 700 pages, 1,000 pages. So, how a judge can read all these things?
+
+117
+00:11:24.660 --> 00:11:30.280
+Alakh Pandya: Let's say, a 1500 pages charge sheet, judge has to read, and this is just one case.
+
+118
+00:11:31.050 --> 00:11:34.780
+Alakh Pandya: He has to handle, you know, 20, 30 such cases in a day.
+
+119
+00:11:35.470 --> 00:11:37.780
+Alakh Pandya: So, it is a very tough task.
+
+120
+00:11:38.160 --> 00:11:41.760
+Alakh Pandya: So, what you can do is we can…
+
+121
+00:11:42.080 --> 00:11:46.799
+Alakh Pandya: You know, these judges have, you know, the summary.
+
+122
+00:11:46.820 --> 00:11:55.080
+Alakh Pandya: Of the charge sheet that they have created, so that they can also use it later for the same case.
+
+123
+00:11:55.080 --> 00:12:08.329
+Alakh Pandya: So, every time they have to refer what was, discussed in the previous
+
+124
+00:12:08.740 --> 00:12:21.440
+Alakh Pandya: conversation, right? So, they… what do they do? They, they, you know, read the chart sheet for the first time, and simultaneously, they also create the summary of the chart sheet, side by side.
+
+125
+00:12:21.690 --> 00:12:28.700
+Alakh Pandya: So, they can use it in the future. They can use that summary in the future.
+
+126
+00:12:28.930 --> 00:12:36.410
+Alakh Pandya: So, these judges have, the charit and the summary of the charshit that they have created.
+
+127
+00:12:37.500 --> 00:12:41.000
+Alakh Pandya: And there are a lot of these chart sheets are there, and there are summaries.
+
+128
+00:12:41.330 --> 00:12:47.909
+Alakh Pandya: If we train a GPD, a chat GPD kind of thing, On this data.
+
+129
+00:12:48.110 --> 00:12:52.520
+Alakh Pandya: Okay, this was the chart sheet, and this was the summary. This was the chart sheet, and this was the summary.
+
+130
+00:12:53.010 --> 00:12:58.029
+Alakh Pandya: And if it can learn how this particular judge writes the summary.
+
+131
+00:12:58.790 --> 00:12:59.170
+Ritu Kapadiya: Yeah.
+
+132
+00:12:59.170 --> 00:13:03.809
+Alakh Pandya: Then it can help that judge a lot, and save a lot of time of that judge.
+
+133
+00:13:04.490 --> 00:13:12.370
+Alakh Pandya: Right? So the judge doesn't have to read the entire charge sheet. He has the summary of it exactly like he creates summaries.
+
+134
+00:13:13.100 --> 00:13:13.810
+Ritu Kapadiya: Yeah.
+
+135
+00:13:13.810 --> 00:13:25.520
+Alakh Pandya: So, the nuances, or the, you know, eva points ke je miss out thee jaiba hai. J specific, was to paare bahar aapiene ne samari ma mukhto hai judge.
+
+136
+00:13:25.950 --> 00:13:32.050
+Alakh Pandya: the same way that AI will do the thing, because it is trained on that particular data.
+
+137
+00:13:32.670 --> 00:13:33.740
+Ritu Kapadiya: Yeah. Thanks, MG.
+
+138
+00:13:34.050 --> 00:13:39.030
+Alakh Pandya: So this is the use of generative AI in the market, right? Yeah.
+
+139
+00:13:40.230 --> 00:13:49.260
+Alakh Pandya: There are also, people, or the branch of… an entire new branch of,
+
+140
+00:13:49.660 --> 00:13:55.719
+Alakh Pandya: students, you can say, or education has been evolved, and that is Gen AI experts.
+
+141
+00:13:57.620 --> 00:14:00.850
+Alakh Pandya: who are… who are going to do this thing, which I just said?
+
+142
+00:14:01.350 --> 00:14:13.540
+Alakh Pandya: Right? And there are a lot of… because there is no formal name for this stream, but there are a lot of names, AI Expert, or, generative AI Expert.
+
+143
+00:14:13.800 --> 00:14:20.059
+Alakh Pandya: this kind of, you know, workflow designer, something. This kind of jobs are opening.
+
+144
+00:14:20.210 --> 00:14:27.129
+Alakh Pandya: And these are, people are making careers in this as well, because, number one, it is…
+
+145
+00:14:27.470 --> 00:14:28.660
+Alakh Pandya: Easy to do.
+
+146
+00:14:29.000 --> 00:14:32.349
+Alakh Pandya: To train a model on someone's data is easy to do.
+
+147
+00:14:32.470 --> 00:14:35.990
+Alakh Pandya: We will do it so you will understand, okay, it is like a cakewalk.
+
+148
+00:14:36.380 --> 00:14:47.179
+Alakh Pandya: It is very low on the coding side. There is almost no coding. Right? Although, we are also going to learn how to code and all, because
+
+149
+00:14:47.330 --> 00:14:54.750
+Alakh Pandya: A AI-assisted coding per Jovana. We are not just going to touch the generative AI, we are also going to do AI-assisted coding.
+
+150
+00:14:54.970 --> 00:15:07.070
+Alakh Pandya: Which is also sometimes called vibe coding, but vibe coding is not the word I prefer. It is AI-assisted coding. Okay?
+
+151
+00:15:07.660 --> 00:15:11.639
+Alakh Pandya: So, still it is low on the coding side.
+
+152
+00:15:12.080 --> 00:15:15.049
+Alakh Pandya: But, at the same time.
+
+153
+00:15:15.190 --> 00:15:26.580
+Alakh Pandya: It is, you know, it is… non-tech people can also do this, because it's low on coding, okay, or almost no coding, right? So non-tech people can also learn the skill.
+
+154
+00:15:26.600 --> 00:15:36.019
+Alakh Pandya: And, but yes, for the non-tech people, they are going to be directly in competition with people who are, you know, from technical background like us.
+
+155
+00:15:36.190 --> 00:15:47.290
+Alakh Pandya: So it is slightly tougher for them, and it is an edge for us that we don't only know the gen AI that is on low-coding, but we also know what is beneath it.
+
+156
+00:15:47.420 --> 00:16:01.509
+Alakh Pandya: Any niche suja, any under-the-hood suja. So, we know that, okay? So, if you talk about AI, much AI ML, and deep learning, there is less competition because there is no person who is from non-coding background.
+
+157
+00:16:01.720 --> 00:16:09.529
+Alakh Pandya: exist there, okay? All are, you know, BTEC and all the people, right? BTEC, IT, and all of them. But…
+
+158
+00:16:09.850 --> 00:16:23.210
+Alakh Pandya: This area, you will find a lot of people who have not done coding in their entire life, but they are also there. So don't… don't worry if you see this kind of people in the interview, or doing job, or something like that, okay?
+
+159
+00:16:24.030 --> 00:16:31.249
+Alakh Pandya: Fine. So this was about, introduction, what is introduction of generative AI, what is generative AI, what is GPT,
+
+160
+00:16:31.360 --> 00:16:41.490
+Alakh Pandya: Where we use them and all. Now we will see… how an LLM Generates some response.
+
+161
+00:16:41.610 --> 00:16:48.389
+Alakh Pandya: Okay, so generate some answer. If you ask something to ChatGPT, how ChatGPT is going to answer?
+
+162
+00:16:48.800 --> 00:16:50.570
+Alakh Pandya: What are the steps involved?
+
+163
+00:16:50.720 --> 00:16:54.379
+Alakh Pandya: So, that's what we will learn, right? So, first step.
+
+164
+00:16:54.720 --> 00:17:01.730
+Alakh Pandya: Whenever we ask anything, I think we have done this a little bit in the ML part.
+
+165
+00:17:02.020 --> 00:17:06.770
+Alakh Pandya: ChatGPT or any LLM will first tokenize it.
+
+166
+00:17:08.260 --> 00:17:12.989
+Alakh Pandya: Remember tokenized Carvana? Tokenize means breaking the sentence into words.
+
+167
+00:17:13.910 --> 00:17:15.430
+Ritu Kapadiya: Right?
+
+168
+00:17:15.550 --> 00:17:20.610
+Alakh Pandya: So, it breaks down the sentence into words. Now, most of the time, not most of the time, but…
+
+169
+00:17:20.770 --> 00:17:25.360
+Alakh Pandya: Generally, you can say that one token is one word.
+
+170
+00:17:26.430 --> 00:17:27.950
+Alakh Pandya: But it's not a rule.
+
+171
+00:17:28.390 --> 00:17:31.629
+Alakh Pandya: Let me show you the tokenization. One second.
+
+172
+00:17:56.720 --> 00:17:59.510
+Alakh Pandya: Check this out.
+
+173
+00:18:00.950 --> 00:18:09.740
+Alakh Pandya: This is… OpenAI, from OpenAI. OpenAI is… the parent company of ChatGPT.
+
+174
+00:18:10.560 --> 00:18:13.580
+Alakh Pandya: Right? ChatGPT is product of OpenAI.
+
+175
+00:18:13.930 --> 00:18:14.860
+Ritu Kapadiya: Funny.
+
+176
+00:18:15.210 --> 00:18:19.849
+Alakh Pandya: So, there is the tokenizer of OpenAI.
+
+177
+00:18:20.000 --> 00:18:21.599
+Alakh Pandya: So, let me write here.
+
+178
+00:18:21.960 --> 00:18:24.290
+Alakh Pandya: It is possible.
+
+179
+00:18:26.920 --> 00:18:31.429
+Alakh Pandya: And… You can see here, there are 3 tokens.
+
+180
+00:18:32.490 --> 00:18:33.070
+Ritu Kapadiya: Okay.
+
+181
+00:18:33.070 --> 00:18:36.730
+Alakh Pandya: First token is it, second token is IS, and third token is possible.
+
+182
+00:18:37.920 --> 00:18:43.630
+Alakh Pandya: And there are 14 characters, right? Now, so it looks like…
+
+183
+00:18:43.740 --> 00:18:46.389
+Alakh Pandya: That one word is one token.
+
+184
+00:18:47.250 --> 00:18:47.630
+Ritu Kapadiya: Yeah.
+
+185
+00:18:47.630 --> 00:18:49.090
+Alakh Pandya: But not necessarily.
+
+186
+00:18:49.440 --> 00:18:52.140
+Alakh Pandya: See, if I write here, it is impossible.
+
+187
+00:18:55.520 --> 00:18:58.329
+Alakh Pandya: Oh, still, it is, you know, 3 tokens only.
+
+188
+00:18:58.690 --> 00:19:04.700
+Alakh Pandya: Let's see… This is GPT 5.0.
+
+189
+00:19:04.860 --> 00:19:12.600
+Alakh Pandya: 5 point something, okay? And 01 or 03. These are the different models ChatGPT uses
+
+190
+00:19:13.310 --> 00:19:16.229
+Alakh Pandya: In the backend. These are the LLMs that ChatGPT uses.
+
+191
+00:19:16.440 --> 00:19:20.070
+Alakh Pandya: And these were the older ones. So if I click this one…
+
+192
+00:19:21.130 --> 00:19:23.719
+Alakh Pandya: This was also having 3 tokens.
+
+193
+00:19:23.720 --> 00:19:24.230
+Ritu Kapadiya: Great.
+
+194
+00:19:24.690 --> 00:19:25.370
+Ritu Kapadiya: Open this.
+
+195
+00:19:25.370 --> 00:19:33.070
+Alakh Pandya: I was also breaking it down in three terms. Okay. Let me not do this, and let me ask, itself to give me the example.
+
+196
+00:19:34.180 --> 00:19:45.120
+Alakh Pandya: So, it has generated a text, and it has divided into tokens. Now, do you see this? Indivisible is not just one token, it is two tokens.
+
+197
+00:19:45.120 --> 00:19:46.930
+Ritu Kapadiya: Oh, I'm looking too.
+
+198
+00:19:47.180 --> 00:19:47.940
+Alakh Pandya: Right?
+
+199
+00:19:48.260 --> 00:19:53.860
+Alakh Pandya: So, many words map to one token, but some don't. For example, indivisible.
+
+200
+00:19:54.000 --> 00:20:00.739
+Alakh Pandya: Unicode characters like emojis may be split into many tokens containing the underlying bytes.
+
+201
+00:20:01.280 --> 00:20:05.290
+Alakh Pandya: So they can split into many tokens. These are Unicode characters.
+
+202
+00:20:05.530 --> 00:20:11.519
+Alakh Pandya: Sequence of characters commonly found next to each other may be grouped together, like this.
+
+203
+00:20:11.750 --> 00:20:15.779
+Alakh Pandya: So this may form, you know, this may not be just one token.
+
+204
+00:20:15.940 --> 00:20:24.059
+Alakh Pandya: This is, you know, this is one token. 456 is second token, 789 is third token, and 0 is one more token, right?
+
+205
+00:20:24.590 --> 00:20:26.769
+Alakh Pandya: And here, there are 53 tokens.
+
+206
+00:20:26.970 --> 00:20:31.950
+Alakh Pandya: But if you talk about the previous versions, they might have different tokenizing systems here.
+
+207
+00:20:33.770 --> 00:20:36.770
+Alakh Pandya: This is making it 1057 tokens.
+
+208
+00:20:37.680 --> 00:20:38.240
+Ritu Kapadiya: Oh, yeah.
+
+209
+00:20:38.240 --> 00:20:42.450
+Alakh Pandya: So maybe some words were further divided into more tokens.
+
+210
+00:20:42.810 --> 00:20:51.000
+Alakh Pandya: And this legacy version was making it 64 tokens. So, indisible is converted into 3 tokens in this case.
+
+211
+00:20:51.200 --> 00:20:51.820
+Ritu Kapadiya: Yeah.
+
+212
+00:20:52.720 --> 00:20:53.390
+Alakh Pandya: Right?
+
+213
+00:20:53.710 --> 00:20:56.370
+Alakh Pandya: So, the thing is that,
+
+214
+00:20:57.350 --> 00:21:03.080
+Alakh Pandya: Only inside the chat GPT, you have different ways of tokenizing things, right?
+
+215
+00:21:03.080 --> 00:21:03.750
+Ritu Kapadiya: Okay.
+
+216
+00:21:03.750 --> 00:21:04.260
+Alakh Pandya: So…
+
+217
+00:21:04.260 --> 00:21:04.580
+Ritu Kapadiya: Okay.
+
+218
+00:21:04.580 --> 00:21:09.279
+Alakh Pandya: If you use Gemini, then you will have, obviously, altogether different tokens.
+
+219
+00:21:10.410 --> 00:21:10.930
+Ritu Kapadiya: King.
+
+220
+00:21:10.930 --> 00:21:17.239
+Alakh Pandya: Or if you use some other LLM, then their tokenization system will be definitely different.
+
+221
+00:21:17.840 --> 00:21:27.419
+Alakh Pandya: But essentially, all the GPTs, all the LLMs, they essentially have to break down the words into tokens first.
+
+222
+00:21:27.970 --> 00:21:28.610
+Ritu Kapadiya: Okay.
+
+223
+00:21:28.610 --> 00:21:29.660
+Alakh Pandya: That is one thing.
+
+224
+00:21:29.660 --> 00:21:30.680
+Ritu Kapadiya: Right?
+
+225
+00:21:30.920 --> 00:21:33.239
+Alakh Pandya: Or you can say this is step one.
+
+226
+00:21:34.070 --> 00:21:34.820
+Ritu Kapadiya: Okay.
+
+227
+00:21:34.820 --> 00:21:39.889
+Alakh Pandya: Step 2 is converting these tokens into vector embeddings.
+
+228
+00:21:41.870 --> 00:21:44.349
+Alakh Pandya: Now, remember we also saw vector embeddings?
+
+229
+00:21:45.350 --> 00:21:46.120
+Ritu Kapadiya: KR.
+
+230
+00:21:46.120 --> 00:21:47.689
+Alakh Pandya: Vector embeddings are?
+
+231
+00:21:47.990 --> 00:21:50.579
+Alakh Pandya: You convert these words into numbers.
+
+232
+00:21:51.460 --> 00:21:52.060
+Ritu Kapadiya: Yep.
+
+233
+00:21:52.260 --> 00:21:53.640
+Alakh Pandya: The vectors, basically.
+
+234
+00:21:54.220 --> 00:21:55.969
+Alakh Pandya: In multiple dimensions.
+
+235
+00:21:56.160 --> 00:21:58.039
+Alakh Pandya: So, if I also show you…
+
+236
+00:21:58.240 --> 00:22:02.330
+Alakh Pandya: Vector embedding, which we also saw long before.
+
+237
+00:22:03.480 --> 00:22:04.150
+Ritu Kapadiya: Mom.
+
+238
+00:22:09.710 --> 00:22:14.319
+Alakh Pandya: So, these are vector embeddings of 10,000 English words.
+
+239
+00:22:15.970 --> 00:22:16.450
+Ritu Kapadiya: Okay.
+
+240
+00:22:16.450 --> 00:22:18.169
+Alakh Pandya: Let's say this word is graphics.
+
+241
+00:22:19.150 --> 00:22:22.729
+Alakh Pandya: Alright, so graphics vector embedding is this.
+
+242
+00:22:23.550 --> 00:22:28.919
+Alakh Pandya: This is the vector embedding of graphics, means actually, this vector embeddings.
+
+243
+00:22:29.270 --> 00:22:33.020
+Alakh Pandya: I don't know why I'm not able to click here. Actually, this is vector embedding.
+
+244
+00:22:33.300 --> 00:22:37.269
+Alakh Pandya: Is, you know, graphics world is converted into numbers.
+
+245
+00:22:37.860 --> 00:22:40.480
+Alakh Pandya: But how many group of numbers?
+
+246
+00:22:41.180 --> 00:22:43.590
+Alakh Pandya: Vector means group of numbers, right?
+
+247
+00:22:43.740 --> 00:22:51.879
+Alakh Pandya: So, how many numbers will be there in this one word? So, see here, it is 200 dimensions.
+
+248
+00:22:52.790 --> 00:22:53.410
+Ritu Kapadiya: Hmm.
+
+249
+00:22:53.410 --> 00:22:58.410
+Alakh Pandya: Okay, it is actual original vector is in 200 dimensions.
+
+250
+00:22:59.160 --> 00:22:59.660
+Ritu Kapadiya: Yeah.
+
+251
+00:22:59.660 --> 00:23:01.620
+Alakh Pandya: So, there are 200 components.
+
+252
+00:23:02.220 --> 00:23:04.170
+Alakh Pandya: Each component is a number.
+
+253
+00:23:05.450 --> 00:23:11.249
+Alakh Pandya: And those 200 components together form this graphics world.
+
+254
+00:23:12.530 --> 00:23:21.780
+Alakh Pandya: Now, how have these, you know, numbers are chosen? See, these are the nearest words to graphics.
+
+255
+00:23:22.470 --> 00:23:23.640
+Alakh Pandya: Hardware?
+
+256
+00:23:23.760 --> 00:23:31.130
+Alakh Pandya: animation, interface, Graphical, video, rendering software, these words.
+
+257
+00:23:31.980 --> 00:23:32.660
+Ritu Kapadiya: Okay.
+
+258
+00:23:32.890 --> 00:23:44.789
+Alakh Pandya: So, the vector embedding of graphics and vector embedding of hardware are created in a way that their distance will be smaller, will be minimum.
+
+259
+00:23:45.590 --> 00:23:46.320
+Ritu Kapadiya: Okay.
+
+260
+00:23:46.480 --> 00:23:51.230
+Alakh Pandya: Toh, R200 dimension ma graphics no vector embedding kasi.
+
+261
+00:23:51.550 --> 00:23:55.309
+Alakh Pandya: On a 200 dimension ba, hardware no per vector embedding kosher.
+
+262
+00:23:56.730 --> 00:24:02.539
+Alakh Pandya: Toh jare pointche, abandon distance termso. Kaerita.
+
+263
+00:24:03.110 --> 00:24:04.829
+Alakh Pandya: And yeah, but that is your cosine distance.
+
+264
+00:24:05.710 --> 00:24:08.949
+Alakh Pandya: You can also have Euclidean distance, Kb2's curve.
+
+265
+00:24:09.240 --> 00:24:13.810
+Alakh Pandya: Toh, cosine distance, tame 1 nie vector no vector nuns also.
+
+266
+00:24:14.070 --> 00:24:20.500
+Alakh Pandya: Toh, ebene wiktam near ausar. Kon, graphics ne hardware.usa.
+
+267
+00:24:20.700 --> 00:24:21.260
+Alakh Pandya: Okay.
+
+268
+00:24:21.670 --> 00:24:23.720
+Alakh Pandya: Because they are related somehow.
+
+269
+00:24:23.960 --> 00:24:24.750
+Ritu Kapadiya: Okay. Yeah.
+
+270
+00:24:24.750 --> 00:24:31.300
+Alakh Pandya: So, the vector embedding is created in a way that the related words Stay together.
+
+271
+00:24:32.020 --> 00:24:32.400
+Ritu Kapadiya: Okay.
+
+272
+00:24:32.400 --> 00:24:37.249
+Alakh Pandya: And the words which are not related, they will stay away from those words.
+
+273
+00:24:37.660 --> 00:24:38.510
+Alakh Pandya: Okay?
+
+274
+00:24:38.930 --> 00:24:41.060
+Ritu Kapadiya: However, Kempura related, sir.
+
+275
+00:24:41.900 --> 00:24:48.269
+Alakh Pandya: That is how, you know, like, there are a lot of, like, 200 dimensions, you know?
+
+276
+00:24:48.740 --> 00:24:54.079
+Alakh Pandya: away, JMK, suppose somebody's… we took this example, let's say somebody was searching.
+
+277
+00:24:54.370 --> 00:25:00.229
+Alakh Pandya: on the web, let's say somebody is searching New Delhi. Google Pratama search for New Delhi.
+
+278
+00:25:00.910 --> 00:25:04.029
+Alakh Pandya: Toh, New Delhi tohav, map near a houseer.
+
+279
+00:25:07.370 --> 00:25:09.960
+Alakh Pandya: Why? Because they are nearby places.
+
+280
+00:25:10.380 --> 00:25:13.689
+Alakh Pandya: The red 4000, because it's the linea underachie, but…
+
+281
+00:25:13.800 --> 00:25:17.019
+Alakh Pandya: places to visit in Delhi, right? Kutu Miner Rausa.
+
+282
+00:25:17.730 --> 00:25:18.100
+Ritu Kapadiya: Hmm.
+
+283
+00:25:18.100 --> 00:25:20.679
+Alakh Pandya: Right? Abadhi goes to a houseer. Akshardam Temple also.
+
+284
+00:25:21.430 --> 00:25:26.960
+Alakh Pandya: Not just that, but also… Maybe Arvind Kejri Walau, sir.
+
+285
+00:25:27.710 --> 00:25:30.690
+Alakh Pandya: Why? Because he was ex-CM of Delhi.
+
+286
+00:25:30.690 --> 00:25:31.210
+Ritu Kapadiya: Yep.
+
+287
+00:25:31.710 --> 00:25:36.040
+Alakh Pandya: Right? Maybe Narendra Modiyausa, because he lives in New Delhi, he's a PM.
+
+288
+00:25:36.630 --> 00:25:37.160
+Ritu Kapadiya: Yeah.
+
+289
+00:25:37.160 --> 00:25:37.940
+Alakh Pandya: Right?
+
+290
+00:25:38.080 --> 00:25:40.110
+Alakh Pandya: So, Acha.
+
+291
+00:25:40.450 --> 00:25:45.140
+Alakh Pandya: Daibal.
+
+292
+00:25:46.170 --> 00:25:51.039
+Alakh Pandya: Why? Because it is the famous dish which is associated with Delhi.
+
+293
+00:25:51.440 --> 00:25:55.319
+Alakh Pandya: So, these are the words which are related to New Delhi.
+
+294
+00:25:55.870 --> 00:25:58.349
+Alakh Pandya: Which should be nearby to New Delhi.
+
+295
+00:25:58.910 --> 00:25:59.510
+Ritu Kapadiya: Okay.
+
+296
+00:25:59.510 --> 00:26:07.200
+Alakh Pandya: Okay, so this way, the vector embedding should be created. Now, first step is to tokenize the
+
+297
+00:26:08.070 --> 00:26:10.479
+Alakh Pandya: Tokenize the, sentence.
+
+298
+00:26:10.930 --> 00:26:11.380
+Ritu Kapadiya: Okay.
+
+299
+00:26:11.380 --> 00:26:18.829
+Alakh Pandya: Second step is to, their vector embedding is already created. All the words vector embeddings are already created.
+
+300
+00:26:19.290 --> 00:26:19.880
+Ritu Kapadiya: Okay.
+
+301
+00:26:19.880 --> 00:26:23.510
+Alakh Pandya: But you have to find… K anu vector embedding suture.
+
+302
+00:26:24.370 --> 00:26:28.690
+Alakh Pandya: So your LLM has to find what is the vector embedding of this particular world.
+
+303
+00:26:29.620 --> 00:26:30.990
+Ritu Kapadiya: Okay.
+
+304
+00:26:30.990 --> 00:26:32.260
+Alakh Pandya: Every token, in fact.
+
+305
+00:26:33.610 --> 00:26:43.249
+Alakh Pandya: Right? It doesn't have to create the new vector embedding, it has to just find the vector embedding from the existing data, that what are the embedding of these tokens.
+
+306
+00:26:43.670 --> 00:26:51.460
+Alakh Pandya: Right? Now, this, this vector embedding is sent to something called transformer mechanism.
+
+307
+00:26:53.030 --> 00:26:55.159
+Ritu Kapadiya: Okay First step.
+
+308
+00:26:55.160 --> 00:26:58.639
+Alakh Pandya: In the third step, it is sent to transformer mechanism.
+
+309
+00:26:59.130 --> 00:26:59.860
+Ritu Kapadiya: Okay.
+
+310
+00:27:00.460 --> 00:27:02.630
+Alakh Pandya: ease.
+
+311
+00:27:02.770 --> 00:27:12.520
+Alakh Pandya: But… A transform mechanism kit cursor, and a, basically.
+
+312
+00:27:13.050 --> 00:27:18.749
+Alakh Pandya: any transformative mechanism, sugar is anatari. Next step is prediction.
+
+313
+00:27:19.400 --> 00:27:21.250
+Alakh Pandya: Next step is prediction.
+
+314
+00:27:21.870 --> 00:27:25.859
+Alakh Pandya: Prediction suja, toh, habein next word, su aosa.
+
+315
+00:27:26.720 --> 00:27:27.779
+Ritu Kapadiya: And it pretty.
+
+316
+00:27:27.780 --> 00:27:28.470
+Alakh Pandya: Go on.
+
+317
+00:27:29.570 --> 00:27:30.290
+Ritu Kapadiya: Okay.
+
+318
+00:27:30.290 --> 00:27:33.250
+Alakh Pandya: So, let's say, if I ask…
+
+319
+00:27:36.270 --> 00:27:37.420
+Alakh Pandya: ChatGPT.
+
+320
+00:27:39.220 --> 00:27:40.690
+Alakh Pandya: If I go to ChatGPT.
+
+321
+00:27:41.250 --> 00:27:44.830
+Alakh Pandya: And if I ask it something, Let's say…
+
+322
+00:27:50.250 --> 00:27:51.160
+Alakh Pandya: Aye.
+
+323
+00:27:52.460 --> 00:27:56.690
+Alakh Pandya: relocated to… In which state do you live?
+
+324
+00:27:57.540 --> 00:27:58.489
+Ritu Kapadiya: New Jersey?
+
+325
+00:28:01.080 --> 00:28:05.070
+Alakh Pandya: let me just say U.S.
+
+326
+00:28:06.620 --> 00:28:07.950
+Alakh Pandya: to the US.
+
+327
+00:28:14.610 --> 00:28:18.110
+Alakh Pandya: In… in which year did you relocate it there?
+
+328
+00:28:18.660 --> 00:28:20.050
+Ritu Kapadiya: 2025.
+
+329
+00:28:20.590 --> 00:28:21.180
+Ritu Kapadiya: January.
+
+330
+00:28:21.180 --> 00:28:23.250
+Alakh Pandya: In 2025.
+
+331
+00:28:25.100 --> 00:28:27.690
+Alakh Pandya: After my marriage.
+
+332
+00:28:37.170 --> 00:28:43.459
+Alakh Pandya: I will ask, let me cut this out.
+
+333
+00:28:47.990 --> 00:28:55.860
+Alakh Pandya: Write a… write an… Mmm… Experience…
+
+334
+00:28:57.810 --> 00:28:59.720
+Alakh Pandya: Or write an essay, let's say.
+
+335
+00:29:01.200 --> 00:29:04.110
+Alakh Pandya: of… 150 words.
+
+336
+00:29:08.040 --> 00:29:11.810
+Alakh Pandya: That starts from… this.
+
+337
+00:29:13.800 --> 00:29:14.340
+Ritu Kapadiya: Okay.
+
+338
+00:29:15.870 --> 00:29:19.029
+Alakh Pandya: Okay? So, let me hit enter.
+
+339
+00:29:21.150 --> 00:29:33.640
+Alakh Pandya: And you will see, I relocated to the US in 2025, with a mix of excitement and nervousness, leaving behind my family, friends, familiar surroundings was not easy. See, it has generated this essay.
+
+340
+00:29:33.880 --> 00:29:34.460
+Alakh Pandya: Okay?
+
+341
+00:29:34.460 --> 00:29:35.150
+Ritu Kapadiya: Yeah.
+
+342
+00:29:35.150 --> 00:29:40.059
+Alakh Pandya: Now, This much was given.
+
+343
+00:29:40.860 --> 00:29:41.610
+Ritu Kapadiya: True.
+
+344
+00:29:42.420 --> 00:29:44.620
+Alakh Pandya: But what would be the next word?
+
+345
+00:29:46.850 --> 00:29:50.389
+Alakh Pandya: What would be the next word? That it has to generate.
+
+346
+00:29:51.180 --> 00:29:51.820
+Ritu Kapadiya: Yes.
+
+347
+00:29:51.820 --> 00:29:53.160
+Alakh Pandya: That is called prediction.
+
+348
+00:29:53.630 --> 00:29:55.540
+Alakh Pandya: How the prediction is made?
+
+349
+00:29:56.200 --> 00:30:05.229
+Alakh Pandya: So, it checks KRJ combination, which word goes the best with the combination of these vector embeddings?
+
+350
+00:30:07.280 --> 00:30:08.130
+Ritu Kapadiya: Okay.
+
+351
+00:30:08.390 --> 00:30:20.030
+Alakh Pandya: Right? Like, next word is, it is doing with a mix of excitement and nervousness, right? So there is with word, which it thought would go best
+
+352
+00:30:20.970 --> 00:30:23.559
+Alakh Pandya: After this combination of vector embedding.
+
+353
+00:30:24.430 --> 00:30:24.970
+Ritu Kapadiya: Okay.
+
+354
+00:30:26.840 --> 00:30:28.510
+Alakh Pandya: How will it pick these words?
+
+355
+00:30:28.710 --> 00:30:31.070
+Alakh Pandya: So, it will create a bucket.
+
+356
+00:30:31.360 --> 00:30:35.180
+Alakh Pandya: of… Highly probable words.
+
+357
+00:30:35.960 --> 00:30:36.750
+Ritu Kapadiya: Okay.
+
+358
+00:30:37.710 --> 00:30:43.300
+Alakh Pandya: Okay, like, Anapache. I relocated to the US in 2025. After this.
+
+359
+00:30:44.010 --> 00:30:48.420
+Alakh Pandya: What are the chances that the word elephant will come just after this?
+
+360
+00:30:48.990 --> 00:30:50.010
+Alakh Pandya: Very less.
+
+361
+00:30:50.580 --> 00:30:51.320
+Ritu Kapadiya: Yeah.
+
+362
+00:30:51.320 --> 00:31:09.180
+Alakh Pandya: Very less. Elephant won't come, because I relocated to the US in 2025, elephant. That doesn't complete the sentence, that doesn't make any sense. So, word elephant will come, there is a very less chance of that going, you know, along with it. Or I would rather say.
+
+363
+00:31:09.340 --> 00:31:11.030
+Alakh Pandya: Not just consider with.
+
+364
+00:31:11.260 --> 00:31:15.049
+Alakh Pandya: Consider this mix of excitement, or excitement.
+
+365
+00:31:15.970 --> 00:31:16.530
+Ritu Kapadiya: Oh.
+
+366
+00:31:16.530 --> 00:31:22.459
+Alakh Pandya: Now, there is a very high chance of excitement Going along with this sentence.
+
+367
+00:31:23.400 --> 00:31:23.730
+Ritu Kapadiya: Yeah.
+
+368
+00:31:23.730 --> 00:31:29.479
+Alakh Pandya: Because if somebody's going to relocate in a new country, Excitement is natural.
+
+369
+00:31:29.840 --> 00:31:32.280
+Alakh Pandya: Right? And also nervousness.
+
+370
+00:31:32.950 --> 00:31:34.490
+Ritu Kapadiya: Right?
+
+371
+00:31:35.360 --> 00:31:40.579
+Alakh Pandya: There are also a lot of other things that can happen when someone relocates
+
+372
+00:31:40.920 --> 00:31:46.599
+Alakh Pandya: Maybe somebody has had to relocate by force.
+
+373
+00:31:47.050 --> 00:31:49.930
+Alakh Pandya: As a refugee or something like that, right?
+
+374
+00:31:50.260 --> 00:31:55.640
+Alakh Pandya: Or maybe that person was, relocated due to job.
+
+375
+00:31:57.000 --> 00:32:02.059
+Alakh Pandya: Right? So, job… Then,
+
+376
+00:32:03.250 --> 00:32:12.609
+Alakh Pandya: political environment, something like that. So there are also other words which can go well with this phrase.
+
+377
+00:32:14.230 --> 00:32:15.000
+Alakh Pandya: Okay?
+
+378
+00:32:15.580 --> 00:32:24.070
+Alakh Pandya: So, what it will do, it will create these… it will evaluate the probability of every word which can go well with this.
+
+379
+00:32:24.760 --> 00:32:25.560
+Ritu Kapadiya: Okay.
+
+380
+00:32:25.920 --> 00:32:29.200
+Alakh Pandya: So it will have, give me, excitement.
+
+381
+00:32:30.190 --> 00:32:34.120
+Alakh Pandya: A word ni probability, phrase Sadeh Javanicha.
+
+382
+00:32:34.330 --> 00:32:42.170
+Alakh Pandya: some, let's say, 0.3 or 0.2 or something like that. 20%, 30%, something like that, right? So…
+
+383
+00:32:42.460 --> 00:32:46.020
+Alakh Pandya: If that probability is beyond the threshold, it has
+
+384
+00:32:46.250 --> 00:32:52.010
+Alakh Pandya: thought, energy threshold naki kar yoga bh yanathi, whether a probability why? The Eva word is no Gather Karish.
+
+385
+00:32:52.380 --> 00:32:53.060
+Alakh Pandya: Should we…
+
+386
+00:32:53.060 --> 00:32:53.700
+Ritu Kapadiya: Okay.
+
+387
+00:32:53.700 --> 00:32:57.759
+Alakh Pandya: Gather all these words, which are high… highly probable words.
+
+388
+00:32:58.080 --> 00:33:02.990
+Alakh Pandya: And then, it will select one word randomly from that bucket.
+
+389
+00:33:04.260 --> 00:33:08.090
+Alakh Pandya: It will not select highest probable word, always.
+
+390
+00:33:08.090 --> 00:33:08.620
+Ritu Kapadiya: Okay.
+
+391
+00:33:09.300 --> 00:33:13.410
+Alakh Pandya: We'll select one word at random from highly probable words.
+
+392
+00:33:14.240 --> 00:33:16.360
+Alakh Pandya: From the bucket of highly probable words.
+
+393
+00:33:16.820 --> 00:33:17.510
+Ritu Kapadiya: Okay.
+
+394
+00:33:17.940 --> 00:33:18.350
+Alakh Pandya: Clear?
+
+395
+00:33:18.350 --> 00:33:18.910
+Ritu Kapadiya: Correct.
+
+396
+00:33:19.420 --> 00:33:20.440
+Alakh Pandya: That's why.
+
+397
+00:33:20.970 --> 00:33:25.610
+Alakh Pandya: If you do this, If you do this, exactly the same thing.
+
+398
+00:33:25.960 --> 00:33:29.049
+Alakh Pandya: in your chat GPT, it will produce different answer.
+
+399
+00:33:29.980 --> 00:33:31.690
+Ritu Kapadiya: Okay, gotcha.
+
+400
+00:33:32.550 --> 00:33:35.880
+Alakh Pandya: Right? Try that out, and you will see something different.
+
+401
+00:33:36.370 --> 00:33:38.879
+Alakh Pandya: Similar, but with different words.
+
+402
+00:33:41.450 --> 00:33:42.250
+Ritu Kapadiya: Nature.
+
+403
+00:33:44.090 --> 00:33:46.500
+Alakh Pandya: Tell me what you are getting after doing this.
+
+404
+00:33:59.470 --> 00:34:03.379
+Ritu Kapadiya: In a chalogary with the hope of building a better future for myself.
+
+405
+00:34:03.380 --> 00:34:04.200
+Alakh Pandya: Right.
+
+406
+00:34:04.440 --> 00:34:06.890
+Alakh Pandya: So, see, building better future.
+
+407
+00:34:07.000 --> 00:34:13.550
+Alakh Pandya: You know, future. All this, all these are also good words which can go along with this phrase.
+
+408
+00:34:14.300 --> 00:34:18.589
+Ritu Kapadiya: Yeah, and I will be lucky, okay, SQL data analyst, especially.
+
+409
+00:34:18.590 --> 00:34:22.869
+Alakh Pandya: Because, because you are doing it in your, login.
+
+410
+00:34:23.520 --> 00:34:24.280
+Ritu Kapadiya: Yeah.
+
+411
+00:34:24.280 --> 00:34:25.790
+Alakh Pandya: So it knows about you.
+
+412
+00:34:26.290 --> 00:34:26.929
+Ritu Kapadiya: Hmm.
+
+413
+00:34:27.449 --> 00:34:32.889
+Alakh Pandya: chat nahi kari.
+
+414
+00:34:33.409 --> 00:34:39.579
+Alakh Pandya: Yeah. In this account, in this account. I have not chat a lot with ChatGPT. I think this is the first chat, maybe, I don't know.
+
+415
+00:34:39.749 --> 00:34:43.149
+Alakh Pandya: So, it doesn't have any background of mine over here.
+
+416
+00:34:43.699 --> 00:34:44.620
+Ritu Kapadiya: Right?
+
+417
+00:34:44.620 --> 00:35:01.080
+Alakh Pandya: So it created a general one. But, since you already have your ChatGPT account, and you might have chat a lot with ChatGPT, it knows that you are into programming, you are into SQL, and all that stuff. So it created it based on that. Right?
+
+418
+00:35:02.250 --> 00:35:08.930
+Alakh Pandya: Clear, so it will pick up high probable words, and it will pick up a word randomly from those high probable words.
+
+419
+00:35:09.070 --> 00:35:10.030
+Ritu Kapadiya: Okay. Thank you.
+
+420
+00:35:10.190 --> 00:35:19.949
+Alakh Pandya: Next thing. Next stage. After predicting, the next stage is to generate response. So it has… see, I'll explain to you.
+
+421
+00:35:20.780 --> 00:35:30.690
+Alakh Pandya: After, finding… checking the vector embedding of this, it found a bucket of words which will go good with this, and it picked up this word, excitement.
+
+422
+00:35:32.180 --> 00:35:33.140
+Alakh Pandya: Right?
+
+423
+00:35:33.980 --> 00:35:39.890
+Alakh Pandya: Now, you cannot directly write, I relocated to the US in 2025, excitement.
+
+424
+00:35:40.780 --> 00:35:42.809
+Alakh Pandya: You have to grammatically phrase it.
+
+425
+00:35:43.550 --> 00:35:44.090
+Ritu Kapadiya: Yeah.
+
+426
+00:35:44.260 --> 00:35:48.709
+Alakh Pandya: Right? And it also, selected this word, that is nervousness.
+
+427
+00:35:49.270 --> 00:35:49.720
+Ritu Kapadiya: Hmm.
+
+428
+00:35:49.720 --> 00:35:54.099
+Alakh Pandya: So, it has to also connect those two words using some connector like AND.
+
+429
+00:35:55.350 --> 00:36:01.409
+Alakh Pandya: And it also made it grammatically sounding better, using with a mix of.
+
+430
+00:36:01.870 --> 00:36:02.590
+Alakh Pandya: This phrase.
+
+431
+00:36:02.590 --> 00:36:03.140
+Ritu Kapadiya: Yeah.
+
+432
+00:36:04.000 --> 00:36:10.080
+Alakh Pandya: So this is… What was the highly probable word? Excitement.
+
+433
+00:36:10.400 --> 00:36:12.629
+Alakh Pandya: Second highly probable word, nervousness.
+
+434
+00:36:13.310 --> 00:36:16.160
+Alakh Pandya: So, this… these two words, it selected.
+
+435
+00:36:17.000 --> 00:36:17.790
+Ritu Kapadiya: Okay.
+
+436
+00:36:17.790 --> 00:36:19.839
+Alakh Pandya: But these two words don't make the answer.
+
+437
+00:36:20.140 --> 00:36:28.750
+Alakh Pandya: To make the answer, what did it do? It, make a better context grammatically right for sentence.
+
+438
+00:36:28.870 --> 00:36:32.999
+Alakh Pandya: You know, all these things. So this, this is called response generation phase.
+
+439
+00:36:33.690 --> 00:36:34.450
+Ritu Kapadiya: Okay.
+
+440
+00:36:34.450 --> 00:36:45.070
+Alakh Pandya: Where it will make grammatically correct response, it will make the response which is in coherence with the previous things, okay?
+
+441
+00:36:47.040 --> 00:36:48.030
+Ritu Kapadiya: Okay.
+
+442
+00:36:48.240 --> 00:36:52.109
+Alakh Pandya: Setting a proper… it sets in the same context.
+
+443
+00:36:52.280 --> 00:36:55.280
+Alakh Pandya: So it will create a proper response out of this.
+
+444
+00:36:55.590 --> 00:36:56.940
+Alakh Pandya: probable words.
+
+445
+00:36:58.170 --> 00:37:00.480
+Alakh Pandya: That phase is called response generation.
+
+446
+00:37:01.010 --> 00:37:01.910
+Ritu Kapadiya: Okay.
+
+447
+00:37:02.390 --> 00:37:03.220
+Alakh Pandya: Clear?
+
+448
+00:37:04.080 --> 00:37:04.580
+Ritu Kapadiya: Clear.
+
+449
+00:37:04.580 --> 00:37:09.230
+Alakh Pandya: So, there were kita phases, approach, stages, steps, five, yeah.
+
+450
+00:37:09.230 --> 00:37:09.740
+Ritu Kapadiya: Bye.
+
+451
+00:37:09.740 --> 00:37:15.170
+Alakh Pandya: First is tokenizing, second is vector embedding, third is transform… what transform mechanism does?
+
+452
+00:37:15.310 --> 00:37:16.699
+Alakh Pandya: Let me stop that.
+
+453
+00:37:22.230 --> 00:37:23.640
+Alakh Pandya: Let me copy this.
+
+454
+00:37:28.400 --> 00:37:29.900
+Alakh Pandya: And paste it here.
+
+455
+00:37:34.000 --> 00:37:35.659
+Alakh Pandya: Let me just add one more thing.
+
+456
+00:37:41.190 --> 00:37:45.940
+Alakh Pandya: Right? Or let me start with it, actually, it will sound better.
+
+457
+00:37:53.390 --> 00:37:54.510
+Alakh Pandya: Now, see.
+
+458
+00:37:56.220 --> 00:37:57.740
+Alakh Pandya: I just added this.
+
+459
+00:37:59.010 --> 00:38:02.230
+Alakh Pandya: And the response will totally change.
+
+460
+00:38:08.370 --> 00:38:17.070
+Alakh Pandya: with my spouse to begin a new chapter of life, everything around me was exciting, yet unfamiliar. I had to ad just completely different. See? Totally different response.
+
+461
+00:38:17.740 --> 00:38:18.250
+Ritu Kapadiya: Yep.
+
+462
+00:38:18.550 --> 00:38:20.179
+Alakh Pandya: No similarity with this.
+
+463
+00:38:20.930 --> 00:38:21.520
+Ritu Kapadiya: Hmm.
+
+464
+00:38:21.830 --> 00:38:23.010
+Alakh Pandya: Okay, why?
+
+465
+00:38:26.360 --> 00:38:28.450
+Alakh Pandya: Because of this one phrase.
+
+466
+00:38:29.120 --> 00:38:29.790
+Ritu Kapadiya: Mmm.
+
+467
+00:38:30.550 --> 00:38:31.240
+Alakh Pandya: Right?
+
+468
+00:38:31.820 --> 00:38:32.180
+Ritu Kapadiya: Yep.
+
+469
+00:38:32.180 --> 00:38:35.370
+Alakh Pandya: So, how did the answer change?
+
+470
+00:38:35.510 --> 00:38:37.600
+Alakh Pandya: Because of transformer mechanism.
+
+471
+00:38:38.540 --> 00:38:48.549
+Alakh Pandya: What does transformer mechanism do? Transformer mechanism a science, attention score, To each and every token.
+
+472
+00:38:50.510 --> 00:38:57.229
+Alakh Pandya: Ishugare, attention score. This attention score is also many times referred to as self-attention score.
+
+473
+00:38:57.990 --> 00:38:58.870
+Ritu Kapadiya: Okay.
+
+474
+00:38:59.960 --> 00:39:03.259
+Alakh Pandya: It assigns this attention score to each and every phrase.
+
+475
+00:39:04.380 --> 00:39:05.120
+Ritu Kapadiya: Okay.
+
+476
+00:39:05.830 --> 00:39:14.240
+Alakh Pandya: Right? And in the deep learning, where we'll study deep learning, we will create this transformer mechanism, so we'll understand it. Okay, how the attention score is given.
+
+477
+00:39:14.470 --> 00:39:18.330
+Alakh Pandya: So, the attention score is focusing.
+
+478
+00:39:18.700 --> 00:39:22.880
+Alakh Pandya: Where, is actually setting up the context. Context related?
+
+479
+00:39:23.380 --> 00:39:29.550
+Alakh Pandya: Okay, relocate to marriage, relocated to U.S. came Hatu. Probably because of marriage.
+
+480
+00:39:30.460 --> 00:39:30.900
+Ritu Kapadiya: Yeah.
+
+481
+00:39:30.900 --> 00:39:34.990
+Alakh Pandya: Okay, so, everything, you know, will be around it.
+
+482
+00:39:37.600 --> 00:39:43.870
+Alakh Pandya: Okay, so this will… transform mechanism will give very high attention score to this phrase.
+
+483
+00:39:48.580 --> 00:39:57.460
+Alakh Pandya: it will determine. Transform mechanism is responsible to determine and properly giving the attention scores to the tokens.
+
+484
+00:39:58.070 --> 00:39:58.570
+Ritu Kapadiya: Okay.
+
+485
+00:39:58.570 --> 00:40:00.870
+Alakh Pandya: legeo tamaru transform ne mechanism.
+
+486
+00:40:01.410 --> 00:40:04.719
+Alakh Pandya: Aneh, attention score high yapide.
+
+487
+00:40:05.580 --> 00:40:08.080
+Alakh Pandya: So, that is not a good transformer mechanism.
+
+488
+00:40:08.580 --> 00:40:09.260
+Ritu Kapadiya: Awesome.
+
+489
+00:40:09.260 --> 00:40:12.560
+Alakh Pandya: And we know ChatGPT is very good at understanding the language.
+
+490
+00:40:12.950 --> 00:40:19.020
+Alakh Pandya: So, it will automatically give the transformer mechanism
+
+491
+00:40:19.260 --> 00:40:24.670
+Alakh Pandya: Give the maximum attention score to this phrase.
+
+492
+00:40:25.720 --> 00:40:27.349
+Alakh Pandya: Let me change it a little bit.
+
+493
+00:41:24.520 --> 00:41:26.229
+Alakh Pandya: Now, what I've done…
+
+494
+00:41:30.160 --> 00:41:34.050
+Alakh Pandya: Write an essay of 150 odd as a young boy who studies in grade 5.
+
+495
+00:41:39.950 --> 00:41:41.239
+Alakh Pandya: And you see?
+
+496
+00:41:41.870 --> 00:41:43.440
+Ritu Kapadiya: Father's no job.
+
+497
+00:41:45.740 --> 00:41:46.470
+Alakh Pandya: Okay?
+
+498
+00:41:46.610 --> 00:41:49.729
+Alakh Pandya: And, road and school and all that stuff, okay?
+
+499
+00:41:50.040 --> 00:41:53.870
+Alakh Pandya: So, now the attention score was given to this.
+
+500
+00:41:54.720 --> 00:41:55.380
+Ritu Kapadiya: Yep.
+
+501
+00:41:57.280 --> 00:41:57.930
+Alakh Pandya: Okay.
+
+502
+00:41:58.450 --> 00:41:58.980
+Ritu Kapadiya: for…
+
+503
+00:42:00.250 --> 00:42:09.150
+Alakh Pandya: as if… as… These things automatically draws the attention score towards the phrase that follows that.
+
+504
+00:42:09.810 --> 00:42:10.410
+Ritu Kapadiya: Oh, okay.
+
+505
+00:42:10.410 --> 00:42:11.000
+Alakh Pandya: Okay?
+
+506
+00:42:11.850 --> 00:42:16.959
+Alakh Pandya: It means, you are saying as if you are a young boy studying in grade 5.
+
+507
+00:42:17.480 --> 00:42:18.920
+Alakh Pandya: Okay, like that.
+
+508
+00:42:19.290 --> 00:42:24.720
+Alakh Pandya: Though, this is the job of transformer mechanism.
+
+509
+00:42:25.230 --> 00:42:27.459
+Alakh Pandya: Clear, to give attention score.
+
+510
+00:42:27.900 --> 00:42:28.750
+Ritu Kapadiya: Right? Yep.
+
+511
+00:42:28.750 --> 00:42:36.040
+Alakh Pandya: So, transformer mechanism will give attention score, and according to the attention score, probabilities of the other words will be counted.
+
+512
+00:42:37.060 --> 00:42:37.930
+Ritu Kapadiya: Okay.
+
+513
+00:42:38.230 --> 00:42:42.120
+Alakh Pandya: And then your LLM will decide.
+
+514
+00:42:42.640 --> 00:42:46.540
+Alakh Pandya: Or it will create a bucket of highly probable words.
+
+515
+00:42:47.590 --> 00:42:48.320
+Ritu Kapadiya: Okay.
+
+516
+00:42:48.450 --> 00:42:51.569
+Alakh Pandya: Clear. And then, finally, it will pick one of them.
+
+517
+00:42:51.810 --> 00:42:53.760
+Alakh Pandya: as a prediction.
+
+518
+00:42:53.980 --> 00:42:57.060
+Alakh Pandya: And then, it will regenerate the response.
+
+519
+00:42:57.700 --> 00:43:04.469
+Alakh Pandya: Which is coherent, which is in context, and which is also grammatically correct.
+
+520
+00:43:05.180 --> 00:43:05.680
+Ritu Kapadiya: Okay.
+
+521
+00:43:05.680 --> 00:43:06.420
+Alakh Pandya: Fine?
+
+522
+00:43:07.870 --> 00:43:10.459
+Alakh Pandya: So these are the five phases, basically.
+
+523
+00:43:11.150 --> 00:43:11.900
+Ritu Kapadiya: Okay.
+
+524
+00:43:12.240 --> 00:43:13.180
+Ritu Kapadiya: Or a gift.
+
+525
+00:43:22.230 --> 00:43:23.359
+Alakh Pandya: Just a minute.
+
+526
+00:43:36.680 --> 00:43:38.899
+Alakh Pandya: Now, because we have understood this
+
+527
+00:43:39.960 --> 00:43:48.550
+Alakh Pandya: transformer mechanism. We have, now figured out a hack to write better.
+
+528
+00:43:48.680 --> 00:43:49.650
+Alakh Pandya: prompts.
+
+529
+00:43:55.070 --> 00:43:56.120
+Alakh Pandya: One minute.
+
+530
+00:43:57.280 --> 00:44:00.979
+Alakh Pandya: I'm actually opening the ChatGPT that I usually use.
+
+531
+00:44:01.480 --> 00:44:03.930
+Alakh Pandya: And I want to show you some prompts.
+
+532
+00:46:31.510 --> 00:46:32.879
+Alakh Pandya: Check this prompt out.
+
+533
+00:46:35.790 --> 00:46:37.760
+Alakh Pandya: this I will put to ChatGPT.
+
+534
+00:46:38.800 --> 00:46:41.469
+Alakh Pandya: And you can see, let me read the prompt.
+
+535
+00:46:41.860 --> 00:46:48.939
+Alakh Pandya: You are a team of a senior cardiologist, like Dr. Tejas Patel, and a cardiac surgeon like Dr. Anil Jain.
+
+536
+00:46:50.010 --> 00:46:51.899
+Alakh Pandya: Now, what do you think will this do?
+
+537
+00:47:00.120 --> 00:47:01.869
+Alakh Pandya: Apart sugars, I covered it.
+
+538
+00:47:02.410 --> 00:47:13.140
+Alakh Pandya: This part will automatically Force the transform mechanism to give the maximum attention score to this part.
+
+539
+00:47:15.290 --> 00:47:21.699
+Alakh Pandya: as if, as a 5… as a student who is in grade 5.
+
+540
+00:47:22.210 --> 00:47:22.920
+Ritu Kapadiya: Yeah, yeah.
+
+541
+00:47:23.330 --> 00:47:31.320
+Alakh Pandya: So, the same thing, when you assign a role, okay, as if you are like this, as if you are like this. So, I've assigned this role.
+
+542
+00:47:32.080 --> 00:47:32.880
+Ritu Kapadiya: Okay.
+
+543
+00:47:33.320 --> 00:47:34.840
+Alakh Pandya: to the GPT.
+
+544
+00:47:35.420 --> 00:47:35.940
+Ritu Kapadiya: Okay.
+
+545
+00:47:35.940 --> 00:47:43.890
+Alakh Pandya: So, what it will do, it will go and search what is the practices available by these two doctors in the public domain.
+
+546
+00:47:44.950 --> 00:47:45.700
+Ritu Kapadiya: Okay.
+
+547
+00:47:45.700 --> 00:47:50.139
+Alakh Pandya: Public domain yandar. Energy Information Hase.
+
+548
+00:47:50.400 --> 00:47:55.189
+Alakh Pandya: It will give the… Insight, according to that.
+
+549
+00:47:55.700 --> 00:47:56.430
+Ritu Kapadiya: Okay.
+
+550
+00:47:57.080 --> 00:48:02.990
+Alakh Pandya: Right? Then I have set… so I have assigned a role, Saudi Palukam, I have assigned a role.
+
+551
+00:48:04.240 --> 00:48:05.840
+Alakh Pandya: Then I have set the context.
+
+552
+00:48:06.260 --> 00:48:07.790
+Alakh Pandya: background information.
+
+553
+00:48:08.230 --> 00:48:17.090
+Alakh Pandya: A patient, age 76 male, wants to know the exact status of his heart. He has undergone through bypass surgery 27 years back, and now
+
+554
+00:48:18.240 --> 00:48:22.470
+Alakh Pandya: He has developed symptoms like shortness of breath when he climbs the stairs.
+
+555
+00:48:22.570 --> 00:48:27.100
+Alakh Pandya: He wants to plan through a heart checkup, of which
+
+556
+00:48:27.290 --> 00:48:30.400
+Alakh Pandya: Now, at Lujah, background ja context.
+
+557
+00:48:31.040 --> 00:48:32.660
+Ritu Kapadiya: Okay. Yeah?
+
+558
+00:48:32.660 --> 00:48:36.799
+Alakh Pandya: Now, some… notes, you can say?
+
+559
+00:48:37.490 --> 00:48:46.079
+Alakh Pandya: AIC, he wants to plan through a heart checkup, which, of which one test I want him to undergo, for sure.
+
+560
+00:48:46.210 --> 00:48:47.240
+Alakh Pandya: is this.
+
+561
+00:48:48.140 --> 00:48:48.680
+Ritu Kapadiya: Okay.
+
+562
+00:48:48.680 --> 00:48:52.140
+Alakh Pandya: Atesto karabano.
+
+563
+00:48:52.700 --> 00:48:53.540
+Ritu Kapadiya: Okay.
+
+564
+00:48:53.770 --> 00:48:54.440
+Alakh Pandya: Right?
+
+565
+00:48:54.920 --> 00:48:56.460
+Alakh Pandya: Now the instruction.
+
+566
+00:48:56.670 --> 00:48:58.630
+Alakh Pandya: Qui carbono su tare su karvano.
+
+567
+00:48:58.950 --> 00:49:02.640
+Alakh Pandya: at last sentence.
+
+568
+00:49:02.800 --> 00:49:05.380
+Alakh Pandya: Right? First, I assigned the role to it.
+
+569
+00:49:05.500 --> 00:49:08.580
+Alakh Pandya: And second, I gave background information to it.
+
+570
+00:49:08.980 --> 00:49:09.500
+Ritu Kapadiya: Yep.
+
+571
+00:49:10.180 --> 00:49:18.720
+Alakh Pandya: Next, Hawaii instruction. I want you to give me a list of tests that he should undergo to paint a complete picture of his heart.
+
+572
+00:49:20.870 --> 00:49:27.810
+Alakh Pandya: Right? So this is… the, this is the job I have assigned to it. Kitare akarwan.
+
+573
+00:49:28.550 --> 00:49:29.030
+Ritu Kapadiya: But…
+
+574
+00:49:29.030 --> 00:49:36.519
+Alakh Pandya: As if you are a senior cardiologist, like Dr. Nijas Pratel, and a cardiac surgeon, like Dr. Analjan, you're a team of these two.
+
+575
+00:49:38.060 --> 00:49:38.820
+Alakh Pandya: Right?
+
+576
+00:49:39.060 --> 00:49:42.369
+Alakh Pandya: So it will give me the test as if it is this.
+
+577
+00:49:42.480 --> 00:49:44.050
+Alakh Pandya: Doctors. Parabra.
+
+578
+00:49:44.050 --> 00:49:44.620
+Ritu Kapadiya: pump.
+
+579
+00:49:45.320 --> 00:49:51.430
+Alakh Pandya: So, role assigned career, background author context review, and then I gave instructions.
+
+580
+00:49:53.260 --> 00:49:59.170
+Alakh Pandya: A, sometimes, it gives you very quick answers.
+
+581
+00:49:59.790 --> 00:50:00.310
+Ritu Kapadiya: Chew.
+
+582
+00:50:01.620 --> 00:50:03.890
+Alakh Pandya: So, I want ChatGPT to…
+
+583
+00:50:04.900 --> 00:50:15.900
+Alakh Pandya: think before giving the answer. Now, what is thinking before giving answer? We will see that later. But, NA4 scaramata Shukaryu, I asked… I wrote this sentence. Please think deep.
+
+584
+00:50:16.530 --> 00:50:23.440
+Alakh Pandya: Before answering this, As this is a sensitive issue, Right?
+
+585
+00:50:23.850 --> 00:50:28.190
+Alakh Pandya: This will make sure to ignite its reasoning model.
+
+586
+00:50:28.870 --> 00:50:29.530
+Ritu Kapadiya: Yeah.
+
+587
+00:50:30.100 --> 00:50:32.490
+Alakh Pandya: Tawara GPT ma, olig models ya.
+
+588
+00:50:32.670 --> 00:50:35.670
+Alakh Pandya: 5.5 used career.
+
+589
+00:50:36.230 --> 00:50:36.630
+Ritu Kapadiya: Okay.
+
+590
+00:50:36.630 --> 00:50:41.000
+Alakh Pandya: Let me show you… Gemini?
+
+591
+00:50:44.180 --> 00:50:46.390
+Alakh Pandya: So, you have model selection series.
+
+592
+00:50:47.260 --> 00:50:49.309
+Alakh Pandya: 3.1 flashlight.
+
+593
+00:50:49.640 --> 00:50:51.620
+Alakh Pandya: This is the fastest answer.
+
+594
+00:50:52.110 --> 00:50:54.900
+Alakh Pandya: This is all-around help, general.
+
+595
+00:50:55.380 --> 00:50:58.279
+Alakh Pandya: And this is extended thinking.
+
+596
+00:50:59.330 --> 00:51:01.360
+Alakh Pandya: Right? Extended thinking model.
+
+597
+00:51:01.780 --> 00:51:07.699
+Alakh Pandya: So, extended thinking model may reasoning kursa. We will discuss that later, in the next class.
+
+598
+00:51:08.130 --> 00:51:15.420
+Alakh Pandya: But at that time, I had pro version of ChatGPT, so I wanted the reasoning model to activate.
+
+599
+00:51:15.590 --> 00:51:17.889
+Alakh Pandya: So I asked it to think deep.
+
+600
+00:51:18.720 --> 00:51:19.190
+Ritu Kapadiya: Okay.
+
+601
+00:51:19.190 --> 00:51:20.499
+Alakh Pandya: Before giving answer.
+
+602
+00:51:21.040 --> 00:51:21.560
+Ritu Kapadiya: Hmm.
+
+603
+00:51:21.560 --> 00:51:25.210
+Alakh Pandya: And then I recalled KB equals to reg casani.
+
+604
+00:51:25.480 --> 00:51:31.899
+Alakh Pandya: KB, keep in mind that he is going through, through this test, for sure.
+
+605
+00:51:32.850 --> 00:51:34.640
+Ritu Kapadiya: Make sure not to say too dangerous.
+
+606
+00:51:34.640 --> 00:51:36.840
+Alakh Pandya: a picture.
+
+607
+00:51:38.390 --> 00:51:45.059
+Alakh Pandya: So, make sure not to suggest any redundant test.
+
+608
+00:51:45.530 --> 00:51:47.640
+Alakh Pandya: It is such as Nakarbo.
+
+609
+00:51:48.850 --> 00:52:01.629
+Alakh Pandya: So, do you see the format of this prompt? First, I assigned role, then I gave context, or the background information, then I gave instructions, what to do, and then I put some notes.
+
+610
+00:52:02.240 --> 00:52:02.830
+Ritu Kapadiya: Yeah.
+
+611
+00:52:03.050 --> 00:52:17.559
+Alakh Pandya: So when you write prompt in this way, then your answer is very much reliable compared to a normal vague prompt, where you are just asking, give me all the tests that,
+
+612
+00:52:18.150 --> 00:52:19.990
+Alakh Pandya: Heart patient should do.
+
+613
+00:52:21.150 --> 00:52:22.040
+Ritu Kapadiya: Okay.
+
+614
+00:52:22.410 --> 00:52:24.549
+Alakh Pandya: That prompt will give you hundreds of tests.
+
+615
+00:52:25.720 --> 00:52:28.370
+Alakh Pandya: But now, this will be very much specific.
+
+616
+00:52:29.160 --> 00:52:29.680
+Ritu Kapadiya: Nope.
+
+617
+00:52:30.040 --> 00:52:34.229
+Alakh Pandya: Okay, specific for a patient who is 76-year-old.
+
+618
+00:52:34.360 --> 00:52:35.440
+Alakh Pandya: Male.
+
+619
+00:52:36.060 --> 00:52:39.689
+Alakh Pandya: Right? Who has undergone through bypass surgery 27 years back.
+
+620
+00:52:40.200 --> 00:52:42.339
+Alakh Pandya: And who has developed these symptoms?
+
+621
+00:52:42.800 --> 00:52:48.060
+Alakh Pandya: And what would a cardiologist and a cardiac surgeon suggest them?
+
+622
+00:52:49.330 --> 00:52:49.940
+Ritu Kapadiya: You know.
+
+623
+00:52:50.510 --> 00:52:51.190
+Alakh Pandya: Right?
+
+624
+00:52:51.800 --> 00:52:59.329
+Alakh Pandya: And if this test is to be done for sure, then what tests are not then needed?
+
+625
+00:52:59.740 --> 00:53:01.260
+Alakh Pandya: So just exclude them.
+
+626
+00:53:01.800 --> 00:53:04.739
+Alakh Pandya: So, all these things. So, this is how…
+
+627
+00:53:04.870 --> 00:53:08.240
+Alakh Pandya: I want all of my students to write prompts.
+
+628
+00:53:09.580 --> 00:53:10.570
+Alakh Pandya: Okay.
+
+629
+00:53:11.310 --> 00:53:12.020
+Ritu Kapadiya: Okay.
+
+630
+00:53:12.250 --> 00:53:20.279
+Alakh Pandya: Clear. So, we will learn about this, more… in more detail in the next class.
+
+631
+00:53:20.900 --> 00:53:22.980
+Alakh Pandya: Okay. Okay.
+
+632
+00:53:28.840 --> 00:53:29.700
+Alakh Pandya: Okay.
+
+633
+00:53:30.160 --> 00:53:35.830
+Alakh Pandya: Right? So, Hawaii Abreh, Marishu, venice data?
+
+634
+00:53:36.610 --> 00:53:38.180
+Ritu Kapadiya: Yeah, never used it that way.
+
+635
+00:53:38.180 --> 00:53:42.670
+Alakh Pandya: That'll be… Okay, right? Bye-bye.
+
+636
+00:53:42.970 --> 00:53:43.620
+Ritu Kapadiya: Bye.
+
