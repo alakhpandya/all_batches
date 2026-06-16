@@ -21,6 +21,19 @@ def get_exchange_rate(base_currency: str, target_currency: str) -> str:
     rate = rates.get(pair, 1.0)
     return f"The exchange rate for {pair[0]} to {pair[1]} is: {rate}"
 
+@mcp.tool()
+def time_zone_converter(source: str, destination: str) -> str:
+    """
+    Takes time zone names of two locations (eg - IST and GMT) and returns string with needed adjustment
+    """
+    time_adj = {
+        ("IST", "GMT") : -5.5,
+        ("GMT", "IST") : 5.5,
+        ("IST", "EST") : -8.5
+    }
+    pair = (source.upper(), destination.upper())
+    adjustment = time_adj[pair]
+    return f"To convert {source.upper()} to {destination.upper()} add {adjustment} to {source.upper()}"
 
 if __name__ == "__main__":
     print("The MCP Server is running now...")
