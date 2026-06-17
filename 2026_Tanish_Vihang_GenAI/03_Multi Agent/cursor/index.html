@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Whispers from the Hollow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="header">
+      <p class="eyebrow">Choose Your Own Adventure</p>
+      <h1 class="title">Whispers from the Hollow</h1>
+      <p class="subtitle">Not every path leads back to the light.</p>
+    </header>
+
+    <main class="game">
+      <article id="story-box" class="story-box" aria-live="polite">
+        <!-- Story text injected by script.js -->
+      </article>
+
+      <nav id="choices" class="choices" aria-label="Story choices">
+        <!-- Choice buttons injected by script.js -->
+      </nav>
+    </main>
+
+    <footer class="footer">
+      <button id="restart-btn" class="restart-btn" type="button" hidden>
+        Begin anew
+      </button>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

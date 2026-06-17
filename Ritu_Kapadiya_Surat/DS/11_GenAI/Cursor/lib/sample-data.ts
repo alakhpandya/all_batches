@@ -1,0 +1,36 @@
+export const SAMPLE_RESUME = `Jane Smith
+jane.smith@email.com | (555) 987-6543 | github.com/janesmith
+
+EDUCATION
+B.S. Computer Science, Tech State University, May 2024 | GPA: 3.7
+
+ACADEMIC PROJECTS
+• Built a Python REST API for a library management system using Flask and SQLite
+• Created a machine learning model to predict housing prices using scikit-learn and pandas
+• Developed a JavaScript portfolio website with React and deployed on Vercel
+
+TECHNICAL SKILLS
+Python, Java, JavaScript, SQL, Git, HTML/CSS, React, Flask, pandas, scikit-learn
+
+COURSEWORK
+Data Structures, Database Systems, Machine Learning, Web Development`;
+
+export const SAMPLE_JOB_DESCRIPTION = `Junior Python Developer
+
+We are seeking an entry-level Python Developer to join our engineering team.
+
+Requirements:
+• Bachelor's degree in Computer Science or related field
+• 0-2 years of professional experience
+• Strong Python development skills
+• Experience with REST APIs and SQL databases
+• Familiarity with Git version control
+• Knowledge of data analysis libraries (pandas, NumPy)
+• Excellent problem-solving and communication skills
+• Experience with Agile development methodologies
+
+Responsibilities:
+• Develop and maintain Python backend services
+• Build RESTful APIs
+• Write unit tests and participate in code reviews
+• Collaborate with cross-functional teams`;
