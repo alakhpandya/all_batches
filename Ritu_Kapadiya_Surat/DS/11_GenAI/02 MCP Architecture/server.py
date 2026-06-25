@@ -18,6 +18,7 @@ def get_exchange_rate(base_currency: str, target_currency: str) -> str:
         ("INR", "USD") : 0.011
     }
     pair = (base_currency.upper(), target_currency.upper())
+    # rate = rates[pair]
     rate = rates.get(pair, 1.0)
     return f"The exchange rate for {pair[0]} to {pair[1]} is: {rate}"
 

@@ -7,6 +7,7 @@ from google.genai import types
 # 1. Initialize the official Google GenAI Client
 # It automatically reads the GEMINI_API_KEY environment variable
 print("[Agent]: Connecting to the Gemini server...")
+
 gemini_client = genai.Client()
 # gemini_client = genai.Client(api_key="Your API key")
 
@@ -32,11 +33,13 @@ async def run_agent():
             print("[Agent]: Successfully discovered these tools:", all_tools)
 
             # 3. Format the MCP Tools into Gemini's Function Declaration Object
-            # types.FunctionDeclaration(
+            # example = types.FunctionDeclaration(
             #     name=mcp_tools.tools[0].name,
             #     description=mcp_tools.tools[0].description,
             #     parameters=mcp_tools.tools[0].inputSchema
             # ) 
+            # print(example)
+            
             gemini_functions = []
             for tool in mcp_tools.tools:
                 gemini_functions.append(types.FunctionDeclaration(
@@ -50,15 +53,15 @@ async def run_agent():
             gemini_tools = [types.Tool(function_declarations=gemini_functions)]
 
             # 4. Taking the prompt from the user
-            user_prompt = "I have 200 USD. How many Euros is that worth?"
-            # user_prompt = "I am a student who is learning GenAI, can you give me a suggestion in under 30 words?""
+            # user_prompt = "I have 200 USD. How many Euros is that worth?"
+            user_prompt = "I am a student who is learning GenAI, can you give me a suggestion in under 30 words?"
             
             print(f"\n[User]: {user_prompt}")
 
             # We explicitly use gemini-2.5-flash as it is fast and supports function calling on the free tier
             model_id = "gemini-2.5-flash"
             
-            # 5. Execute initial pass to Gemini providing our tool schemas
+            # 5. Execute initial pass to Gemini providing our tool schemas - First API Call
             response = gemini_client.models.generate_content(
                 model=model_id,
                 contents=user_prompt,
@@ -68,9 +71,10 @@ async def run_agent():
                 )
             )
             # print(response)
+            
             # print("Resonse from Gemini:", response.text)
             # print("Resonse from Gemini:", response.function_calls)
-
+            
             # 6. Check if Gemini decided it needs to execute an external tool function
             if response.function_calls:
                 # Initialize chat structure history for multi-turn reconciliation
@@ -109,6 +113,6 @@ async def run_agent():
 
             else:
                 print(f"[Agent]: {response.text}")
-
+            
 if __name__ == "__main__":
     asyncio.run(run_agent())
