@@ -1,0 +1,8 @@
+Agent-1: Agent that finds viral trends on Linked in on the topic of AI, ML and Data Science. Rank them in the descending order of their chances of getting viral and also mention the reason for the same.
+
+Agent-2: Write a Linked in post on the top-5 trends provided by agent-1
+
+Agent-3: Fact-checker agent
+Verify the post created by agent-2 factually, filter out the wrong/misleading posts and only pass the factually correct posts to the next agent.
+
+Agent-4: Polish the posts provided by agent-3 using the vocabulary that goes viral frequently. Also polish the grammar, structure and language to make the post more probable to go viral.

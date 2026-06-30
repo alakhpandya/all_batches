@@ -53,8 +53,10 @@ async def run_agent():
             gemini_tools = [types.Tool(function_declarations=gemini_functions)]
 
             # 4. Taking the prompt from the user
-            # user_prompt = "I have 200 USD. How many Euros is that worth?"
-            user_prompt = "I am a student who is learning GenAI, can you give me a suggestion in under 30 words?"
+            user_prompt = "I have 200 USD. How many Euros is that worth?"
+            # user_prompt = "I am a student who is learning GenAI, can you give me a suggestion in under 30 words?"
+            # user_prompt = "I have deposited 200 USD at 8:30am IST. How many Euros is that worth and when will they get credited as per EST if the bank transfer happens immediately (no delay)?"
+
             
             print(f"\n[User]: {user_prompt}")
 
@@ -80,7 +82,7 @@ async def run_agent():
                 # Initialize chat structure history for multi-turn reconciliation
                 chat = gemini_client.chats.create(model=model_id)
 
-                # Re-feed the prompt context to keep historical sync
+                # Re-feed the prompt context to keep historical sync 
                 chat.send_message(user_prompt)
 
                 for function_call in response.function_calls:
