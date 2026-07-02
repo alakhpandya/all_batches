@@ -1,0 +1,3 @@
+pip install pypdf
+pip install chromadb
+pip install sentence-transformers

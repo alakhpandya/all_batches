@@ -69,3 +69,10 @@ LLM
  ↓
 Answer
 """
+
+# Packages:
+"""
+pypdf -> read pdf
+chromadb -> vector database
+sentence-transformers -> create vector embedding
+"""
