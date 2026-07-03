@@ -1,3 +1,8 @@
 pip install pypdf
 pip install chromadb
 pip install sentence-transformers
+
+
+# OCR RAG:
+pip install easyocr
+pip install pillow
