@@ -6,3 +6,6 @@ pip install sentence-transformers
 # OCR RAG:
 pip install easyocr
 pip install pillow
+
+# Advanced RAG:
+pip install rank-bm25
