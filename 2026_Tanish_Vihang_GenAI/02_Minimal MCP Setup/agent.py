@@ -2,7 +2,7 @@
 import asyncio
 import os
 import json
-from google import genai
+from google import genai 
 from google.genai import types
 from mcp import ClientSession, StdioServerParameters
 from mcp.client.stdio import stdio_client
