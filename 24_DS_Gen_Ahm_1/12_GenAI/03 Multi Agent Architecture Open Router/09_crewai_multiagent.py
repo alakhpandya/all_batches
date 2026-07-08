@@ -9,7 +9,7 @@ llm = LLM(
 
     model="openrouter/deepseek/deepseek-chat",
 
-    api_key=os.getenv("OPENAI_API_KEY"),
+    api_key=os.getenv("OPENROUTER_API_KEY"),
 
     base_url="https://openrouter.ai/api/v1",
 
