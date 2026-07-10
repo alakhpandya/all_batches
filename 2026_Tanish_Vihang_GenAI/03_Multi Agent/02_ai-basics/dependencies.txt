@@ -1,1 +1,5 @@
 pip install openai python-dotenv
+
+pip install crewai
+if there is dependency errors, also install:
+pip install crewai-tools
