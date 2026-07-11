@@ -22,7 +22,7 @@ def calculator(expression):
     except Exception as e:
         return f"Error: {str(e)}"
 
-
+ 
 # Summarizer Tool
 def summarize_text(text):
 

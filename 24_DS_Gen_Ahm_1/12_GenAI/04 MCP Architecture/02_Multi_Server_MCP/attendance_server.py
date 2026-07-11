@@ -1,7 +1,6 @@
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP("Calculator Server")
-
+mcp = FastMCP(name="dummy_server")
 
 @mcp.tool()
 def dummy():
