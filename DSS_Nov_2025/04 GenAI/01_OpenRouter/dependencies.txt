@@ -1,2 +1,9 @@
 pip install openai
 pip install python-dotenv
+
+I had 100 rupees in my bank & I got them trippled thanks to the interest I received. How much balance will I have now in my account?
+I had 200 rupees and my parents gave 150 rupees more. What amount will I have now?
+Give me 3 ideas to earn money from home
+
+pip install crewai
+pip install crewai-tools

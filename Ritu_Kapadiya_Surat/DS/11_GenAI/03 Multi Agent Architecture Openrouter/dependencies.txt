@@ -2,3 +2,7 @@ pip install openai python-dotenv
 
 
 If it is 9am in India, what would be the time in New Jersey?
+if I had 250 rupees and I receive 150 rupees from my mom, what amount will I have then?
+
+pip install crewai
+pip install crewai-tools

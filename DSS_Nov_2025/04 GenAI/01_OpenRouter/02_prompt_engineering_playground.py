@@ -16,7 +16,7 @@ print("Royal AI agent is ready to help you! \nWhat can I help you with?\n")
 user_prompt = input("[You] :")
 
 # --------------------- role: system ---------------------
-messages_1= [
+messages = [
     {
         "role" : "system",
 
@@ -31,7 +31,7 @@ messages_1= [
 ]
 
 # --------------------- Few-shot Prompting ---------------------
-messages_2= [
+messages = [
     {
         "role" : "system",
 
@@ -76,7 +76,7 @@ messages_2= [
 
 # --------------------- Generating Structured Output ---------------------
 
-messages_3 = [
+messages = [
     {
         "role" : "user",
 
@@ -117,13 +117,41 @@ messages = [
     }
 ]
 
+messages = [
+    {
+        "role" : "system",
 
+        "content" : """
+        You are a story teller who creates short stories in simple & easy English.
+        """
+        # You are a story teller who creates short stories of less than 100 words in simple & easy English.
+    },
+    {
+        "role" : "user",
+
+        "content" : user_prompt
+    }
+]
+
+# user_prompt = Write a story on this plot: I was walking on the street that evening.
 
 response = agent.chat.completions.create(
 
     model= "nvidia/nemotron-3-ultra-550b-a55b:free",
 
-    messages= messages
+    messages= messages,
+
+    # temperature= 1.9      # maximum possible temperature value
+
+    # we use high value of temperature when we want more creativity e.g, novel writting, poetry etc
+
+    # temperature= 0.0       # minimum possible temperature value - we use this for coding/mathematical prompts
+
+    temperature= 0.7,        # most common - for all the prompts in general, we use 0.5 to 1
+
+    # max_tokens= 130
+    
+    max_completion_tokens= 130
 )
 
 print("[Royal AI Agent] :", response.choices[0].message.content)

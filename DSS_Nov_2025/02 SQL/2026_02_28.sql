@@ -1,4 +1,4 @@
--- C.T.E. : Common Table Expression
+-- C.T.E. : Common Table Expression 
 
 -- From moviesdb database print names of all the actors who are of age from 70 to 85 (including both). Use CTE method instead of subquery if needed.
 use moviesdb;

@@ -2,6 +2,7 @@ from openai import OpenAI
 import os
 from dotenv import load_dotenv
 from pprint import pprint
+import json
 
 load_dotenv()
 
@@ -180,6 +181,58 @@ while True:
         tool_choice= "auto"
     )
 
-    print("Response:\n", response)
-    print("\nResponse.choices[0]:\n", response.choices[0])
+    # print("Response:\n", response)
+    # print("\nResponse.choices[0]:\n", response.choices[0])
     # print("Response:\n", response.choices[0].message.content)
+    response = response.choices[0].message
+
+    if response.tool_calls:
+        tool_call = response.tool_calls[0]
+
+        tool_name = tool_call.function.name
+        arguments = json.loads(tool_call.function.arguments)
+        
+        if tool_name == "calculator":
+            result = calculator(arguments["expression"])
+
+        elif tool_name == "summarizer":
+            result = summarizer(arguments["text"])
+
+        elif tool_name == "count_words":
+            result = count_words(arguments["text"])
+
+        else:
+            result = "Unknown tool."
+
+        print("Tool name:", tool_name)
+        print("Tool output:", result)
+
+        # Store tool call request in the conversation memory
+        messages.append(response)
+
+        # Store the tool output in the memory
+        messages.append({
+            "role" : "tool",
+            "tool_call_id" : tool_call.id,
+            "content" : str(result)
+        })  
+
+        # Second API Call
+        second_response = client.chat.completions.create(
+            model= "deepseek/deepseek-chat",
+            messages= messages
+        )
+
+        final_result = second_response.choices[0].message.content
+
+    else:
+        final_result = response.choices[0].message.content
+        pass
+
+    print("[AI Agent]:", final_result)
+
+    # Store final result into the conversation memory
+    messages.append({
+        "role" : "assistant",
+        "content" : final_result
+    })

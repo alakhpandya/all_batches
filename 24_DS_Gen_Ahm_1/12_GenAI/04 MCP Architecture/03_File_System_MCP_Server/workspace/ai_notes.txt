@@ -1,0 +1,7 @@
+Artificial Intelligence enables machines to perform
+tasks that normally require human intelligence.
+
+Generative AI can create text, images, audio and code.
+
+Large Language Models are commonly used to build
+AI assistants and agents.
