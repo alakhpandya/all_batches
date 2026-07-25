@@ -76,6 +76,7 @@ pypdf -> read pdf
 sentence-transformers -> create vector embedding
 chromadb -> vector database
 """
+
 from openai import OpenAI
 from dotenv import load_dotenv
 import os

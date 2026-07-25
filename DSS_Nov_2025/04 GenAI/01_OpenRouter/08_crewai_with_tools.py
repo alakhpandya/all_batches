@@ -2,6 +2,8 @@ from crewai import Agent, Task, Crew, Process, LLM
 from dotenv import load_dotenv
 import os
 
+from crewai_tools import SerperDevTool, ScrapeWebsiteTool
+
 load_dotenv()
 
 # ----------------------- LLM -----------------------
@@ -31,6 +33,12 @@ nemotron_llm = LLM(
     temperature= 0.5
 )
 
+# ----------------------- Tools -----------------------
+
+goolge_search_tool = SerperDevTool()
+web_scraping_tool = ScrapeWebsiteTool()
+
+
 # ----------------------- Agents -----------------------
 
 researcher = Agent(
@@ -47,7 +55,9 @@ researcher = Agent(
 
     verbose = True,
 
-    llm = nemotron_llm
+    llm = nemotron_llm,
+
+    tools = [goolge_search_tool, web_scraping_tool]
 )
 
 

@@ -170,6 +170,7 @@ print(welcome_msg.center(150))
 
 print('\nAsk me for any help related to your health or type "exit" to end the conversation.\n')
 
+# -------------------- chat loop --------------------
 while True:
     user_prompt = input("\n\n[You] : ")
 
