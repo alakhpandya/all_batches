@@ -6,3 +6,5 @@ pip install sentence-transformers
 pip install easyocr
 pip install pillow
 
+# Advanced RAG:
+pip install rank-bm25

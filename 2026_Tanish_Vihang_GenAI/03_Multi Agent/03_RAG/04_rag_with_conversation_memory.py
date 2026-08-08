@@ -46,7 +46,7 @@ print("\nPdf loaded successfully...\n")
 
 # ----------------------- Chunking -----------------------
 
-chunk_size = 500
+chunk_size = 1000
 
 chunks = []
 
@@ -112,7 +112,7 @@ print("\nRAG Started!\n")
 print("Type 'exit' whenever you want to stop.\n")
 
 while True:
-    question = input("[You]: ")
+    question = input("[You] : ")
 
     if question.lower() ==  "exit":
         break
@@ -135,4 +135,36 @@ while True:
 
     retrieved_text = "\n\n".join(result["documents"][0])
 
-    # ----------------------- Context Injection -----------------------
+    # ----------------------- Context Injection ----------------------- 
+
+    prompt = f"""
+    Answer the question ONLY from the the context provided.
+
+    context = {retrieved_text}
+
+    question = {question}
+    """
+
+    messages.append({
+        "role" : "user",
+
+        "content" : prompt
+    })
+
+    response = client.chat.completions.create(
+    
+        model = "deepseek/deepseek-chat",
+
+        messages = messages
+
+    )
+
+    ai_reply = response.choices[0].message.content
+
+    messages.append({
+        "role" : "assistant",
+
+        "content" : ai_reply
+    })
+
+    print("[Agent] :", ai_reply)

@@ -1,4 +1,4 @@
-import os
+import os 
 import json
 import asyncio
 
@@ -12,6 +12,8 @@ from mcp.client.stdio import (
 )
 
 from mcp import ClientSession
+
+import logging
 
 
 load_dotenv()
@@ -77,75 +79,83 @@ async def main():
 
                 })
 
-            question = input("\nAsk SQL Assistant: ")
-
-            messages = [
-
-                {
-
-                    "role":"user",
-
-                    "content":question
-
-                }
-
-            ]
+            print('Type "exit" whenever you want to quit...')
 
             while True:
 
-                response = client.chat.completions.create(
+                question = input("\nAsk SQL Assistant: ")
 
-                    model=MODEL,
-
-                    messages=messages,
-
-                    tools=openai_tools,
-
-                    tool_choice="auto"
-
-                )
-
-                assistant = response.choices[0].message
-
-                if not assistant.tool_calls:
-
-                    print("\nAnswer:\n")
-
-                    print(assistant.content)
+                if question.lower() == "exit":
 
                     break
 
-                messages.append(assistant)
+                messages = [
 
-                for tool_call in assistant.tool_calls:
+                    {
 
-                    tool_name = tool_call.function.name
+                        "role":"user",
 
-                    arguments = json.loads(
+                        "content":question
 
-                        tool_call.function.arguments
+                    }
+
+                ]
+
+                while True:
+
+                    response = client.chat.completions.create(
+
+                        model=MODEL,
+
+                        messages=messages,
+
+                        tools=openai_tools,
+
+                        tool_choice="auto"
 
                     )
 
-                    print(f"\nCalling Tool: {tool_name}")
+                    assistant = response.choices[0].message
 
-                    result = await session.call_tool(
+                    if not assistant.tool_calls:
 
-                        tool_name,
+                        print("\nAnswer:\n")
 
-                        arguments
+                        print(assistant.content)
 
-                    )
+                        break
 
-                    messages.append({
+                    messages.append(assistant)
 
-                        "role":"tool",
+                    for tool_call in assistant.tool_calls:
 
-                        "tool_call_id":tool_call.id,
+                        tool_name = tool_call.function.name
 
-                        "content":str(result)
+                        arguments = json.loads(
 
-                    })
+                            tool_call.function.arguments
+
+                        )
+
+                        print(f"\nCalling Tool: {tool_name}")
+
+                        result = await session.call_tool(
+
+                            tool_name,
+
+                            arguments
+
+                        )
+
+                        messages.append({
+
+                            "role":"tool",
+
+                            "tool_call_id":tool_call.id,
+
+                            "content":str(result)
+
+                        })
 
 
 asyncio.run(main())

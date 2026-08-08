@@ -3,7 +3,8 @@ from dotenv import load_dotenv
 import os
 
 from pypdf import PdfReader
-
+from sentence_transformers import SentenceTransformer
+import chromadb
 
 load_dotenv()
 
@@ -51,7 +52,7 @@ Steps:
 
 # ----------------------- Chunking -----------------------
 
-chunk_size = 100
+chunk_size = 500
 
 chunks = []
 
@@ -65,4 +66,82 @@ for i in range(0, len(document_text), chunk_size):          # i = 0, 50, 100, 15
     chunks.append(chunk)
 
 print(f"\nTotal chunks created = {len(chunks)}\n")
-print("\nChunks:\n", chunks)
+# print("\nChunks:\n", chunks)
+
+# ----------------------- Embedding Model -----------------------
+
+embedding_model = SentenceTransformer(
+
+    model_name_or_path= "all-MiniLM-L6-v2"
+
+)
+
+# ----------------------- ChromaDB Client -----------------------
+
+chromadb_client = chromadb.Client()
+
+collection = chromadb_client.create_collection( name = "pdf_rag" )
+
+# ----------------------- Create & Store Vector Embeddings -----------------------
+
+for index, chunk in enumerate(chunks):
+    embedding = embedding_model.encode(chunk).tolist()
+    # print(embedding)
+    collection.add(
+        ids = [str(index)],
+
+        embeddings= [embedding],
+
+        documents= [chunk]
+    )
+
+
+print("Embeddings are created & stored successfully...")
+
+# print(collection.get(ids = ["3", "7"]))
+# print(collection.get(ids = ["3", "7"], include= ["embeddings", "metadatas"]))
+
+# ----------------------- User Question -----------------------
+
+question = input("Ask a question from the pdf:\n")
+
+# Creating vector embedding of the question
+question_embedding = embedding_model.encode(question).tolist()
+
+# ----------------------- Similarity Search -----------------------
+
+result = collection.query(
+
+    query_embeddings= [question_embedding],
+
+    n_results= 5
+
+)
+
+# print(result)
+# print(result["documents"][0])
+
+retrieved_text = "\n\n".join(result["documents"][0])
+# print(retrieved_text)
+
+# ----------------------- LLM Call -----------------------
+prompt = f"""
+Answer the question ONLY from the provided context.
+
+context: {retrieved_text}
+
+question: {question}
+"""
+
+response = client.chat.completions.create(
+
+    model = "deepseek/deepseek-chat",
+
+    messages= [{
+        "role" : "user",
+        "content" : prompt
+     }]
+)
+
+print("Final answer from the AI:")
+print(response.choices[0].message.content)

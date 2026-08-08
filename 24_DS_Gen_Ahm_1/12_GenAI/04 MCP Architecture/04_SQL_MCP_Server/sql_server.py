@@ -24,11 +24,34 @@ def list_tables():
 
     return [row[0] for row in rows]
 
+# sqlite_master: Think it as an invisible table created by sqlite to keep all the data (metadata) of the database handy. Example:
+"""
+type        name            sql
+table       customers       create table customers...
+table       products        create table products...
+table       orders          create table orders...
+index       ...             ...
+view        ...             ...
+view        ...             ...
+trigger     ...             ...
+"""
+
+# cursor.fetchall(): Converts & returns all the rows of the result table in form of a list of tuples. Example:
+# if our query is: "select * from customers" then cursor.fetchall() will return:
+"""
+[
+    (1,"Alice","Ahmedabad"),
+    (2,"Bob","Surat"),
+    (3,"Charlie","Rajkot"),
+    (4,"David","Ahmedabad")
+]
+"""
+# similar methods: cursor.fetchone() - fetches only the first row; cursor.fetchmany(15) - fetches first 15 rows.
 
 @mcp.tool()
 def describe_table(table_name: str):
 
-    cursor.execute(f"PRAGMA table_info({table_name})")
+    cursor.execute(f"PRAGMA table_info({table_name})")          # PRAGMA of sqlite = DESCRIBE of mySQL => "DESCRIBE table {table_name}"
 
     rows = cursor.fetchall()
 
