@@ -23,7 +23,8 @@ print("\nClient connected to OperRouter successfully...\n")
 
 # ----------------------- Loading pdf -----------------------
 
-pdf_path = "harsh.pdf"
+# pdf_path = "harsh.pdf"
+pdf_path = "mohit.pdf"
 # pdf_path = "D:\\new folder\\temp\\resume.pdf"
 
 reader = PdfReader(stream=pdf_path)
@@ -72,7 +73,7 @@ print("Number of chunks created:", len(chunks))
 # ----------------------- Creating Embedding Model -----------------------
 
 embedding_model = SentenceTransformer(
-    model_name_or_path= "all-MiniLM-L6-v2"
+    model_name_or_path= "all-MiniLM-L6-v2" 
 )
 
 # ----------------------- Chroma DB -----------------------

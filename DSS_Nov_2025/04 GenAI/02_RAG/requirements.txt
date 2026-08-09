@@ -1,3 +1,9 @@
-pypdf
-sentence-transformers
-chromadb
+pip install pypdf
+pip install chromadb
+pip install sentence-transformers
+
+# OCR RAG:
+pip install easyocr
+
+# Advanced RAG
+pip install rank-bm25

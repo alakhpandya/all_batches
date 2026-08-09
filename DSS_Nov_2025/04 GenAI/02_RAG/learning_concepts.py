@@ -20,7 +20,7 @@ for i in range(0, len(st), chunk_size):     # i = 0, 20, 40, 60, ... 240
 """
 my_list = ["Apple", "Banana", "Mango"]
 
-# print(list(enumerate(my_list)))
+# print(list(enumerate(my_list)))       # -> [(0, "Apple"), (1, "Banana"), (2, "Mango")]
 
 for index, fruit in enumerate(my_list):
     print(index, "\t", fruit)
