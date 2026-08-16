@@ -13,7 +13,7 @@ def greet(name: str) -> str:
 
 
 @mcp_server.tool()
-def add_numbers(a: int, b:int, offset=0) -> int:
+def add_numbers(a: int, b:int, offset:int=0) -> int:
     """
     Adds two numbers.
     """

@@ -14,4 +14,4 @@ with open("demo.txt", "r") as f:
 
 print(text)
 
-# this = that     =>  with that as this
+# this = that     =>  with that as this:

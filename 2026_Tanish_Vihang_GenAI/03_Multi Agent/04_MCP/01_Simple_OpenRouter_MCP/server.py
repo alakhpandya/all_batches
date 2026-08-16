@@ -16,14 +16,14 @@ def greet(name: str) -> str:
 
 
 @mcp_server.tool()
-def add_numbers(a: int, b: int) -> int:
+def add_numbers(a: int, b: int, offset=0) -> int:
     """
     Adds two integers
     """
-    return a + b
-
-if __name__ == "__main__":
-    print("server.py file is running!")
+    return a + b + offset
 
 # if __name__ == "__main__":
-#     mcp_server.run()
+#     print("server.py file is running!")
+
+if __name__ == "__main__":
+    mcp_server.run()
