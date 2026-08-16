@@ -1,76 +1,77 @@
 import asyncio
+
 from mcp import StdioServerParameters
-from mcp.client.session_group import ClientSessionGroup
+from mcp.client.session_group import ClientSessionGroup     # Note that we are not importing ClientSession
 
-# calculator_server_path = "\\02_Multi_Server_MCP\\calculator_server.py"
-# student_server_path = "\\02_Multi_Server_MCP\\student_server.py"
-# attendance_server_path = "\\02_Multi_Server_MCP\\attendance_server.py"
-
-# calculator_server_path = "calculator_server.py"
-# student_server_path = "student_server.py"
-# attendance_server_path = "attendance_server.py"
 
 calculator_server = StdioServerParameters(
-    command= "python",
+    command="python",
     args=["calculator_server.py"]
 )
 
-attendance_server = StdioServerParameters(
-    command= "python",
-    args=["attendance_server.py"]
+student_server = StdioServerParameters(
+    command="python",
+    args=["student_server.py"]
 )
 
-student_server = StdioServerParameters(
-    command= "python",
-    arg=["student_server.py"]
+attendance_server = StdioServerParameters(
+    command="python",
+    args=["attendance_server.py"]
 )
 
 async def main():
 
-    # group = ClientSessionGroup()
     async with ClientSessionGroup() as group:           # Think this as a "connection manager"
+        # as good as writing: group = ClientSessionGroup()
 
         await group.connect_to_server(calculator_server)
-        await group.connect_to_server(attendance_server)
         await group.connect_to_server(student_server)
+        await group.connect_to_server(attendance_server)
 
         """
-        All these things are automatically handled by SDK:
-        1. launching the entire process (read_stream, write_stream)
-        2. opening a session
-        3. initializing the session(s) (session.initialize())
-        4. tracking all the sessions
+        The SDK handles all:
+        - launching the processes
+        - opening sessions
+        - initializing them
+        - tracking them
         """
 
         print("\nAvailable Tools:\n")
 
         for tool_name in group.tools:
+
             print(tool_name)
 
-        # In a real-world scenario, an LLM will decide which tool is to be called here
+        # In a real-world application, here an LLM will decide which tool tobe called based on the user prompt
 
         result = await group.call_tool(
-            name = "add",
 
-            arguments = {
-                "a" : 10,
-                "b" : 40,
-                "offset" : 50
+            "add",
+
+            {
+                "a": 100,
+                "b": 250
             }
 
         )
 
-        print("Calculator server output:", result)
+        print("\nCalculator Result:")
 
-        result = await group.call_tool(
-            name = "get_student_name",
+        print(result)
 
-            arguments= {
-                "student_id" : 101
+        result = await group.call_tool(         
+
+            "get_student_name",
+
+            {
+                "student_id": 103
             }
+
         )
 
-        print("Student server output:", result)
+        print("\nStudent Result:")
 
-if __name__ == "__main__":
-    asyncio.run(main())
+        print(result)
+
+
+asyncio.run(main())
