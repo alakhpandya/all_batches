@@ -64,7 +64,7 @@ async def main():
             "get_student_name",
 
             {
-                "student_id": 103
+                "student_id": 101
             }
 
         )
@@ -75,3 +75,6 @@ async def main():
 
 
 asyncio.run(main())
+
+# Task: Convert this code into the one that calls an LLM.
+
