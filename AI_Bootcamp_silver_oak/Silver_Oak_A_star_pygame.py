@@ -195,7 +195,7 @@ def astar_algo(window, ROWS, width, grid, start, end):
     return False
 
 def main(window, width):
-    ROWS = 50
+    ROWS = 20
     grid = make_grid(ROWS, width)
 
     start = None

@@ -94,7 +94,7 @@ def read_file(filename: str) -> str:
 
 # ----------------------- Tool - 3: Search Tool -----------------------
 
-# @mcp.tool()
+@mcp.tool()
 def search_files(query: str) -> list[dict]:
     """Serches for the "query" across all the .txt files present in the workspace"""
 
@@ -117,6 +117,71 @@ def search_files(query: str) -> list[dict]:
     return result
 
 
-print(search_files("Language"))
+# print(search_files("Language"))
 
 # ------------------ Tool-4: Get File Info ------------------
+@mcp.tool()
+def get_file_info(filename: str) -> dict:
+    """Get information of a file from the workspace"""
+
+    file_path = get_safe_path(filename)
+
+    if not file_path.exists():
+        return {
+            "error" : "File not found."
+        }
+
+
+    if not file_path.is_file():
+        return {
+            "error" : "Path is not a file."
+        }
+
+    return {
+        "name" : file_path.name,
+
+        # "info" : file_path.stat()
+        "size_bytes" : file_path.stat().st_size,
+
+        "extension" : file_path.suffix,
+
+        "relative_path" : str(file_path.relative_to(WORKSPACE))
+    }
+
+# stat_result_obj = get_file_info("python_notes.txt")["info"]
+# print(stat_result_obj)
+# for i in stat_result_obj:
+#     print(i)
+
+# print(stat_result_obj.st_size)
+
+# from pprint import pprint
+# pprint(get_file_info("legal/privacy_policy.txt"))
+
+# ------------------ Resource - 1 ------------------
+
+@mcp.resource(
+        "workspace://files/{filename}"
+)
+def get_file_resource(filename: str) -> str:
+    """
+    Reads a file from the workspace as an MCP resource
+    """
+
+    file_path = get_safe_path(filename)
+    
+    if not file_path.exists():
+        return "File not found."
+
+    if not file_path.is_file():
+        return "Path is not a file."
+
+    return file_path.read_text(
+        encoding= "utf-8"
+    )
+
+if __name__ == "__main__":
+    mcp.run()
+
+    # print("Hello Class!!")
+    # print("The name of this file is:", __name__)
