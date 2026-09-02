@@ -1,0 +1,1 @@
+How many tables are there in the database?
