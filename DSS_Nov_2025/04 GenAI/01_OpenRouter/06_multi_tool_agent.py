@@ -198,9 +198,9 @@ while True:
     # ai_response = response.choices[0].message.content
     response = response.choices[0].message
 
-    # print("Response:\n", response)
+    print("Response:\n", response)
     if response.tool_calls:
-        # print("There is a tool call.")
+        print("There is a tool call.")
 
         # Storing the response (tool call) into conversation memory
         messages.append(response)
@@ -247,6 +247,7 @@ while True:
         ai_reply = final_response.choices[0].message.content
 
     else:
+        print("There is no tool call.")
         ai_reply = response.content
         
         

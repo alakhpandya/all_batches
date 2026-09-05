@@ -22,11 +22,15 @@ client = OpenAI(
 
     api_key= os.getenv("OPENROUTER_API_KEY"),
 
-    base_url= os.getenv("OPENAI_BASE_URL")
+    # base_url= os.getenv("OPENAI_API_BASE")      # my system env var name
+    
+    base_url= os.getenv("OPENAI_BASE_URL")      # from .env file
 
 )
 
-MODEL = os.getenv("MODEL_NAME")
+# MODEL = os.getenv("OPENAI_MODEL_NAME")    # model name in my system env var
+
+MODEL = os.getenv("MODEL_NAME")     # model name from .env file
 
 async def main():
 

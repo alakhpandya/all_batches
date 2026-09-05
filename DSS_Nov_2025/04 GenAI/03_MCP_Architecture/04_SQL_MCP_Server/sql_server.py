@@ -13,6 +13,142 @@ cursor = connection.cursor()
 # ------------------ Tool - 1 ------------------
 @mcp.tool()
 def list_tables() -> list:
-    """Lists all the tables present in the database"""
+    """Returns a lists all the tables present in the database"""
 
-    pass
+    cursor.execute("""
+        SELECT *
+        FROM sqlite_master
+    """)
+
+    # sqlite_master: is a invisible table created by sqlite itself to store and keep the metadata of the database (all the information about the database) handy. 
+    # Example:
+    """
+    type        name            sql
+    table       customers       create table customers...
+    table       products        create table products...
+    table       orders          create table orders...
+    index       ...             ...
+    view        ...             ...
+    view        ...             ...
+    trigger     ...             ...
+    """
+
+
+    rows = cursor.fetchall()
+
+    # print(rows)
+
+    # Fetchall: fetches all the rows returned by a query, converts them in form of a list of tuples and returns that list. Other methods similar to cursor.fetchall() are:
+    # fetchone(): fetches the first row
+    # fetchmany(7): fetches first 7 rows
+    # Example: if the query is "SELECT * FROM customers", the fetchall() will return:
+    """
+    [
+        (1,"Alice","Ahmedabad"),
+        (2,"Bob","Surat"),
+        (3,"Charlie","Rajkot"),
+        (4,"David","Ahmedabad")
+    ]
+    """
+    result = []
+    for tup in rows:
+        # print(tup)
+        if tup[0] == "table":
+            result.append(tup[2])
+
+    return result
+
+# print(list_tables())
+
+# --------------------------- Tool-2 ---------------------------
+@mcp.tool()
+def describe_table(table_name: str) -> list[dict] :
+    """Return the names & datatypes of the columns of the table provided in the argument"""
+
+    cursor.execute(f"""
+        PRAGMA table_info({table_name})
+    """)
+
+    # PRAGMA in sqlite3 is same as DESCRIBE in mySql.
+    # In mySql, we would write this query as - f"DESCRIBE table {table_name}""
+
+    rows = cursor.fetchall()
+    # print(rows)
+
+    columns = []
+    for tup in rows:
+        columns.append({
+            "column_name" : tup[1],
+
+            "datatype" : tup[2]
+        })
+
+    # print(columns)
+    return columns
+
+# describe_table("customers")
+
+# --------------------------- Tool-3 ---------------------------
+@mcp.tool()
+def execute_query(sql: str) -> dict:
+    """Executes the query provided in the argument on the database"""
+
+    sql_lower = sql.lower()
+
+    if not sql_lower.startswith("select"):
+
+        if sql_lower.startswith("insert") or sql_lower.startswith("update") or sql_lower.startswith("delete"):
+            return {
+
+                "status" : "error",
+
+                "message" : "The database is READ-ONLY"
+
+            }
+        else:
+            return {
+            
+                "status" : "error",
+
+                "message" : "There seems to be some spelling-mistake"
+
+            }
+
+    try:
+        cursor.execute(sql)
+
+        rows = cursor.fetchall()
+
+        # print(rows)
+        # print(cursor.description)
+        column_names = []
+        for tup in cursor.description:
+            column_names.append(tup[0])
+
+        result = []
+        for row in rows:
+
+            result.append(
+                dict(zip(column_names, row))
+            )
+
+        # print(result)
+
+        return result
+
+    except Exception as e:
+        # print(e)
+        return {
+            
+            "status" : "error",
+
+            "message" : str(e)
+
+        }
+
+
+# print(execute_query("""insert into customers values (5, "Alakh", "Ahmedabad")"""))
+# print(execute_query("""select * from customers"""))
+
+if __name__ == "__main__":
+    mcp.run()
