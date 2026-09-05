@@ -1,0 +1,2 @@
+How many tables are there in the database?
+Which customers are from Ahmedabad?
