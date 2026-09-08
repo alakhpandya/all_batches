@@ -4,150 +4,151 @@ from mcp.server.fastmcp import FastMCP
 mcp = FastMCP("SQL Server")
 
 connection = sqlite3.connect(
-    database= "database.db",
-    check_same_thread= False
+    "database.db",
+    check_same_thread = False
 )
+
 cursor = connection.cursor()
 
-# --------------------------- Tool-1 ---------------------------
-
+# ------------------ Tool - 1 ------------------
 @mcp.tool()
 def list_tables() -> list:
-    """Returns list of all the tables present in the database"""
+    """Returns a lists all the tables present in the database"""
 
     cursor.execute("""
-        SELECT name
+        SELECT *
         FROM sqlite_master
-        WHERE type='table'
     """)
 
+    # sqlite_master: is a invisible table created by sqlite itself to store and keep the metadata of the database (all the information about the database) handy. 
+    # Example:
+    """
+    type        name            sql
+    table       customers       create table customers...
+    table       products        create table products...
+    table       orders          create table orders...
+    index       ...             ...
+    view        ...             ...
+    view        ...             ...
+    trigger     ...             ...
+    """
+
+
     rows = cursor.fetchall()
+
     # print(rows)
 
+    # Fetchall: fetches all the rows returned by a query, converts them in form of a list of tuples and returns that list. Other methods similar to cursor.fetchall() are:
+    # fetchone(): fetches the first row
+    # fetchmany(7): fetches first 7 rows
+    # Example: if the query is "SELECT * FROM customers", the fetchall() will return:
+    """
+    [
+        (1,"Alice","Ahmedabad"),
+        (2,"Bob","Surat"),
+        (3,"Charlie","Rajkot"),
+        (4,"David","Ahmedabad")
+    ]
+    """
     result = []
     for tup in rows:
-        result.append(tup[0])
+        # print(tup)
+        if tup[0] == "table":
+            result.append(tup[2])
 
     return result
 
-# sqlite_master: is a invisible table created by sqlite itself to store and keep the metadata of the database (all the information about the database) handy. 
-# Example:
-"""
-type        name            sql
-table       customers       create table customers...
-table       products        create table products...
-table       orders          create table orders...
-index       ...             ...
-view        ...             ...
-view        ...             ...
-trigger     ...             ...
-"""
-# More about `cursor.fetchall()`:It converts & returns all the rows of the result table in form of a list of tuples. Example:
-# if our query is: "select * from customers" then cursor.fetchall() will return:
-"""
-[
-    (1,"Alice","Ahmedabad"),
-    (2,"Bob","Surat"),
-    (3,"Charlie","Rajkot"),
-    (4,"David","Ahmedabad")
-]
-"""
-# similar methods: 
-# cursor.fetchone() - fetches only the first row; 
-# cursor.fetchmany(15) - fetches first 15 rows.
-
-# result = list_tables()
-# print(result)
+# print(list_tables())
 
 # --------------------------- Tool-2 ---------------------------
-
 @mcp.tool()
-def describe_table(table_name: str) -> list[dict]:
-    """Provides the names of the columns and their datatypes"""
+def describe_table(table_name: str) -> list[dict] :
+    """Return the names & datatypes of the columns of the table provided in the argument"""
 
-    cursor.execute(f"PRAGMA table_info({table_name})")      # PRAGMA in sqlite3 is same as DESCRIBE in mySql.
+    cursor.execute(f"""
+        PRAGMA table_info({table_name})
+    """)
+
+    # PRAGMA in sqlite3 is same as DESCRIBE in mySql.
     # In mySql, we would write this query as - f"DESCRIBE table {table_name}""
 
     rows = cursor.fetchall()
-
     # print(rows)
 
     columns = []
-
-    for row in rows:
-
+    for tup in rows:
         columns.append({
+            "column_name" : tup[1],
 
-            "column" : row[1],
-
-            "datatype" : row[2]
-
+            "datatype" : tup[2]
         })
 
+    # print(columns)
     return columns
 
-
-# print(describe_table("customers"))
+# describe_table("customers")
 
 # --------------------------- Tool-3 ---------------------------
-
 @mcp.tool()
-def execute_query(sql: str):
+def execute_query(sql: str) -> dict:
     """Executes the query provided in the argument on the database"""
 
-    sql_lower = sql.lower()
+    sql_lower = sql.lower().strip()
 
-    if not sql_lower.startswith("select"):
+    if not sql_lower.startswith("select") or not sql_lower.startswith("with"):
 
-        return {
+        if sql_lower.startswith("insert") or sql_lower.startswith("update") or sql_lower.startswith("delete"):
+            return {
 
-            "status" : "error",
+                "status" : "error",
 
-            # "message" : "Only SELECT queries are allowed"
-            "message" : "The database is READ ONLY"
+                "message" : "The database is READ-ONLY"
 
-        }
+            }
+        else:
+            return {
+            
+                "status" : "error",
+
+                "message" : "There seems to be some spelling-mistake"
+
+            }
 
     try:
-
         cursor.execute(sql)
 
         rows = cursor.fetchall()
 
+        # print(rows)
         # print(cursor.description)
-
         column_names = []
-        for description in cursor.description:
-            column_names.append(description[0])
+        for tup in cursor.description:
+            column_names.append(tup[0])
 
-        results = []
-
+        result = []
         for row in rows:
 
-            results.append(
-
-                # row
+            result.append(
                 dict(zip(column_names, row))
-
             )
 
-        # print(results)
+        # print(result)
 
-        return results
-
+        return result
 
     except Exception as e:
-
+        # print(e)
         return {
-
+            
             "status" : "error",
 
             "message" : str(e)
 
         }
 
-# execute_query("SELECT * FROM customers;")
+
+# print(execute_query("""insert into customers values (5, "Alakh", "Ahmedabad")"""))
+# print(execute_query("""select * from customers"""))
 
 if __name__ == "__main__":
-
     mcp.run()

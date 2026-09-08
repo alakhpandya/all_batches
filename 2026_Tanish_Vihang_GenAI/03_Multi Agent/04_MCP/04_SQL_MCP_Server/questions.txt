@@ -1,1 +1,3 @@
 How many tables are there in the database?
+Which customers are from Ahmedabad?
+Which customers have purchased more than the per customer average sales amount?

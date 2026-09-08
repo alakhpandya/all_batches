@@ -22,15 +22,37 @@ client = OpenAI(
 
     api_key= os.getenv("OPENROUTER_API_KEY"),
 
-    # base_url= os.getenv("OPENAI_API_BASE")      # my system env var name
-    
-    base_url= os.getenv("OPENAI_BASE_URL")      # from .env file
+    base_url= os.getenv("OPENAI_API_BASE")      # my system env var name
 
 )
 
-# MODEL = os.getenv("OPENAI_MODEL_NAME")    # model name in my system env var
+MODEL = os.getenv("OPENAI_MODEL_NAME")    # model name in my system env var (first priority)
+# MODEL = os.getenv("NEMOTRON_REASONING_FREE")    # model name in my system env var (first priority)
+# MODEL = os.getenv("MODEL_NAME")    # model name var from my .env file
+# print("Model:", MODEL)
 
-MODEL = os.getenv("MODEL_NAME")     # model name from .env file
+
+def convert_mcp_tools(mcp_tools):
+    openai_tools = []
+
+    for tool in mcp_tools:
+
+        openai_tools.append({
+
+            "type" : "function",
+
+            "function" : {
+
+                "name" : tool.name,
+
+                "description" : tool.description,
+
+                "parameters" : tool.inputSchema
+
+            }
+        })
+
+    return openai_tools
 
 async def main():
 
@@ -62,38 +84,19 @@ async def main():
 
             tools = await session.list_tools()
 
-            openai_tools = []
+            openai_tools = convert_mcp_tools(tools.tools)
 
-            for tool in tools.tools:
-
-                openai_tools.append({
-
-                    "type" : "function",
-
-                    "function" : {
-
-                        "name" : tool.name,
-
-                        "description" : tool.description,
-
-                        "parameters" : tool.inputSchema
-
-                    }
-
-                })
-
-            print('Type "exit" whenever you want to quit...')
+            print("Type 'exit' whenever you want to quit...")
 
             while True:
 
-                question = input("\nAsk something to your SQL Assistant: ")
+                question = input("\nAsk something to your SQL Assistant:\n")
 
                 if question.lower() == "exit":
 
                     break
 
                 messages = [
-
                     {
 
                         "role" : "user",
@@ -101,16 +104,14 @@ async def main():
                         "content" : question
 
                     }
-
                 ]
 
                 while True:
-
                     response = client.chat.completions.create(
 
-                        model= MODEL,
-
                         messages= messages,
+
+                        model= MODEL,
 
                         tools= openai_tools,
 
@@ -119,12 +120,22 @@ async def main():
                     )
 
                     assistant = response.choices[0].message
+                    # print("\nResponse:")
+                    # print(assistant, "\n")
+
+                    if assistant.reasoning:
+                        print(f"Thinking:\n{assistant.reasoning}")
 
                     if not assistant.tool_calls:
 
-                        print("Answer:\n\n")
+                        print("Answer:\n")
 
                         print(assistant.content)
+
+                        messages.append({
+                            "role" : "assistant",
+                            "content" : assistant.content
+                        })
 
                         break
 
@@ -141,6 +152,8 @@ async def main():
                         )
 
                         print("\nCalling tool:", tool_name)
+
+                        print(f"\nArguments:\n{arguments}\n")
 
                         result = await session.call_tool(
 

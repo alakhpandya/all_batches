@@ -26,8 +26,9 @@ client = OpenAI(
 
 )
 
-# MODEL = os.getenv("OPENAI_MODEL_NAME")    # model name in my system env var (first priority)
-MODEL = os.getenv("MODEL_NAME")    # model name var from my .env file
+MODEL = os.getenv("OPENAI_MODEL_NAME")    # model name in my system env var (first priority)
+# MODEL = os.getenv("NEMOTRON_REASONING_FREE")    # model name in my system env var (first priority)
+# MODEL = os.getenv("MODEL_NAME")    # model name var from my .env file
 # print("Model:", MODEL)
 
 
@@ -119,10 +120,15 @@ async def main():
                     )
 
                     assistant = response.choices[0].message
+                    # print("\nResponse:")
+                    # print(assistant, "\n")
+
+                    if assistant.reasoning:
+                        print(f"Thinking:\n{assistant.reasoning}")
 
                     if not assistant.tool_calls:
 
-                        print("Answer:\n\n")
+                        print("Answer:\n")
 
                         print(assistant.content)
 
@@ -146,6 +152,8 @@ async def main():
                         )
 
                         print("\nCalling tool:", tool_name)
+
+                        print(f"\nArguments:\n{arguments}\n")
 
                         result = await session.call_tool(
 

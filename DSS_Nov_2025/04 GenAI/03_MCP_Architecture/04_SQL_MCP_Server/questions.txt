@@ -1,2 +1,4 @@
 How many tables are there in the database?
 Which customers are from Ahmedabad?
+Which customers have bought a laptop after 4th January, 2026?
+Which customers have bought more than the per customer average sales?
