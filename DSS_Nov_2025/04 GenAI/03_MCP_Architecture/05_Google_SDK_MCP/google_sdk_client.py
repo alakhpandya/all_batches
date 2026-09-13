@@ -7,6 +7,7 @@ import json
 
 
 gemini_client = genai.Client()      # It automatically reads the GEMINI_API_KEY environment variable
+print("Gemini client created successfully...")
 
 # OR for custom api key:
 """
@@ -64,6 +65,7 @@ async def main():
                 i += 1
 
             gemini_tools = convert_mcp_tools(mcp_tools)
+            print("Tools converted in the gemini compatible format...")
 
             messages = [
                 {
@@ -73,12 +75,16 @@ async def main():
                 }
             ]
 
-            user_prompt = "I have 200 USD, how many Euros will it make?"
+            # user_prompt = "I have 200 USD, how many Euros will it make?"
+            # user_prompt = "What is an mcp server? Explain me under 100 words."
+            user_prompt = input("[You] : ")
+            print("[User] :", user_prompt)
 
 
             # --------------- LLM Call ---------------
 
-            model_id = "gemini-2.5-flash"
+            # model_id = "gemini-2.5-flash"
+            model_id = "gemini-3.5-flash-lite"
 
             response = gemini_client.models.generate_content(
 
@@ -90,8 +96,10 @@ async def main():
                     tools = gemini_tools,
                     temperature = 0.0
                 )
-
             )
+
+            print("LLM call done successfully...")
+            # print("LLM Response:\n", response)
 
             if response.function_calls:
 
@@ -109,6 +117,8 @@ async def main():
 
                     tool_args = function_call.args
 
+                    print(f"Calling tool: {tool_name}\nArguments: {tool_args}")
+
                     mcp_result = await session.call_tool(
                         name = tool_name,
 
@@ -116,15 +126,20 @@ async def main():
                     )
 
                     tool_output = mcp_result.content[0].text
+                    print("Tool output:\n", tool_output)
 
                     final_response = chat.send_message(
                         types.Part.from_function_response(
                             name = tool_name,
-                            response = tool_output
+                            response = {
+                                "result" : tool_output
+                            }
                         )
                     )
 
-                    print("[Agent] :", final_response)
+                    # print("[Agent] :", final_response)
+                    # print("[Agent] :", final_response.candidates[0].content.parts[0].text)
+                    print("[Agent] :", final_response.text)
 
             else:
 

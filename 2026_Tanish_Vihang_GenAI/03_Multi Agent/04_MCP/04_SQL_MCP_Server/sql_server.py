@@ -95,7 +95,7 @@ def execute_query(sql: str) -> dict:
 
     sql_lower = sql.lower().strip()
 
-    if not sql_lower.startswith("select") or not sql_lower.startswith("with"):
+    if not sql_lower.startswith("select") and not sql_lower.startswith("with"):
 
         if sql_lower.startswith("insert") or sql_lower.startswith("update") or sql_lower.startswith("delete"):
             return {

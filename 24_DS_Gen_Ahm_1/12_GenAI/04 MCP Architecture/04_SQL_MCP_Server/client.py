@@ -1,6 +1,6 @@
 import os 
 import json
-import asyncio
+import asyncio 
 
 from dotenv import load_dotenv
 
@@ -26,7 +26,7 @@ client = OpenAI(
 
 )
 
-MODEL = os.getenv("MODEL_NAME")
+MODEL = os.getenv("OPENAI_MODEL_NAME")
 
 
 async def main():
@@ -117,6 +117,8 @@ async def main():
 
                     assistant = response.choices[0].message
 
+                    print("Thinking:\n", assistant.reasoning)
+
                     if not assistant.tool_calls:
 
                         print("\nAnswer:\n")
@@ -138,6 +140,8 @@ async def main():
                         )
 
                         print(f"\nCalling Tool: {tool_name}")
+
+                        print(f"Arguments:", arguments)
 
                         result = await session.call_tool(
 

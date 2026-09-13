@@ -1,0 +1,23 @@
+How many tables are there in the database?
+
+Display all the customers.
+
+Display the name and city of customers who live in Ahmedabad.
+
+Display all products, showing the most expensive products first.
+
+Display each product's product_name, price & price after applying a 10% discount. Do not modify the actual data in the database.
+
+Find the total number of products ordered across all orders. For example, if someone ordered 2 mice and 3 keyboards, that should contribute 5 to the total.
+
+Displays every order with Order ID, Customer name, Product name, Quantity and Order date. The result should contain meaningful names rather than only the IDs.
+
+Calculate the total amount spent by each customer. The result should contain Customer name & Total amount spent. Sort the result from the highest spender to the lowest spender.
+
+Find all customers who have purchased more than one unit in total, considering all of their orders. Display Customer name & Total quantity purchased. Only customers whose total quantity is greater than 1 should appear.
+
+Find the best-selling product by total quantity sold. You should return Product name & Total quantity sold. If two products have the same highest quantity, you should return both products rather than arbitrarily selecting one.
+
+Which customers have purchased more than the per customer average sales amount?
+
+Produce a customer purchase report containing every customer, including customers who have never placed an order. The report should contain Customer name, City, Number of orders placed, Total quantity of products purchased & Total amount spent. For customers who have never placed an order, the numerical values should be shown as 0, not NULL. Sort the report by total amount spent from highest to lowest.

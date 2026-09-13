@@ -109,7 +109,7 @@ def execute_query(sql: str):
 
             )
 
-        return results
+        return results 
 
     except Exception as e:
 
