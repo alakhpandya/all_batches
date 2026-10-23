@@ -1,0 +1,3 @@
+claude mcp add context7 -- npx -y @upstash/context7-mcp
+claude mcp add context7 -- cmd /c npx -y @upstash/context7-mcp
+claude mcp remove context7 -- npx -y @upstash/context7-mcp

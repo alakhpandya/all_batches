@@ -1,0 +1,51 @@
+{
+  "id": 1,
+  "name": "John Doe",
+  "email": "john.doe@example.com",
+  "active": true,
+  "roles": [
+    "admin",
+    "editor"
+  ],
+  "address": {
+    "street": "123 Main St",
+    "city": "Springfield",
+    "zip": "12345"
+  },
+  "orders": [
+    {
+      "orderId": "A100",
+      "items": [
+        {
+          "sku": "X1",
+          "qty": 2,
+          "price": 9.99
+        },
+        {
+          "sku": "X2",
+          "qty": 1,
+          "price": 19.99
+        }
+      ],
+      "total": 39.97
+    },
+    {
+      "orderId": "A101",
+      "items": [
+        {
+          "sku": "X3",
+          "qty": 5,
+          "price": 4.5
+        }
+      ],
+      "total": 22.5
+    }
+  ],
+  "metadata": null,
+  "tags": [
+    "new",
+    "vip",
+    ""
+  ],
+  "score": 87.5
+}

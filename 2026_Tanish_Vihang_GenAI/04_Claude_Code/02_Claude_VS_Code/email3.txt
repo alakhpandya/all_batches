@@ -1,0 +1,6 @@
+Subject: Claude needs your input
+
+Claude Code is waiting for your input.
+Please check your terminal/editor session.
+
+Timestamp: 2026-10-21T07:40:06

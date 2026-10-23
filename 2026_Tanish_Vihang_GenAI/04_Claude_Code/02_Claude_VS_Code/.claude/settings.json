@@ -1,0 +1,17 @@
+{
+  "enabledPlugins": {
+    "code-simplifier@anthropic-plugin-directory": true
+  },
+  "hooks": {
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python send_email.py 2>/dev/null || true"
+          }
+        ]
+      }
+    ]
+  }
+}
