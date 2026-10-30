@@ -1,6 +1,8 @@
 pip install openai
 pip install python-dotenv
 
-
 I invested 1000 rupees at 12% annual rate of interest. How much will they become after 8 years?
 I had 1300 rupees in my wallet & 400 rupees were stolen. What amount do I now have?
+
+pip install crewai
+pip install crewai-tools

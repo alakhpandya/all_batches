@@ -196,4 +196,12 @@ while True:
     else:
         ai_response = response.content
 
+    
+    # Updating conversation memory
+    messages.append({
+        "role" : "assistant",
+
+        "content" : ai_response
+    })
+    
     print("[AI Assistant] :", ai_response)
