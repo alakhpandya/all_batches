@@ -6,4 +6,4 @@ pip install sentence-transformers
 pip install easyocr
 
 # Advanced RAG
-pip install rank-bm25
+pip install rank-bm25 

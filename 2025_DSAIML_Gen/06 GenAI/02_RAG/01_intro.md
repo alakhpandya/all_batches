@@ -83,6 +83,12 @@ AI Assistant ->
 
 - pypdf                 =>  extracts text from the pdf
 
+`pip install pypdf`
+
 - sentence-transformer  =>  creates vector embeddings
 
+`pip install sentence-transformers`
+
 - chromadb              =>  vector database
+
+`pip install chromadb`
