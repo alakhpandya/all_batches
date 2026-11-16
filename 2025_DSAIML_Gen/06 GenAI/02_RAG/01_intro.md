@@ -92,3 +92,7 @@ AI Assistant ->
 - chromadb              =>  vector database
 
 `pip install chromadb`
+
+- easyocr               =>  Optical Character Recognition (OCR)
+
+`pip install easyocr`
